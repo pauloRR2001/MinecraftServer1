@@ -1,5 +1,5 @@
 @echo off
-set GIT=portablegit\PortableGit\bin\git.exe
+set GIT="C:\Program Files\Git\bin\git.exe"
 
 echo Saving and uploading world...
 %GIT% add .
