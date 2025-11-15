@@ -1,0 +1,17 @@
+{
+  "name": "Minecraft 1.21.10",
+  "pack": "Minecraft",
+  "vanillaInstance": true,
+  "packId": 0,
+  "externalPackId": 0,
+  "minecraftVersion": "1.21.10",
+  "version": "1.21.10",
+  "isPatchedForLog4Shell": true,
+  "javaVersion": {
+    "component": "java-runtime-delta",
+    "majorVersion": 21
+  },
+  "isDev": false,
+  "mods": [],
+  "ignoredUpdates": []
+}
