@@ -1,14 +1,20 @@
-[01:49:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[01:49:47] [ServerMain/INFO]: Loaded 1461 recipes
-[01:49:47] [ServerMain/INFO]: Loaded 1574 advancements
-[01:49:48] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[01:49:48] [Server thread/INFO]: Loading properties
-[01:49:48] [Server thread/INFO]: Default game type: SURVIVAL
-[01:49:48] [Server thread/INFO]: Generating keypair
-[01:49:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:49:48] [Server thread/INFO]: Using default channel type
-[01:49:48] [Server thread/INFO]: Preparing level "world"
-[01:49:48] [Server thread/INFO]: Loading 0 persistent chunks...
-[01:49:48] [Server thread/INFO]: Preparing spawn area: 100%
-[01:49:48] [Server thread/INFO]: Time elapsed: 18 ms
-[01:49:48] [Server thread/INFO]: Done (0.349s)! For help, type "help"
+[19:37:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[19:38:00] [ServerMain/INFO]: Loaded 1461 recipes
+[19:38:00] [ServerMain/INFO]: Loaded 1574 advancements
+[19:38:00] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[19:38:00] [Server thread/INFO]: Loading properties
+[19:38:00] [Server thread/INFO]: Default game type: SURVIVAL
+[19:38:00] [Server thread/INFO]: Generating keypair
+[19:38:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:38:01] [Server thread/INFO]: Using default channel type
+[19:38:01] [Server thread/INFO]: Preparing level "world"
+[19:38:01] [Server thread/INFO]: Loading 0 persistent chunks...
+[19:38:01] [Server thread/INFO]: Preparing spawn area: 100%
+[19:38:01] [Server thread/INFO]: Time elapsed: 206 ms
+[19:38:01] [Server thread/INFO]: Done (0.515s)! For help, type "help"
+[19:39:01] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:40:11] [User Authenticator #1/INFO]: UUID of player pauloR2001 is 02aa0ae2-ccf2-4174-a4ae-cc512517eaae
+[19:40:13] [Server thread/INFO]: pauloR2001[/127.226.54.135:58879] logged in with entity id 61 at (-3728.300000011921, 121.0, 3403.911742606502)
+[19:40:13] [Server thread/INFO]: pauloR2001 joined the game
+[19:40:51] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[19:40:51] [Server thread/INFO]: pauloR2001 left the game
