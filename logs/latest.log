@@ -1,4 +1,20 @@
-[00:34:31] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[00:34:31] [Server thread/INFO]: pauloR2001 left the game
-[00:34:35] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[00:34:35] [Server thread/INFO]: momo70950 left the game
+[21:49:31] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:49:36] [ServerMain/INFO]: Loaded 1461 recipes
+[21:49:36] [ServerMain/INFO]: Loaded 1574 advancements
+[21:49:37] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[21:49:37] [Server thread/INFO]: Loading properties
+[21:49:37] [Server thread/INFO]: Default game type: SURVIVAL
+[21:49:37] [Server thread/INFO]: Generating keypair
+[21:49:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:49:38] [Server thread/INFO]: Using default channel type
+[21:49:38] [Server thread/INFO]: Preparing level "world"
+[21:49:39] [Server thread/INFO]: Loading 0 persistent chunks...
+[21:49:39] [Server thread/INFO]: Preparing spawn area: 100%
+[21:49:39] [Server thread/INFO]: Time elapsed: 50 ms
+[21:49:39] [Server thread/INFO]: Done (0.818s)! For help, type "help"
+[21:50:34] [User Authenticator #1/INFO]: UUID of player pauloR2001 is 02aa0ae2-ccf2-4174-a4ae-cc512517eaae
+[21:50:37] [Server thread/INFO]: pauloR2001[/127.0.0.1:57604] logged in with entity id 74 at (-3750.299593760117, 125.0, 3406.8346020814233)
+[21:50:37] [Server thread/INFO]: pauloR2001 joined the game
+[21:50:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2054ms or 41 ticks behind
+[22:22:42] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[22:22:42] [Server thread/INFO]: pauloR2001 left the game
