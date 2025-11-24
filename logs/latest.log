@@ -1,103 +1,81 @@
-[20:33:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[20:33:27] [ServerMain/INFO]: Loaded 1461 recipes
-[20:33:27] [ServerMain/INFO]: Loaded 1574 advancements
-[20:33:28] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[20:33:28] [Server thread/INFO]: Loading properties
-[20:33:28] [Server thread/INFO]: Default game type: SURVIVAL
-[20:33:28] [Server thread/INFO]: Generating keypair
-[20:33:28] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:33:28] [Server thread/INFO]: Using default channel type
-[20:33:28] [Server thread/INFO]: Preparing level "world"
-[20:33:28] [Server thread/INFO]: Loading 0 persistent chunks...
-[20:33:28] [Server thread/INFO]: Preparing spawn area: 100%
-[20:33:28] [Server thread/INFO]: Time elapsed: 128 ms
-[20:33:28] [Server thread/INFO]: Done (0.453s)! For help, type "help"
-[20:34:28] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[20:34:29] [User Authenticator #1/INFO]: UUID of player pauloR2001 is 02aa0ae2-ccf2-4174-a4ae-cc512517eaae
-[20:34:32] [Server thread/INFO]: pauloR2001[/127.0.0.1:60670] logged in with entity id 92 at (-3737.167292163976, 122.0, 3396.492001247985)
-[20:34:32] [Server thread/INFO]: pauloR2001 joined the game
-[20:34:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2213ms or 44 ticks behind
-[20:39:16] [User Authenticator #2/INFO]: UUID of player momo70950 is 01986cf3-edee-477f-bc51-15463eace432
-[20:39:18] [Server thread/INFO]: momo70950[/127.63.237.194:57730] logged in with entity id 997 at (-3742.3779679066347, 122.0, 3402.1233136253045)
-[20:39:18] [Server thread/INFO]: momo70950 joined the game
-[21:01:39] [Server thread/INFO]: momo70950 has made the advancement [The Parrots and the Bats]
-[21:03:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
-[21:04:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4943ms or 98 ticks behind
-[21:04:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4651ms or 93 ticks behind
-[21:04:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[21:05:59] [Server thread/WARN]: momo70950 moved too quickly! -10.0384216275379,-1.1661092609382138,0.37019753929598664
-[21:05:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6138ms or 122 ticks behind
-[21:06:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3527ms or 70 ticks behind
-[21:07:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[21:08:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
-[21:09:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
-[21:09:31] [Server thread/WARN]: Acacia Boat (vehicle of momo70950) moved too quickly! -5.19344998710767,0.0,-8.841303747626625
-[21:09:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3149ms or 62 ticks behind
-[21:15:28] [Server thread/INFO]: <momo70950> zzz
-[21:16:05] [Server thread/INFO]: <momo70950> zzzzzzzzzzzzzz
-[21:19:02] [Server thread/WARN]: Bamboo Raft (vehicle of momo70950) moved too quickly! -10.237016099814355,0.0,1.8339736205543886
-[21:19:02] [Server thread/WARN]: Bamboo Raft (vehicle of momo70950) moved too quickly! -10.630747488268753,0.0,1.9045110674987882
-[21:19:02] [Server thread/WARN]: Bamboo Raft (vehicle of momo70950) moved too quickly! -11.024478876723151,0.0,1.9750485144431877
-[21:19:02] [Server thread/WARN]: Bamboo Raft (vehicle of momo70950) moved too quickly! -11.41821026517755,0.0,2.0455859613875873
-[21:19:02] [Server thread/WARN]: Bamboo Raft (vehicle of momo70950) moved too quickly! -11.811941653631948,0.0,2.116123408331987
-[21:23:54] [Server thread/WARN]: Bamboo Raft (vehicle of momo70950) moved too quickly! -3.807749644875912,0.0,9.317124204654647
-[21:23:56] [Server thread/WARN]: Bamboo Raft (vehicle of momo70950) moved too quickly! -6.9662302512060705,0.0,7.6069045818085215
-[21:23:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2457ms or 49 ticks behind
-[21:23:56] [Server thread/WARN]: Bamboo Raft (vehicle of momo70950) moved too quickly! -7.240937143828887,0.0,7.896826564972798
-[21:23:59] [Server thread/WARN]: Bamboo Raft (vehicle of momo70950) moved too quickly! -6.973735717495401,0.0,7.283943746677778
-[21:24:47] [Server thread/INFO]: <momo70950> encontre camellos y una mesa
-[21:24:57] [Server thread/INFO]: <pauloR2001> epicardo trae dos camellos
-[21:25:13] [Server thread/INFO]: <momo70950> como xd
-[21:25:20] [Server thread/INFO]: <pauloR2001> saca terracota y la pones toda en dos cofres en los camellos y los traes con cuerdas
-[21:25:36] [Server thread/INFO]: <pauloR2001> espera a la noche y matas aranas
-[21:25:46] [Server thread/INFO]: <pauloR2001> haste una casa con una cama por si mueres
-[21:32:31] [Server thread/INFO]: <momo70950> las arañas no dan hilo
-[21:32:44] [Server thread/INFO]: <momo70950> me han dado solo2
-[21:32:55] [Server thread/INFO]: <pauloR2001> asi es todo cuando lo estas buscando
-[21:58:38] [Server thread/INFO]: Teleported momo70950 to pauloR2001
-[22:01:08] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[22:01:08] [Server thread/INFO]: pauloR2001 left the game
-[22:11:08] [Server thread/INFO]: pauloR2001 (/127.0.0.1:57797) lost connection: Disconnected
-[22:11:13] [Server thread/INFO]: pauloR2001 (/127.0.0.1:57807) lost connection: Disconnected
-[22:12:05] [User Authenticator #3/INFO]: UUID of player pauloR2001 is 02aa0ae2-ccf2-4174-a4ae-cc512517eaae
-[22:12:05] [Server thread/INFO]: pauloR2001[/127.0.0.1:64988] logged in with entity id 37356 at (-3743.136763425167, 125.0, 3411.1873674415883)
-[22:12:06] [Server thread/INFO]: pauloR2001 joined the game
-[22:18:42] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[22:18:42] [Server thread/INFO]: momo70950 left the game
-[22:18:54] [User Authenticator #4/INFO]: UUID of player momo70950 is 01986cf3-edee-477f-bc51-15463eace432
-[22:18:55] [Server thread/INFO]: momo70950[/127.63.237.194:63041] logged in with entity id 38462 at (-3720.5865617312948, 150.0, 3370.954785477285)
-[22:18:55] [Server thread/INFO]: momo70950 joined the game
-[22:41:01] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[22:41:01] [Server thread/INFO]: momo70950 left the game
-[22:41:12] [User Authenticator #5/INFO]: UUID of player momo70950 is 01986cf3-edee-477f-bc51-15463eace432
-[22:41:13] [Server thread/INFO]: momo70950[/127.63.237.194:54430] logged in with entity id 42824 at (-3721.62169690917, 133.7267571499925, 3383.4583849607234)
-[22:41:13] [Server thread/INFO]: momo70950 joined the game
-[22:51:36] [Server thread/INFO]: momo70950 fell from a high place
-[22:52:18] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[22:52:18] [Server thread/INFO]: momo70950 left the game
-[22:52:33] [User Authenticator #6/INFO]: UUID of player momo70950 is 01986cf3-edee-477f-bc51-15463eace432
-[22:52:34] [Server thread/INFO]: momo70950[/127.63.237.194:54439] logged in with entity id 46733 at (-3718.54545048757, 92.0, 3376.0370702142554)
-[22:52:34] [Server thread/INFO]: momo70950 joined the game
-[23:03:24] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[23:03:24] [Server thread/INFO]: pauloR2001 left the game
-[23:03:31] [User Authenticator #7/INFO]: UUID of player pauloR2001 is 02aa0ae2-ccf2-4174-a4ae-cc512517eaae
-[23:03:32] [Server thread/INFO]: pauloR2001[/127.0.0.1:54458] logged in with entity id 50717 at (-3482.3211896997254, -14.0, 3550.4586555778087)
-[23:03:32] [Server thread/INFO]: pauloR2001 joined the game
-[23:09:12] [Server thread/INFO]: pauloR2001 was blown up by Creeper
-[23:11:33] [Server thread/INFO]: Set pauloR2001's game mode to Creative Mode
-[23:11:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[23:13:37] [Server thread/INFO]: Set pauloR2001's game mode to Survival Mode
-[23:17:50] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[23:17:50] [Server thread/INFO]: momo70950 left the game
-[23:19:02] [User Authenticator #8/INFO]: UUID of player momo70950 is 01986cf3-edee-477f-bc51-15463eace432
-[23:19:03] [Server thread/INFO]: momo70950[/127.63.237.194:57429] logged in with entity id 58238 at (-3712.6176048832835, 71.0, 3329.8604837524394)
-[23:19:03] [Server thread/INFO]: momo70950 joined the game
-[23:20:20] [Server thread/INFO]: pauloR2001 has made the advancement [Suit Up]
-[23:22:43] [Server thread/INFO]: Teleported pauloR2001 to momo70950
-[23:30:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4778ms or 95 ticks behind
-[23:50:52] [Server thread/WARN]: pauloR2001 moved too quickly! -10.140424708469709,0.0,0.2554651354941484
-[23:50:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3213ms or 64 ticks behind
-[23:52:42] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[23:52:42] [Server thread/INFO]: momo70950 left the game
-[23:54:06] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[23:54:06] [Server thread/INFO]: pauloR2001 left the game
+[00:00:58] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[00:00:58] [Server thread/INFO]: pauloR2001 left the game
+[00:04:29] [Server thread/INFO]: momo70950 has made the advancement [Stone Age]
+[00:05:56] [Server thread/INFO]: momo70950 has made the advancement [Sweet Dreams]
+[00:07:02] [Server thread/INFO]: pauloR2001[/127.0.0.1:59178] logged in with entity id 29570 at (-3733.9318622142264, 122.0, 3404.546144069901)
+[00:07:02] [Server thread/INFO]: pauloR2001 joined the game
+[00:07:07] [Server thread/INFO]: momo70950 has made the advancement [Monster Hunter]
+[00:17:32] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[00:17:32] [Server thread/INFO]: pauloR2001 left the game
+[00:17:45] [Server thread/INFO]: pauloR2001[/127.0.0.1:59239] logged in with entity id 31654 at (-3726.487493223242, 122.0, 3398.4274606600475)
+[00:17:45] [Server thread/INFO]: pauloR2001 joined the game
+[00:22:58] [Server thread/INFO]: [Not Secure] <momo70950> puto YT
+[00:29:12] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[00:29:12] [Server thread/INFO]: momo70950 left the game
+[00:29:14] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[00:29:14] [Server thread/INFO]: pauloR2001 left the game
+[00:29:30] [Server thread/INFO]: pauloR2001[/127.0.0.1:56017] logged in with entity id 33852 at (-3767.8375057367134, 152.0, 3368.7943935920234)
+[00:29:30] [Server thread/INFO]: pauloR2001 joined the game
+[00:29:33] [Server thread/INFO]: momo70950[/127.63.237.194:56019] logged in with entity id 33875 at (-3789.749705981584, 119.0, 3408.3042033256343)
+[00:29:33] [Server thread/INFO]: momo70950 joined the game
+[00:31:37] [Server thread/INFO]: pauloR2001 has made the advancement [Take Aim]
+[00:35:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[00:37:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[00:37:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[00:37:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2468ms or 49 ticks behind
+[00:40:43] [Server thread/INFO]: [Not Secure] <momo70950> zzzzzzzzzzzz
+[00:40:54] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[00:40:54] [Server thread/INFO]: restrepojc left the game
+[00:41:05] [Server thread/INFO]: restrepojc[/127.154.24.38:56035] logged in with entity id 38544 at (-3726.300000011921, 122.0, 3418.422582878065)
+[00:41:05] [Server thread/INFO]: restrepojc joined the game
+[00:45:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[00:46:21] [Server thread/WARN]: pauloR2001 moved too quickly! 9.354112881775109,-1.2468000194787976,3.6040712651101785
+[00:46:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2328ms or 46 ticks behind
+[00:46:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4889ms or 97 ticks behind
+[00:46:48] [Server thread/INFO]: pauloR2001 has made the advancement [Ice Bucket Challenge]
+[00:51:39] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[00:51:39] [Server thread/INFO]: pauloR2001 left the game
+[00:51:40] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[00:51:40] [Server thread/INFO]: momo70950 left the game
+[00:51:50] [Server thread/INFO]: momo70950[/127.63.237.194:56591] logged in with entity id 44464 at (-3826.583764062911, 119.0, 3434.2675999950416)
+[00:51:50] [Server thread/INFO]: momo70950 joined the game
+[00:51:59] [Server thread/INFO]: pauloR2001[/127.0.0.1:56593] logged in with entity id 44548 at (-3517.31872728299, 65.0, 3815.0415302961715)
+[00:51:59] [Server thread/INFO]: pauloR2001 joined the game
+[00:52:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[00:52:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2649ms or 52 ticks behind
+[00:53:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[00:53:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7406ms or 148 ticks behind
+[00:53:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5022ms or 100 ticks behind
+[00:54:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[00:54:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5541ms or 110 ticks behind
+[00:54:46] [Server thread/INFO]: [Not Secure] <pauloR2001> 3785 67 4182
+[00:56:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[00:58:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[00:58:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9447ms or 188 ticks behind
+[00:59:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13717ms or 274 ticks behind
+[01:00:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[01:02:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[01:02:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8757ms or 175 ticks behind
+[01:03:35] [Server thread/INFO]: [Not Secure] <momo70950> zzz
+[01:03:36] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[01:03:36] [Server thread/INFO]: pauloR2001 left the game
+[01:03:39] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[01:03:39] [Server thread/INFO]: restrepojc left the game
+[01:03:55] [Server thread/INFO]: pauloR2001[/127.0.0.1:56607] logged in with entity id 51289 at (-3876.069071861725, 103.0, 3922.9381923677192)
+[01:03:55] [Server thread/INFO]: pauloR2001 joined the game
+[01:04:33] [Server thread/INFO]: restrepojc[/127.154.24.38:56611] logged in with entity id 51687 at (-3726.3659017455893, 125.0, 3433.0935983187233)
+[01:04:33] [Server thread/INFO]: restrepojc joined the game
+[01:06:32] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[01:06:32] [Server thread/INFO]: restrepojc left the game
+[01:14:19] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[01:14:19] [Server thread/INFO]: pauloR2001 left the game
+[01:14:24] [Server thread/INFO]: pauloR2001[/127.0.0.1:55482] logged in with entity id 54303 at (-4003.0782466034802, 101.00756606773169, 3117.2657481888673)
+[01:14:24] [Server thread/INFO]: pauloR2001 joined the game
+[01:15:12] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[01:15:12] [Server thread/INFO]: pauloR2001 left the game
+[01:15:21] [Server thread/INFO]: pauloR2001[/127.0.0.1:55488] logged in with entity id 54419 at (-4003.0782466034802, 101.00756606773169, 3117.2657481888673)
+[01:15:21] [Server thread/INFO]: pauloR2001 joined the game
+[01:34:07] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[01:34:07] [Server thread/INFO]: pauloR2001 left the game
+[01:34:13] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[01:34:13] [Server thread/INFO]: momo70950 left the game
