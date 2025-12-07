@@ -1,34 +1,5 @@
-[18:53:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[18:53:40] [ServerMain/INFO]: Loaded 1461 recipes
-[18:53:40] [ServerMain/INFO]: Loaded 1574 advancements
-[18:53:42] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[18:53:42] [Server thread/INFO]: Loading properties
-[18:53:42] [Server thread/INFO]: Default game type: SURVIVAL
-[18:53:42] [Server thread/INFO]: Generating keypair
-[18:53:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:53:42] [Server thread/INFO]: Using default channel type
-[18:53:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:53:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:53:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:53:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:53:43] [Server thread/INFO]: Preparing level "world"
-[18:53:43] [Server thread/INFO]: Loading 0 persistent chunks...
-[18:53:43] [Server thread/INFO]: Preparing spawn area: 100%
-[18:53:43] [Server thread/INFO]: Time elapsed: 54 ms
-[18:53:43] [Server thread/INFO]: Done (0.840s)! For help, type "help"
-[18:54:43] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[18:55:06] [Server thread/INFO]: pauloR2001[/127.0.0.1:49955] logged in with entity id 79 at (-3728.4093785947125, 122.0, 3386.036584558301)
-[18:55:06] [Server thread/INFO]: pauloR2001 joined the game
-[18:55:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
-[18:58:06] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[18:58:06] [Server thread/INFO]: pauloR2001 left the game
-[18:58:11] [Server thread/INFO]: Stopping server
-[18:58:11] [Server thread/INFO]: Saving players
-[18:58:11] [Server thread/INFO]: Saving worlds
-[18:58:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:58:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18:58:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18:58:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:58:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:58:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:58:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:01:42] [Server thread/INFO]: momo70950 has made the advancement [Isn't It Iron Pick]
+[00:10:14] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[00:10:14] [Server thread/INFO]: momo70950 left the game
+[00:10:16] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[00:10:16] [Server thread/INFO]: pauloR2001 left the game
