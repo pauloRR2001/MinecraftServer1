@@ -1,127 +1,67 @@
-[15:01:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[15:01:34] [ServerMain/INFO]: Loaded 1461 recipes
-[15:01:34] [ServerMain/INFO]: Loaded 1574 advancements
-[15:01:35] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[15:01:35] [Server thread/INFO]: Loading properties
-[15:01:35] [Server thread/INFO]: Default game type: SURVIVAL
-[15:01:35] [Server thread/INFO]: Generating keypair
-[15:01:35] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:01:35] [Server thread/INFO]: Using default channel type
-[15:01:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:01:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:01:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:01:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:01:36] [Server thread/INFO]: Preparing level "world"
-[15:01:36] [Server thread/INFO]: Loading 0 persistent chunks...
-[15:01:37] [Server thread/INFO]: Preparing spawn area: 100%
-[15:01:37] [Server thread/INFO]: Time elapsed: 186 ms
-[15:01:37] [Server thread/INFO]: Done (1.144s)! For help, type "help"
-[15:02:37] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[15:04:02] [Server thread/INFO]: pauloR2001[/127.226.54.135:61450] logged in with entity id 62 at (-3823.5108917023103, 123.0, 3427.299156293256)
-[15:04:02] [Server thread/INFO]: pauloR2001 joined the game
-[15:05:18] [Server thread/INFO]: momo70950[/127.0.0.1:61475] logged in with entity id 446 at (-3819.1294907593233, 123.0, 3426.9613694568)
-[15:05:18] [Server thread/INFO]: momo70950 joined the game
-[15:13:57] [Server thread/INFO]: [Not Secure] <pauloR2001> end portal overworld: -4387 -53 1996
-[15:14:42] [Server thread/INFO]: [Not Secure] <pauloR2001> end portal overworld end: -548 y 250
-[15:19:49] [Server thread/INFO]: [Not Secure] <momo70950> -453 97 413
-[15:31:05] [Server thread/INFO]: momo70950 has made the advancement [Hot Stuff]
-[15:35:03] [Server thread/INFO]: momo70950 has made the advancement [Tactical Fishing]
-[16:05:03] [Server thread/INFO]: momo70950 fell from a high place
-[16:11:32] [Server thread/INFO]: pauloR2001 has made the advancement [Hot Stuff]
-[16:13:56] [Server thread/INFO]: [Not Secure] <pauloR2001> end portal nether side: -548 y 250
-[16:16:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6968ms or 139 ticks behind
-[16:19:50] [Server thread/INFO]: [Not Secure] <momo70950> -4392 2004
-[16:21:45] [Server thread/INFO]: [Not Secure] <pauloR2001> -4386 y 2017
-[16:23:46] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[16:23:46] [Server thread/INFO]: momo70950 left the game
-[16:23:53] [Server thread/INFO]: momo70950[/127.0.0.1:60284] logged in with entity id 14719 at (-4384.714885727537, -55.0, 2016.6496695991402)
-[16:23:53] [Server thread/INFO]: momo70950 joined the game
-[16:30:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2923ms or 58 ticks behind
-[16:40:21] [Server thread/INFO]: momo70950 was slain by Enderman
-[16:44:47] [Server thread/INFO]: momo70950 has made the advancement [Remote Getaway]
-[16:44:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[16:45:59] [Server thread/INFO]: pauloR2001 has made the advancement [Remote Getaway]
-[16:48:01] [Server thread/INFO]: momo70950 has made the advancement [Stay Hydrated!]
-[16:48:43] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[16:48:43] [Server thread/INFO]: pauloR2001 left the game
-[16:56:26] [Server thread/INFO]: pauloR2001[/127.226.54.135:54139] logged in with entity id 23127 at (-324.5360607497597, 74.0, 1020.5575683442913)
-[16:56:26] [Server thread/INFO]: pauloR2001 joined the game
-[17:02:09] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[17:02:09] [Server thread/INFO]: pauloR2001 left the game
-[17:03:59] [Server thread/INFO]: pauloR2001[/127.226.54.135:54197] logged in with entity id 23785 at (-327.62431882028, 76.0, 1020.3458314812583)
-[17:03:59] [Server thread/INFO]: pauloR2001 joined the game
-[17:04:37] [Server thread/INFO]: andresr255[/127.58.7.225:54202] logged in with entity id 23916 at (-3724.5, 123.0, 3390.5)
-[17:04:37] [Server thread/INFO]: andresr255 joined the game
-[17:06:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[17:11:32] [Server thread/INFO]: andresr255 has made the advancement [Getting an Upgrade]
-[17:13:01] [Server thread/INFO]: andresr255 has made the advancement [We Need to Go Deeper]
-[17:14:00] [Server thread/INFO]: andresr255 has made the advancement [Eye Spy]
-[17:14:15] [Server thread/INFO]: andresr255 has made the advancement [The End?]
-[17:16:21] [Server thread/INFO]: andresr255 has made the advancement [Remote Getaway]
-[17:21:46] [Server thread/INFO]: momo70950 has made the advancement [The City at the End of the Game]
-[17:21:48] [Server thread/INFO]: pauloR2001 has made the advancement [The City at the End of the Game]
-[17:21:52] [Server thread/INFO]: andresr255 has made the advancement [The City at the End of the Game]
-[17:22:33] [Server thread/INFO]: pauloR2001 has made the advancement [Cover Me with Diamonds]
-[17:22:38] [Server thread/INFO]: andresr255 has made the advancement [Local Brewery]
-[17:23:02] [Server thread/INFO]: andresr255 has reached the goal [Sky's the Limit]
-[17:23:08] [Server thread/INFO]: pauloR2001 has reached the goal [Sky's the Limit]
-[17:23:14] [Server thread/INFO]: andresr255 has made the advancement [Isn't It Iron Pick]
-[17:23:19] [Server thread/INFO]: andresr255 has made the advancement [Suit Up]
-[17:26:02] [Server thread/INFO]: andresr255 has made the advancement [Take Aim]
-[17:26:35] [Server thread/INFO]: andresr255 was doomed to fall by Shulker
-[17:26:39] [Server thread/INFO]: momo70950 has made the advancement [Getting an Upgrade]
-[17:27:27] [Server thread/INFO]: Incorrect argument for command
-[17:27:27] [Server thread/INFO]: tp @andresr255 @momo70950<--[HERE]
-[17:27:52] [Server thread/INFO]: Incorrect argument for command
-[17:27:52] [Server thread/INFO]: tp @andresr255 @momo70950<--[HERE]
-[17:28:18] [Server thread/INFO]: Incorrect argument for command
-[17:28:18] [Server thread/INFO]: tp @andresr255 @momo70950<--[HERE]
-[17:29:05] [Server thread/INFO]: Teleported andresr255 to momo70950
-[17:31:07] [Server thread/INFO]: momo70950 has made the advancement [Suit Up]
-[17:31:07] [Server thread/INFO]: momo70950 has made the advancement [Cover Me with Diamonds]
-[17:31:16] [Server thread/INFO]: andresr255 has made the advancement [Monster Hunter]
-[17:31:57] [Server thread/INFO]: andresr255 has made the advancement [Not Today, Thank You]
-[17:37:08] [Server thread/INFO]: andresr255 was slain by Shulker
-[17:37:26] [Server thread/INFO]: Teleported andresr255 to momo70950
-[17:38:17] [Server thread/INFO]: andresr255 was slain by Shulker
-[17:38:59] [Server thread/INFO]: Teleported andresr255 to momo70950
-[17:39:35] [Server thread/INFO]: andresr255 was slain by Shulker
-[17:39:43] [Server thread/INFO]: Teleported andresr255 to momo70950
-[17:44:14] [Server thread/INFO]: andresr255 fell from a high place
-[17:44:25] [Server thread/INFO]: Teleported andresr255 to momo70950
-[17:52:08] [Server thread/INFO]: momo70950 was slain by Shulker
-[17:52:31] [Server thread/INFO]: andresr255 was slain by Shulker
-[17:52:35] [Server thread/INFO]: Teleported momo70950 to pauloR2001
-[17:52:46] [Server thread/INFO]: Teleported andresr255 to momo70950
-[17:53:24] [Server thread/INFO]: momo70950 was slain by Enderman
-[17:53:40] [Server thread/INFO]: Teleported momo70950 to andresr255
-[17:54:27] [Server thread/INFO]: momo70950 was slain by Shulker
-[17:54:42] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[17:54:42] [Server thread/INFO]: to momo70950 pauloR2001<--[HERE]
-[17:55:10] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[17:55:10] [Server thread/INFO]: to momo70950 andresr255<--[HERE]
-[17:55:34] [Server thread/INFO]: Incorrect argument for command
-[17:55:34] [Server thread/INFO]: tp momo 70950 pauloR2001<--[HERE]
-[17:55:48] [Server thread/INFO]: Teleported momo70950 to pauloR2001
-[17:56:32] [Server thread/INFO]: andresr255 was slain by Shulker
-[17:56:58] [Server thread/INFO]: Teleported momo70950 to pauloR2001
-[17:57:02] [Server thread/INFO]: Teleported andresr255 to momo70950
-[18:00:05] [Server thread/INFO]: andresr255 has made the advancement [Cover Me with Diamonds]
-[18:10:05] [Server thread/INFO]: Teleported andresr255 to momo70950
-[18:13:41] [Server thread/INFO]: andresr255 was slain by Shulker
-[18:14:19] [Server thread/INFO]: andresr255 lost connection: Disconnected
-[18:14:19] [Server thread/INFO]: andresr255 left the game
-[18:25:51] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[18:25:51] [Server thread/INFO]: momo70950 left the game
-[18:25:53] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[18:25:53] [Server thread/INFO]: pauloR2001 left the game
-[18:26:18] [Server thread/INFO]: Stopping server
-[18:26:18] [Server thread/INFO]: Saving players
-[18:26:18] [Server thread/INFO]: Saving worlds
-[18:26:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:26:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18:26:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18:26:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:26:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:26:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:26:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:29:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[10:29:55] [ServerMain/INFO]: Loaded 1461 recipes
+[10:29:55] [ServerMain/INFO]: Loaded 1574 advancements
+[10:29:56] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[10:29:56] [Server thread/INFO]: Loading properties
+[10:29:56] [Server thread/INFO]: Default game type: SURVIVAL
+[10:29:56] [Server thread/INFO]: Generating keypair
+[10:29:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:29:57] [Server thread/INFO]: Using default channel type
+[10:29:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:29:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:29:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:29:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:29:57] [Server thread/INFO]: Preparing level "world"
+[10:29:58] [Server thread/INFO]: Loading 0 persistent chunks...
+[10:29:58] [Server thread/INFO]: Preparing spawn area: 100%
+[10:29:58] [Server thread/INFO]: Time elapsed: 41 ms
+[10:29:58] [Server thread/INFO]: Done (0.955s)! For help, type "help"
+[10:30:58] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[10:31:56] [Server thread/INFO]: pauloR2001[/127.0.0.1:61326] logged in with entity id 87 at (-3730.120768060309, 122.0, 3394.605329920974)
+[10:31:56] [Server thread/INFO]: pauloR2001 joined the game
+[10:31:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[10:33:52] [Server thread/INFO]: momo70950[/127.73.51.155:60033] logged in with entity id 568 at (-3732.340913813892, 122.0, 3393.075841964206)
+[10:33:52] [Server thread/INFO]: momo70950 joined the game
+[10:44:36] [Server thread/WARN]: momo70950 moved too quickly! -0.5862756867436474,-11.558953062305562,0.2178626144827831
+[10:56:23] [Server thread/INFO]: Villager cyx['Villager'/3347, l='ServerLevel[world]', x=-3823.92, y=119.00, z=3385.83] died, message: 'Villager was slain by momo70950'
+[11:02:22] [Server thread/INFO]: momo70950 has made the advancement [What a Deal!]
+[11:05:22] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[11:05:22] [Server thread/INFO]: momo70950 left the game
+[11:05:32] [Server thread/INFO]: momo70950[/127.73.51.155:63482] logged in with entity id 7925 at (-3841.0021098697266, 111.0, 3417.4661554793156)
+[11:05:32] [Server thread/INFO]: momo70950 joined the game
+[11:08:58] [Server thread/INFO]: Villager cyx['Villager'/7122, l='ServerLevel[world]', x=-3830.90, y=117.19, z=3422.73] died, message: 'Villager suffocated in a wall'
+[11:27:51] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[11:27:51] [Server thread/INFO]: pauloR2001 left the game
+[11:48:42] [Server thread/INFO]: momo70950 has made the advancement [The Cutest Predator]
+[11:59:03] [Server thread/WARN]: momo70950 moved too quickly! 0.38771795612456117,-11.523684986416654,0.48325053140388263
+[11:59:33] [Server thread/INFO]: pauloR2001[/127.0.0.1:57203] logged in with entity id 21409 at (-3736.103974933618, 123.0, 3400.4199820181093)
+[11:59:33] [Server thread/INFO]: pauloR2001 joined the game
+[11:59:42] [Server thread/INFO]: [Not Secure] <momo70950> o/
+[12:00:32] [Server thread/INFO]: [Not Secure] <momo70950> te llamo?
+[12:00:32] [Server thread/INFO]: [Not Secure] <momo70950> te llamo
+[12:00:37] [Server thread/INFO]: [Not Secure] <pauloR2001> si
+[12:09:02] [Server thread/WARN]: momo70950 moved too quickly! 10.098899136914042,-0.1754232959521005,-0.3037412000576296
+[12:13:03] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[12:13:03] [Server thread/INFO]: pauloR2001 left the game
+[12:13:08] [Server thread/INFO]: pauloR2001[/127.0.0.1:57211] logged in with entity id 23944 at (-3721.8125425902895, 76.0625, 3393.2349695900284)
+[12:13:08] [Server thread/INFO]: pauloR2001 joined the game
+[12:17:23] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[12:17:23] [Server thread/INFO]: momo70950 left the game
+[12:23:43] [Server thread/INFO]: momo70950[/127.73.51.155:57218] logged in with entity id 26138 at (-3731.2158944163134, 122.0, 3392.2948527938074)
+[12:23:43] [Server thread/INFO]: momo70950 joined the game
+[12:43:41] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[12:43:41] [Server thread/INFO]: pauloR2001 left the game
+[12:43:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6250ms or 125 ticks behind
+[12:44:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 48648ms or 972 ticks behind
+[12:54:52] [Server thread/INFO]: momo70950 has made the advancement [Ice Bucket Challenge]
+[12:59:10] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[12:59:10] [Server thread/INFO]: momo70950 left the game
+[13:00:10] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[13:21:16] [Server thread/INFO]: momo70950[/127.73.51.155:55680] logged in with entity id 32953 at (-3742.253087192741, 122.0, 3397.8967107759863)
+[13:21:16] [Server thread/INFO]: momo70950 joined the game
+[13:34:55] [Server thread/INFO]: pauloR2001[/127.0.0.1:57394] logged in with entity id 35946 at (-3733.2130004270493, 129.5, 3413.3000881601756)
+[13:34:55] [Server thread/INFO]: pauloR2001 joined the game
+[13:45:40] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[13:45:40] [Server thread/INFO]: pauloR2001 left the game
+[13:45:41] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[13:45:41] [Server thread/INFO]: momo70950 left the game
