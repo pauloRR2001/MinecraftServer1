@@ -1,67 +1,47 @@
-[10:29:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[10:29:55] [ServerMain/INFO]: Loaded 1461 recipes
-[10:29:55] [ServerMain/INFO]: Loaded 1574 advancements
-[10:29:56] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[10:29:56] [Server thread/INFO]: Loading properties
-[10:29:56] [Server thread/INFO]: Default game type: SURVIVAL
-[10:29:56] [Server thread/INFO]: Generating keypair
-[10:29:56] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:29:57] [Server thread/INFO]: Using default channel type
-[10:29:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:29:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:29:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:29:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:29:57] [Server thread/INFO]: Preparing level "world"
-[10:29:58] [Server thread/INFO]: Loading 0 persistent chunks...
-[10:29:58] [Server thread/INFO]: Preparing spawn area: 100%
-[10:29:58] [Server thread/INFO]: Time elapsed: 41 ms
-[10:29:58] [Server thread/INFO]: Done (0.955s)! For help, type "help"
-[10:30:58] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[10:31:56] [Server thread/INFO]: pauloR2001[/127.0.0.1:61326] logged in with entity id 87 at (-3730.120768060309, 122.0, 3394.605329920974)
-[10:31:56] [Server thread/INFO]: pauloR2001 joined the game
-[10:31:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[10:33:52] [Server thread/INFO]: momo70950[/127.73.51.155:60033] logged in with entity id 568 at (-3732.340913813892, 122.0, 3393.075841964206)
-[10:33:52] [Server thread/INFO]: momo70950 joined the game
-[10:44:36] [Server thread/WARN]: momo70950 moved too quickly! -0.5862756867436474,-11.558953062305562,0.2178626144827831
-[10:56:23] [Server thread/INFO]: Villager cyx['Villager'/3347, l='ServerLevel[world]', x=-3823.92, y=119.00, z=3385.83] died, message: 'Villager was slain by momo70950'
-[11:02:22] [Server thread/INFO]: momo70950 has made the advancement [What a Deal!]
-[11:05:22] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[11:05:22] [Server thread/INFO]: momo70950 left the game
-[11:05:32] [Server thread/INFO]: momo70950[/127.73.51.155:63482] logged in with entity id 7925 at (-3841.0021098697266, 111.0, 3417.4661554793156)
-[11:05:32] [Server thread/INFO]: momo70950 joined the game
-[11:08:58] [Server thread/INFO]: Villager cyx['Villager'/7122, l='ServerLevel[world]', x=-3830.90, y=117.19, z=3422.73] died, message: 'Villager suffocated in a wall'
-[11:27:51] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[11:27:51] [Server thread/INFO]: pauloR2001 left the game
-[11:48:42] [Server thread/INFO]: momo70950 has made the advancement [The Cutest Predator]
-[11:59:03] [Server thread/WARN]: momo70950 moved too quickly! 0.38771795612456117,-11.523684986416654,0.48325053140388263
-[11:59:33] [Server thread/INFO]: pauloR2001[/127.0.0.1:57203] logged in with entity id 21409 at (-3736.103974933618, 123.0, 3400.4199820181093)
-[11:59:33] [Server thread/INFO]: pauloR2001 joined the game
-[11:59:42] [Server thread/INFO]: [Not Secure] <momo70950> o/
-[12:00:32] [Server thread/INFO]: [Not Secure] <momo70950> te llamo?
-[12:00:32] [Server thread/INFO]: [Not Secure] <momo70950> te llamo
-[12:00:37] [Server thread/INFO]: [Not Secure] <pauloR2001> si
-[12:09:02] [Server thread/WARN]: momo70950 moved too quickly! 10.098899136914042,-0.1754232959521005,-0.3037412000576296
-[12:13:03] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[12:13:03] [Server thread/INFO]: pauloR2001 left the game
-[12:13:08] [Server thread/INFO]: pauloR2001[/127.0.0.1:57211] logged in with entity id 23944 at (-3721.8125425902895, 76.0625, 3393.2349695900284)
-[12:13:08] [Server thread/INFO]: pauloR2001 joined the game
-[12:17:23] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[12:17:23] [Server thread/INFO]: momo70950 left the game
-[12:23:43] [Server thread/INFO]: momo70950[/127.73.51.155:57218] logged in with entity id 26138 at (-3731.2158944163134, 122.0, 3392.2948527938074)
-[12:23:43] [Server thread/INFO]: momo70950 joined the game
-[12:43:41] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[12:43:41] [Server thread/INFO]: pauloR2001 left the game
-[12:43:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6250ms or 125 ticks behind
-[12:44:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 48648ms or 972 ticks behind
-[12:54:52] [Server thread/INFO]: momo70950 has made the advancement [Ice Bucket Challenge]
-[12:59:10] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[12:59:10] [Server thread/INFO]: momo70950 left the game
-[13:00:10] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[13:21:16] [Server thread/INFO]: momo70950[/127.73.51.155:55680] logged in with entity id 32953 at (-3742.253087192741, 122.0, 3397.8967107759863)
-[13:21:16] [Server thread/INFO]: momo70950 joined the game
-[13:34:55] [Server thread/INFO]: pauloR2001[/127.0.0.1:57394] logged in with entity id 35946 at (-3733.2130004270493, 129.5, 3413.3000881601756)
-[13:34:55] [Server thread/INFO]: pauloR2001 joined the game
-[13:45:40] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[13:45:40] [Server thread/INFO]: pauloR2001 left the game
-[13:45:41] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[13:45:41] [Server thread/INFO]: momo70950 left the game
+[10:48:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[10:48:02] [ServerMain/INFO]: Loaded 1461 recipes
+[10:48:02] [ServerMain/INFO]: Loaded 1574 advancements
+[10:48:03] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[10:48:03] [Server thread/INFO]: Loading properties
+[10:48:03] [Server thread/INFO]: Default game type: SURVIVAL
+[10:48:03] [Server thread/INFO]: Generating keypair
+[10:48:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:48:03] [Server thread/INFO]: Using default channel type
+[10:48:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:48:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:48:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:48:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:48:03] [Server thread/INFO]: Preparing level "world"
+[10:48:03] [Server thread/INFO]: Loading 0 persistent chunks...
+[10:48:03] [Server thread/INFO]: Preparing spawn area: 100%
+[10:48:03] [Server thread/INFO]: Time elapsed: 36 ms
+[10:48:03] [Server thread/INFO]: Done (0.359s)! For help, type "help"
+[10:49:03] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[10:49:26] [Server thread/INFO]: pauloR2001[/127.0.0.1:59858] logged in with entity id 92 at (-3729.491403954328, 122.0, 3400.2029760175064)
+[10:49:26] [Server thread/INFO]: pauloR2001 joined the game
+[10:49:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[10:49:53] [Server thread/INFO]: momo70950[/127.73.51.155:63645] logged in with entity id 323 at (-3829.239882858203, 118.9375, 3317.138565144542)
+[10:49:53] [Server thread/INFO]: momo70950 joined the game
+[10:59:41] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[10:59:41] [Server thread/INFO]: momo70950 left the game
+[11:03:15] [Server thread/INFO]: momo70950[/127.73.51.155:61990] logged in with entity id 3111 at (-3729.903649017687, 122.5625, 3397.3272115179175)
+[11:03:15] [Server thread/INFO]: momo70950 joined the game
+[11:08:11] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[11:08:11] [Server thread/INFO]: pauloR2001 left the game
+[11:08:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2631ms or 52 ticks behind
+[11:11:43] [Server thread/INFO]: pauloR2001[/127.0.0.1:62031] logged in with entity id 4858 at (-3757.224447462523, 138.0, 3372.8384321858716)
+[11:11:43] [Server thread/INFO]: pauloR2001 joined the game
+[11:16:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[11:19:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[11:26:08] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[11:26:08] [Server thread/INFO]: pauloR2001 left the game
+[11:26:24] [Server thread/INFO]: pauloR2001[/127.0.0.1:62045] logged in with entity id 9450 at (-3886.2212098046425, 83.5, 3232.5804945445097)
+[11:26:24] [Server thread/INFO]: pauloR2001 joined the game
+[11:26:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[11:32:46] [Server thread/INFO]: Set pauloR2001's game mode to Creative Mode
+[11:38:20] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[11:38:20] [Server thread/INFO]: momo70950 left the game
+[11:39:17] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[11:39:17] [Server thread/INFO]: gammemode survival pauloR2001<--[HERE]
+[11:39:22] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[11:39:22] [Server thread/INFO]: pauloR2001 left the game
