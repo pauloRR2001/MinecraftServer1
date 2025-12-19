@@ -1,47 +1,5 @@
-[10:48:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[10:48:02] [ServerMain/INFO]: Loaded 1461 recipes
-[10:48:02] [ServerMain/INFO]: Loaded 1574 advancements
-[10:48:03] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[10:48:03] [Server thread/INFO]: Loading properties
-[10:48:03] [Server thread/INFO]: Default game type: SURVIVAL
-[10:48:03] [Server thread/INFO]: Generating keypair
-[10:48:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:48:03] [Server thread/INFO]: Using default channel type
-[10:48:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:48:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:48:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:48:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:48:03] [Server thread/INFO]: Preparing level "world"
-[10:48:03] [Server thread/INFO]: Loading 0 persistent chunks...
-[10:48:03] [Server thread/INFO]: Preparing spawn area: 100%
-[10:48:03] [Server thread/INFO]: Time elapsed: 36 ms
-[10:48:03] [Server thread/INFO]: Done (0.359s)! For help, type "help"
-[10:49:03] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[10:49:26] [Server thread/INFO]: pauloR2001[/127.0.0.1:59858] logged in with entity id 92 at (-3729.491403954328, 122.0, 3400.2029760175064)
-[10:49:26] [Server thread/INFO]: pauloR2001 joined the game
-[10:49:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[10:49:53] [Server thread/INFO]: momo70950[/127.73.51.155:63645] logged in with entity id 323 at (-3829.239882858203, 118.9375, 3317.138565144542)
-[10:49:53] [Server thread/INFO]: momo70950 joined the game
-[10:59:41] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[10:59:41] [Server thread/INFO]: momo70950 left the game
-[11:03:15] [Server thread/INFO]: momo70950[/127.73.51.155:61990] logged in with entity id 3111 at (-3729.903649017687, 122.5625, 3397.3272115179175)
-[11:03:15] [Server thread/INFO]: momo70950 joined the game
-[11:08:11] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[11:08:11] [Server thread/INFO]: pauloR2001 left the game
-[11:08:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2631ms or 52 ticks behind
-[11:11:43] [Server thread/INFO]: pauloR2001[/127.0.0.1:62031] logged in with entity id 4858 at (-3757.224447462523, 138.0, 3372.8384321858716)
-[11:11:43] [Server thread/INFO]: pauloR2001 joined the game
-[11:16:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[11:19:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[11:26:08] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[11:26:08] [Server thread/INFO]: pauloR2001 left the game
-[11:26:24] [Server thread/INFO]: pauloR2001[/127.0.0.1:62045] logged in with entity id 9450 at (-3886.2212098046425, 83.5, 3232.5804945445097)
-[11:26:24] [Server thread/INFO]: pauloR2001 joined the game
-[11:26:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
-[11:32:46] [Server thread/INFO]: Set pauloR2001's game mode to Creative Mode
-[11:38:20] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[11:38:20] [Server thread/INFO]: momo70950 left the game
-[11:39:17] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[11:39:17] [Server thread/INFO]: gammemode survival pauloR2001<--[HERE]
-[11:39:22] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[11:39:22] [Server thread/INFO]: pauloR2001 left the game
+[00:00:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[00:01:25] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[00:01:25] [Server thread/INFO]: momo70950 left the game
+[00:01:27] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[00:01:27] [Server thread/INFO]: pauloR2001 left the game
