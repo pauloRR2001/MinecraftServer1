@@ -956,6 +956,7 @@
       "minecraft:hoglin": "2025-11-23 20:26:30 -0500",
       "minecraft:shulker": "2025-12-13 17:21:32 -0500",
       "minecraft:enderman": "2025-11-23 20:38:23 -0500",
+      "minecraft:endermite": "2025-12-22 19:22:40 -0500",
       "minecraft:spider": "2025-11-22 23:16:07 -0500",
       "minecraft:zombie": "2025-11-22 22:34:45 -0500",
       "minecraft:creeper": "2025-11-23 00:31:41 -0500",
@@ -3061,9 +3062,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+  "minecraft:recipes/building_blocks/waxed_exposed_copper_chest_from_honeycomb": {
     "criteria": {
-      "has_planks": "2025-12-21 21:22:34 -0500"
+      "has_exposed_copper_chest": "2025-12-21 21:03:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-12-21 21:04:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-12-21 21:04:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-12-21 21:05:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-12-21 21:05:58 -0500"
     },
     "done": true
   },
@@ -3073,21 +3098,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_exposed_copper_chest_from_honeycomb": {
+  "minecraft:recipes/food/baked_potato": {
     "criteria": {
-      "has_exposed_copper_chest": "2025-12-21 21:03:03 -0500"
+      "has_potato": "2025-12-21 21:11:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-12-21 21:11:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_wildflowers": {
+    "criteria": {
+      "has_wildflowers": "2025-12-21 21:14:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-12-21 21:22:34 -0500"
     },
     "done": true
   },
   "minecraft:recipes/redstone/dark_oak_trapdoor": {
     "criteria": {
       "has_planks": "2025-12-21 21:22:34 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato": {
-    "criteria": {
-      "has_potato": "2025-12-21 21:11:17 -0500"
     },
     "done": true
   },
@@ -3121,39 +3158,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dark_oak_planks": {
-    "criteria": {
-      "has_log": "2025-12-21 21:05:58 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/dark_oak_door": {
     "criteria": {
       "has_planks": "2025-12-21 21:22:34 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_wood": {
-    "criteria": {
-      "has_log": "2025-12-21 21:05:58 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato_from_smoking": {
-    "criteria": {
-      "has_potato": "2025-12-21 21:11:17 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/yellow_dye_from_wildflowers": {
-    "criteria": {
-      "has_wildflowers": "2025-12-21 21:14:47 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_iron_block": "2025-12-21 21:04:24 -0500"
     },
     "done": true
   },
@@ -3163,9 +3170,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/anvil": {
+  "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "has_iron_block": "2025-12-21 21:04:24 -0500"
+      "has_bone_meal": "2025-12-22 19:57:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-12-22 19:57:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-12-22 19:57:06 -0500"
     },
     "done": true
   },

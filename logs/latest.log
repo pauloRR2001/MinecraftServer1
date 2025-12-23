@@ -1,112 +1,44 @@
-[20:51:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[20:51:52] [Yggdrasil Key Fetcher/ERROR]: Got an error with a html body connecting to https://api.minecraftservices.com/publickeys: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
-<html xmlns='http://www.w3.org/1999/xhtml'>
-
-<head>
-    <meta content='text/html; charset=utf-8' http-equiv='content-type' />
-    <style type='text/css'>
-        body {
-            font-family: Arial;
-            margin-left: 40px;
-        }
-
-        img {
-            border: 0 none;
-        }
-
-        #content {
-            margin-left: auto;
-            margin-right: auto
-        }
-
-        #message h1 {
-            font-size: 24px;
-            font-weight: normal;
-            color: #000000;
-            margin: 34px 0px 0px 0px
-        }
-
-        #message h2 {
-            font-size: 20px;
-            font-weight: normal;
-            color: #000000;
-            margin: 34px 0px 0px 0px
-        }
-
-        #message p {
-            font-size: 16px;
-            color: #000000;
-            margin: 8px 0px 0px 0px
-        }
-
-        #message hr {
-            margin: 15px 0px
-        }
-
-        #errorref {
-            font-size: 11px;
-            color: #737373;
-            margin-top: 41px
-        }
-    </style>
-    <title>Service unavailable</title>
-</head>
-
-<body>
-    <div id='content'>
-        <div id='message'>
-            <h2>The request is blocked.</h2>
-        </div>
-        <div id='errorref'>
-            <span>20251222T015149Z-r196bf7dd854dvkmhC1MIAbsks00000013bg00000000axq0            </span>
-        </div>
-    </div>
-</body>
-</html>
-
-[20:51:52] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 429
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-7.0.61.jar:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-7.0.61.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-7.0.61.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-7.0.61.jar:?]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[20:51:53] [ServerMain/INFO]: Loaded 1461 recipes
-[20:51:53] [ServerMain/INFO]: Loaded 1574 advancements
-[20:51:53] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[20:51:53] [Server thread/INFO]: Loading properties
-[20:51:53] [Server thread/INFO]: Default game type: SURVIVAL
-[20:51:53] [Server thread/INFO]: Generating keypair
-[20:51:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:51:54] [Server thread/INFO]: Using default channel type
-[20:51:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:51:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:51:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:51:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:51:54] [Server thread/INFO]: Preparing level "world"
-[20:51:54] [Server thread/INFO]: Loading 0 persistent chunks...
-[20:51:54] [Server thread/INFO]: Preparing spawn area: 100%
-[20:51:54] [Server thread/INFO]: Time elapsed: 53 ms
-[20:51:54] [Server thread/INFO]: Done (0.459s)! For help, type "help"
-[20:52:54] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[20:55:00] [Server thread/INFO]: pauloR2001[/127.0.0.1:64594] logged in with entity id 120 at (-3751.3647958333163, 138.0, 3377.680713684276)
-[20:55:00] [Server thread/INFO]: pauloR2001 joined the game
-[20:55:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
-[20:55:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6268ms or 125 ticks behind
-[21:32:34] [Server thread/INFO]: Villager cyx['Villager'/7165, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3427.67] died, message: 'Villager was squished too much'
-[21:40:25] [Server thread/WARN]: Acacia Boat (vehicle of pauloR2001) moved too quickly! -6.714832389309777,0.0,8.263278269953844
-[21:40:25] [Server thread/WARN]: Acacia Boat (vehicle of pauloR2001) moved too quickly! -7.580874891219537,0.0,9.194600655740942
-[21:40:25] [Server thread/WARN]: Acacia Boat (vehicle of pauloR2001) moved too quickly! -8.429596559609763,0.0,10.107296611575748
-[21:40:25] [Server thread/WARN]: Acacia Boat (vehicle of pauloR2001) moved too quickly! -9.261343810820108,0.0,11.001738665702305
-[21:40:25] [Server thread/WARN]: Acacia Boat (vehicle of pauloR2001) moved too quickly! -10.07645613287059,0.0,11.878291895806342
-[21:40:25] [Server thread/WARN]: Acacia Boat (vehicle of pauloR2001) moved too quickly! -10.880059468441232,0.0,12.73589112132504
-[21:40:25] [Server thread/WARN]: Acacia Boat (vehicle of pauloR2001) moved too quickly! -11.672399083600794,0.0,13.574967381977785
-[21:40:25] [Server thread/WARN]: Acacia Boat (vehicle of pauloR2001) moved too quickly! -12.45373686210769,0.0,14.396026733256804
-[21:40:25] [Server thread/WARN]: Acacia Boat (vehicle of pauloR2001) moved too quickly! -6.601797395552239,0.0,8.117047828443901
-[21:40:48] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[21:40:48] [Server thread/INFO]: pauloR2001 left the game
+[18:30:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[18:30:55] [ServerMain/INFO]: Loaded 1461 recipes
+[18:30:55] [ServerMain/INFO]: Loaded 1574 advancements
+[18:30:56] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[18:30:56] [Server thread/INFO]: Loading properties
+[18:30:56] [Server thread/INFO]: Default game type: SURVIVAL
+[18:30:56] [Server thread/INFO]: Generating keypair
+[18:30:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:30:56] [Server thread/INFO]: Using default channel type
+[18:30:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:30:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:30:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:30:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:30:56] [Server thread/INFO]: Preparing level "world"
+[18:30:57] [Server thread/INFO]: Loading 0 persistent chunks...
+[18:30:57] [Server thread/INFO]: Preparing spawn area: 100%
+[18:30:57] [Server thread/INFO]: Time elapsed: 43 ms
+[18:30:57] [Server thread/INFO]: Done (0.380s)! For help, type "help"
+[18:31:57] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:32:29] [Server thread/INFO]: pauloR2001[/127.0.0.1:62813] logged in with entity id 73 at (-3366.2516751190424, 63.0, 4080.8450207639635)
+[18:32:29] [Server thread/INFO]: pauloR2001 joined the game
+[18:32:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[18:40:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[18:41:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3430ms or 68 ticks behind
+[19:01:21] [Server thread/INFO]: Set pauloR2001's game mode to Creative Mode
+[19:10:16] [Server thread/INFO]: Set pauloR2001's game mode to Survival Mode
+[19:12:59] [Server thread/INFO]: Set pauloR2001's game mode to Creative Mode
+[19:22:40] [Server thread/INFO]: Named entity cwe['a'/5621, l='ServerLevel[world]', x=276.76, y=52.00, z=-3.53] died: a was slain by pauloR2001
+[19:27:02] [Server thread/INFO]: Set pauloR2001's game mode to Survival Mode
+[19:28:09] [Server thread/INFO]: Set pauloR2001's game mode to Creative Mode
+[19:34:45] [Server thread/INFO]: Set pauloR2001's game mode to Survival Mode
+[19:35:35] [Server thread/INFO]: Set pauloR2001's game mode to Creative Mode
+[19:48:15] [Server thread/INFO]: Set pauloR2001's game mode to Survival Mode
+[19:55:42] [Server thread/INFO]: pauloR2001 fell from a high place
+[19:57:06] [Server thread/INFO]: Teleported 20 entities to pauloR2001
+[19:57:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[19:57:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3288ms or 65 ticks behind
+[19:58:31] [Server thread/INFO]: Teleported 35 entities to pauloR2001
+[19:58:32] [Server thread/INFO]: No entity was found
+[19:59:14] [Server thread/INFO]: Incorrect argument for command
+[19:59:14] [Server thread/INFO]: xp pauloR2001 level 30<--[HERE]
+[19:59:34] [Server thread/INFO]: Gave 40 experience levels to pauloR2001
+[20:01:40] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[20:01:41] [Server thread/INFO]: pauloR2001 left the game
