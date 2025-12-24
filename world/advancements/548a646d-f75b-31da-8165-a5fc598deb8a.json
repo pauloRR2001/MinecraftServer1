@@ -7,9 +7,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2025-12-23 23:10:02 -0500",
       "minecraft:flower_forest": "2025-12-06 23:42:25 -0500",
       "minecraft:savanna_plateau": "2025-12-06 23:39:53 -0500",
       "minecraft:snowy_slopes": "2025-12-06 23:37:10 -0500",
+      "minecraft:beach": "2025-12-23 23:07:08 -0500",
       "minecraft:old_growth_pine_taiga": "2025-11-22 21:13:23 -0500",
       "minecraft:dark_forest": "2025-11-22 22:42:18 -0500",
       "minecraft:forest": "2025-11-23 00:45:30 -0500",
@@ -21,6 +23,7 @@
       "minecraft:dripstone_caves": "2025-12-06 23:49:25 -0500",
       "minecraft:old_growth_birch_forest": "2025-11-23 01:12:47 -0500",
       "minecraft:frozen_river": "2025-11-23 00:49:05 -0500",
+      "minecraft:ocean": "2025-12-23 23:07:14 -0500",
       "minecraft:sunflower_plains": "2025-12-06 23:44:00 -0500",
       "minecraft:meadow": "2025-12-06 23:32:56 -0500",
       "minecraft:birch_forest": "2025-11-23 01:13:21 -0500",
@@ -961,7 +964,8 @@
       "minecraft:zombie": "2025-11-22 22:34:45 -0500",
       "minecraft:creeper": "2025-11-23 00:31:41 -0500",
       "minecraft:drowned": "2025-12-06 22:56:21 -0500",
-      "minecraft:zombie_villager": "2025-12-18 00:32:59 -0500"
+      "minecraft:zombie_villager": "2025-12-18 00:32:59 -0500",
+      "minecraft:slime": "2025-12-23 22:44:56 -0500"
     },
     "done": false
   },
@@ -3185,6 +3189,174 @@
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bone_meal": "2025-12-22 19:57:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-12-23 23:07:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2025-12-23 23:04:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-12-23 23:04:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-12-23 23:07:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2025-12-23 22:17:49 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-12-23 22:55:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-12-23 23:04:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-12-23 22:55:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2025-12-23 23:04:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-12-23 22:55:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2025-12-23 22:55:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2025-12-23 23:04:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-12-23 23:07:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2025-12-23 23:04:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2025-12-23 22:55:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-12-23 22:55:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-12-23 22:44:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2025-12-23 22:55:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-12-23 23:04:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-12-23 22:55:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-12-23 23:04:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2025-12-23 23:04:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2025-12-23 22:55:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-12-23 22:44:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-12-23 23:04:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2025-12-23 22:17:49 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-12-23 22:55:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-12-23 23:04:24 -0500"
     },
     "done": true
   },
