@@ -3633,11 +3633,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/emerald_from_smelting_emerald_ore": {
+  "minecraft:husbandry/complete_catalogue": {
     "criteria": {
-      "has_emerald_ore": "2025-12-26 00:44:27 -0500"
+      "minecraft:ragdoll": "2025-12-26 00:53:02 -0500",
+      "minecraft:british_shorthair": "2025-12-26 00:39:19 -0500",
+      "minecraft:red": "2025-12-26 00:36:43 -0500"
     },
-    "done": true
+    "done": false
   },
   "minecraft:recipes/building_blocks/cherry_planks": {
     "criteria": {
@@ -3651,13 +3653,11 @@
     },
     "done": true
   },
-  "minecraft:husbandry/complete_catalogue": {
+  "minecraft:recipes/misc/emerald_from_smelting_emerald_ore": {
     "criteria": {
-      "minecraft:ragdoll": "2025-12-26 00:53:02 -0500",
-      "minecraft:british_shorthair": "2025-12-26 00:39:19 -0500",
-      "minecraft:red": "2025-12-26 00:36:43 -0500"
+      "has_emerald_ore": "2025-12-26 00:44:27 -0500"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/misc/emerald_from_blasting_emerald_ore": {
     "criteria": {
@@ -3668,6 +3668,30 @@
   "minecraft:recipes/misc/leather": {
     "criteria": {
       "has_rabbit_hide": "2025-12-26 00:54:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-12-26 13:04:50 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-12-26 12:41:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-12-26 12:41:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "nether_wart": "2025-12-26 13:00:52 -0500"
     },
     "done": true
   },
