@@ -1,108 +1,69 @@
-[21:11:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[21:11:15] [ServerMain/INFO]: Loaded 1461 recipes
-[21:11:15] [ServerMain/INFO]: Loaded 1574 advancements
-[21:11:16] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[21:11:16] [Server thread/INFO]: Loading properties
-[21:11:16] [Server thread/INFO]: Default game type: SURVIVAL
-[21:11:16] [Server thread/INFO]: Generating keypair
-[21:11:16] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:11:16] [Server thread/INFO]: Using default channel type
-[21:11:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:11:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:11:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:11:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:11:16] [Server thread/INFO]: Preparing level "world"
-[21:11:17] [Server thread/INFO]: Loading 0 persistent chunks...
-[21:11:17] [Server thread/INFO]: Preparing spawn area: 100%
-[21:11:17] [Server thread/INFO]: Time elapsed: 219 ms
-[21:11:17] [Server thread/INFO]: Done (0.575s)! For help, type "help"
-[21:12:17] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[21:13:51] [Server thread/INFO]: pauloR2001[/127.0.0.1:62842] logged in with entity id 110 at (-3753.300000011921, 138.0, 3377.944614350411)
-[21:13:52] [Server thread/INFO]: pauloR2001 joined the game
-[21:13:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2487ms or 49 ticks behind
-[21:14:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5761ms or 115 ticks behind
-[21:14:20] [Server thread/INFO]: Villager cyx['Villager'/195, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.71] died, message: 'Villager was squished too much'
-[21:19:11] [Server thread/INFO]: Set pauloR2001's game mode to Creative Mode
-[22:04:14] [Server thread/INFO]: Set pauloR2001's game mode to Survival Mode
-[22:20:16] [Server thread/INFO]: Villager cyx['Villager'/14479, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3427.30] died, message: 'Villager was squished too much'
-[22:20:51] [Server thread/INFO]: Villager cyx['Villager'/14508, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.88] died, message: 'Villager was squished too much'
-[22:22:32] [Server thread/INFO]: Unknown game mode: specttor
-[22:22:32] [Server thread/INFO]: ...e specttor pauloR2001<--[HERE]
-[22:22:37] [Server thread/INFO]: Set pauloR2001's game mode to Spectator Mode
-[22:23:51] [Server thread/INFO]: Seed: [6283729635843406888]
-[22:26:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2055ms or 41 ticks behind
-[22:26:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18361ms or 367 ticks behind
-[22:27:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14119ms or 282 ticks behind
-[22:27:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14546ms or 290 ticks behind
-[22:28:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14279ms or 285 ticks behind
-[22:28:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12815ms or 256 ticks behind
-[22:29:01] [Server thread/INFO]: Set pauloR2001's game mode to Creative Mode
-[22:35:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
-[22:36:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2043ms or 40 ticks behind
-[22:36:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3332ms or 66 ticks behind
-[22:41:46] [Server thread/INFO]: Set pauloR2001's game mode to Spectator Mode
-[22:41:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
-[22:42:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5473ms or 109 ticks behind
-[22:42:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4525ms or 90 ticks behind
-[22:42:51] [Server thread/INFO]: No player was found
-[22:42:59] [Server thread/INFO]: Set pauloR2001's game mode to Creative Mode
-[22:44:51] [Server thread/INFO]: Set pauloR2001's game mode to Survival Mode
-[22:45:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[22:45:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3561ms or 71 ticks behind
-[22:46:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[22:46:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3813ms or 76 ticks behind
-[22:46:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2516ms or 50 ticks behind
-[22:47:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3520ms or 70 ticks behind
-[22:47:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3287ms or 65 ticks behind
-[22:47:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2184ms or 43 ticks behind
-[22:47:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4095ms or 81 ticks behind
-[22:48:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2877ms or 57 ticks behind
-[22:48:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3201ms or 64 ticks behind
-[22:48:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4118ms or 82 ticks behind
-[22:49:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[22:49:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3833ms or 76 ticks behind
-[22:49:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2689ms or 53 ticks behind
-[22:50:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[22:52:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2045ms or 40 ticks behind
-[22:52:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[22:53:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[22:53:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3508ms or 70 ticks behind
-[22:56:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[22:57:43] [Server thread/INFO]: The nearest minecraft:ocean is at [-2729, 121, 2881] (1116 blocks away)
-[22:57:43] [Server thread/INFO]: Locating element minecraft:ocean took 1031 ms
-[22:58:17] [Server thread/INFO]: Incorrect argument for command
-[22:58:17] [Server thread/INFO]: execute pauloR2001 run locate biome ocean<--[HERE]
-[22:59:14] [Server thread/INFO]: The nearest minecraft:ocean is at [-2731, 70, 2864] (1088 blocks away)
-[22:59:14] [Server thread/INFO]: Locating element minecraft:ocean took 1079 ms
-[22:59:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 8.760370815863098,0.0029549109695139464,4.962689224604219
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 9.106412505652315,0.002974230648284504,5.15871943853881
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 9.452653494397055,0.0029927578518496034,5.3548625539474415
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 9.79907385219667,0.0030091705182044848,5.551107280680299
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 10.145655642141719,0.003022650601337773,5.747443457602003
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 10.492382721013655,0.00303282518895287,5.943861939691942
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 10.839240559916561,0.003039685816965232,6.140354496430973
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 11.186216082844112,0.003043498051958693,6.336913720352641
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 11.533297521390978,0.003044711193410876,6.53353294473709
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 11.880474283992498,0.0030438754749013697,6.730206169536814
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 12.227736838241071,0.0030415716831981854,6.9269279947084215
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 12.575076604970036,0.0030383558656552623,7.123693560214178
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 12.922485862929534,0.0030347198906923722,7.3204984920193965
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 13.269957662994784,0.0030310671340672,7.517338853493129
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 13.61748575095362,0.003027701504557001,7.714211101667843
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 13.965064498015636,0.0030248273746025234,7.911112047872393
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 14.312688838268969,0.003022557695359751,8.108038822303115
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 14.66035421239394,0.0030209275842452143,8.304988842136936
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 15.008056517001933,0.0030199109019335424,8.501959782833183
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 15.355792059043779,0.003019437711309081,8.698949552304839
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 15.703557514775184,0.003019410965350744,8.895956267674137
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 16.051349892826693,0.003019721247433438,9.09297823435054
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 16.399166500965748,0.0030202588415022547,9.29001392720329
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 16.74700491618296,0.0030209228092772378,9.487061973614345
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 17.094862957770147,0.003021627077920641,9.68412113822751
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 8.762426274682639,0.0029442975918811953,4.963853627749813
-[23:07:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2564ms or 51 ticks behind
-[23:07:14] [Server thread/WARN]: Oak Boat (vehicle of pauloR2001) moved too quickly! 8.76244217204112,0.0029495063870470517,4.963862633493136
-[23:19:17] [Server thread/INFO]: Villager cyx['Villager'/29819, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.30] died, message: 'Villager was squished too much'
-[23:21:28] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[23:21:28] [Server thread/INFO]: pauloR2001 left the game
+[16:50:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[16:50:57] [ServerMain/INFO]: Loaded 1461 recipes
+[16:50:57] [ServerMain/INFO]: Loaded 1574 advancements
+[16:50:58] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[16:50:58] [Server thread/INFO]: Loading properties
+[16:50:58] [Server thread/INFO]: Default game type: SURVIVAL
+[16:50:58] [Server thread/INFO]: Generating keypair
+[16:50:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:50:58] [Server thread/INFO]: Using default channel type
+[16:50:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:50:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:50:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:50:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:50:58] [Server thread/INFO]: Preparing level "world"
+[16:50:59] [Server thread/INFO]: Loading 0 persistent chunks...
+[16:50:59] [Server thread/INFO]: Preparing spawn area: 100%
+[16:50:59] [Server thread/INFO]: Time elapsed: 372 ms
+[16:51:00] [Server thread/INFO]: Done (1.383s)! For help, type "help"
+[16:51:16] [Server thread/INFO]: andresr255[/127.58.7.225:50142] logged in with entity id 96 at (-3728.5554443233655, 122.5625, 3397.1395599455536)
+[16:51:17] [Server thread/INFO]: andresr255 joined the game
+[16:51:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3482ms or 69 ticks behind
+[16:51:19] [Server thread/INFO]: pauloR2001[/127.161.21.218:62721] logged in with entity id 98 at (-3732.496877868725, 122.0, 3392.4519695419835)
+[16:51:19] [Server thread/INFO]: pauloR2001 joined the game
+[16:51:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10619ms or 212 ticks behind
+[16:51:47] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=0, y=0, z=0} ja{x=-3730, y=122, z=3397}
+[16:51:52] [Server thread/INFO]: [pauloR2001: Made andresr255 a server operator]
+[16:52:04] [Server thread/INFO]: andresr255 has made the advancement [Sweet Dreams]
+[16:53:53] [Server thread/INFO]: andresr255 has made the advancement [Stone Age]
+[16:54:53] [Server thread/INFO]: andresr255 has made the advancement [Acquire Hardware]
+[16:55:16] [Server thread/INFO]: Villager cyx['Villager'/213, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3427.30] died, message: 'Villager was squished too much'
+[16:56:14] [Server thread/INFO]: Villager cyx['Villager'/217, l='ServerLevel[world]', x=-3826.39, y=117.00, z=3427.83] died, message: 'Villager was squished too much'
+[17:00:12] [Server thread/INFO]: Villager cyx['Villager'/214, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3429.26] died, message: 'Villager was squished too much'
+[17:20:28] [Server thread/INFO]: paulo2[/127.84.54.35:60575] logged in with entity id 5999 at (-3728.5, 138.0, 3383.5)
+[17:20:28] [Server thread/INFO]: paulo2 joined the game
+[17:20:33] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=0, y=0, z=0} ja{x=-3729, y=137, z=3383}
+[17:20:46] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=0, y=0, z=0} ja{x=-3727, y=137, z=3385}
+[17:20:51] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=0, y=0, z=0} ja{x=-3728, y=137, z=3384}
+[17:21:03] [Server thread/INFO]: paulo2 lost connection: Disconnected
+[17:21:03] [Server thread/INFO]: paulo2 left the game
+[17:27:06] [Server thread/INFO]: Villager cyx['Villager'/232, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3429.70] died, message: 'Villager was squished too much'
+[17:28:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[17:36:07] [Server thread/INFO]: Villager cyx['Villager'/228, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3427.88] died, message: 'Villager was squished too much'
+[17:41:25] [Server thread/INFO]: Villager cyx['Villager'/227, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.30] died, message: 'Villager was squished too much'
+[17:43:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[17:43:59] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[17:43:59] [Server thread/INFO]: pauloR2001 left the game
+[17:44:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2761ms or 55 ticks behind
+[17:44:34] [Server thread/WARN]: andresr255 moved too quickly! -2.1879819001592296,-1.0,9.72352205856214
+[17:45:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 36571ms or 731 ticks behind
+[17:45:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22222ms or 444 ticks behind
+[17:46:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16251ms or 325 ticks behind
+[17:46:19] [Server thread/INFO]: pauloR2001[/127.0.0.1:59702] logged in with entity id 11919 at (-3728.326642568056, 130.0, 3418.3530904241857)
+[17:46:19] [Server thread/INFO]: pauloR2001 joined the game
+[17:50:33] [Server thread/INFO]: Villager cyx['Villager'/224, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3427.30] died, message: 'Villager was squished too much'
+[18:00:07] [Server thread/INFO]: andresr255 was killed by Witch using magic
+[18:03:03] [Server thread/INFO]: Villager cyx['Villager'/211, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3427.30] died, message: 'Villager was squished too much'
+[18:03:28] [Server thread/INFO]: Villager cyx['Villager'/225, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.85] died, message: 'Villager was squished too much'
+[18:13:25] [Server thread/INFO]: andresr255 was blown up by Creeper
+[18:20:38] [Server thread/INFO]: Villager cyx['Villager'/215, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3427.30] died, message: 'Villager was squished too much'
+[18:20:38] [Server thread/INFO]: Villager cyx['Villager'/219, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3427.89] died, message: 'Villager was squished too much'
+[18:31:59] [Server thread/INFO]: Villager cyx['Villager'/218, l='ServerLevel[world]', x=-3826.33, y=117.00, z=3429.35] died, message: 'Villager was squished too much'
+[18:43:26] [Server thread/INFO]: pauloR2001 has reached the goal [Hired Help]
+[18:46:06] [Server thread/INFO]: Villager cyx['Villager'/202, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.64] died, message: 'Villager was squished too much'
+[18:52:58] [Server thread/INFO]: Villager cyx['Villager'/201, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.81] died, message: 'Villager was squished too much'
+[19:06:55] [Server thread/INFO]: andresr255 lost connection: Disconnected
+[19:06:55] [Server thread/INFO]: andresr255 left the game
+[19:10:31] [Server thread/INFO]: Villager cyx['Villager'/204, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.89] died, message: 'Villager was squished too much'
+[19:14:28] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[19:14:28] [Server thread/INFO]: pauloR2001 left the game
