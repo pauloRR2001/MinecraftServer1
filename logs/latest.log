@@ -1,205 +1,179 @@
-[11:04:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[11:04:52] [ServerMain/INFO]: Loaded 1461 recipes
-[11:04:52] [ServerMain/INFO]: Loaded 1574 advancements
-[11:04:53] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[11:04:53] [Server thread/INFO]: Loading properties
-[11:04:53] [Server thread/INFO]: Default game type: SURVIVAL
-[11:04:53] [Server thread/INFO]: Generating keypair
-[11:04:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:04:53] [Server thread/INFO]: Using default channel type
-[11:04:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:04:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:04:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:04:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:04:53] [Server thread/INFO]: Preparing level "world"
-[11:04:54] [Server thread/INFO]: Loading 0 persistent chunks...
-[11:04:54] [Server thread/INFO]: Preparing spawn area: 100%
-[11:04:54] [Server thread/INFO]: Time elapsed: 62 ms
-[11:04:54] [Server thread/INFO]: Done (0.476s)! For help, type "help"
-[11:05:54] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[11:18:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 511739ms or 10234 ticks behind
-[11:21:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2374ms or 47 ticks behind
-[11:21:59] [Server thread/INFO]: suriccila2[/127.113.235.21:52182] logged in with entity id 128 at (-3730.5, 138.0, 3395.5)
-[11:21:59] [Server thread/INFO]: suriccila2 joined the game
-[11:22:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2179ms or 43 ticks behind
-[11:22:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4073ms or 81 ticks behind
-[11:23:26] [Server thread/INFO]: pauloR2001[/127.0.0.1:52222] logged in with entity id 535 at (-3750.416623651642, 138.0, 3375.610562388902)
-[11:23:26] [Server thread/INFO]: pauloR2001 joined the game
-[11:23:51] [Server thread/INFO]: suriccila2 has made the advancement [Sweet Dreams]
-[11:27:26] [Server thread/INFO]: suriccila2 has made the advancement [Acquire Hardware]
-[11:27:36] [Server thread/INFO]: suriccila2 has made the advancement [Suit Up]
-[11:27:59] [Server thread/INFO]: suriccila2 has made the advancement [Isn't It Iron Pick]
-[11:36:01] [Server thread/INFO]: suriccila2 lost connection: Disconnected
-[11:36:01] [Server thread/INFO]: suriccila2 left the game
-[11:36:04] [Server thread/INFO]: suriccila2[/127.113.235.21:50768] logged in with entity id 3930 at (-3884.6397506105754, 126.0, 3086.8622092885125)
-[11:36:04] [Server thread/INFO]: suriccila2 joined the game
-[11:37:17] [Server thread/INFO]: suriccila2 has made the advancement [Stone Age]
-[11:41:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
-[11:43:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[11:43:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3881ms or 77 ticks behind
-[11:43:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[11:43:50] [Server thread/INFO]: suriccila2 has made the advancement [Best Friends Forever]
-[11:44:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[11:44:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2550ms or 51 ticks behind
-[11:44:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2664ms or 53 ticks behind
-[11:44:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2915ms or 58 ticks behind
-[11:45:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2210ms or 44 ticks behind
-[11:45:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
-[11:45:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2652ms or 53 ticks behind
-[11:46:12] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[11:46:12] [Server thread/INFO]: pauloR2001 left the game
-[11:46:17] [Server thread/INFO]: suriccila2 lost connection: Disconnected
-[11:46:17] [Server thread/INFO]: suriccila2 left the game
-[11:47:17] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[12:27:10] [Server thread/INFO]: pauloR2001[/127.0.0.1:54301] logged in with entity id 8000 at (-3728.237500011921, 130.0, 3418.8162961960275)
-[12:27:10] [Server thread/INFO]: pauloR2001 joined the game
-[12:27:49] [Server thread/INFO]: suriccila2[/127.113.235.21:54304] logged in with entity id 8318 at (-3840.179981078783, 70.84375002384186, 3253.2651607804514)
-[12:27:49] [Server thread/INFO]: suriccila2 joined the game
-[12:27:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[12:28:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2486ms or 49 ticks behind
-[12:28:22] [Server thread/INFO]: Villager cyx['Villager'/8096, l='ServerLevel[world]', x=-3826.67, y=117.00, z=3427.79] died, message: 'Villager was squished too much'
-[12:28:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3292ms or 65 ticks behind
-[12:28:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4781ms or 95 ticks behind
-[12:29:00] [Server thread/INFO]: Villager cyx['Villager'/8087, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.90] died, message: 'Villager was squished too much'
-[12:29:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3987ms or 79 ticks behind
-[12:29:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3170ms or 63 ticks behind
-[12:29:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[12:30:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[12:30:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[12:30:52] [Server thread/INFO]: Villager cyx['Villager'/8069, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3429.13] died, message: 'Villager was squished too much'
-[12:30:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2208ms or 44 ticks behind
-[12:31:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
-[12:32:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[12:32:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2261ms or 45 ticks behind
-[12:32:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2865ms or 57 ticks behind
-[12:33:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10119ms or 202 ticks behind
-[12:33:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8511ms or 170 ticks behind
-[12:33:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4285ms or 85 ticks behind
-[12:34:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3453ms or 69 ticks behind
-[12:34:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2524ms or 50 ticks behind
-[12:34:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6322ms or 126 ticks behind
-[12:34:54] [Server thread/INFO]: restrepojc[/127.121.121.104:54317] logged in with entity id 11013 at (-3749.772197806443, 138.0, 3386.5176145328473)
-[12:34:54] [Server thread/INFO]: restrepojc joined the game
-[12:35:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6582ms or 131 ticks behind
-[12:35:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4587ms or 91 ticks behind
-[12:35:31] [Server thread/INFO]: [Not Secure] <restrepojc> holi
-[12:35:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5665ms or 113 ticks behind
-[12:35:59] [Server thread/INFO]: [Not Secure] <pauloR2001> hola
-[12:36:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6063ms or 121 ticks behind
-[12:36:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4776ms or 95 ticks behind
-[12:36:46] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.362506256620236,-3.7280326172704576,2.199737078072303
-[12:36:46] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.638909209642861,-4.0,2.253485592632387
-[12:36:46] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -10.107134952063916,-4.0,2.3469497876617424
-[12:36:46] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -10.503069380979468,-4.078400001525878,2.508306182524393
-[12:36:46] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -10.733277919357533,-4.233632006042484,2.607439278743641
-[12:36:46] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.306097930281794,-3.0993421120237485,2.246812331763522
-[12:36:46] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.523527714072316,-3.4036589394812893,2.3499765180508803
-[12:36:46] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.743058728889082,-3.7802894377199436,2.448311235035362
-[12:36:46] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.304022974345116,-3.3163126400942105,2.239508617005413
-[12:36:46] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.52720613896372,-3.8332605891991847,2.329449233037849
-[12:36:46] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.751972730484795,-4.0,2.4157505007437976
-[12:36:46] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -10.173209382585355,-4.0,2.5388377019894506
-[12:36:47] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.529274125923166,-2.9472147446366677,2.257327382269523
-[12:36:47] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.794839140646218,-3.1024467491532732,2.3228029252354645
-[12:36:47] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -10.05817321687391,-3.3329741180662324,2.386840975809264
-[12:36:47] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.343883761378038,-3.17313157056833,2.2082986496720878
-[12:36:47] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.603340243241746,-3.5497620688069844,2.2698381946129302
-[12:36:47] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.34035515040523,-3.3163126400942105,2.206025009480527
-[12:36:47] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.338825285025905,-3.3857626922157635,2.205039249519359
-[12:36:47] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.337433107490597,-3.453823744619541,2.2041422079291806
-[12:36:47] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.591019494147531,-4.0,2.261899390774488
-[12:36:47] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.530042505669826,-2.9472147446366677,2.242680800487051
-[12:36:47] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.348564389353214,-3.024046747627395,2.203047225596947
-[12:36:47] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.346295692683725,-3.0993421120237485,2.202329466107585
-[12:36:47] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.344231178654809,-3.17313157056833,2.201676304953253
-[12:36:47] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.342352470834612,-3.2454452413494437,2.2010819282854754
-[12:36:47] [Server thread/WARN]: Horse (vehicle of suriccila2) moved too quickly! -9.340642846668743,-3.3163126400942105,2.200541045502632
-[12:36:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11324ms or 226 ticks behind
-[12:37:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18093ms or 361 ticks behind
-[12:37:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5887ms or 117 ticks behind
-[12:38:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5940ms or 118 ticks behind
-[12:38:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5832ms or 116 ticks behind
-[12:38:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5115ms or 102 ticks behind
-[12:39:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6223ms or 124 ticks behind
-[12:39:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8880ms or 177 ticks behind
-[12:40:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25667ms or 513 ticks behind
-[12:40:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23271ms or 465 ticks behind
-[12:41:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15893ms or 317 ticks behind
-[12:41:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7821ms or 156 ticks behind
-[12:42:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12142ms or 242 ticks behind
-[12:42:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22641ms or 452 ticks behind
-[12:43:05] [Server thread/INFO]: suriccila2 lost connection: Disconnected
-[12:43:05] [Server thread/INFO]: suriccila2 left the game
-[12:43:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9862ms or 197 ticks behind
-[12:44:05] [Server thread/INFO]: suriccila2[/127.113.235.21:54328] logged in with entity id 14461 at (-4395.163090278416, 64.84375002384186, 4186.891161707553)
-[12:44:05] [Server thread/INFO]: suriccila2 joined the game
-[12:44:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[12:44:12] [Server thread/INFO]: [pauloR2001: Teleported suriccila2 to pauloR2001]
-[12:46:26] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=0, y=0, z=0} ja{x=-3728, y=121, z=3402}
-[12:48:43] [Server thread/INFO]: suriccila2 fell from a high place
-[12:48:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[12:49:28] [Server thread/INFO]: Villager cyx['Villager'/8076, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3427.30] died, message: 'Villager was squished too much'
-[12:50:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[12:53:18] [Server thread/INFO]: [Not Secure] <pauloR2001> juancrus me ayudas a aser granja de blaze
-[12:53:18] [Server thread/INFO]: [Not Secure] <restrepojc> Paulo, en el nivel de la torre continuo con el piso de agujero central o lo dejo tipo un balcón?
-[12:53:39] [Server thread/INFO]: [Not Secure] <restrepojc> je, en que te ayudo?
-[12:54:12] [Server thread/INFO]: [Not Secure] <pauloR2001> la casa haz como quieras con tal y haiga un terer piso
-[12:54:20] [Server thread/INFO]: suriccila2 was poked to death by a sweet berry bush
-[12:54:40] [Server thread/INFO]: [Not Secure] <restrepojc> vuelves a decir haiga y cojo un avión y te agarro a coñazos
-[12:55:06] [Server thread/INFO]: [Not Secure] <pauloR2001> viamos a aser pocion de resitsencia fugo y vamo a nether
-[12:55:25] [Server thread/INFO]: [Not Secure] <restrepojc> a
-[12:55:27] [Server thread/INFO]: suriccila2 fell from a high place
-[12:55:29] [Server thread/INFO]: [Not Secure] <pauloR2001> veni
-[12:56:03] [Server thread/INFO]: [Not Secure] <restrepojc> mejor te llamo?
-[12:56:17] [Server thread/INFO]: suriccila2 fell from a high place
-[12:56:25] [Server thread/INFO]: [Not Secure] <pauloR2001> veni
-[12:57:21] [Server thread/INFO]: suriccila2 lost connection: Disconnected
-[12:57:21] [Server thread/INFO]: suriccila2 left the game
-[12:57:28] [Server thread/INFO]: [Not Secure] <pauloR2001> carga estos dos con piedra y vidrio
-[12:57:42] [Server thread/INFO]: [Not Secure] <pauloR2001> gijarro
-[12:57:52] [Server thread/INFO]: [Not Secure] <restrepojc> ok, hay que ir por arena
-[12:58:01] [Server thread/INFO]: [Not Secure] <restrepojc> a mimir?
-[12:58:12] [Server thread/INFO]: [Not Secure] <pauloR2001> yo creo que tenemos vidrio
-[12:59:02] [Server thread/INFO]: [Not Secure] <restrepojc> solo tenemos esos dos stacks de vidrio
-[12:59:09] [Server thread/INFO]: [Not Secure] <pauloR2001> suficiente
-[12:59:11] [Server thread/INFO]: [Not Secure] <restrepojc> el que tengo es panel de vidiro
-[12:59:16] [Server thread/INFO]: [Not Secure] <restrepojc> oka
-[12:59:33] [Server thread/INFO]: [Not Secure] <restrepojc> el guijarro aun se encuentra en la grava?
-[12:59:41] [Server thread/INFO]: [Not Secure] <pauloR2001> no
-[12:59:47] [Server thread/INFO]: [Not Secure] <restrepojc> xd
-[12:59:49] [Server thread/INFO]: [Not Secure] <pauloR2001> piedra de cualquiera es lo que qereemos
-[13:00:52] [Server thread/INFO]: pauloR2001 has made the advancement [A Seedy Place]
-[13:01:34] [Server thread/INFO]: [Not Secure] <pauloR2001> hay botellas?
-[13:01:56] [Server thread/INFO]: [Not Secure] <restrepojc> creo que no he visto
-[13:02:38] [Server thread/INFO]: [Not Secure] <restrepojc> en los cofres no hay
-[13:02:42] [Server thread/INFO]: [Not Secure] <pauloR2001> ya hize
-[13:02:57] [Server thread/INFO]: [Not Secure] <restrepojc> que falta?
-[13:03:33] [Server thread/INFO]: [Not Secure] <pauloR2001> piedra, hierro, 4 tolvas,
-[13:04:02] [Server thread/INFO]: [Not Secure] <restrepojc> ok hago las tolvas
-[13:06:03] [Server thread/INFO]: [Not Secure] <restrepojc> listas las tolvas
-[13:06:11] [Server thread/INFO]: [Not Secure] <pauloR2001> hago las pociones y listo.
-[13:06:24] [Server thread/INFO]: [Not Secure] <pauloR2001> haste armadura entera de hierro y una sola pieza de oro
-[13:07:35] [Server thread/INFO]: Villager cyx['Villager'/8092, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.86] died, message: 'Villager was squished too much'
-[13:08:42] [Server thread/INFO]: [Not Secure] <restrepojc> cual pieza? el casco?
-[13:09:03] [Server thread/INFO]: [Not Secure] <pauloR2001> botas
-[13:09:15] [Server thread/INFO]: [Not Secure] <restrepojc> oka
-[13:09:30] [Server thread/INFO]: [Not Secure] <pauloR2001> dormi
-[13:09:31] [Server thread/INFO]: restrepojc has made the advancement [Suit Up]
-[13:09:56] [Server thread/INFO]: [Not Secure] <pauloR2001> los blaze son senores supremos del nether asi que mejor encanta lo que puedas
-[13:10:37] [Server thread/INFO]: [Not Secure] <restrepojc> solo tengo 8 de exp
-[13:11:31] [Server thread/INFO]: [Not Secure] <pauloR2001> encanta el peto.
-[13:18:08] [Server thread/INFO]: Villager cyx['Villager'/8089, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.74] died, message: 'Villager was squished too much'
-[13:18:12] [Server thread/INFO]: restrepojc has made the advancement [Enchanter]
-[13:20:08] [Server thread/INFO]: Villager cyx['Villager'/8075, l='ServerLevel[world]', x=-3826.59, y=117.00, z=3429.12] died, message: 'Villager was squished too much'
-[13:20:09] [Server thread/INFO]: Villager cyx['Villager'/8082, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3429.19] died, message: 'Villager was squished too much'
-[13:20:09] [Server thread/INFO]: Villager cyx['Villager'/8094, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3429.70] died, message: 'Villager was squished too much'
-[13:25:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[13:26:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[13:27:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[13:30:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2058ms or 41 ticks behind
-[13:30:37] [Server thread/INFO]: [restrepojc: Teleported restrepojc to pauloR2001]
-[13:33:10] [Server thread/INFO]: [Not Secure] <pauloR2001> fortress: nether (-549,1002), overworld (-68.6,125.25)
-[13:34:16] [Server thread/INFO]: restrepojc lost connection: Disconnected
-[13:34:16] [Server thread/INFO]: restrepojc left the game
-[13:34:16] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[13:34:16] [Server thread/INFO]: pauloR2001 left the game
+[16:52:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[16:52:35] [ServerMain/INFO]: Loaded 1461 recipes
+[16:52:35] [ServerMain/INFO]: Loaded 1574 advancements
+[16:52:35] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[16:52:35] [Server thread/INFO]: Loading properties
+[16:52:35] [Server thread/INFO]: Default game type: SURVIVAL
+[16:52:35] [Server thread/INFO]: Generating keypair
+[16:52:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:52:35] [Server thread/INFO]: Using default channel type
+[16:52:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:52:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:52:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:52:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:52:36] [Server thread/INFO]: Preparing level "world"
+[16:52:36] [Server thread/INFO]: Loading 0 persistent chunks...
+[16:52:36] [Server thread/INFO]: Preparing spawn area: 100%
+[16:52:36] [Server thread/INFO]: Time elapsed: 184 ms
+[16:52:36] [Server thread/INFO]: Done (0.538s)! For help, type "help"
+[16:53:36] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[17:21:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 1153631ms or 23072 ticks behind
+[17:23:41] [Server thread/INFO]: pauloR2001[/127.0.0.1:58074] logged in with entity id 119 at (-3704.8938109343335, 77.0, 3395.7240316771877)
+[17:23:41] [Server thread/INFO]: pauloR2001 joined the game
+[17:23:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2160ms or 43 ticks behind
+[17:24:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2859ms or 57 ticks behind
+[17:35:02] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[17:35:02] [Server thread/INFO]: pauloR2001 left the game
+[17:35:46] [Server thread/INFO]: andresr255[/127.58.7.225:60790] logged in with entity id 3072 at (-3970.212249402797, 68.0, 3285.1962583045133)
+[17:35:46] [Server thread/INFO]: andresr255 joined the game
+[17:40:17] [Server thread/INFO]: Villager cyx['Villager'/3168, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3429.18] died, message: 'Villager was squished too much'
+[18:00:48] [Server thread/INFO]: Villager cyx['Villager'/3150, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3429.17] died, message: 'Villager was squished too much'
+[18:06:43] [Server thread/INFO]: Villager cyx['Villager'/3162, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3427.30] died, message: 'Villager was squished too much'
+[18:06:44] [Server thread/INFO]: Villager cyx['Villager'/3159, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.76] died, message: 'Villager was squished too much'
+[18:15:49] [Server thread/INFO]: Villager cyx['Villager'/3153, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3427.30] died, message: 'Villager was squished too much'
+[18:20:03] [Server thread/INFO]: andresr255 lost connection: Disconnected
+[18:20:03] [Server thread/INFO]: andresr255 left the game
+[18:21:03] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:10:02] [Server thread/INFO]: pauloR2001[/127.0.0.1:50577] logged in with entity id 11548 at (274.98669931463854, 50.0, -3.0535964578063277)
+[19:10:02] [Server thread/INFO]: pauloR2001 joined the game
+[19:12:24] [Server thread/INFO]: restrepojc[/127.154.24.38:59211] logged in with entity id 12066 at (-3727.802039134635, 138.0, 3390.597490393319)
+[19:12:24] [Server thread/INFO]: restrepojc joined the game
+[19:16:03] [Server thread/INFO]: andresr255[/127.58.7.225:59219] logged in with entity id 14031 at (-3918.887977295917, 63.0, 3342.0993414655295)
+[19:16:03] [Server thread/INFO]: andresr255 joined the game
+[19:16:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[19:16:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[19:16:51] [Server thread/INFO]: jorgehjhn[/127.58.7.225:59223] logged in with entity id 14592 at (-3958.971187819666, 70.0, 3299.231852764384)
+[19:16:51] [Server thread/INFO]: jorgehjhn joined the game
+[19:17:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8532ms or 170 ticks behind
+[19:17:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8784ms or 175 ticks behind
+[19:17:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7880ms or 157 ticks behind
+[19:18:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6869ms or 137 ticks behind
+[19:18:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15071ms or 301 ticks behind
+[19:19:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7156ms or 143 ticks behind
+[19:19:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6599ms or 131 ticks behind
+[19:19:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6383ms or 127 ticks behind
+[19:20:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10797ms or 215 ticks behind
+[19:20:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11491ms or 229 ticks behind
+[19:21:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8683ms or 173 ticks behind
+[19:21:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2664ms or 53 ticks behind
+[19:21:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4753ms or 95 ticks behind
+[19:22:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7842ms or 156 ticks behind
+[19:22:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2200ms or 44 ticks behind
+[19:22:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3710ms or 74 ticks behind
+[19:22:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4972ms or 99 ticks behind
+[19:23:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10736ms or 214 ticks behind
+[19:23:26] [Server thread/INFO]: Villager cyx['Villager'/12183, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.82] died, message: 'Villager was squished too much'
+[19:23:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[19:23:57] [Server thread/INFO]: Villager cyx['Villager'/12182, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3427.90] died, message: 'Villager was squished too much'
+[19:24:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8823ms or 176 ticks behind
+[19:24:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2066ms or 41 ticks behind
+[19:24:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[19:25:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5940ms or 118 ticks behind
+[19:25:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2433ms or 48 ticks behind
+[19:25:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2077ms or 41 ticks behind
+[19:26:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2649ms or 52 ticks behind
+[19:26:29] [Server thread/INFO]: [Not Secure] <pauloR2001> fortress: nether (-549,1002),
+[19:26:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[19:27:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[19:28:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[19:28:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[19:29:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3322ms or 66 ticks behind
+[19:31:54] [Server thread/WARN]: andresr255 moved too quickly! 9.895773369536073,0.0,1.7361174107763873
+[19:31:54] [Server thread/WARN]: jorgehjhn moved too quickly! 9.083547763098977,-2.0,-3.710485724825503
+[19:31:54] [Server thread/WARN]: restrepojc moved too quickly! 6.1490294783151285,0.0,-7.995239976496805
+[19:31:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27243ms or 544 ticks behind
+[19:32:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26038ms or 520 ticks behind
+[19:33:12] [Server thread/INFO]: restrepojc has made the advancement [Ice Bucket Challenge]
+[19:33:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23114ms or 462 ticks behind
+[19:34:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 35429ms or 708 ticks behind
+[19:34:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9971ms or 199 ticks behind
+[19:35:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[19:35:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2476ms or 49 ticks behind
+[19:36:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[19:37:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[19:37:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5463ms or 109 ticks behind
+[19:37:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7964ms or 159 ticks behind
+[19:38:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8367ms or 167 ticks behind
+[19:38:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5693ms or 113 ticks behind
+[19:38:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5492ms or 109 ticks behind
+[19:39:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2042ms or 40 ticks behind
+[19:39:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3008ms or 60 ticks behind
+[19:40:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[19:40:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4922ms or 98 ticks behind
+[19:40:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6126ms or 122 ticks behind
+[19:41:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5967ms or 119 ticks behind
+[19:41:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8936ms or 178 ticks behind
+[19:41:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3503ms or 70 ticks behind
+[19:42:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3703ms or 74 ticks behind
+[19:42:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7725ms or 154 ticks behind
+[19:42:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12165ms or 243 ticks behind
+[19:43:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4653ms or 93 ticks behind
+[19:43:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2478ms or 49 ticks behind
+[19:43:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6483ms or 129 ticks behind
+[19:44:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2958ms or 59 ticks behind
+[19:44:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3017ms or 60 ticks behind
+[19:44:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2551ms or 51 ticks behind
+[19:46:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[19:46:11] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[19:46:11] [Server thread/INFO]: pauloR2001 left the game
+[19:46:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7221ms or 144 ticks behind
+[19:47:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25380ms or 507 ticks behind
+[19:47:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9265ms or 185 ticks behind
+[19:47:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2873ms or 57 ticks behind
+[19:48:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8831ms or 176 ticks behind
+[19:48:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[19:53:14] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[19:53:14] [Server thread/INFO]: restrepojc left the game
+[19:57:01] [Server thread/INFO]: Villager cyx['Villager'/20426, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.86] died, message: 'Villager was squished too much'
+[20:01:26] [Server thread/INFO]: Villager cyx['Villager'/20435, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.81] died, message: 'Villager was squished too much'
+[20:05:42] [Server thread/INFO]: pauloR2001[/127.0.0.1:59298] logged in with entity id 30266 at (-554.6081184792777, 128.0, 1003.034634859093)
+[20:05:42] [Server thread/INFO]: pauloR2001 joined the game
+[20:06:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[20:07:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[20:07:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2952ms or 59 ticks behind
+[20:08:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[20:08:59] [Server thread/INFO]: Villager cyx['Villager'/20452, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.84] died, message: 'Villager was squished too much'
+[20:09:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2087ms or 41 ticks behind
+[20:09:37] [Server thread/WARN]: jorgehjhn moved too quickly! -9.959801197102934,-1.0,1.5862433817383135
+[20:10:31] [Server thread/INFO]: jorgehjhn fell from a high place
+[20:11:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[20:12:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3448ms or 68 ticks behind
+[20:12:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[20:14:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[20:14:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5251ms or 105 ticks behind
+[20:14:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3994ms or 79 ticks behind
+[20:15:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6077ms or 121 ticks behind
+[20:15:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7460ms or 149 ticks behind
+[20:15:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5257ms or 105 ticks behind
+[20:16:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4897ms or 97 ticks behind
+[20:16:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5710ms or 114 ticks behind
+[20:16:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4704ms or 94 ticks behind
+[20:17:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2233ms or 44 ticks behind
+[20:17:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[20:17:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[20:18:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3501ms or 70 ticks behind
+[20:18:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4927ms or 98 ticks behind
+[20:18:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3040ms or 60 ticks behind
+[20:19:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2132ms or 42 ticks behind
+[20:20:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20774ms or 415 ticks behind
+[20:20:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2709ms or 54 ticks behind
+[20:22:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[20:22:19] [Server thread/WARN]: pauloR2001 moved too quickly! 6.880532123128432,-4.1810261527744785,-15.391637027125398
+[20:22:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15106ms or 302 ticks behind
+[20:22:49] [Server thread/INFO]: pauloR2001 has completed the challenge [Return to Sender]
+[20:22:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6777ms or 135 ticks behind
+[20:23:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4060ms or 81 ticks behind
+[20:23:21] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[20:23:21] [Server thread/INFO]: pauloR2001 left the game
+[20:23:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2607ms or 52 ticks behind
+[20:24:29] [Server thread/INFO]: Villager cyx['Villager'/20427, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.30] died, message: 'Villager was squished too much'
+[20:24:29] [Server thread/INFO]: Villager cyx['Villager'/20444, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.30] died, message: 'Villager was squished too much'
+[20:41:57] [Server thread/INFO]: jorgehjhn was blown up by Creeper
+[20:48:13] [Server thread/INFO]: Villager cyx['Villager'/20446, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3427.84] died, message: 'Villager was squished too much'
+[20:54:39] [Server thread/INFO]: Villager cyx['Villager'/20463, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.89] died, message: 'Villager was squished too much'
+[20:57:43] [Server thread/WARN]: Oak Boat (vehicle of jorgehjhn) moved wrongly! 0.46416270767304013
+[21:03:58] [Server thread/INFO]: andresr255 lost connection: Disconnected
+[21:03:58] [Server thread/INFO]: andresr255 left the game
+[21:04:16] [Server thread/INFO]: jorgehjhn lost connection: Disconnected
+[21:04:16] [Server thread/INFO]: jorgehjhn left the game
+[21:05:16] [Server thread/INFO]: Server empty for 60 seconds, pausing
