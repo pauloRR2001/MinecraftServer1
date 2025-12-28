@@ -4,7 +4,7 @@ setlocal enabledelayedexpansion
 :: When setting the memory below make sure to include the amount of ram letter. M = MB, G = GB. Don't use 1GB for example, it's 1G
 
 :: This is the max memory
-set maxmemory=4G
+set maxmemory=8G
 
 :: The path to the Java to use. Use "java" to point to system default install.
 set javapath="java"
