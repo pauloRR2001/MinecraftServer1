@@ -1,104 +1,112 @@
-[12:03:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[12:03:43] [ServerMain/INFO]: Loaded 1461 recipes
-[12:03:43] [ServerMain/INFO]: Loaded 1574 advancements
-[12:03:44] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[12:03:44] [Server thread/INFO]: Loading properties
-[12:03:44] [Server thread/INFO]: Default game type: SURVIVAL
-[12:03:44] [Server thread/INFO]: Generating keypair
-[12:03:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:03:44] [Server thread/INFO]: Using default channel type
-[12:03:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:03:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:03:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:03:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:03:44] [Server thread/INFO]: Preparing level "world"
-[12:03:45] [Server thread/INFO]: Loading 0 persistent chunks...
-[12:03:45] [Server thread/INFO]: Preparing spawn area: 100%
-[12:03:45] [Server thread/INFO]: Time elapsed: 172 ms
-[12:03:45] [Server thread/INFO]: Done (0.548s)! For help, type "help"
-[12:04:45] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[12:10:50] [Server thread/INFO]: pauloR2001[/127.0.0.1:65150] logged in with entity id 19 at (-557.3000000119209, 56.0, 1025.5692932799489)
-[12:10:51] [Server thread/INFO]: pauloR2001 joined the game
-[12:10:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2280ms or 45 ticks behind
-[12:14:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2078ms or 41 ticks behind
-[12:14:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8957ms or 179 ticks behind
-[12:14:37] [Server thread/INFO]: momo70950[/127.73.51.155:65148] logged in with entity id 1191 at (-545.2743009614621, 128.0, 995.2567238559824)
-[12:14:37] [Server thread/INFO]: momo70950 joined the game
-[12:14:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[12:15:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2165ms or 43 ticks behind
-[12:15:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3485ms or 69 ticks behind
-[12:15:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
-[12:16:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
-[12:16:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4741ms or 94 ticks behind
-[12:18:01] [Server thread/INFO]: [pauloR2001: Set momo70950's game mode to Spectator Mode]
-[12:18:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[12:18:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3159ms or 63 ticks behind
-[12:19:52] [Server thread/INFO]: [pauloR2001: Set momo70950's game mode to Survival Mode]
-[12:20:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2141ms or 42 ticks behind
-[12:20:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3279ms or 65 ticks behind
-[12:21:01] [Server thread/INFO]: Villager cyx['Villager'/1080, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3427.67] died, message: 'Villager was squished too much'
-[12:22:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[12:22:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4245ms or 84 ticks behind
-[12:23:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7826ms or 156 ticks behind
-[12:23:24] [Server thread/INFO]: Villager cyx['Cartographer'/968, l='ServerLevel[world]', x=-3754.53, y=122.05, z=3371.30] died, message: 'Cartographer drowned'
-[12:30:15] [Server thread/INFO]: [Not Secure] <pauloR2001> dormi
-[12:30:23] [Server thread/INFO]: [Not Secure] <momo70950> end
-[12:33:18] [Server thread/INFO]: Villager cyx['Villager'/1077, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.30] died, message: 'Villager was squished too much'
-[12:33:22] [Server thread/INFO]: Villager cyx['Villager'/1082, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3427.58] died, message: 'Villager was squished too much'
-[12:33:22] [Server thread/INFO]: Villager cyx['Villager'/1072, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3427.79] died, message: 'Villager was squished too much'
-[12:33:29] [Server thread/INFO]: Villager cyx['Villager'/1073, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3427.88] died, message: 'Villager was squished too much'
-[12:46:17] [Server thread/INFO]: Villager cyx['Villager'/1074, l='ServerLevel[world]', x=-3827.33, y=118.42, z=3419.35] died, message: 'Villager was slain by momo70950'
-[12:46:25] [Server thread/INFO]: Villager cyx['Villager'/1101, l='ServerLevel[world]', x=-3802.80, y=120.00, z=3440.55] died, message: 'Villager was slain by momo70950'
-[12:46:31] [Server thread/INFO]: Villager cyx['Villager'/1100, l='ServerLevel[world]', x=-3817.59, y=119.00, z=3419.30] died, message: 'Villager was slain by momo70950'
-[12:46:34] [Server thread/INFO]: Villager cyx['Villager'/1093, l='ServerLevel[world]', x=-3820.75, y=119.00, z=3422.44] died, message: 'Villager was slain by momo70950'
-[12:46:40] [Server thread/INFO]: Villager cyx['Villager'/1095, l='ServerLevel[world]', x=-3835.42, y=119.00, z=3412.32] died, message: 'Villager was slain by momo70950'
-[12:46:42] [Server thread/INFO]: Villager cyx['Villager'/1104, l='ServerLevel[world]', x=-3839.31, y=119.00, z=3410.75] died, message: 'Villager was slain by momo70950'
-[12:46:47] [Server thread/INFO]: Villager cyx['Villager'/1102, l='ServerLevel[world]', x=-3845.43, y=120.00, z=3402.51] died, message: 'Villager was slain by momo70950'
-[12:46:53] [Server thread/INFO]: Villager cyx['Villager'/1098, l='ServerLevel[world]', x=-3821.18, y=119.00, z=3419.96] died, message: 'Villager was slain by momo70950'
-[12:46:58] [Server thread/INFO]: Villager cyx['Villager'/1096, l='ServerLevel[world]', x=-3805.11, y=119.00, z=3426.08] died, message: 'Villager was slain by momo70950'
-[12:47:01] [Server thread/INFO]: Villager cyx['Villager'/1111, l='ServerLevel[world]', x=-3814.70, y=119.00, z=3430.71] died, message: 'Villager was slain by momo70950'
-[12:47:12] [Server thread/INFO]: Villager cyx['Villager'/1092, l='ServerLevel[world]', x=-3830.39, y=121.00, z=3422.04] died, message: 'Villager was slain by momo70950'
-[12:47:18] [Server thread/INFO]: Villager cyx['Villager'/1081, l='ServerLevel[world]', x=-3823.30, y=114.00, z=3435.17] died, message: 'Villager was slain by momo70950'
-[12:47:19] [Server thread/INFO]: Villager cyx['Villager'/1103, l='ServerLevel[world]', x=-3824.50, y=110.00, z=3437.30] died, message: 'Villager was slain by momo70950'
-[12:47:36] [Server thread/INFO]: Villager cyx['Villager'/8656, l='ServerLevel[world]', x=-3812.01, y=119.00, z=3428.50] died, message: 'Villager was slain by momo70950'
-[12:47:39] [Server thread/INFO]: Villager cyx['Villager'/1094, l='ServerLevel[world]', x=-3813.48, y=119.00, z=3427.85] died, message: 'Villager was slain by momo70950'
-[12:47:40] [Server thread/INFO]: Villager cyx['Villager'/1083, l='ServerLevel[world]', x=-3815.29, y=119.00, z=3422.46] died, message: 'Villager was slain by momo70950'
-[12:47:44] [Server thread/INFO]: Villager cyx['Villager'/1108, l='ServerLevel[world]', x=-3806.56, y=119.00, z=3421.66] died, message: 'Villager was slain by momo70950'
-[12:47:47] [Server thread/INFO]: Villager cyx['Villager'/1110, l='ServerLevel[world]', x=-3814.41, y=119.00, z=3430.33] died, message: 'Villager was slain by momo70950'
-[12:47:50] [Server thread/INFO]: Villager cyx['Villager'/1078, l='ServerLevel[world]', x=-3819.26, y=119.00, z=3420.85] died, message: 'Villager was slain by momo70950'
-[12:47:51] [Server thread/INFO]: Villager cyx['Villager'/1076, l='ServerLevel[world]', x=-3819.85, y=119.00, z=3419.82] died, message: 'Villager was slain by momo70950'
-[12:47:55] [Server thread/INFO]: Villager cyx['Villager'/1079, l='ServerLevel[world]', x=-3829.27, y=117.00, z=3422.46] died, message: 'Villager was slain by momo70950'
-[12:48:09] [Server thread/INFO]: Villager cyx['Villager'/1086, l='ServerLevel[world]', x=-3831.85, y=119.00, z=3415.43] died, message: 'Villager was slain by momo70950'
-[12:48:17] [Server thread/INFO]: Villager cyx['Villager'/1084, l='ServerLevel[world]', x=-3850.26, y=109.25, z=3413.55] died, message: 'Villager was slain by momo70950'
-[12:48:29] [Server thread/INFO]: Villager cyx['Villager'/1090, l='ServerLevel[world]', x=-3836.49, y=119.00, z=3402.99] died, message: 'Villager was slain by momo70950'
-[12:48:36] [Server thread/INFO]: Villager cyx['Villager'/1089, l='ServerLevel[world]', x=-3817.69, y=119.00, z=3422.51] died, message: 'Villager was slain by momo70950'
-[12:48:37] [Server thread/INFO]: Villager cyx['Villager'/1085, l='ServerLevel[world]', x=-3813.03, y=119.00, z=3420.01] died, message: 'Villager was slain by momo70950'
-[12:48:45] [Server thread/INFO]: Villager cyx['Villager'/1099, l='ServerLevel[world]', x=-3807.49, y=119.00, z=3406.14] died, message: 'Villager was slain by momo70950'
-[12:48:47] [Server thread/INFO]: Villager cyx['Villager'/1295, l='ServerLevel[world]', x=-3806.94, y=118.00, z=3402.94] died, message: 'Villager was slain by momo70950'
-[12:48:47] [Server thread/INFO]: Villager cyx['Villager'/1097, l='ServerLevel[world]', x=-3805.84, y=118.00, z=3402.71] died, message: 'Villager was slain by momo70950'
-[12:48:56] [Server thread/INFO]: Villager cyx['Villager'/1107, l='ServerLevel[world]', x=-3823.74, y=119.00, z=3422.55] died, message: 'Villager was slain by momo70950'
-[12:49:12] [Server thread/INFO]: Villager cyx['Villager'/1087, l='ServerLevel[world]', x=-3814.52, y=119.00, z=3425.57] died, message: 'Villager was slain by momo70950'
-[12:49:23] [Server thread/INFO]: Villager cyx['Villager'/1091, l='ServerLevel[world]', x=-3835.49, y=119.00, z=3413.71] died, message: 'Villager was slain by momo70950'
-[12:49:23] [Server thread/INFO]: Villager cyx['Villager'/1105, l='ServerLevel[world]', x=-3774.70, y=119.06, z=3358.54] died, message: 'Villager was slain by Zombie'
-[12:50:42] [Server thread/INFO]: Villager cyx['Villager'/1088, l='ServerLevel[world]', x=-3830.51, y=117.82, z=3422.53] died, message: 'Villager was slain by Zombie'
-[12:50:46] [Server thread/INFO]: Villager cyx['Villager'/1106, l='ServerLevel[world]', x=-3827.60, y=117.19, z=3423.84] died, message: 'Villager was slain by Zombie Villager'
-[12:50:51] [Server thread/INFO]: Villager cyx['Villager'/1075, l='ServerLevel[world]', x=-3827.45, y=117.19, z=3424.63] died, message: 'Villager was slain by Zombie Villager'
-[12:52:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[12:52:48] [Server thread/INFO]: Villager cyx['Villager'/1109, l='ServerLevel[world]', x=-3785.30, y=119.00, z=3411.93] died, message: 'Villager was slain by Zombie'
-[12:54:10] [Server thread/INFO]: Villager cyx['Villager'/10877, l='ServerLevel[world]', x=-3830.60, y=120.00, z=3425.08] died, message: 'Villager was slain by momo70950'
-[12:54:36] [Server thread/INFO]: Villager cyx['Villager'/13367, l='ServerLevel[world]', x=-3819.62, y=119.00, z=3434.54] died, message: 'Villager was slain by momo70950'
-[12:57:22] [Server thread/INFO]: Villager cyx['Villager'/3370, l='ServerLevel[world]', x=-3843.30, y=118.00, z=3409.51] died, message: 'Villager was slain by Zombie'
-[13:01:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2253ms or 45 ticks behind
-[13:01:50] [Server thread/WARN]: momo70950 moved too quickly! 4.363294681336924,-0.16761418702981246,17.653766090872978
-[13:02:11] [Server thread/INFO]: momo70950 was burned to a crisp while fighting Wither Skeleton
-[13:02:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[13:04:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[13:05:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[13:06:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
-[13:09:51] [Server thread/WARN]: momo70950 moved too quickly! 3.614383282394101,1.9513547288615314,-17.709427741504328
-[13:09:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[13:13:33] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[13:13:33] [Server thread/INFO]: momo70950 left the game
-[13:13:36] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[13:13:36] [Server thread/INFO]: pauloR2001 left the game
-[13:13:48] [Server thread/INFO]: Stopping server
+[13:17:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[13:17:51] [Yggdrasil Key Fetcher/ERROR]: Got an error with a html body connecting to https://api.minecraftservices.com/publickeys: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+
+<head>
+    <meta content='text/html; charset=utf-8' http-equiv='content-type' />
+    <style type='text/css'>
+        body {
+            font-family: Arial;
+            margin-left: 40px;
+        }
+
+        img {
+            border: 0 none;
+        }
+
+        #content {
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        #message h1 {
+            font-size: 24px;
+            font-weight: normal;
+            color: #000000;
+            margin: 34px 0px 0px 0px
+        }
+
+        #message h2 {
+            font-size: 20px;
+            font-weight: normal;
+            color: #000000;
+            margin: 34px 0px 0px 0px
+        }
+
+        #message p {
+            font-size: 16px;
+            color: #000000;
+            margin: 8px 0px 0px 0px
+        }
+
+        #message hr {
+            margin: 15px 0px
+        }
+
+        #errorref {
+            font-size: 11px;
+            color: #737373;
+            margin-top: 41px
+        }
+    </style>
+    <title>Service unavailable</title>
+</head>
+
+<body>
+    <div id='content'>
+        <div id='message'>
+            <h2>The request is blocked.</h2>
+        </div>
+        <div id='errorref'>
+            <span>20251229T181801Z-r196bf7dd852dgkjhC1MIAqzhw0000002180000000011czp            </span>
+        </div>
+    </div>
+</body>
+</html>
+
+[13:17:51] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 429
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-7.0.61.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-7.0.61.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-7.0.61.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-7.0.61.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[13:17:53] [ServerMain/INFO]: Loaded 1461 recipes
+[13:17:53] [ServerMain/INFO]: Loaded 1574 advancements
+[13:17:53] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[13:17:53] [Server thread/INFO]: Loading properties
+[13:17:53] [Server thread/INFO]: Default game type: SURVIVAL
+[13:17:53] [Server thread/INFO]: Generating keypair
+[13:17:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:17:54] [Server thread/INFO]: Using default channel type
+[13:17:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:17:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:17:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:17:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:17:54] [Server thread/INFO]: Preparing level "world"
+[13:17:54] [Server thread/INFO]: Loading 0 persistent chunks...
+[13:17:55] [Server thread/INFO]: Preparing spawn area: 100%
+[13:17:55] [Server thread/INFO]: Time elapsed: 41 ms
+[13:17:55] [Server thread/INFO]: Done (0.657s)! For help, type "help"
+[13:18:55] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[13:19:44] [Server thread/INFO]: momo70950[/127.0.0.1:58035] logged in with entity id 109 at (-3732.064125481396, 138.0, 3395.476169157988)
+[13:19:44] [Server thread/INFO]: momo70950 joined the game
+[13:19:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2120ms or 42 ticks behind
+[13:20:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4068ms or 81 ticks behind
+[13:20:06] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[13:20:06] [Server thread/INFO]: momo70950 left the game
+[13:20:17] [Server thread/INFO]: Stopping server
+[13:20:17] [Server thread/INFO]: Saving players
+[13:20:17] [Server thread/INFO]: Saving worlds
+[13:20:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:20:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:20:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:20:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:20:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:20:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:20:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
