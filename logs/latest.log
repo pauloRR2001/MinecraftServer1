@@ -1,92 +1,81 @@
-[18:15:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[18:15:34] [ServerMain/INFO]: Loaded 1461 recipes
-[18:15:34] [ServerMain/INFO]: Loaded 1574 advancements
-[18:15:37] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[18:15:37] [Server thread/INFO]: Loading properties
-[18:15:37] [Server thread/INFO]: Default game type: SURVIVAL
-[18:15:37] [Server thread/INFO]: Generating keypair
-[18:15:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:15:37] [Server thread/INFO]: Using default channel type
-[18:15:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:15:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:15:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:15:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:15:37] [Server thread/INFO]: Preparing level "world"
-[18:15:38] [Server thread/INFO]: Loading 0 persistent chunks...
-[18:15:38] [Server thread/INFO]: Preparing spawn area: 100%
-[18:15:38] [Server thread/INFO]: Time elapsed: 54 ms
-[18:15:38] [Server thread/INFO]: Done (0.848s)! For help, type "help"
-[18:16:38] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[18:17:55] [Server thread/INFO]: momo70950[/127.73.51.155:54887] logged in with entity id 142 at (-3759.1708389397504, 138.0, 3379.4339869005157)
-[18:17:55] [Server thread/INFO]: momo70950 joined the game
-[18:17:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[18:18:04] [Server thread/INFO]: pauloR2001[/127.0.0.1:54902] logged in with entity id 236 at (-3742.367144710408, 138.0, 3388.5683655902762)
-[18:18:05] [Server thread/INFO]: pauloR2001 joined the game
-[18:18:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8246ms or 164 ticks behind
-[18:32:33] [Server thread/INFO]: Villager cyx['Cartographer'/71, l='ServerLevel[world]', x=-3754.45, y=122.05, z=3371.30] died, message: 'Cartographer drowned'
-[18:33:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[18:35:27] [Server thread/INFO]: Villager cyx['Villager'/191, l='ServerLevel[world]', x=-3845.60, y=119.06, z=3402.86] died, message: 'Villager was slain by momo70950'
-[18:39:14] [Server thread/INFO]: Villager cyx['Villager'/6064, l='ServerLevel[world]', x=-3814.50, y=119.00, z=3435.46] died, message: 'Villager was slain by momo70950'
-[18:40:29] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[18:41:25] [Server thread/INFO]: Villager cyx['Villager'/7524, l='ServerLevel[world]', x=-3812.78, y=120.00, z=3414.24] died, message: 'Villager was slain by momo70950'
-[18:42:17] [Server thread/INFO]: [Not Secure] <pauloR2001> skeleton spawner overworld: -3779 -27 3419
-[18:42:50] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[18:59:53] [Server thread/INFO]: [Not Secure] <pauloR2001> -3782 y 3427
-[19:02:50] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to momo70950]
-[19:11:53] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[19:11:53] [Server thread/INFO]: momo70950 left the game
-[19:14:57] [Server thread/INFO]: [Not Secure] <pauloR2001> -3781 -40 3428
-[19:15:54] [Server thread/INFO]: momo70950[/127.73.51.155:50991] logged in with entity id 14700 at (-3782.4236705828253, -39.78969137744549, 3426.5361442785347)
-[19:15:54] [Server thread/INFO]: momo70950 joined the game
-[19:19:08] [Server thread/INFO]: [Not Secure] <pauloR2001> -3783 -41 3428
-[19:22:51] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[19:22:51] [Server thread/INFO]: momo70950 left the game
-[19:23:19] [Server thread/INFO]: momo70950[/127.73.51.155:51000] logged in with entity id 16122 at (-3783.300000011921, 71.56476089798383, 3428.300000011921)
-[19:23:19] [Server thread/INFO]: momo70950 joined the game
-[19:24:32] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[19:26:40] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[19:29:10] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[19:29:10] [Server thread/INFO]: momo70950 left the game
-[19:29:16] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[19:29:16] [Server thread/INFO]: pauloR2001 left the game
-[19:29:30] [Netty Server IO #0/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at aad.a(SourceFile:50) ~[server-1.21.10.jar:?]
-	at aad.encode(SourceFile:14) ~[server-1.21.10.jar:?]
-	at wz.a(SourceFile:26) ~[server-1.21.10.jar:?]
-	at wz.encode(SourceFile:12) ~[server-1.21.10.jar:?]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at wk$2.write(SourceFile:524) ~[server-1.21.10.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at wk.c(SourceFile:350) ~[server-1.21.10.jar:?]
-	at wk.b(SourceFile:342) ~[server-1.21.10.jar:?]
-	at wk.a(SourceFile:324) ~[server-1.21.10.jar:?]
-	at wk.a(SourceFile:318) ~[server-1.21.10.jar:?]
-	at wk.exceptionCaught(SourceFile:169) ~[server-1.21.10.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:31:17] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:31:23] [ServerMain/INFO]: Loaded 1461 recipes
+[21:31:23] [ServerMain/INFO]: Loaded 1574 advancements
+[21:31:24] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[21:31:24] [Server thread/INFO]: Loading properties
+[21:31:24] [Server thread/INFO]: Default game type: SURVIVAL
+[21:31:24] [Server thread/INFO]: Generating keypair
+[21:31:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:31:24] [Server thread/INFO]: Using default channel type
+[21:31:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:31:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:31:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:31:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:31:25] [Server thread/INFO]: Preparing level "world"
+[21:31:25] [Server thread/INFO]: Loading 0 persistent chunks...
+[21:31:25] [Server thread/INFO]: Preparing spawn area: 100%
+[21:31:26] [Server thread/INFO]: Time elapsed: 59 ms
+[21:31:26] [Server thread/INFO]: Done (0.875s)! For help, type "help"
+[21:32:26] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:33:09] [Server thread/INFO]: pauloR2001[/127.0.0.1:54302] logged in with entity id 110 at (-3784.699999988079, -39.0, 3427.2563602788377)
+[21:33:09] [Server thread/INFO]: pauloR2001 joined the game
+[21:33:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[21:38:34] [Server thread/INFO]: momo70950[/127.73.51.155:58859] logged in with entity id 1399 at (-3781.6139954170085, -40.0, 3425.433995462723)
+[21:38:34] [Server thread/INFO]: momo70950 joined the game
+[21:40:57] [Server thread/WARN]: momo70950 moved too quickly! 0.024034667322212044,-10.184074939147294,-0.28715004040032
+[21:42:34] [Server thread/WARN]: momo70950 moved too quickly! -0.02949319749723145,-11.183315841704854,-0.22010136864673768
+[21:42:58] [Server thread/WARN]: momo70950 moved too quickly! 0.0,-11.19886200217772,0.0
+[21:47:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5473ms or 109 ticks behind
+[21:53:42] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[21:55:03] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[21:56:06] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[21:57:56] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[22:05:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[22:05:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3271ms or 65 ticks behind
+[22:07:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2055ms or 41 ticks behind
+[22:08:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[22:08:21] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-4533, y=68, z=8470} ja{x=-4532, y=67, z=8470}
+[22:09:26] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-4551, y=67, z=8463} ja{x=-4552, y=67, z=8460}
+[22:09:26] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-4551, y=68, z=8463} ja{x=-4550, y=68, z=8459}
+[22:15:42] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[22:15:55] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[22:18:47] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
+[22:24:30] [Server thread/WARN]: momo70950 moved too quickly! -11.476812926810453,-2.4150489239656565,-13.060721601735793
+[22:28:24] [Server thread/WARN]: pauloR2001 moved too quickly! -11.924600017406192,-3.625299211998879,-12.895918646929431
+[22:28:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2353ms or 47 ticks behind
+[22:29:42] [Server thread/WARN]: pauloR2001 moved too quickly! 10.980030500553767,-2.1360743821314827,-14.565618037846434
+[22:29:42] [Server thread/WARN]: momo70950 moved too quickly! -9.320448190528623,0.9986640208878583,-3.9191524779885185
+[22:29:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3712ms or 74 ticks behind
+[22:29:46] [Server thread/WARN]: pauloR2001 moved too quickly! 7.273210309116621,-6.094119949859859,-14.810078145311763
+[22:29:46] [Server thread/WARN]: momo70950 moved too quickly! -7.517612494510104,0.001335979112141672,-6.793553523311402
+[22:29:52] [Server thread/WARN]: momo70950 moved too quickly! -2.803532852094577,0.07242780368044066,-9.755233632334466
+[22:29:52] [Server thread/WARN]: pauloR2001 moved too quickly! -0.2658145318418974,-0.6645208042457114,-17.643773007504024
+[22:30:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7799ms or 155 ticks behind
+[22:30:17] [Server thread/WARN]: pauloR2001 moved too quickly! -11.579521271654812,-5.0757492314290005,-13.73334496018083
+[22:30:22] [Server thread/WARN]: pauloR2001 moved too quickly! 7.402445668827568,-3.901120935903407,-15.594460976243454
+[22:30:26] [Server thread/WARN]: pauloR2001 moved too quickly! 4.942140259694497,-3.6711254225284904,-17.013815043526847
+[22:30:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15977ms or 319 ticks behind
+[22:30:37] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
+[22:34:50] [Server thread/INFO]: [Not Secure] <pauloR2001> witch hut: overworld (-8412,70,-1947), nether (-1051.5,y,-243.38)
+[22:36:39] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[22:37:36] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -3754.500000, 145.500000, 3399.500000]
+[22:37:42] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[22:38:26] [Server thread/INFO]: [Not Secure] <pauloR2001> witch hut: overworld (-8412,70,-1947), nether (-1051.5,y,-243.38)
+[22:42:25] [Server thread/INFO]: pauloR2001 has completed the challenge [Subspace Bubble]
+[22:42:42] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[22:42:42] [Server thread/INFO]: pauloR2001 left the game
+[22:43:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2604ms or 52 ticks behind
+[22:46:25] [Server thread/INFO]: momo70950 has completed the challenge [Subspace Bubble]
+[22:56:35] [Server thread/INFO]: pauloR2001[/127.0.0.1:56045] logged in with entity id 43695 at (-8373.379958703521, 80.0, -1914.3411622058293)
+[22:56:35] [Server thread/INFO]: pauloR2001 joined the game
+[22:56:50] [Server thread/INFO]: [Not Secure] <momo70950> call?
+[22:57:06] [Server thread/INFO]: [Not Secure] <pauloR2001> pues yo creo que ya viamos a dormir
+[22:57:13] [Server thread/INFO]: [Not Secure] <momo70950> tu me dices
+[22:58:45] [Server thread/INFO]: [Not Secure] <pauloR2001> si yo creo que jugamos manana
+[22:58:53] [Server thread/INFO]: [Not Secure] <momo70950> dale
+[22:59:05] [Server thread/INFO]: [Not Secure] <momo70950> chao
+[22:59:08] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[22:59:08] [Server thread/INFO]: momo70950 left the game
+[22:59:09] [Server thread/INFO]: [Not Secure] <pauloR2001> chao
+[22:59:12] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[22:59:12] [Server thread/INFO]: pauloR2001 left the game

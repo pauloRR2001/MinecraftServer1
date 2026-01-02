@@ -29,6 +29,7 @@
       "minecraft:beach": "2025-12-23 23:07:08 -0500",
       "minecraft:dark_forest": "2025-11-22 22:42:18 -0500",
       "minecraft:mangrove_swamp": "2025-12-26 19:31:59 -0500",
+      "minecraft:sparse_jungle": "2026-01-01 22:24:45 -0500",
       "minecraft:river": "2025-11-22 22:50:00 -0500",
       "minecraft:lukewarm_ocean": "2025-12-28 22:27:49 -0500",
       "minecraft:snowy_plains": "2025-11-23 00:49:06 -0500",
@@ -3820,6 +3821,48 @@
   "minecraft:recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore": {
     "criteria": {
       "has_deepslate_lapis_ore": "2025-12-28 21:35:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-01-01 22:15:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2026-01-01 22:15:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-01-01 22:15:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-01-01 22:15:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-01-01 22:15:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-01-01 22:15:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2026-01-01 22:42:25 -0500"
     },
     "done": true
   },
