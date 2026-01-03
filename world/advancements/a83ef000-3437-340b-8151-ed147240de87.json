@@ -517,6 +517,7 @@
       "minecraft:spider": "2025-12-25 17:14:07 -0500",
       "minecraft:zombie": "2025-12-25 17:12:14 -0500",
       "minecraft:creeper": "2025-12-25 22:19:05 -0500",
+      "minecraft:drowned": "2026-01-03 15:06:45 -0500",
       "minecraft:zombie_villager": "2025-12-28 20:46:00 -0500",
       "minecraft:slime": "2025-12-28 21:57:32 -0500"
     },
@@ -3099,6 +3100,24 @@
   "minecraft:recipes/building_blocks/dripstone_block": {
     "criteria": {
       "has_pointed_dripstone": "2026-01-03 13:27:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2026-01-03 14:20:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2026-01-03 14:27:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2026-01-03 14:20:19 -0500"
     },
     "done": true
   },
