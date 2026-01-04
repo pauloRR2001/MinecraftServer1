@@ -37,6 +37,7 @@
       "minecraft:old_growth_birch_forest": "2025-11-23 00:35:08 -0500",
       "minecraft:deep_dark": "2025-12-31 19:04:43 -0500",
       "minecraft:swamp": "2026-01-01 22:30:38 -0500",
+      "minecraft:grove": "2026-01-04 12:43:28 -0500",
       "minecraft:meadow": "2025-12-06 21:32:55 -0500",
       "minecraft:savanna": "2025-12-06 23:40:59 -0500",
       "minecraft:plains": "2025-12-06 23:36:12 -0500",
@@ -3933,6 +3934,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2026-01-03 18:44:50 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2026-01-03 18:44:52 -0500"
@@ -3942,12 +3949,6 @@
   "minecraft:recipes/building_blocks/smooth_sandstone": {
     "criteria": {
       "has_sandstone": "2026-01-03 18:44:52 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/orange_glazed_terracotta": {
-    "criteria": {
-      "has_orange_terracotta": "2026-01-03 18:44:50 -0500"
     },
     "done": true
   },
@@ -3966,18 +3967,6 @@
   "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2026-01-03 18:44:52 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
-    "criteria": {
-      "has_cut_sandstone": "2026-01-03 18:45:03 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
-    "criteria": {
-      "has_cut_sandstone": "2026-01-03 18:45:03 -0500"
     },
     "done": true
   },
@@ -4014,6 +4003,18 @@
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_sandstone": "2026-01-03 18:44:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2026-01-03 18:45:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2026-01-03 18:45:03 -0500"
     },
     "done": true
   },
