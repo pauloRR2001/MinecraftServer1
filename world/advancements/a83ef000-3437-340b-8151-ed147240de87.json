@@ -7,16 +7,23 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2025-12-25 17:41:28 -0500",
       "minecraft:old_growth_pine_taiga": "2025-12-13 17:04:39 -0500",
       "minecraft:dark_forest": "2025-12-25 16:57:15 -0500",
       "minecraft:forest": "2025-12-28 01:29:45 -0500",
-      "minecraft:sunflower_plains": "2025-12-13 17:13:52 -0500",
+      "minecraft:taiga": "2026-01-03 18:07:03 -0500",
       "minecraft:river": "2025-12-25 17:54:48 -0500",
-      "minecraft:meadow": "2025-12-28 20:38:40 -0500",
-      "minecraft:birch_forest": "2025-12-25 17:54:56 -0500",
+      "minecraft:snowy_plains": "2026-01-03 17:49:39 -0500",
       "minecraft:lush_caves": "2025-12-13 17:10:32 -0500",
       "minecraft:dripstone_caves": "2025-12-28 21:17:48 -0500",
+      "minecraft:snowy_taiga": "2026-01-03 17:49:02 -0500",
+      "minecraft:old_growth_birch_forest": "2025-12-25 17:41:28 -0500",
+      "minecraft:frozen_ocean": "2026-01-03 17:52:44 -0500",
+      "minecraft:frozen_river": "2026-01-03 17:49:24 -0500",
+      "minecraft:deep_frozen_ocean": "2026-01-03 17:54:28 -0500",
+      "minecraft:sunflower_plains": "2025-12-13 17:13:52 -0500",
+      "minecraft:meadow": "2025-12-28 20:38:40 -0500",
+      "minecraft:birch_forest": "2025-12-25 17:54:56 -0500",
+      "minecraft:snowy_beach": "2026-01-03 17:52:35 -0500",
       "minecraft:plains": "2025-12-28 01:29:54 -0500",
       "minecraft:pale_garden": "2025-12-25 17:51:14 -0500"
     },
@@ -3109,15 +3116,75 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2026-01-03 14:20:19 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_deepslate": {
     "criteria": {
       "has_cobbled_deepslate_slab": "2026-01-03 14:27:51 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bone_block": {
+  "minecraft:recipes/decorations/yellow_candle": {
     "criteria": {
-      "has_bone_meal": "2026-01-03 14:20:19 -0500"
+      "has_yellow_dye": "2026-01-03 16:51:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2026-01-03 17:05:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-01-03 16:51:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/yellow_bundle": {
+    "criteria": {
+      "has_yellow_dye": "2026-01-03 16:51:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_yellow_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-01-03 16:51:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-01-03 16:51:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_shelf": {
+    "criteria": {
+      "has_stripped_dark_oak_log": "2026-01-03 17:05:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-01-03 16:51:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_yellow_dye": "2026-01-03 16:51:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-01-03 17:05:34 -0500"
     },
     "done": true
   },
