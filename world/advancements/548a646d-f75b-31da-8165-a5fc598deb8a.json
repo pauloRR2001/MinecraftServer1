@@ -10,11 +10,14 @@
       "minecraft:cold_ocean": "2025-12-23 23:10:02 -0500",
       "minecraft:snowy_slopes": "2025-12-06 23:37:10 -0500",
       "minecraft:old_growth_pine_taiga": "2025-11-22 21:13:23 -0500",
+      "minecraft:mushroom_fields": "2026-01-05 23:58:44 -0500",
       "minecraft:forest": "2025-11-23 00:45:30 -0500",
       "minecraft:taiga": "2025-11-23 00:44:40 -0500",
       "minecraft:deep_ocean": "2025-12-28 20:40:08 -0500",
       "minecraft:lush_caves": "2025-11-22 21:29:50 -0500",
       "minecraft:deep_cold_ocean": "2025-12-28 20:39:33 -0500",
+      "minecraft:eroded_badlands": "2026-01-06 00:17:26 -0500",
+      "minecraft:desert": "2026-01-06 00:18:39 -0500",
       "minecraft:frozen_river": "2025-11-23 00:49:05 -0500",
       "minecraft:deep_frozen_ocean": "2025-12-28 20:53:55 -0500",
       "minecraft:ocean": "2025-12-23 23:07:14 -0500",
@@ -24,6 +27,9 @@
       "minecraft:birch_forest": "2025-11-23 01:13:21 -0500",
       "minecraft:old_growth_spruce_taiga": "2025-11-23 00:43:10 -0500",
       "minecraft:bamboo_jungle": "2025-12-28 22:28:46 -0500",
+      "minecraft:warm_ocean": "2026-01-06 00:14:26 -0500",
+      "minecraft:deep_lukewarm_ocean": "2026-01-06 00:20:43 -0500",
+      "minecraft:badlands": "2026-01-06 00:17:21 -0500",
       "minecraft:flower_forest": "2025-12-06 23:42:25 -0500",
       "minecraft:savanna_plateau": "2025-12-06 23:39:53 -0500",
       "minecraft:beach": "2025-12-23 23:07:08 -0500",
@@ -37,6 +43,7 @@
       "minecraft:snowy_taiga": "2025-11-23 00:49:29 -0500",
       "minecraft:dripstone_caves": "2025-12-06 23:49:25 -0500",
       "minecraft:old_growth_birch_forest": "2025-11-23 01:12:47 -0500",
+      "minecraft:deep_dark": "2026-01-05 23:42:17 -0500",
       "minecraft:swamp": "2025-12-28 22:25:04 -0500",
       "minecraft:meadow": "2025-12-06 23:32:56 -0500",
       "minecraft:savanna": "2025-12-06 23:40:57 -0500",
@@ -969,6 +976,7 @@
       "minecraft:ender_dragon": "2025-12-13 01:17:38 -0500",
       "minecraft:hoglin": "2025-11-23 20:26:30 -0500",
       "minecraft:shulker": "2025-12-13 17:21:32 -0500",
+      "minecraft:vindicator": "2026-01-05 23:03:25 -0500",
       "minecraft:enderman": "2025-11-23 20:38:23 -0500",
       "minecraft:endermite": "2025-12-22 19:22:40 -0500",
       "minecraft:spider": "2025-11-22 23:16:07 -0500",
@@ -3989,6 +3997,24 @@
   "minecraft:recipes/food/suspicious_stew_from_white_tulip": {
     "criteria": {
       "has_white_tulip": "2026-01-05 15:02:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2026-01-05 23:04:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2026-01-05 22:40:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2026-01-05 22:40:08 -0500"
     },
     "done": true
   },

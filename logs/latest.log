@@ -1,206 +1,39 @@
-[13:59:09] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[13:59:10] [Yggdrasil Key Fetcher/ERROR]: Got an error with a html body connecting to https://api.minecraftservices.com/publickeys: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
-<html xmlns='http://www.w3.org/1999/xhtml'>
-
-<head>
-    <meta content='text/html; charset=utf-8' http-equiv='content-type' />
-    <style type='text/css'>
-        body {
-            font-family: Arial;
-            margin-left: 40px;
-        }
-
-        img {
-            border: 0 none;
-        }
-
-        #content {
-            margin-left: auto;
-            margin-right: auto
-        }
-
-        #message h1 {
-            font-size: 24px;
-            font-weight: normal;
-            color: #000000;
-            margin: 34px 0px 0px 0px
-        }
-
-        #message h2 {
-            font-size: 20px;
-            font-weight: normal;
-            color: #000000;
-            margin: 34px 0px 0px 0px
-        }
-
-        #message p {
-            font-size: 16px;
-            color: #000000;
-            margin: 8px 0px 0px 0px
-        }
-
-        #message hr {
-            margin: 15px 0px
-        }
-
-        #errorref {
-            font-size: 11px;
-            color: #737373;
-            margin-top: 41px
-        }
-    </style>
-    <title>Service unavailable</title>
-</head>
-
-<body>
-    <div id='content'>
-        <div id='message'>
-            <h2>The request is blocked.</h2>
-        </div>
-        <div id='errorref'>
-            <span>20260105T185909Z-16bc5d7d45cbr7l8hC1BN1dpw80000002py0000000003qtz            </span>
-        </div>
-    </div>
-</body>
-</html>
-
-[13:59:10] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 429
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-7.0.61.jar:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-7.0.61.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-7.0.61.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-7.0.61.jar:?]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[13:59:11] [ServerMain/INFO]: Loaded 1461 recipes
-[13:59:11] [ServerMain/INFO]: Loaded 1574 advancements
-[13:59:12] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[13:59:12] [Server thread/INFO]: Loading properties
-[13:59:12] [Server thread/INFO]: Default game type: SURVIVAL
-[13:59:12] [Server thread/INFO]: Generating keypair
-[13:59:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:59:12] [Server thread/INFO]: Using default channel type
-[13:59:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:59:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:59:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:59:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:59:12] [Server thread/INFO]: Preparing level "world"
-[13:59:12] [Server thread/INFO]: Loading 0 persistent chunks...
-[13:59:12] [Server thread/INFO]: Preparing spawn area: 100%
-[13:59:12] [Server thread/INFO]: Time elapsed: 102 ms
-[13:59:12] [Server thread/INFO]: Done (0.438s)! For help, type "help"
-[14:00:12] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[14:01:06] [Server thread/INFO]: pauloR2001[/127.0.0.1:65215] logged in with entity id 69 at (-4822.186764239694, 75.0, 4081.032339635681)
-[14:01:06] [Server thread/INFO]: pauloR2001 joined the game
-[14:01:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2194ms or 43 ticks behind
-[14:02:19] [Server thread/INFO]: momo70950[/127.73.51.155:61515] logged in with entity id 542 at (-568.6999999880791, 52.0, 1015.4875000119209)
-[14:02:19] [Server thread/INFO]: momo70950 joined the game
-[14:02:46] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[14:13:29] [Server thread/INFO]: momo70950 has made the advancement [Voluntary Exile]
-[14:15:53] [Server thread/INFO]: pauloR2001 has made the advancement [Voluntary Exile]
-[14:32:11] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[14:32:11] [Server thread/INFO]: pauloR2001 left the game
-[14:33:16] [Server thread/INFO]: pauloR2001[/127.0.0.1:59330] logged in with entity id 9991 at (-4826.128362426492, 65.0, 3731.098114607045)
-[14:33:16] [Server thread/INFO]: pauloR2001 joined the game
-[14:40:20] [Server thread/INFO]: [Not Secure] <momo70950> -4825 66 3735
-[14:55:11] [Server thread/INFO]: Villager cyx['Villager'/13579, l='ServerLevel[world]', x=-3826.51, y=117.18, z=3428.30] died, message: 'Villager was slain by momo70950'
-[14:55:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[14:55:21] [Server thread/INFO]: Villager cyx['Villager'/13583, l='ServerLevel[world]', x=-3826.51, y=117.26, z=3428.30] died, message: 'Villager was slain by momo70950'
-[14:55:23] [Server thread/INFO]: Villager cyx['Villager'/13584, l='ServerLevel[world]', x=-3826.30, y=117.27, z=3428.30] died, message: 'Villager was slain by momo70950'
-[14:55:23] [Server thread/INFO]: Villager cyx['Villager'/13576, l='ServerLevel[world]', x=-3826.30, y=117.18, z=3428.30] died, message: 'Villager was slain by momo70950'
-[14:55:23] [Server thread/INFO]: Villager cyx['Villager'/13575, l='ServerLevel[world]', x=-3826.30, y=117.15, z=3428.70] died, message: 'Villager was slain by momo70950'
-[14:55:41] [Server thread/INFO]: Villager cyx['Villager'/13582, l='ServerLevel[world]', x=-3832.47, y=115.00, z=3426.47] died, message: 'Villager was slain by momo70950'
-[14:55:58] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[14:55:58] [Server thread/INFO]: momo70950 left the game
-[14:56:34] [Server thread/INFO]: momo70950[/127.73.51.155:53966] logged in with entity id 16162 at (-3826.655704954466, 119.0, 3419.561444185224)
-[14:56:34] [Server thread/INFO]: momo70950 joined the game
-[15:17:15] [Server thread/INFO]: [Not Secure] <momo70950> comida
-[15:17:23] [Server thread/INFO]: [Not Secure] <pauloR2001> no tengo espacio
-[15:28:55] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[15:28:55] [Server thread/INFO]: pauloR2001 left the game
-[15:29:44] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-5225, y=70, z=3725} ja{x=-5225, y=70, z=3724}
-[15:29:44] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-5224, y=70, z=3725} ja{x=-5225, y=70, z=3724}
-[15:29:44] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-5224, y=70, z=3725} ja{x=-5225, y=70, z=3724}
-[15:29:44] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-5220, y=72, z=3729} ja{x=-5217, y=71, z=3729}
-[15:29:44] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-5219, y=72, z=3729} ja{x=-5217, y=71, z=3729}
-[15:29:44] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-5217, y=73, z=3729} ja{x=-5218, y=71, z=3730}
-[15:29:44] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-5217, y=73, z=3729} ja{x=-5218, y=71, z=3730}
-[15:30:09] [Server thread/INFO]: pauloR2001[/127.0.0.1:52002] logged in with entity id 26783 at (-4827.699999988079, 70.0, 3733.0131085642747)
-[15:30:09] [Server thread/INFO]: pauloR2001 joined the game
-[15:48:30] [Server thread/WARN]: momo70950 moved too quickly! -15.621742831853226,9.127221068647316,-1.2599203016534375
-[15:48:49] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
-[15:50:08] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[15:50:08] [Server thread/INFO]: pauloR2001 left the game
-[15:50:19] [Server thread/INFO]: pauloR2001[/127.0.0.1:52026] logged in with entity id 35354 at (-4814.909648386925, 65.0, 3735.0757583010204)
-[15:50:19] [Server thread/INFO]: pauloR2001 joined the game
-[15:52:23] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[15:52:48] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[15:52:48] [Server thread/INFO]: momo70950 left the game
-[15:53:34] [Server thread/INFO]: momo70950[/127.73.51.155:52030] logged in with entity id 36774 at (-5221.300000011921, 205.91620666145982, 3717.489777099864)
-[15:53:34] [Server thread/INFO]: momo70950 joined the game
-[15:53:35] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[15:56:31] [Server thread/INFO]: momo70950 drowned
-[15:56:32] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[15:56:32] [Server thread/INFO]: momo70950 left the game
-[15:56:43] [Server thread/INFO]: momo70950[/127.73.51.155:51609] logged in with entity id 37903 at (-5221.467316275241, 187.66642911957064, 3717.699999988079)
-[15:56:43] [Server thread/INFO]: momo70950 joined the game
-[15:56:43] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[15:57:15] [Server thread/INFO]: momo70950 drowned
-[15:59:31] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
-[16:01:55] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[16:01:56] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[16:01:56] [Server thread/INFO]: pauloR2001 left the game
-[16:02:03] [Server thread/INFO]: pauloR2001[/127.0.0.1:53335] logged in with entity id 39538 at (-4824.434373723339, 62.0, 3735.1483761609015)
-[16:02:03] [Server thread/INFO]: pauloR2001 joined the game
-[16:02:22] [Server thread/WARN]: momo70950 moved too quickly! -15.383676606708832,-1.7965936692887112,-10.75863786911259
-[16:02:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2336ms or 46 ticks behind
-[16:02:44] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-5714, y=48, z=3393} ja{x=-5714, y=46, z=3393}
-[16:02:44] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-5715, y=50, z=3394} ja{x=-5716, y=49, z=3394}
-[16:02:45] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-5714, y=55, z=3397} ja{x=-5716, y=54, z=3398}
-[16:02:46] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-5713, y=55, z=3397} ja{x=-5716, y=54, z=3398}
-[16:02:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[16:06:54] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
-[16:12:38] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[16:12:38] [Server thread/INFO]: pauloR2001 left the game
-[16:12:42] [Server thread/INFO]: pauloR2001[/127.0.0.1:53349] logged in with entity id 44314 at (-4819.624916245261, 65.0, 3729.216817812979)
-[16:12:43] [Server thread/INFO]: pauloR2001 joined the game
-[16:16:48] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[16:17:32] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
-[16:19:12] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[16:31:02] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[16:31:02] [Server thread/INFO]: pauloR2001 left the game
-[16:32:03] [Server thread/INFO]: pauloR2001[/127.0.0.1:53378] logged in with entity id 47807 at (-5221.863310106557, 250.0, 3716.0276541845597)
-[16:32:03] [Server thread/INFO]: pauloR2001 joined the game
-[16:46:07] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[16:46:07] [Server thread/INFO]: momo70950 left the game
-[16:46:23] [Server thread/INFO]: momo70950[/127.73.51.155:53391] logged in with entity id 48013 at (-5227.678689111659, 276.0, 3717.6447944900647)
-[16:46:23] [Server thread/INFO]: momo70950 joined the game
-[16:53:17] [Server thread/INFO]: [Not Secure] <momo70950> quieto
-[16:53:35] [Server thread/INFO]: [Not Secure] <momo70950> vifri
-[16:53:38] [Server thread/INFO]: [Not Secure] <momo70950> vidrio
-[16:55:18] [Server thread/INFO]: [Not Secure] <momo70950> ya va
-[16:55:21] [Server thread/INFO]: [Not Secure] <momo70950> toma
-[16:55:25] [Server thread/INFO]: [Not Secure] <momo70950> ya vengo
-[16:55:40] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[16:55:40] [Server thread/INFO]: momo70950 left the game
-[16:56:48] [Server thread/INFO]: momo70950[/127.73.51.155:53450] logged in with entity id 50409 at (-5221.063455427317, 250.0, 3721.569978900761)
-[16:56:48] [Server thread/INFO]: momo70950 joined the game
-[16:57:06] [Server thread/INFO]: [Not Secure] <momo70950> te llamo?
-[16:57:08] [Server thread/INFO]: [Not Secure] <pauloR2001> no
-[16:57:16] [Server thread/INFO]: [Not Secure] <momo70950> que falta?
-[16:57:35] [Server thread/INFO]: [Not Secure] <momo70950> pasame el vidrio
-[16:57:41] [Server thread/INFO]: [Not Secure] <pauloR2001> voy a aser una cosa
-[16:57:50] [Server thread/INFO]: [Not Secure] <momo70950> demoras?
-[16:57:56] [Server thread/INFO]: [Not Secure] <pauloR2001> si
-[16:58:03] [Server thread/INFO]: [Not Secure] <momo70950> pero te sales?
-[16:58:09] [Server thread/INFO]: [Not Secure] <momo70950> yo me debo ir en un rato
-[16:58:23] [Server thread/INFO]: [Not Secure] <pauloR2001> bueno juega lo dejo abierto
-[16:58:30] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[16:58:30] [Server thread/INFO]: pauloR2001 left the game
-[17:00:09] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[17:00:09] [Server thread/INFO]: momo70950 left the game
-[17:01:09] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[00:00:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8250ms or 165 ticks behind
+[00:00:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7306ms or 146 ticks behind
+[00:00:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8844ms or 176 ticks behind
+[00:01:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9173ms or 183 ticks behind
+[00:01:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4895ms or 97 ticks behind
+[00:01:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4958ms or 99 ticks behind
+[00:02:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5714ms or 114 ticks behind
+[00:02:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3860ms or 77 ticks behind
+[00:02:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5583ms or 111 ticks behind
+[00:03:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9176ms or 183 ticks behind
+[00:03:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13242ms or 264 ticks behind
+[00:04:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6901ms or 138 ticks behind
+[00:04:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4051ms or 81 ticks behind
+[00:04:48] [Server thread/INFO]: Villager cyx['Villager'/32651, l='ServerLevel[world]', x=-3825.70, y=117.00, z=3427.30] died, message: 'Villager suffocated in a wall'
+[00:05:49] [Server thread/INFO]: [Not Secure] <momo70950> Coral over -6415 2890 nether -801 361
+[00:06:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[00:06:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4322ms or 86 ticks behind
+[00:06:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6354ms or 127 ticks behind
+[00:07:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2214ms or 44 ticks behind
+[00:07:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6000ms or 120 ticks behind
+[00:07:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2209ms or 44 ticks behind
+[00:08:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2968ms or 59 ticks behind
+[00:08:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4529ms or 90 ticks behind
+[00:13:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2529ms or 50 ticks behind
+[00:16:46] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[00:16:46] [Server thread/INFO]: momo70950 left the game
+[00:16:53] [Server thread/WARN]: pauloR2001 moved too quickly! 1.215121868973256,1.6961995363719922,-18.276869919606725
+[00:22:08] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[00:22:34] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[00:24:25] [Server thread/WARN]: pauloR2001 moved too quickly! -4.20578809863764,9.262180868582107,-14.768171206967963
+[00:28:06] [Server thread/WARN]: pauloR2001 moved too quickly! 6.098124828730761,-2.5572505117161626,-16.89013487540774
+[00:28:11] [Server thread/WARN]: pauloR2001 moved too quickly! -1.4614551499062145,-8.01577103079454,15.304166150355059
+[00:28:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2225ms or 44 ticks behind
+[00:28:19] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[00:28:19] [Server thread/INFO]: pauloR2001 left the game
+[00:28:32] [Server thread/INFO]: Stopping server
+[00:28:32] [Server thread/INFO]: Saving players
+[00:28:32] [Server thread/INFO]: Saving worlds
+[00:28:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld

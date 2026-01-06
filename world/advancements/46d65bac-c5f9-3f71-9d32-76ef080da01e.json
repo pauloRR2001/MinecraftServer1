@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2026-01-05 23:54:51 -0500",
       "minecraft:snowy_slopes": "2025-12-06 23:37:04 -0500",
       "minecraft:old_growth_pine_taiga": "2025-11-22 23:56:30 -0500",
       "minecraft:mushroom_fields": "2026-01-03 18:40:59 -0500",
@@ -14,7 +15,10 @@
       "minecraft:taiga": "2026-01-05 14:49:27 -0500",
       "minecraft:deep_ocean": "2026-01-01 22:26:33 -0500",
       "minecraft:lush_caves": "2025-11-23 01:10:10 -0500",
+      "minecraft:deep_cold_ocean": "2026-01-05 23:54:40 -0500",
+      "minecraft:frozen_ocean": "2026-01-05 23:55:54 -0500",
       "minecraft:desert": "2026-01-03 18:42:17 -0500",
+      "minecraft:deep_frozen_ocean": "2026-01-05 23:55:59 -0500",
       "minecraft:ocean": "2026-01-01 22:26:22 -0500",
       "minecraft:jungle": "2026-01-01 22:06:56 -0500",
       "minecraft:sunflower_plains": "2025-12-06 23:44:20 -0500",
@@ -34,6 +38,7 @@
       "minecraft:river": "2025-11-23 00:33:04 -0500",
       "minecraft:lukewarm_ocean": "2026-01-01 22:21:30 -0500",
       "minecraft:stony_shore": "2026-01-01 22:20:53 -0500",
+      "minecraft:snowy_plains": "2026-01-05 23:58:07 -0500",
       "minecraft:dripstone_caves": "2025-12-06 23:49:16 -0500",
       "minecraft:old_growth_birch_forest": "2025-11-23 00:35:08 -0500",
       "minecraft:deep_dark": "2025-12-31 19:04:43 -0500",
@@ -842,15 +847,20 @@
       "minecraft:pillager": "2026-01-03 16:27:53 -0500",
       "minecraft:skeleton": "2025-11-23 00:29:44 -0500",
       "minecraft:witch": "2026-01-01 22:31:48 -0500",
+      "minecraft:ravager": "2026-01-05 23:07:24 -0500",
       "minecraft:shulker": "2025-12-13 17:31:05 -0500",
+      "minecraft:vindicator": "2026-01-05 23:01:05 -0500",
       "minecraft:silverfish": "2025-12-07 00:05:40 -0500",
       "minecraft:enderman": "2025-12-12 23:45:10 -0500",
       "minecraft:endermite": "2025-12-17 13:26:13 -0500",
       "minecraft:spider": "2025-12-06 22:08:46 -0500",
+      "minecraft:vex": "2026-01-05 23:17:36 -0500",
       "minecraft:zombie": "2025-11-23 00:07:07 -0500",
       "minecraft:creeper": "2025-12-17 10:57:38 -0500",
+      "minecraft:drowned": "2026-01-05 23:55:28 -0500",
       "minecraft:zombie_villager": "2025-11-23 00:19:00 -0500",
-      "minecraft:slime": "2026-01-03 13:26:40 -0500"
+      "minecraft:slime": "2026-01-03 13:26:40 -0500",
+      "minecraft:evoker": "2026-01-05 23:04:07 -0500"
     },
     "done": false
   },
@@ -4052,6 +4062,12 @@
   "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
     "criteria": {
       "has_copper_ore": "2026-01-05 14:29:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2026-01-05 23:04:08 -0500"
     },
     "done": true
   },
