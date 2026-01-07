@@ -18,13 +18,16 @@
       "minecraft:deep_cold_ocean": "2026-01-05 23:54:40 -0500",
       "minecraft:frozen_ocean": "2026-01-05 23:55:54 -0500",
       "minecraft:desert": "2026-01-03 18:42:17 -0500",
+      "minecraft:frozen_river": "2026-01-06 23:19:51 -0500",
       "minecraft:deep_frozen_ocean": "2026-01-05 23:55:59 -0500",
       "minecraft:ocean": "2026-01-01 22:26:22 -0500",
       "minecraft:jungle": "2026-01-01 22:06:56 -0500",
       "minecraft:sunflower_plains": "2025-12-06 23:44:20 -0500",
       "minecraft:cherry_grove": "2026-01-01 22:19:19 -0500",
       "minecraft:birch_forest": "2025-11-23 00:36:59 -0500",
+      "minecraft:windswept_hills": "2026-01-06 23:19:14 -0500",
       "minecraft:old_growth_spruce_taiga": "2025-11-23 00:33:09 -0500",
+      "minecraft:snowy_beach": "2026-01-06 23:14:37 -0500",
       "minecraft:bamboo_jungle": "2026-01-01 22:07:33 -0500",
       "minecraft:warm_ocean": "2026-01-03 18:41:39 -0500",
       "minecraft:deep_lukewarm_ocean": "2026-01-03 18:40:41 -0500",
@@ -40,6 +43,7 @@
       "minecraft:stony_shore": "2026-01-01 22:20:53 -0500",
       "minecraft:snowy_plains": "2026-01-05 23:58:07 -0500",
       "minecraft:dripstone_caves": "2025-12-06 23:49:16 -0500",
+      "minecraft:snowy_taiga": "2026-01-06 23:19:11 -0500",
       "minecraft:old_growth_birch_forest": "2025-11-23 00:35:08 -0500",
       "minecraft:deep_dark": "2025-12-31 19:04:43 -0500",
       "minecraft:swamp": "2026-01-01 22:30:38 -0500",
@@ -846,9 +850,13 @@
       "minecraft:blaze": "2025-12-27 22:58:06 -0500",
       "minecraft:pillager": "2026-01-03 16:27:53 -0500",
       "minecraft:skeleton": "2025-11-23 00:29:44 -0500",
+      "minecraft:elder_guardian": "2026-01-06 22:21:57 -0500",
+      "minecraft:phantom": "2026-01-06 23:29:21 -0500",
       "minecraft:witch": "2026-01-01 22:31:48 -0500",
       "minecraft:ravager": "2026-01-05 23:07:24 -0500",
+      "minecraft:husk": "2026-01-06 21:31:46 -0500",
       "minecraft:shulker": "2025-12-13 17:31:05 -0500",
+      "minecraft:guardian": "2026-01-06 22:21:00 -0500",
       "minecraft:vindicator": "2026-01-05 23:01:05 -0500",
       "minecraft:silverfish": "2025-12-07 00:05:40 -0500",
       "minecraft:enderman": "2025-12-12 23:45:10 -0500",
@@ -4068,6 +4076,174 @@
   "minecraft:adventure/hero_of_the_village": {
     "criteria": {
       "hero_of_the_village": "2026-01-05 23:04:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2026-01-06 22:20:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2026-01-06 22:20:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2026-01-06 22:20:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2026-01-06 22:20:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2026-01-06 22:20:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2026-01-06 22:20:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2026-01-06 22:20:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2026-01-06 22:20:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2026-01-06 22:20:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2026-01-06 22:20:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2026-01-06 22:22:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2026-01-06 22:22:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2026-01-06 22:22:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2026-01-06 22:22:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2026-01-06 22:23:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2026-01-06 22:23:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2026-01-06 22:23:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_black_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-01-06 22:45:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-01-06 22:45:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2026-01-06 23:40:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/black_bundle": {
+    "criteria": {
+      "has_black_dye": "2026-01-06 22:45:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2026-01-06 22:45:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-01-06 22:45:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_black_dye": "2026-01-06 22:45:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2026-01-06 22:45:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_black_dye": "2026-01-06 22:45:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2026-01-06 22:45:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-01-06 22:45:34 -0500"
     },
     "done": true
   },

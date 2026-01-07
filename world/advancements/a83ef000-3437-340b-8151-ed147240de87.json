@@ -11,11 +11,13 @@
       "minecraft:dark_forest": "2025-12-25 16:57:15 -0500",
       "minecraft:forest": "2025-12-28 01:29:45 -0500",
       "minecraft:taiga": "2026-01-03 18:07:03 -0500",
+      "minecraft:deep_ocean": "2026-01-06 19:44:13 -0500",
       "minecraft:river": "2025-12-25 17:54:48 -0500",
       "minecraft:snowy_plains": "2026-01-03 17:49:39 -0500",
       "minecraft:lush_caves": "2025-12-13 17:10:32 -0500",
       "minecraft:dripstone_caves": "2025-12-28 21:17:48 -0500",
       "minecraft:snowy_taiga": "2026-01-03 17:49:02 -0500",
+      "minecraft:deep_cold_ocean": "2026-01-06 19:47:20 -0500",
       "minecraft:old_growth_birch_forest": "2025-12-25 17:41:28 -0500",
       "minecraft:frozen_ocean": "2026-01-03 17:52:44 -0500",
       "minecraft:frozen_river": "2026-01-03 17:49:24 -0500",
@@ -517,16 +519,19 @@
       "minecraft:skeleton": "2025-12-25 17:13:45 -0500",
       "minecraft:zombified_piglin": "2025-12-26 19:42:05 -0500",
       "minecraft:witch": "2025-12-25 22:16:04 -0500",
+      "minecraft:ravager": "2026-01-06 20:49:42 -0500",
       "minecraft:ghast": "2025-12-27 23:45:54 -0500",
       "minecraft:shulker": "2025-12-13 17:31:16 -0500",
       "minecraft:cave_spider": "2025-12-28 21:20:21 -0500",
+      "minecraft:vindicator": "2026-01-06 19:57:32 -0500",
       "minecraft:magma_cube": "2025-12-28 00:26:16 -0500",
       "minecraft:spider": "2025-12-25 17:14:07 -0500",
       "minecraft:zombie": "2025-12-25 17:12:14 -0500",
       "minecraft:creeper": "2025-12-25 22:19:05 -0500",
       "minecraft:drowned": "2026-01-03 15:06:45 -0500",
       "minecraft:zombie_villager": "2025-12-28 20:46:00 -0500",
-      "minecraft:slime": "2025-12-28 21:57:32 -0500"
+      "minecraft:slime": "2025-12-28 21:57:32 -0500",
+      "minecraft:evoker": "2026-01-06 20:00:02 -0500"
     },
     "done": false
   },
@@ -3134,12 +3139,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
-    "criteria": {
-      "has_log": "2026-01-03 17:05:34 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_yellow_wool": {
     "criteria": {
       "has_needed_dye": "2026-01-03 16:51:38 -0500"
@@ -3164,12 +3163,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/dark_oak_shelf": {
-    "criteria": {
-      "has_stripped_dark_oak_log": "2026-01-03 17:05:34 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/dye_yellow_carpet": {
     "criteria": {
       "has_needed_dye": "2026-01-03 16:51:38 -0500"
@@ -3182,9 +3175,105 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2026-01-03 17:05:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_shelf": {
+    "criteria": {
+      "has_stripped_dark_oak_log": "2026-01-03 17:05:34 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/dark_oak_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2026-01-03 17:05:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2026-01-06 19:57:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2026-01-06 20:00:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2026-01-06 20:17:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2026-01-06 20:17:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2026-01-06 20:17:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2026-01-06 20:17:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2026-01-06 20:20:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2026-01-06 20:20:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2026-01-06 20:20:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2026-01-06 20:31:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "nether_wart": "2026-01-06 20:43:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2026-01-06 20:56:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2026-01-06 21:00:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2026-01-06 21:00:39 -0500"
     },
     "done": true
   },

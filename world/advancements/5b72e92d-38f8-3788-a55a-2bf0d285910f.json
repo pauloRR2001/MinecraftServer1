@@ -9,24 +9,30 @@
     "criteria": {
       "minecraft:snowy_slopes": "2026-01-03 18:11:48 -0500",
       "minecraft:old_growth_pine_taiga": "2025-12-25 20:52:14 -0500",
-      "minecraft:dark_forest": "2025-12-25 21:01:23 -0500",
       "minecraft:forest": "2025-12-25 21:18:51 -0500",
       "minecraft:taiga": "2025-12-28 00:40:24 -0500",
-      "minecraft:river": "2025-12-25 21:02:57 -0500",
-      "minecraft:snowy_plains": "2026-01-03 17:25:01 -0500",
-      "minecraft:stony_shore": "2026-01-03 17:33:35 -0500",
+      "minecraft:deep_ocean": "2026-01-06 22:13:45 -0500",
       "minecraft:lush_caves": "2025-12-25 20:55:47 -0500",
-      "minecraft:dripstone_caves": "2025-12-25 21:15:12 -0500",
-      "minecraft:snowy_taiga": "2026-01-03 17:25:04 -0500",
-      "minecraft:old_growth_birch_forest": "2025-12-25 21:02:43 -0500",
+      "minecraft:deep_cold_ocean": "2026-01-06 22:15:34 -0500",
       "minecraft:frozen_ocean": "2026-01-03 17:45:26 -0500",
+      "minecraft:eroded_badlands": "2026-01-06 21:52:36 -0500",
+      "minecraft:desert": "2026-01-06 21:30:34 -0500",
       "minecraft:frozen_river": "2026-01-03 17:29:26 -0500",
       "minecraft:deep_frozen_ocean": "2026-01-03 17:55:55 -0500",
+      "minecraft:ocean": "2026-01-06 22:16:47 -0500",
       "minecraft:sunflower_plains": "2025-12-25 22:05:16 -0500",
-      "minecraft:meadow": "2025-12-28 20:37:16 -0500",
       "minecraft:birch_forest": "2025-12-25 21:03:10 -0500",
       "minecraft:old_growth_spruce_taiga": "2025-12-28 00:40:01 -0500",
       "minecraft:snowy_beach": "2026-01-03 17:33:32 -0500",
+      "minecraft:warm_ocean": "2026-01-06 21:26:35 -0500",
+      "minecraft:dark_forest": "2025-12-25 21:01:23 -0500",
+      "minecraft:river": "2025-12-25 21:02:57 -0500",
+      "minecraft:snowy_plains": "2026-01-03 17:25:01 -0500",
+      "minecraft:stony_shore": "2026-01-03 17:33:35 -0500",
+      "minecraft:dripstone_caves": "2025-12-25 21:15:12 -0500",
+      "minecraft:snowy_taiga": "2026-01-03 17:25:04 -0500",
+      "minecraft:old_growth_birch_forest": "2025-12-25 21:02:43 -0500",
+      "minecraft:meadow": "2025-12-28 20:37:16 -0500",
       "minecraft:plains": "2025-12-28 01:16:14 -0500",
       "minecraft:pale_garden": "2025-12-25 21:23:44 -0500"
     },
@@ -928,7 +934,8 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:crimson_forest": "2025-12-25 22:03:32 -0500"
+      "minecraft:crimson_forest": "2025-12-25 22:03:32 -0500",
+      "minecraft:nether_wastes": "2026-01-06 21:26:01 -0500"
     },
     "done": false
   },
@@ -2405,6 +2412,18 @@
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_brown_mushroom": "2026-01-03 17:40:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2026-01-06 21:36:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2026-01-06 22:07:42 -0500"
     },
     "done": true
   },
