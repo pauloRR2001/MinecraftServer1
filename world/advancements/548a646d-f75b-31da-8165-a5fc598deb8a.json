@@ -29,6 +29,7 @@
       "minecraft:windswept_hills": "2026-01-06 23:19:09 -0500",
       "minecraft:old_growth_spruce_taiga": "2025-11-23 00:43:10 -0500",
       "minecraft:bamboo_jungle": "2025-12-28 22:28:46 -0500",
+      "minecraft:windswept_savanna": "2026-01-07 15:46:37 -0500",
       "minecraft:warm_ocean": "2026-01-06 00:14:26 -0500",
       "minecraft:deep_lukewarm_ocean": "2026-01-06 00:20:43 -0500",
       "minecraft:badlands": "2026-01-06 00:17:21 -0500",
@@ -989,7 +990,9 @@
       "minecraft:wither_skeleton": "2025-12-06 21:39:57 -0500",
       "minecraft:ender_dragon": "2025-12-13 01:17:38 -0500",
       "minecraft:shulker": "2025-12-13 17:21:32 -0500",
+      "minecraft:piglin": "2026-01-07 17:06:10 -0500",
       "minecraft:enderman": "2025-11-23 20:38:23 -0500",
+      "minecraft:silverfish": "2026-01-07 16:06:09 -0500",
       "minecraft:endermite": "2025-12-22 19:22:40 -0500",
       "minecraft:vex": "2026-01-06 20:00:02 -0500",
       "minecraft:zombie": "2025-11-22 22:34:45 -0500",
@@ -4157,6 +4160,12 @@
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_sandstone": "2026-01-06 23:37:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2026-01-07 16:03:25 -0500"
     },
     "done": true
   },

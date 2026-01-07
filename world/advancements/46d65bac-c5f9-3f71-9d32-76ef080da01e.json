@@ -29,6 +29,7 @@
       "minecraft:old_growth_spruce_taiga": "2025-11-23 00:33:09 -0500",
       "minecraft:snowy_beach": "2026-01-06 23:14:37 -0500",
       "minecraft:bamboo_jungle": "2026-01-01 22:07:33 -0500",
+      "minecraft:windswept_savanna": "2026-01-07 15:49:39 -0500",
       "minecraft:warm_ocean": "2026-01-03 18:41:39 -0500",
       "minecraft:deep_lukewarm_ocean": "2026-01-03 18:40:41 -0500",
       "minecraft:badlands": "2026-01-03 18:43:24 -0500",
@@ -856,6 +857,7 @@
       "minecraft:ravager": "2026-01-05 23:07:24 -0500",
       "minecraft:husk": "2026-01-06 21:31:46 -0500",
       "minecraft:shulker": "2025-12-13 17:31:05 -0500",
+      "minecraft:piglin": "2026-01-07 17:04:57 -0500",
       "minecraft:guardian": "2026-01-06 22:21:00 -0500",
       "minecraft:vindicator": "2026-01-05 23:01:05 -0500",
       "minecraft:silverfish": "2025-12-07 00:05:40 -0500",
@@ -4181,6 +4183,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2026-01-06 22:45:28 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/dye_black_harness": {
     "criteria": {
       "has_needed_dye": "2026-01-06 22:45:34 -0500"
@@ -4193,21 +4201,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/conduit": {
-    "criteria": {
-      "has_nautilus_core": "2026-01-06 23:40:06 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/black_bundle": {
     "criteria": {
       "has_black_dye": "2026-01-06 22:45:34 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/black_dye": {
-    "criteria": {
-      "has_ink_sac": "2026-01-06 22:45:28 -0500"
     },
     "done": true
   },
@@ -4244,6 +4240,24 @@
   "minecraft:recipes/building_blocks/dye_black_wool": {
     "criteria": {
       "has_needed_dye": "2026-01-06 22:45:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2026-01-06 23:40:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2026-01-07 15:57:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_the_recipe": "2026-01-07 16:12:22 -0500"
     },
     "done": true
   },
