@@ -1,83 +1,12 @@
-[17:38:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[17:38:44] [ServerMain/INFO]: Loaded 1461 recipes
-[17:38:44] [ServerMain/INFO]: Loaded 1574 advancements
-[17:38:44] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[17:38:44] [Server thread/INFO]: Loading properties
-[17:38:44] [Server thread/INFO]: Default game type: SURVIVAL
-[17:38:44] [Server thread/INFO]: Generating keypair
-[17:38:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:38:45] [Server thread/INFO]: Using default channel type
-[17:38:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:38:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:38:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:38:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:38:45] [Server thread/INFO]: Preparing level "world"
-[17:38:45] [Server thread/INFO]: Loading 0 persistent chunks...
-[17:38:45] [Server thread/INFO]: Preparing spawn area: 100%
-[17:38:45] [Server thread/INFO]: Time elapsed: 16 ms
-[17:38:45] [Server thread/INFO]: Done (0.439s)! For help, type "help"
-[17:38:50] [Server thread/INFO]: momo70950[/127.73.51.155:64914] logged in with entity id 41 at (-581.4193974696967, 128.0, 1224.0604965157233)
-[17:38:50] [Server thread/INFO]: momo70950 joined the game
-[17:41:37] [Server thread/INFO]: pauloR2001[/127.0.0.1:60098] logged in with entity id 2032 at (-4705.877243540428, -17.0, 9925.02028414243)
-[17:41:37] [Server thread/INFO]: pauloR2001 joined the game
-[17:41:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
-[18:13:19] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[18:13:19] [Server thread/INFO]: momo70950 left the game
-[18:13:34] [Server thread/INFO]: momo70950[/127.73.51.155:64098] logged in with entity id 11270 at (-4715.577777793643, -17.0, 9923.699999988079)
-[18:13:35] [Server thread/INFO]: momo70950 joined the game
-[18:30:24] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[18:34:01] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[18:36:28] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[18:40:47] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[18:40:47] [Server thread/INFO]: pauloR2001 left the game
-[18:41:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2045ms or 40 ticks behind
-[18:41:21] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2384, y=38, z=3287} ja{x=-2383, y=36, z=3288}
-[18:41:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11709ms or 234 ticks behind
-[18:41:27] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2379, y=44, z=3270} ja{x=-2378, y=43, z=3271}
-[18:41:28] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2379, y=44, z=3269} ja{x=-2378, y=43, z=3270}
-[18:41:29] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2375, y=45, z=3272} ja{x=-2376, y=44, z=3272}
-[18:41:31] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2374, y=45, z=3273} ja{x=-2374, y=44, z=3274}
-[18:41:31] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2374, y=45, z=3273} ja{x=-2374, y=44, z=3274}
-[18:41:40] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2381, y=42, z=3290} ja{x=-2381, y=40, z=3291}
-[18:41:41] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2381, y=42, z=3291} ja{x=-2380, y=41, z=3291}
-[18:41:41] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2381, y=42, z=3291} ja{x=-2380, y=41, z=3291}
-[18:41:41] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2381, y=42, z=3291} ja{x=-2380, y=41, z=3291}
-[18:41:41] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2381, y=42, z=3291} ja{x=-2380, y=41, z=3291}
-[18:41:46] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2381, y=42, z=3305} ja{x=-2380, y=41, z=3304}
-[18:41:48] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2380, y=43, z=3310} ja{x=-2379, y=42, z=3310}
-[18:41:48] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2380, y=43, z=3310} ja{x=-2379, y=42, z=3310}
-[18:41:52] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2379, y=44, z=3301} ja{x=-2378, y=43, z=3302}
-[18:42:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20321ms or 406 ticks behind
-[18:42:03] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2370, y=44, z=3269} ja{x=-2371, y=43, z=3270}
-[18:42:04] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2370, y=44, z=3269} ja{x=-2371, y=43, z=3270}
-[18:42:04] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2370, y=44, z=3269} ja{x=-2371, y=43, z=3270}
-[18:42:18] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2331, y=44, z=3273} ja{x=-2331, y=44, z=3274}
-[18:42:20] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2333, y=48, z=3278} ja{x=-2334, y=47, z=3278}
-[18:42:20] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2333, y=48, z=3278} ja{x=-2334, y=47, z=3278}
-[18:42:21] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2338, y=48, z=3277} ja{x=-2339, y=47, z=3280}
-[18:42:21] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2338, y=48, z=3277} ja{x=-2339, y=47, z=3280}
-[18:42:27] [Server thread/INFO]: momo70950 has reached the goal [Postmortal]
-[18:45:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2288ms or 45 ticks behind
-[18:45:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11572ms or 231 ticks behind
-[18:46:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[18:46:19] [Server thread/INFO]: pauloR2001[/127.0.0.1:56494] logged in with entity id 28372 at (-2411.254894875934, 63.0, 3299.504417548594)
-[18:46:19] [Server thread/INFO]: pauloR2001 joined the game
-[18:47:58] [Server thread/WARN]: pauloR2001 moved too quickly! -0.7627562091402069,-4.7073853486878505,17.080336708635514
-[18:48:33] [Server thread/WARN]: pauloR2001 moved too quickly! -15.5133147433271,-2.460076447136487,-8.888610205332952
-[18:55:59] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[18:55:59] [Server thread/INFO]: pauloR2001 left the game
-[18:56:56] [Server thread/INFO]: pauloR2001[/127.0.0.1:56513] logged in with entity id 33471 at (-5676.300000011921, -44.0, 7027.705950085318)
-[18:56:57] [Server thread/INFO]: pauloR2001 joined the game
-[18:57:39] [Server thread/INFO]: momo70950 has made the advancement [Sneak 100]
-[19:03:12] [Server thread/INFO]: momo70950 was obliterated by a sonically-charged shriek
-[19:03:12] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[19:03:33] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
-[19:04:39] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[19:04:48] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[19:05:47] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[19:15:42] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-5626, y=125, z=7078} ja{x=-5626, y=126, z=7077}
-[19:16:18] [Server thread/WARN]: pauloR2001 moved too quickly! 13.192028471266894,-2.533544576501498,11.574105393486207
-[19:18:43] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[19:18:43] [Server thread/INFO]: momo70950 left the game
-[19:20:19] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[19:20:19] [Server thread/INFO]: pauloR2001 left the game
+[00:43:21] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[00:46:19] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[00:46:26] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[00:46:29] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[00:46:32] [Server thread/INFO]: [pauloR2001: Set momo70950's game mode to Spectator Mode]
+[00:50:13] [Server thread/INFO]: [pauloR2001: Set momo70950's game mode to Survival Mode]
+[00:59:41] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[01:01:21] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[01:24:38] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[01:24:38] [Server thread/INFO]: momo70950 left the game
+[01:24:44] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[01:24:44] [Server thread/INFO]: pauloR2001 left the game
