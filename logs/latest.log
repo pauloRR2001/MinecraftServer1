@@ -1,531 +1,83 @@
-[15:38:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[15:38:54] [ServerMain/INFO]: Loaded 1461 recipes
-[15:38:54] [ServerMain/INFO]: Loaded 1574 advancements
-[15:38:55] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[15:38:55] [Server thread/INFO]: Loading properties
-[15:38:55] [Server thread/INFO]: Default game type: SURVIVAL
-[15:38:55] [Server thread/INFO]: Generating keypair
-[15:38:55] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:38:55] [Server thread/INFO]: Using default channel type
-[15:38:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:38:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:38:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:38:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:38:55] [Server thread/INFO]: Preparing level "world"
-[15:38:55] [Server thread/INFO]: Loading 0 persistent chunks...
-[15:38:55] [Server thread/INFO]: Preparing spawn area: 100%
-[15:38:55] [Server thread/INFO]: Time elapsed: 42 ms
-[15:38:55] [Server thread/INFO]: Done (0.410s)! For help, type "help"
-[15:39:55] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[15:42:22] [Server thread/INFO]: pauloR2001[/127.0.0.1:49855] logged in with entity id 56 at (-5686.131402124172, 120.0, 7025.038522550395)
-[15:42:22] [Server thread/INFO]: pauloR2001 joined the game
-[15:42:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
-[15:47:38] [Server thread/INFO]: momo70950[/127.73.51.155:61640] logged in with entity id 3071 at (-5689.410998628047, 120.0, 7030.088007353189)
-[15:47:38] [Server thread/INFO]: momo70950 joined the game
-[15:47:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[15:48:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[15:48:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2068ms or 41 ticks behind
-[15:49:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2131ms or 42 ticks behind
-[15:50:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8661ms or 173 ticks behind
-[15:50:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6804ms or 136 ticks behind
-[15:50:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13626ms or 272 ticks behind
-[15:51:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6755ms or 135 ticks behind
-[15:51:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9034ms or 180 ticks behind
-[15:51:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7926ms or 158 ticks behind
-[15:52:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5824ms or 116 ticks behind
-[15:52:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7014ms or 140 ticks behind
-[15:53:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3410ms or 68 ticks behind
-[15:53:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4797ms or 95 ticks behind
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -7.529122239418939,-2.383018227192224E-10,7.17360344253575
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -7.8142795058302,-2.395594833615178E-10,7.453817013245498
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -8.095190282503609,-2.4137136733770603E-10,7.737805504224525
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -8.369948188890703,-2.434461521261255E-10,8.026842334178582
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -8.636362915949576,-2.45556464051333E-10,8.32210299480721
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -8.892632799924286,-2.475104565746733E-10,8.6242774071834
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -9.137323808467045,-2.4919444285842474E-10,8.933686342439614
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -9.369336788695364,-2.505302632016537E-10,9.25037701754627
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -9.587875112656548,-2.5150370674964506E-10,9.574198004063874
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -9.792400820068906,-2.5212187892975635E-10,9.904860793587432
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -9.982604788301614,-2.524203068787756E-10,10.241984664075062
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -10.158368722998603,-2.524558340155636E-10,10.585133028778728
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -10.316556260035213,-2.5229240918633877E-10,10.893966548830576
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -10.45892503959658,-2.5199398123731953E-10,11.171916709514335
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -10.587056937807574,-2.516173935873667E-10,11.422071847502593
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -10.702375643142659,-2.512123842279834E-10,11.647211465728105
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -10.80616247519447,-2.5082158572331537E-10,11.849837116762501
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -10.899570621567364,-2.504734197827929E-10,12.032200197863858
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -10.983637951075252,-2.501820972611313E-10,12.196326966506604
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.059298545628735,-2.4996182901304564E-10,12.3440410543717
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.127393078922978,-2.498055096111784E-10,12.476983729928179
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.188678157263894,-2.497202444828872E-10,12.596632134760512
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.243834726309615,-2.496847173460992E-10,12.704315696257254
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.293475637135998,-2.496989282008144E-10,12.801230899036455
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.338152455696218,-2.4974156076496E-10,12.888454579226163
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.378361591335306,-2.498055096111784E-10,12.966955889318342
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.414549812451696,-2.4988366931211203E-10,13.037607066529745
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.447119210593883,-2.4996182901304564E-10,13.101193124335623
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.476431668144869,-2.5003288328662165E-10,13.158420574844058
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.502812879241901,-2.5009683213284006E-10,13.20992527893759
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.526555968600405,-2.5014657012434327E-10,13.256279511393586
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.547924748457262,-2.501820972611313E-10,13.29799831949822
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.567156649818571,-2.502034135432041E-10,13.33554524579813
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.584465360585455,-2.502176243979193E-10,13.369337478572561
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.60004319986274,-2.502176243979193E-10,13.3997504872641
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.614063254841312,-2.502105189705617E-10,13.4271221943618
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.626681303987425,-2.501963081158465E-10,13.451756730097259
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.63803754791843,-2.501820972611313E-10,13.473927811672183
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.648258167185304,-2.5016788640641607E-10,13.493881784561381
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.657456724281474,-2.5015367555170087E-10,13.511840359684356
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.665735425449384,-2.5013946469698567E-10,13.528003076868117
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.67318625630287,-2.5013235926962807E-10,13.542549521947876
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.679892003893656,-2.5012525384227047E-10,13.55564132217296
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.685927176565201,-2.5011814841491287E-10,13.567423942062305
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.69135883182571,-2.5011814841491287E-10,13.578028299682046
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.696247321430747,-2.5011814841491287E-10,13.5875722212877
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.700646961958228,-2.5011814841491287E-10,13.596161750505416
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.704606638328187,-2.5011814841491287E-10,13.603892326596906
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.708170346966654,-2.5011814841491287E-10,13.610849844893892
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.711377684656327,-2.5011814841491287E-10,13.617111611196378
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.714264288500999,-2.5011814841491287E-10,13.62274720071946
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.716862231892264,-2.5011814841491287E-10,13.627819231154717
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.719200380882285,-2.5011814841491287E-10,13.632384058426396
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.721304714918006,-2.5012525384227047E-10,13.636492402862132
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.723198615499314,-2.5012525384227047E-10,13.640189912755886
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.724903125978017,-2.5012525384227047E-10,13.643517671571317
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.726437185368013,-2.5012525384227047E-10,13.64651265442626
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.727817838782357,-2.5012525384227047E-10,13.649208138924223
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.729060426821889,-2.5012525384227047E-10,13.651634074907633
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.730178756028181,-2.5012525384227047E-10,13.653817417236496
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.731185252287105,-2.5012525384227047E-10,13.65578242527954
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.73209109889649,-2.5012525384227047E-10,13.657550932472077
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.732906360823108,-2.5012525384227047E-10,13.659142588901886
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.733640096537783,-2.5012525384227047E-10,13.660575079651608
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.73430045866371,-2.5012525384227047E-10,13.661864321291432
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.73489478456122,-2.5012525384227047E-10,13.663024638737625
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.735429677854881,-2.5012525384227047E-10,13.664068924410458
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.73591108180608,-2.5012525384227047E-10,13.66500878149236
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.736344345350517,-2.5012525384227047E-10,13.665854652843336
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.736734282530051,-2.5012525384227047E-10,13.666615937037932
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.73708522598281,-2.5012525384227047E-10,13.667301092795242
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.737401075081834,-2.5012525384227047E-10,13.667917732960632
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.737685339263408,-2.5012525384227047E-10,13.668472709094203
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.73794117701982,-2.5012525384227047E-10,13.668972187602776
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.738171430994953,-2.5012525384227047E-10,13.669421718248486
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.738378659566479,-2.5012525384227047E-10,13.669826295817984
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.738565165276668,-2.5012525384227047E-10,13.670190415621619
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.738733020411019,-2.5012525384227047E-10,13.670518123435613
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.738884090027568,-2.5012525384227047E-10,13.670813060460205
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.739020052678825,-2.5012525384227047E-10,13.671078503775789
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.739142419061864,-2.5012525384227047E-10,13.67131740275363
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.739252548803961,-2.5012525384227047E-10,13.671532411828593
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.739351665569302,-2.5012525384227047E-10,13.671725919990422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.739440870655926,-2.5012525384227047E-10,13.671900077331884
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.73952115523116,-2.5012525384227047E-10,13.672056818933925
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.739593411347414,-2.5012525384227047E-10,13.672197886373397
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.739658441850224,-2.5012525384227047E-10,13.672324847064374
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.739716969301298,-2.5012525384227047E-10,13.67243911168407
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.739769644005719,-2.5012525384227047E-10,13.672541949837978
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.739817051238788,-2.5012525384227047E-10,13.672634504175221
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.739859717747095,-2.5012525384227047E-10,13.672717803076011
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.739898117603843,-2.5012525384227047E-10,13.672792772083994
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.739932677473917,-2.5012525384227047E-10,13.672860244190815
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.739963781355982,-2.5012525384227047E-10,13.672920969083862
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.739991774848932,-2.5012525384227047E-10,13.67297562148633
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.740016968991767,-2.5012525384227047E-10,13.673024808647824
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.740039643719683,-2.5012525384227047E-10,13.673069077092805
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.740060050974535,-2.5012525384227047E-10,13.67310891869056
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.740078417503355,-2.5012525384227047E-10,13.673144776128538
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.740094947378566,-2.5012525384227047E-10,13.67317704782181
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.740109824266256,-2.5012525384227047E-10,13.673206092344117
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.740123213464358,-2.5012525384227047E-10,13.673232232415103
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.740135263742559,-2.5012525384227047E-10,13.673255758478263
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.74014610899303,-2.5012525384227047E-10,13.673276931933287
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.740155869718365,-2.5012525384227047E-10,13.67329598804281
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.740164654370346,-2.5012525384227047E-10,13.673313138540834
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.740172560556857,-2.5012525384227047E-10,13.673328573988329
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.74017967612508,-2.5012525384227047E-10,13.673342465890528
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.740186080136482,-2.5012525384227047E-10,13.673354968603235
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.740191843746288,-2.5012525384227047E-10,13.673366221044489
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.74019703099475,-2.5012525384227047E-10,13.673376348240708
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.740201699518366,-2.5012525384227047E-10,13.673385462716396
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.740205901189256,-2.5012525384227047E-10,13.673393665745607
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.73895019370866,-2.5012525384227047E-10,13.678239696722812
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.736400777048402,-2.5012525384227047E-10,13.687395323040619
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.732462083541577,-2.5012525384227047E-10,13.700357150517448
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.726992775908002,-2.5012525384227047E-10,13.716637408422685
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.71982105794359,-2.5012525384227047E-10,13.735754899294989
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.710759907232386,-2.5012525384227047E-10,13.757227194182633
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.702604871808035,-2.5012525384227047E-10,13.77655225907074
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.695265340120386,-2.5012525384227047E-10,13.793944817009105
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.688659761776762,-2.5012525384227047E-10,13.809598118737995
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.682714741425116,-2.5012525384227047E-10,13.823686089921466
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.677364223250152,-2.5012525384227047E-10,13.836365263650805
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.668708453971703,-2.5012525384227047E-10,13.85097803698045
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.657058994024737,-2.5012525384227047E-10,13.867308164282804
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.646574480349955,-2.5012525384227047E-10,13.88200527846675
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.637138418293034,-2.5012525384227047E-10,13.895232680881236
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.628645962666269,-2.5012525384227047E-10,13.907137342739588
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.621002752804998,-2.5012525384227047E-10,13.917851538128161
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.614123864112116,-2.5012525384227047E-10,13.927494313722491
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.607932864452778,-2.5012525384227047E-10,13.936172811527285
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.602360964906438,-2.5012525384227047E-10,13.943983459344963
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.597346255447519,-2.5012525384227047E-10,13.951013042194973
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.592833017054545,-2.5012525384227047E-10,13.957339666590997
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.588771102608007,-2.5012525384227047E-10,13.96303362839717
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.585115379702984,-2.5012525384227047E-10,13.968158193887575
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.581825229175593,-2.5012525384227047E-10,13.972770302705612
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.578864093779885,-2.5012525384227047E-10,13.97692120053216
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.57619907199387,-2.5012525384227047E-10,13.980657008476555
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.573800552449939,-2.5012525384227047E-10,13.984019235538653
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.57164188491788,-2.5012525384227047E-10,13.987045239813597
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.569699084190688,-2.5012525384227047E-10,13.989768643588832
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.567950563582599,-2.5012525384227047E-10,13.992219706922697
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.566376895077155,-2.5012525384227047E-10,13.994425663864604
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.564960593459546,-2.5012525384227047E-10,13.996411025058478
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.563685922037621,-2.5012525384227047E-10,13.99819785008549
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.562538717787902,-2.5012525384227047E-10,13.999805992567417
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.561506233990258,-2.5012525384227047E-10,14.001253320762771
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.560576998597753,-2.5012525384227047E-10,14.00255591610403
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.559740686766418,-2.5012525384227047E-10,14.003728251880602
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.558988006137952,-2.5012525384227047E-10,14.004783354052051
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55831059359025,-2.5012525384227047E-10,14.005732945981435
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.557700922313416,-2.5012525384227047E-10,14.006587578694962
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.557152218178999,-2.5012525384227047E-10,14.007356748115853
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55665838447112,-2.5012525384227047E-10,14.008049000576648
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55621393414549,-2.5012525384227047E-10,14.008672027775901
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.555813928863245,-2.5012525384227047E-10,14.009232752239768
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55545392411841,-2.5012525384227047E-10,14.009737404243424
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.555129919856881,-2.5012525384227047E-10,14.010191591034527
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.554838316029418,-2.5012525384227047E-10,14.010600359135424
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.554575872591158,-2.5012525384227047E-10,14.010968250417136
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55433967350291,-2.5012525384227047E-10,14.011299352561764
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.554127094329488,-2.5012525384227047E-10,14.011597344484471
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.553935773078592,-2.5012525384227047E-10,14.011865537207996
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.553763583957334,-2.5012525384227047E-10,14.01210691065171
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.553608613752658,-2.5012525384227047E-10,14.012324146746323
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.553469140571906,-2.5012525384227047E-10,14.01251965922529
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.553343614712503,-2.5012525384227047E-10,14.012695620453087
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.553230641441587,-2.5012525384227047E-10,14.012853985552283
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.553128965500946,-2.5012525384227047E-10,14.01299651413865
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.553037457156279,-2.5012525384227047E-10,14.013124789862559
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552955099648898,-2.5012525384227047E-10,14.013240238011349
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552880977894347,-2.5012525384227047E-10,14.013344141341804
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552814268316979,-2.5012525384227047E-10,14.013437654337395
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552754229698621,-2.5012525384227047E-10,14.013521816030334
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55270019494401,-2.5012525384227047E-10,14.01359756155216
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552651563665677,-2.5012525384227047E-10,14.013665732520167
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552607795516451,-2.5012525384227047E-10,14.013727086390645
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552568404183148,-2.5012525384227047E-10,14.013782304871711
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552532951984176,-2.5012525384227047E-10,14.013832001503033
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552501045005556,-2.5012525384227047E-10,14.013876728469768
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552472328726253,-2.5012525384227047E-10,14.013916982739829
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552446484075517,-2.5012525384227047E-10,14.013953211580883
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.5524232238904,-2.5012525384227047E-10,14.013985817537105
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552402289724341,-2.5012525384227047E-10,14.014015162896612
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552383448974979,-2.5012525384227047E-10,14.014041573720533
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55236649230119,-2.5012525384227047E-10,14.01406534346097
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552351231294779,-2.5012525384227047E-10,14.01408673622609
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552337496389555,-2.5012525384227047E-10,14.014105989714153
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552325134975035,-2.5012525384227047E-10,14.014123317852864
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552314009702968,-2.5012525384227047E-10,14.014138913178613
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552303996957562,-2.5012525384227047E-10,14.01415294897015
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552294985487606,-2.5012525384227047E-10,14.01416558118217
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55228687516501,-2.5012525384227047E-10,14.01417695017335
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552279575874309,-2.5012525384227047E-10,14.014187182265232
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552273006513133,-2.5012525384227047E-10,14.014196391148289
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552267094088165,-2.5012525384227047E-10,14.014204679142495
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552261772905695,-2.5012525384227047E-10,14.014212138336006
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55225698384129,-2.5012525384227047E-10,14.014218851611076
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552252673684052,-2.5012525384227047E-10,14.014224893559003
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55224879454272,-2.5012525384227047E-10,14.01423033131141
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55224530331543,-2.5012525384227047E-10,14.014235225287848
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552242161211325,-2.5012525384227047E-10,14.014239629867006
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55223933331763,-2.5012525384227047E-10,14.014243593988795
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552236788213122,-2.5012525384227047E-10,14.014247161698222
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552234497618883,-2.5012525384227047E-10,14.014250372636525
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552232436084523,-2.5012525384227047E-10,14.014253262481361
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552230580703508,-2.5012525384227047E-10,14.014255863341532
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552228910860322,-2.5012525384227047E-10,14.014258204115322
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552227408002182,-2.5012525384227047E-10,14.014260310810641
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552226055429855,-2.5012525384227047E-10,14.014262206837884
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552224838114853,-2.5012525384227047E-10,14.014263913260947
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552223742531169,-2.5012525384227047E-10,14.014265449042796
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552222756506126,-2.5012525384227047E-10,14.01426683124555
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552221869083041,-2.5012525384227047E-10,14.014268075228756
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552221070402084,-2.5012525384227047E-10,14.014269194813096
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552220351589312,-2.5012525384227047E-10,14.014270202438638
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552219704658455,-2.5012525384227047E-10,14.014271109301262
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552219122419956,-2.5012525384227047E-10,14.01427192547817
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552218598405489,-2.5012525384227047E-10,14.014272660037022
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552218126792468,-2.5012525384227047E-10,14.014273321139626
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552217702341295,-2.5012525384227047E-10,14.014273916132879
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55221732033533,-2.5012525384227047E-10,14.014274451626989
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552216976529962,-2.5012525384227047E-10,14.014274933571869
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552216667104403,-2.5012525384227047E-10,14.014275367322625
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552216388621673,-2.5012525384227047E-10,14.01427575769776
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55221613798767,-2.5012525384227047E-10,14.014276109035563
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552215912416614,-2.5012525384227047E-10,14.014276425239586
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552215709402844,-2.5012525384227047E-10,14.014276709822298
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552215526690816,-2.5012525384227047E-10,14.01427696594692
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552215362249626,-2.5012525384227047E-10,14.01427719646017
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55221521425301,-2.5012525384227047E-10,14.01427740392137
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552215081055692,-2.5012525384227047E-10,14.014277590636993
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214961177924,-2.5012525384227047E-10,14.014277758680691
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214853288206,-2.5012525384227047E-10,14.014277909920565
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214756186913,-2.5012525384227047E-10,14.014278046035543
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214668796296,-2.5012525384227047E-10,14.014278168539022
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214590145013,-2.5012525384227047E-10,14.014278278791608
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214519358131,-2.5012525384227047E-10,14.014278378019299
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214455649846,-2.5012525384227047E-10,14.014278467324402
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214398312572,-2.5012525384227047E-10,14.014278547698268
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214346708752,-2.5012525384227047E-10,14.014278620035839
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214300265405,-2.5012525384227047E-10,14.014278685139288
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214258466847,-2.5012525384227047E-10,14.014278743732575
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214220848327,-2.5012525384227047E-10,14.014278796466897
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214186991478,-2.5012525384227047E-10,14.014278843927968
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214156519767,-2.5012525384227047E-10,14.014278886641478
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214129095773,-2.5012525384227047E-10,14.014278925084
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214104413906,-2.5012525384227047E-10,14.014278959682997
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214082200408,-2.5012525384227047E-10,14.014278990822277
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214062207895,-2.5012525384227047E-10,14.014279018847446
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214044215361,-2.5012525384227047E-10,14.014279044069553
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214028021808,-2.5012525384227047E-10,14.014279066770541
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214013447156,-2.5012525384227047E-10,14.01427908720143
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552214000330423,-2.5012525384227047E-10,14.014279105587775
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213988525182,-2.5012525384227047E-10,14.01427912213694
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213977900465,-2.5012525384227047E-10,14.014279137030826
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213968338037,-2.5012525384227047E-10,14.014279150434959
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213959732399,-2.5012525384227047E-10,14.014279162498497
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213951987142,-2.5012525384227047E-10,14.014279173356044
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213945015865,-2.5012525384227047E-10,14.014279183127655
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55221393874217,-2.5012525384227047E-10,14.01427919192247
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213933096027,-2.5012525384227047E-10,14.014279199836892
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55221392801468,-2.5012525384227047E-10,14.014279206960055
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213923440831,-2.5012525384227047E-10,14.014279213371992
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213919324458,-2.5012525384227047E-10,14.014279219141827
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213915620086,-2.5012525384227047E-10,14.014279224335041
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213912285879,-2.5012525384227047E-10,14.014279229008025
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213909285456,-2.5012525384227047E-10,14.014279233213529
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213906585166,-2.5012525384227047E-10,14.014279236998846
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213904154996,-2.5012525384227047E-10,14.014279240405813
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213901967662,-2.5012525384227047E-10,14.014279243472629
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213899998605,-2.5012525384227047E-10,14.014279246232036
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55221389822691,-2.5012525384227047E-10,14.014279248714956
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213896632566,-2.5012525384227047E-10,14.014279250950494
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213895197383,-2.5012525384227047E-10,14.014279252962297
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.5522138939059,-2.5012525384227047E-10,14.014279254772191
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213892743566,-2.5012525384227047E-10,14.014279256402006
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213891697647,-2.5012525384227047E-10,14.014279257868111
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55221389075632,-2.5012525384227047E-10,14.014279259188697
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213889908671,-2.5012525384227047E-10,14.014279260376497
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213889145605,-2.5012525384227047E-10,14.014279261446063
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213888458937,-2.5012525384227047E-10,14.014279262408309
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55221388784139,-2.5012525384227047E-10,14.014279263274148
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213887285689,-2.5012525384227047E-10,14.014279264054494
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213886785466,-2.5012525384227047E-10,14.014279264756624
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213886335267,-2.5012525384227047E-10,14.014279265387813
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213885929632,-2.5012525384227047E-10,14.014279265955338
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213885564925,-2.5012525384227047E-10,14.014279266466474
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213885236597,-2.5012525384227047E-10,14.014279266926678
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213884941011,-2.5012525384227047E-10,14.014279267341408
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213884675439,-2.5012525384227047E-10,14.0142792677143
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213884436242,-2.5012525384227047E-10,14.014279268048995
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213884220691,-2.5012525384227047E-10,14.014279268350947
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213884026969,-2.5012525384227047E-10,14.014279268621976
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213883852346,-2.5012525384227047E-10,14.014279268865721
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213883695003,-2.5012525384227047E-10,14.014279269085819
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213883554032,-2.5012525384227047E-10,14.014279269284089
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213883426703,-2.5012525384227047E-10,14.01427926946235
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213883312106,-2.5012525384227047E-10,14.01427926962242
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213883209333,-2.5012525384227047E-10,14.01427926976612
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213883116565,-2.5012525384227047E-10,14.014279269895269
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213883032891,-2.5012525384227047E-10,14.014279270011684
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882957403,-2.5012525384227047E-10,14.014279270117186
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.5522138828901,-2.5012525384227047E-10,14.014279270211773
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882829165,-2.5012525384227047E-10,14.014279270297266
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882774595,-2.5012525384227047E-10,14.014279270373663
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882725482,-2.5012525384227047E-10,14.014279270442785
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882680917,-2.5012525384227047E-10,14.01427927050463
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882640899,-2.5012525384227047E-10,14.014279270561019
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55221388260452,-2.5012525384227047E-10,14.01427927061195
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882571778,-2.5012525384227047E-10,14.014279270657426
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882542674,-2.5012525384227047E-10,14.014279270697443
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882516298,-2.5012525384227047E-10,14.014279270733823
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882492651,-2.5012525384227047E-10,14.014279270766565
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882471733,-2.5012525384227047E-10,14.014279270795669
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882452634,-2.5012525384227047E-10,14.014279270822954
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882435353,-2.5012525384227047E-10,14.0142792708466
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882419892,-2.5012525384227047E-10,14.014279270868428
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55221388240625,-2.5012525384227047E-10,14.014279270888437
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882393517,-2.5012525384227047E-10,14.014279270906627
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882382603,-2.5012525384227047E-10,14.014279270922998
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882372598,-2.5012525384227047E-10,14.01427927093755
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882363503,-2.5012525384227047E-10,14.014279270950283
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882355318,-2.5012525384227047E-10,14.014279270961197
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882348042,-2.5012525384227047E-10,14.01427927097211
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882341675,-2.5012525384227047E-10,14.014279270981206
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882335309,-2.5012525384227047E-10,14.0142792709903
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882329852,-2.5012525384227047E-10,14.014279270997577
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882325304,-2.5012525384227047E-10,14.014279271004852
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882320757,-2.5012525384227047E-10,14.01427927101031
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882317119,-2.5012525384227047E-10,14.014279271015766
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882313481,-2.5012525384227047E-10,14.014279271021223
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882309843,-2.5012525384227047E-10,14.014279271024861
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882307115,-2.5012525384227047E-10,14.0142792710285
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882304386,-2.5012525384227047E-10,14.014279271032137
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882301658,-2.5012525384227047E-10,14.014279271035775
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882299839,-2.5012525384227047E-10,14.014279271039413
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.55221388229802,-2.5012525384227047E-10,14.014279271041232
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.5522138822962,-2.5012525384227047E-10,14.014279271043051
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882294382,-2.5012525384227047E-10,14.01427927104487
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882292563,-2.5012525384227047E-10,14.01427927104669
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882291653,-2.5012525384227047E-10,14.014279271048508
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882290744,-2.5012525384227047E-10,14.014279271050327
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882289834,-2.5012525384227047E-10,14.014279271052146
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882288925,-2.5012525384227047E-10,14.014279271053965
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882288015,-2.5012525384227047E-10,14.014279271055784
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882287106,-2.5012525384227047E-10,14.014279271057603
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882286196,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882285287,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882284377,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:53:58] [Server thread/WARN]: Spruce Boat (vehicle of pauloR2001) moved too quickly! -11.552213882283468,-2.5012525384227047E-10,14.014279271059422
-[15:54:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24732ms or 494 ticks behind
-[15:55:18] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[15:55:18] [Server thread/INFO]: pauloR2001 left the game
-[15:55:26] [Server thread/INFO]: pauloR2001[/127.0.0.1:52553] logged in with entity id 11763 at (-4859.734416824286, 62.00106755455672, 8907.00646360741)
-[15:55:26] [Server thread/INFO]: pauloR2001 joined the game
-[15:55:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[15:56:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4084ms or 81 ticks behind
-[15:56:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3266ms or 65 ticks behind
-[15:57:05] [Server thread/INFO]: [Not Secure] <pauloR2001> stronghold: overworld (-4703,9863), nether (-587.875,1232.875)
-[15:58:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[15:58:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4831ms or 96 ticks behind
-[15:58:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4422ms or 88 ticks behind
-[15:59:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3430ms or 68 ticks behind
-[15:59:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3662ms or 73 ticks behind
-[15:59:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3985ms or 79 ticks behind
-[16:00:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4587ms or 91 ticks behind
-[16:00:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6183ms or 123 ticks behind
-[16:00:38] [Server thread/WARN]: pauloR2001 moved too quickly! 2.476068118362491,-2.05773134266785,18.307334480730788
-[16:00:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[16:01:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6547ms or 130 ticks behind
-[16:01:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9157ms or 183 ticks behind
-[16:01:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11947ms or 238 ticks behind
-[16:02:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11901ms or 238 ticks behind
-[16:02:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16745ms or 334 ticks behind
-[16:03:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11850ms or 237 ticks behind
-[16:03:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6189ms or 123 ticks behind
-[16:04:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6649ms or 132 ticks behind
-[16:04:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7600ms or 152 ticks behind
-[16:04:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5691ms or 113 ticks behind
-[16:05:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3199ms or 63 ticks behind
-[16:05:21] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[16:05:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4094ms or 81 ticks behind
-[16:05:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2865ms or 57 ticks behind
-[16:05:48] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[16:06:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
-[16:06:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4085ms or 81 ticks behind
-[16:06:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
-[16:07:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7701ms or 154 ticks behind
-[16:07:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2069ms or 41 ticks behind
-[16:08:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
-[16:08:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5827ms or 116 ticks behind
-[16:08:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
-[16:08:50] [Server thread/INFO]: [Not Secure] <pauloR2001> new stronghold portal: overworld (-4701,9925), nether (-587.6,1240.6)
-[16:08:59] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[16:08:59] [Server thread/INFO]: pauloR2001 left the game
-[16:09:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2505ms or 50 ticks behind
-[16:09:12] [Server thread/INFO]: pauloR2001[/127.0.0.1:52577] logged in with entity id 18401 at (-4703.984427409239, -17.0, 9925.233469026192)
-[16:09:13] [Server thread/INFO]: pauloR2001 joined the game
-[16:09:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2554ms or 51 ticks behind
-[16:09:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5209ms or 104 ticks behind
-[16:09:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4717ms or 94 ticks behind
-[16:10:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2642ms or 52 ticks behind
-[16:10:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2961ms or 59 ticks behind
-[16:10:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[16:11:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2202ms or 44 ticks behind
-[16:12:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[16:13:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3489ms or 69 ticks behind
-[16:14:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
-[16:14:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3292ms or 65 ticks behind
-[16:14:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3628ms or 72 ticks behind
-[16:15:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[16:15:33] [Server thread/INFO]: [Not Secure] <momo70950> new stron -4701,9925) nether (-587.6,1240.6)
-[16:15:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2596ms or 51 ticks behind
-[16:18:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
-[16:18:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3884ms or 77 ticks behind
-[16:20:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
-[16:20:26] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[16:20:26] [Server thread/INFO]: pauloR2001 left the game
-[16:21:00] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[16:21:00] [Server thread/INFO]: momo70950 left the game
-[16:22:00] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[16:27:13] [Server thread/INFO]: momo70950[/127.73.51.155:52598] logged in with entity id 23184 at (-3755.6242873067995, 138.0, 3380.3130178601573)
-[16:27:13] [Server thread/INFO]: momo70950 joined the game
-[16:27:30] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[16:27:30] [Server thread/INFO]: momo70950 left the game
-[16:28:30] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[16:39:25] [Server thread/INFO]: momo70950[/127.73.51.155:62997] logged in with entity id 23462 at (-3751.615798117333, 138.0, 3383.618738618297)
-[16:39:25] [Server thread/INFO]: momo70950 joined the game
-[16:41:50] [Server thread/INFO]: pauloR2001[/127.0.0.1:62999] logged in with entity id 25103 at (-4707.335232339905, -17.0, 9925.47612194256)
-[16:41:50] [Server thread/INFO]: pauloR2001 joined the game
-[17:03:57] [Server thread/INFO]: [Not Secure] <pauloR2001> no sirio
-[17:04:01] [Server thread/INFO]: [Not Secure] <pauloR2001> no sirvio
-[17:04:04] [Server thread/INFO]: [Not Secure] <momo70950> si vi
-[17:04:10] [Server thread/INFO]: [Not Secure] <momo70950> ahora lo hago
-[17:04:18] [Server thread/INFO]: [Not Secure] <momo70950> dejame ir a la cocina por mi morcilla
-[17:04:29] [Server thread/INFO]: [Not Secure] <momo70950> voy por polvora
-[17:04:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[17:04:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3829ms or 76 ticks behind
-[17:05:07] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[17:06:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2075ms or 41 ticks behind
-[17:06:15] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[17:06:36] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[17:06:36] [Server thread/INFO]: pauloR2001 left the game
-[17:06:43] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[17:06:43] [Server thread/INFO]: momo70950 left the game
-[17:07:43] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[17:38:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[17:38:44] [ServerMain/INFO]: Loaded 1461 recipes
+[17:38:44] [ServerMain/INFO]: Loaded 1574 advancements
+[17:38:44] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[17:38:44] [Server thread/INFO]: Loading properties
+[17:38:44] [Server thread/INFO]: Default game type: SURVIVAL
+[17:38:44] [Server thread/INFO]: Generating keypair
+[17:38:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:38:45] [Server thread/INFO]: Using default channel type
+[17:38:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:38:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:38:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:38:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:38:45] [Server thread/INFO]: Preparing level "world"
+[17:38:45] [Server thread/INFO]: Loading 0 persistent chunks...
+[17:38:45] [Server thread/INFO]: Preparing spawn area: 100%
+[17:38:45] [Server thread/INFO]: Time elapsed: 16 ms
+[17:38:45] [Server thread/INFO]: Done (0.439s)! For help, type "help"
+[17:38:50] [Server thread/INFO]: momo70950[/127.73.51.155:64914] logged in with entity id 41 at (-581.4193974696967, 128.0, 1224.0604965157233)
+[17:38:50] [Server thread/INFO]: momo70950 joined the game
+[17:41:37] [Server thread/INFO]: pauloR2001[/127.0.0.1:60098] logged in with entity id 2032 at (-4705.877243540428, -17.0, 9925.02028414243)
+[17:41:37] [Server thread/INFO]: pauloR2001 joined the game
+[17:41:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[18:13:19] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[18:13:19] [Server thread/INFO]: momo70950 left the game
+[18:13:34] [Server thread/INFO]: momo70950[/127.73.51.155:64098] logged in with entity id 11270 at (-4715.577777793643, -17.0, 9923.699999988079)
+[18:13:35] [Server thread/INFO]: momo70950 joined the game
+[18:30:24] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
+[18:34:01] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
+[18:36:28] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
+[18:40:47] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[18:40:47] [Server thread/INFO]: pauloR2001 left the game
+[18:41:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2045ms or 40 ticks behind
+[18:41:21] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2384, y=38, z=3287} ja{x=-2383, y=36, z=3288}
+[18:41:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11709ms or 234 ticks behind
+[18:41:27] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2379, y=44, z=3270} ja{x=-2378, y=43, z=3271}
+[18:41:28] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2379, y=44, z=3269} ja{x=-2378, y=43, z=3270}
+[18:41:29] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2375, y=45, z=3272} ja{x=-2376, y=44, z=3272}
+[18:41:31] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2374, y=45, z=3273} ja{x=-2374, y=44, z=3274}
+[18:41:31] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2374, y=45, z=3273} ja{x=-2374, y=44, z=3274}
+[18:41:40] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2381, y=42, z=3290} ja{x=-2381, y=40, z=3291}
+[18:41:41] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2381, y=42, z=3291} ja{x=-2380, y=41, z=3291}
+[18:41:41] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2381, y=42, z=3291} ja{x=-2380, y=41, z=3291}
+[18:41:41] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2381, y=42, z=3291} ja{x=-2380, y=41, z=3291}
+[18:41:41] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2381, y=42, z=3291} ja{x=-2380, y=41, z=3291}
+[18:41:46] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2381, y=42, z=3305} ja{x=-2380, y=41, z=3304}
+[18:41:48] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2380, y=43, z=3310} ja{x=-2379, y=42, z=3310}
+[18:41:48] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2380, y=43, z=3310} ja{x=-2379, y=42, z=3310}
+[18:41:52] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2379, y=44, z=3301} ja{x=-2378, y=43, z=3302}
+[18:42:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20321ms or 406 ticks behind
+[18:42:03] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2370, y=44, z=3269} ja{x=-2371, y=43, z=3270}
+[18:42:04] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2370, y=44, z=3269} ja{x=-2371, y=43, z=3270}
+[18:42:04] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2370, y=44, z=3269} ja{x=-2371, y=43, z=3270}
+[18:42:18] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2331, y=44, z=3273} ja{x=-2331, y=44, z=3274}
+[18:42:20] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2333, y=48, z=3278} ja{x=-2334, y=47, z=3278}
+[18:42:20] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2333, y=48, z=3278} ja{x=-2334, y=47, z=3278}
+[18:42:21] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2338, y=48, z=3277} ja{x=-2339, y=47, z=3280}
+[18:42:21] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-2338, y=48, z=3277} ja{x=-2339, y=47, z=3280}
+[18:42:27] [Server thread/INFO]: momo70950 has reached the goal [Postmortal]
+[18:45:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2288ms or 45 ticks behind
+[18:45:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11572ms or 231 ticks behind
+[18:46:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[18:46:19] [Server thread/INFO]: pauloR2001[/127.0.0.1:56494] logged in with entity id 28372 at (-2411.254894875934, 63.0, 3299.504417548594)
+[18:46:19] [Server thread/INFO]: pauloR2001 joined the game
+[18:47:58] [Server thread/WARN]: pauloR2001 moved too quickly! -0.7627562091402069,-4.7073853486878505,17.080336708635514
+[18:48:33] [Server thread/WARN]: pauloR2001 moved too quickly! -15.5133147433271,-2.460076447136487,-8.888610205332952
+[18:55:59] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[18:55:59] [Server thread/INFO]: pauloR2001 left the game
+[18:56:56] [Server thread/INFO]: pauloR2001[/127.0.0.1:56513] logged in with entity id 33471 at (-5676.300000011921, -44.0, 7027.705950085318)
+[18:56:57] [Server thread/INFO]: pauloR2001 joined the game
+[18:57:39] [Server thread/INFO]: momo70950 has made the advancement [Sneak 100]
+[19:03:12] [Server thread/INFO]: momo70950 was obliterated by a sonically-charged shriek
+[19:03:12] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
+[19:03:33] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
+[19:04:39] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[19:04:48] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
+[19:05:47] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
+[19:15:42] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-5626, y=125, z=7078} ja{x=-5626, y=126, z=7077}
+[19:16:18] [Server thread/WARN]: pauloR2001 moved too quickly! 13.192028471266894,-2.533544576501498,11.574105393486207
+[19:18:43] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[19:18:43] [Server thread/INFO]: momo70950 left the game
+[19:20:19] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[19:20:19] [Server thread/INFO]: pauloR2001 left the game
