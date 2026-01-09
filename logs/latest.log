@@ -1,12 +1,21 @@
-[00:43:21] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[00:46:19] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[00:46:26] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[00:46:29] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[00:46:32] [Server thread/INFO]: [pauloR2001: Set momo70950's game mode to Spectator Mode]
-[00:50:13] [Server thread/INFO]: [pauloR2001: Set momo70950's game mode to Survival Mode]
-[00:59:41] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[01:01:21] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[01:24:38] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[01:24:38] [Server thread/INFO]: momo70950 left the game
-[01:24:44] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[01:24:44] [Server thread/INFO]: pauloR2001 left the game
+[00:08:26] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[00:08:26] [Server thread/INFO]: momo70950 left the game
+[00:08:30] [Server thread/INFO]: momo70950[/127.245.139.212:58820] logged in with entity id 18273 at (-582.5396141807175, 64.0, 1019.6597364238182)
+[00:08:30] [Server thread/INFO]: momo70950 joined the game
+[00:08:40] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[00:08:40] [Server thread/INFO]: momo70950 left the game
+[00:09:03] [Server thread/INFO]: momo70950[/127.245.139.212:54130] logged in with entity id 18325 at (-576.5406997235292, 64.0, 993.0757541800351)
+[00:09:03] [Server thread/INFO]: momo70950 joined the game
+[00:12:01] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[00:12:01] [Server thread/INFO]: pauloR2001 left the game
+[00:12:02] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[00:12:02] [Server thread/INFO]: momo70950 left the game
+[00:12:13] [Server thread/INFO]: pauloR2001[/127.0.0.1:54149] logged in with entity id 18744 at (-612.441605412851, 64.0, 1009.4992440252072)
+[00:12:13] [Server thread/INFO]: pauloR2001 joined the game
+[00:12:15] [Server thread/INFO]: momo70950[/127.245.139.212:54154] logged in with entity id 18805 at (-608.8330151885281, 64.0, 1008.9710637602963)
+[00:12:15] [Server thread/INFO]: momo70950 joined the game
+[00:16:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
+[00:16:56] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[00:16:56] [Server thread/INFO]: momo70950 left the game
+[00:20:20] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[00:20:20] [Server thread/INFO]: pauloR2001 left the game

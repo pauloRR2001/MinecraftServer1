@@ -853,25 +853,28 @@
       "minecraft:pillager": "2026-01-03 16:27:53 -0500",
       "minecraft:skeleton": "2025-11-23 00:29:44 -0500",
       "minecraft:elder_guardian": "2026-01-06 22:21:57 -0500",
-      "minecraft:phantom": "2026-01-06 23:29:21 -0500",
-      "minecraft:witch": "2026-01-01 22:31:48 -0500",
       "minecraft:ravager": "2026-01-05 23:07:24 -0500",
+      "minecraft:guardian": "2026-01-06 22:21:00 -0500",
+      "minecraft:vindicator": "2026-01-05 23:01:05 -0500",
+      "minecraft:magma_cube": "2026-01-08 23:21:42 -0500",
+      "minecraft:spider": "2025-12-06 22:08:46 -0500",
+      "minecraft:creeper": "2025-12-17 10:57:38 -0500",
+      "minecraft:slime": "2026-01-03 13:26:40 -0500",
+      "minecraft:evoker": "2026-01-05 23:04:07 -0500",
+      "minecraft:phantom": "2026-01-06 23:29:21 -0500",
+      "minecraft:zombified_piglin": "2026-01-09 00:08:05 -0500",
+      "minecraft:witch": "2026-01-01 22:31:48 -0500",
+      "minecraft:wither_skeleton": "2026-01-08 23:17:38 -0500",
       "minecraft:husk": "2026-01-06 21:31:46 -0500",
       "minecraft:shulker": "2025-12-13 17:31:05 -0500",
       "minecraft:piglin": "2026-01-07 17:04:57 -0500",
-      "minecraft:guardian": "2026-01-06 22:21:00 -0500",
-      "minecraft:vindicator": "2026-01-05 23:01:05 -0500",
       "minecraft:silverfish": "2025-12-07 00:05:40 -0500",
       "minecraft:enderman": "2025-12-12 23:45:10 -0500",
       "minecraft:endermite": "2025-12-17 13:26:13 -0500",
-      "minecraft:spider": "2025-12-06 22:08:46 -0500",
       "minecraft:vex": "2026-01-05 23:17:36 -0500",
       "minecraft:zombie": "2025-11-23 00:07:07 -0500",
-      "minecraft:creeper": "2025-12-17 10:57:38 -0500",
       "minecraft:drowned": "2026-01-05 23:55:28 -0500",
-      "minecraft:zombie_villager": "2025-11-23 00:19:00 -0500",
-      "minecraft:slime": "2026-01-03 13:26:40 -0500",
-      "minecraft:evoker": "2026-01-05 23:04:07 -0500"
+      "minecraft:zombie_villager": "2025-11-23 00:19:00 -0500"
     },
     "done": false
   },
@@ -4361,6 +4364,18 @@
   "minecraft:adventure/avoid_vibration": {
     "criteria": {
       "avoid_vibration": "2026-01-07 18:57:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2026-01-08 23:29:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2026-01-08 23:29:21 -0500"
     },
     "done": true
   },
