@@ -178,13 +178,13 @@ function Do-Push {
     Write-Log "=== COMMIT + PUSH ==="
     Invoke-UI { $btnPush.Enabled = $false }
 
-    # Add all
-    $p1 = Start-LoggedProcess -FilePath $GitExe -Arguments @("add","-A") -WorkingDirectory $RepoDir
+    # Add like push_world.bat (use '.' rather than -A)
+    $p1 = Start-LoggedProcess -FilePath $GitExe -Arguments @("add", ".") -WorkingDirectory $RepoDir
     $null = Register-ObjectEvent -InputObject $p1 -EventName Exited -Action {
         try { Write-Log ("Add exit code: " + $Event.Sender.ExitCode) } catch { Write-Log "Add finished." }
 
-        # Commit (may fail if nothing to commit)
-        $p2 = Start-LoggedProcess -FilePath $GitExe -Arguments @("commit","-m","""World update""") -WorkingDirectory $RepoDir
+        # Commit (quiet) — similar to >NUL 2>&1 in batch
+        $p2 = Start-LoggedProcess -FilePath $GitExe -Arguments @("commit", "-q", "-m", '"World update"') -WorkingDirectory $RepoDir
         $null = Register-ObjectEvent -InputObject $p2 -EventName Exited -Action {
             try { Write-Log ("Commit exit code: " + $Event.Sender.ExitCode) } catch { Write-Log "Commit finished." }
 
