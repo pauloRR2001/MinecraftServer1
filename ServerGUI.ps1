@@ -75,6 +75,41 @@ function Invoke-UI([scriptblock]$action) {
     }
 }
 
+function Wait-ProcessPump([System.Diagnostics.Process]$p) {
+    try {
+        while (-not $p.HasExited) {
+            [System.Windows.Forms.Application]::DoEvents()
+            Start-Sleep -Milliseconds 50
+        }
+    } catch {}
+}
+
+function Run-LoggedProcessAndOnExit {
+    param(
+        [string]$FilePath,
+        [string[]]$Arguments,
+        [string]$WorkingDirectory,
+        [scriptblock]$OnExit,
+        [switch]$KeepStdin
+    )
+
+    $proc = Start-LoggedProcess -FilePath $FilePath -Arguments $Arguments -WorkingDirectory $WorkingDirectory -KeepStdin:$KeepStdin
+    if ($proc.HasExited) {
+        try { if ($OnExit) { & $OnExit $proc } } catch {}
+    } else {
+        try {
+            $null = Register-ObjectEvent -InputObject $proc -EventName Exited -Action {
+                try { if ($OnExit) { & $OnExit $Event.Sender } } catch {}
+            }
+        } catch {
+            # Fallback: if registration failed, poll once
+            Start-Sleep -Milliseconds 50
+            try { if ($OnExit) { & $OnExit $proc } } catch {}
+        }
+    }
+    return $proc
+}
+
 function Write-Log([string]$line) {
     $ts = (Get-Date).ToString("HH:mm:ss")
     $msg = "[$ts] $line"
@@ -167,10 +202,9 @@ function Do-Pull {
     Write-Log "=== PULL (rebase) ==="
     Invoke-UI { $btnPull.Enabled = $false }
     $p = Start-LoggedProcess -FilePath $GitExe -Arguments @("pull","--rebase") -WorkingDirectory $RepoDir
-    $null = Register-ObjectEvent -InputObject $p -EventName Exited -Action {
-        try { Write-Log ("Pull exit code: " + $Event.Sender.ExitCode) } catch { Write-Log "Pull finished." }
-        Invoke-UI { $btnPull.Enabled = $true }
-    }
+    Wait-ProcessPump $p
+    Write-Log ("Pull exit code: " + $p.ExitCode)
+    Invoke-UI { $btnPull.Enabled = $true }
 }
 
 function Do-Push {
@@ -180,22 +214,19 @@ function Do-Push {
 
     # Add like push_world.bat (use '.' rather than -A)
     $p1 = Start-LoggedProcess -FilePath $GitExe -Arguments @("add", ".") -WorkingDirectory $RepoDir
-    $null = Register-ObjectEvent -InputObject $p1 -EventName Exited -Action {
-        try { Write-Log ("Add exit code: " + $Event.Sender.ExitCode) } catch { Write-Log "Add finished." }
+    Wait-ProcessPump $p1
+    Write-Log ("Add exit code: " + $p1.ExitCode)
 
-        # Commit (quiet) — similar to >NUL 2>&1 in batch
-        $p2 = Start-LoggedProcess -FilePath $GitExe -Arguments @("commit", "-q", "-m", '"World update"') -WorkingDirectory $RepoDir
-        $null = Register-ObjectEvent -InputObject $p2 -EventName Exited -Action {
-            try { Write-Log ("Commit exit code: " + $Event.Sender.ExitCode) } catch { Write-Log "Commit finished." }
+    # Commit
+    $p2 = Start-LoggedProcess -FilePath $GitExe -Arguments @("commit", "-m", '"World update"') -WorkingDirectory $RepoDir
+    Wait-ProcessPump $p2
+    Write-Log ("Commit exit code: " + $p2.ExitCode)
 
-            # Push regardless of commit result
-            $p3 = Start-LoggedProcess -FilePath $GitExe -Arguments @("push") -WorkingDirectory $RepoDir
-            $null = Register-ObjectEvent -InputObject $p3 -EventName Exited -Action {
-                try { Write-Log ("Push exit code: " + $Event.Sender.ExitCode) } catch { Write-Log "Push finished." }
-                Invoke-UI { $btnPush.Enabled = $true }
-            }
-        }
-    }
+    # Push
+    $p3 = Start-LoggedProcess -FilePath $GitExe -Arguments @("push") -WorkingDirectory $RepoDir
+    Wait-ProcessPump $p3
+    Write-Log ("Push exit code: " + $p3.ExitCode)
+    Invoke-UI { $btnPush.Enabled = $true }
 }
 
 function Start-Playit {
