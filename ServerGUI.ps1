@@ -61,7 +61,17 @@ $txtOut.ScrollBars = "Vertical"
 $txtOut.ReadOnly = $true
 $txtOut.Font = New-Object System.Drawing.Font("Consolas", 10)
 
-$form.Controls.AddRange(@($btnPull, $btnPush, $btnStart, $btnStop, $btnClear, $txtOut))
+$txtCmd = New-Object System.Windows.Forms.TextBox
+$txtCmd.Location = New-Object System.Drawing.Point(20, 600)
+$txtCmd.Size = New-Object System.Drawing.Size(800, 24)
+$txtCmd.Font = New-Object System.Drawing.Font("Consolas", 10)
+
+$btnSend = New-Object System.Windows.Forms.Button
+$btnSend.Text = "Send"
+$btnSend.Location = New-Object System.Drawing.Point(840, 596)
+$btnSend.Size = New-Object System.Drawing.Size(100, 30)
+
+$form.Controls.AddRange(@($btnPull, $btnPush, $btnStart, $btnStop, $btnClear, $txtOut, $txtCmd, $btnSend))
 
 function Invoke-UI([scriptblock]$action) {
     try {
@@ -108,6 +118,27 @@ function Run-LoggedProcessAndOnExit {
         }
     }
     return $proc
+}
+
+function Send-ServerCommand([string]$cmd) {
+    $cmd = ($cmd | ForEach-Object { $_ })
+    if ($null -eq $cmd) { return }
+    $cmd = $cmd.Trim()
+    if ([string]::IsNullOrWhiteSpace($cmd)) { return }
+
+    if (-not $global:ServerProc -or $global:ServerProc.HasExited) {
+        Write-Log "Server is not running."
+        return
+    }
+
+    try {
+        $global:ServerProc.StandardInput.WriteLine($cmd)
+        $global:ServerProc.StandardInput.Flush()
+        Write-Log ("CMD> " + $cmd)
+        Invoke-UI { $txtCmd.Clear() }
+    } catch {
+        Write-Log "ERR: Could not send command to server stdin."
+    }
 }
 
 function Write-Log([string]$line) {
@@ -316,6 +347,18 @@ $btnStart.Add_Click({
 
 $btnStop.Add_Click({
     try { Stop-Server } catch { Write-Log ("ERR: " + $_.Exception.Message) }
+})
+
+$btnSend.Add_Click({
+    try { Send-ServerCommand $txtCmd.Text } catch { Write-Log ("ERR: " + $_.Exception.Message) }
+})
+
+$txtCmd.Add_KeyDown({
+    param($sender, $e)
+    if ($e.KeyCode -eq [System.Windows.Forms.Keys]::Enter) {
+        $e.SuppressKeyPress = $true
+        try { Send-ServerCommand $txtCmd.Text } catch { Write-Log ("ERR: " + $_.Exception.Message) }
+    }
 })
 
 # Clean up on close
