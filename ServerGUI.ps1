@@ -1,0 +1,298 @@
+# ServerGUI.ps1
+# Run: powershell -ExecutionPolicy Bypass -File .\ServerGUI.ps1
+
+Add-Type -AssemblyName System.Windows.Forms
+Add-Type -AssemblyName System.Drawing
+
+# ----------------------------
+# CONFIG (edit these)
+# ----------------------------
+$RepoDir     = $PSScriptRoot
+$GitExe      = "git"
+
+$JavaExe     = "java"  # or full path to java.exe
+$ServerJar   = Join-Path $RepoDir "minecraft_server.1.21.10.jar"
+$MaxMemory   = "8G"
+
+$PlayitExe   = Join-Path $RepoDir "playit.exe"
+
+# Optional: args like "--nogui"
+$ServerArgs  = @()
+
+# ----------------------------
+# GUI
+# ----------------------------
+$form = New-Object System.Windows.Forms.Form
+$form.Text = "Minecraft Server Manager"
+$form.Size = New-Object System.Drawing.Size(980, 650)
+$form.StartPosition = "CenterScreen"
+
+$btnPull = New-Object System.Windows.Forms.Button
+$btnPull.Text = "Pull (rebase)"
+$btnPull.Location = New-Object System.Drawing.Point(20, 20)
+$btnPull.Size = New-Object System.Drawing.Size(140, 35)
+
+$btnPush = New-Object System.Windows.Forms.Button
+$btnPush.Text = "Commit + Push"
+$btnPush.Location = New-Object System.Drawing.Point(175, 20)
+$btnPush.Size = New-Object System.Drawing.Size(140, 35)
+
+$btnStart = New-Object System.Windows.Forms.Button
+$btnStart.Text = "Start Server"
+$btnStart.Location = New-Object System.Drawing.Point(330, 20)
+$btnStart.Size = New-Object System.Drawing.Size(140, 35)
+
+$btnStop = New-Object System.Windows.Forms.Button
+$btnStop.Text = "Stop Server"
+$btnStop.Location = New-Object System.Drawing.Point(485, 20)
+$btnStop.Size = New-Object System.Drawing.Size(140, 35)
+$btnStop.Enabled = $false
+
+$btnClear = New-Object System.Windows.Forms.Button
+$btnClear.Text = "Clear Output"
+$btnClear.Location = New-Object System.Drawing.Point(640, 20)
+$btnClear.Size = New-Object System.Drawing.Size(140, 35)
+
+$txtOut = New-Object System.Windows.Forms.TextBox
+$txtOut.Location = New-Object System.Drawing.Point(20, 70)
+$txtOut.Size = New-Object System.Drawing.Size(920, 520)
+$txtOut.Multiline = $true
+$txtOut.ScrollBars = "Vertical"
+$txtOut.ReadOnly = $true
+$txtOut.Font = New-Object System.Drawing.Font("Consolas", 10)
+
+$form.Controls.AddRange(@($btnPull, $btnPush, $btnStart, $btnStop, $btnClear, $txtOut))
+
+function Invoke-UI([scriptblock]$action) {
+    try {
+        if ($form -and $form.IsHandleCreated) {
+            $form.BeginInvoke([Action]$action) | Out-Null
+        } else {
+            & $action
+        }
+    } catch {
+        & $action
+    }
+}
+
+function Write-Log([string]$line) {
+    $ts = (Get-Date).ToString("HH:mm:ss")
+    $msg = "[$ts] $line"
+
+    $write = {
+        $txtOut.AppendText($msg + "`r`n")
+        $txtOut.SelectionStart = $txtOut.TextLength
+        $txtOut.ScrollToCaret()
+    }
+
+    try {
+        if ($txtOut -and $txtOut.IsHandleCreated) {
+            if ($txtOut.InvokeRequired) {
+                $null = $txtOut.BeginInvoke([Action]$write)
+            } else {
+                & $write
+            }
+        } else {
+            Write-Host $msg
+        }
+    } catch {
+        Write-Host $msg
+    }
+}
+
+# ----------------------------
+# Process runner that streams output to the textbox
+# ----------------------------
+function Start-LoggedProcess {
+    param(
+        [string]$FilePath,
+        [string[]]$Arguments,
+        [string]$WorkingDirectory,
+        [switch]$KeepStdin
+    )
+
+    $psi = New-Object System.Diagnostics.ProcessStartInfo
+    $psi.FileName = $FilePath
+    $psi.Arguments = ($Arguments -join " ")
+    $psi.WorkingDirectory = $WorkingDirectory
+    $psi.RedirectStandardOutput = $true
+    $psi.RedirectStandardError  = $true
+    $psi.UseShellExecute = $false
+    $psi.CreateNoWindow = $true
+
+    if ($KeepStdin) { $psi.RedirectStandardInput = $true }
+
+    $p = New-Object System.Diagnostics.Process
+    $p.StartInfo = $psi
+    $p.EnableRaisingEvents = $true
+    try { $p.SynchronizingObject = $form } catch {}
+
+    $handlerOut = [System.Diagnostics.DataReceivedEventHandler]{
+        param($sender, $e)
+        if ($e.Data) { Write-Log $e.Data }
+    }
+    $handlerErr = [System.Diagnostics.DataReceivedEventHandler]{
+        param($sender, $e)
+        if ($e.Data) { Write-Log ("ERR: " + $e.Data) }
+    }
+
+    $null = $p.add_OutputDataReceived($handlerOut)
+    $null = $p.add_ErrorDataReceived($handlerErr)
+
+    Write-Log ("RUN: " + $FilePath + " " + ($psi.Arguments))
+    $null = $p.Start()
+    $p.BeginOutputReadLine()
+    $p.BeginErrorReadLine()
+
+    return $p
+}
+
+# ----------------------------
+# Managed processes
+# ----------------------------
+$global:ServerProc = $null
+$global:PlayitProc = $null
+
+function Ensure-Repo {
+    if (-not (Test-Path $RepoDir)) { throw "RepoDir not found: $RepoDir" }
+    try {
+        $null = Get-Command $GitExe -ErrorAction Stop
+    } catch {
+        throw "Git not found: $GitExe"
+    }
+}
+
+function Do-Pull {
+    Ensure-Repo
+    Write-Log "=== PULL (rebase) ==="
+    Invoke-UI { $btnPull.Enabled = $false }
+    $p = Start-LoggedProcess -FilePath $GitExe -Arguments @("pull","--rebase") -WorkingDirectory $RepoDir
+    $null = Register-ObjectEvent -InputObject $p -EventName Exited -Action {
+        try { Write-Log ("Pull exit code: " + $Event.Sender.ExitCode) } catch { Write-Log "Pull finished." }
+        Invoke-UI { $btnPull.Enabled = $true }
+    }
+}
+
+function Do-Push {
+    Ensure-Repo
+    Write-Log "=== COMMIT + PUSH ==="
+    Invoke-UI { $btnPush.Enabled = $false }
+
+    # Add all
+    $p1 = Start-LoggedProcess -FilePath $GitExe -Arguments @("add","-A") -WorkingDirectory $RepoDir
+    $null = Register-ObjectEvent -InputObject $p1 -EventName Exited -Action {
+        try { Write-Log ("Add exit code: " + $Event.Sender.ExitCode) } catch { Write-Log "Add finished." }
+
+        # Commit (may fail if nothing to commit)
+        $p2 = Start-LoggedProcess -FilePath $GitExe -Arguments @("commit","-m","""World update""") -WorkingDirectory $RepoDir
+        $null = Register-ObjectEvent -InputObject $p2 -EventName Exited -Action {
+            try { Write-Log ("Commit exit code: " + $Event.Sender.ExitCode) } catch { Write-Log "Commit finished." }
+
+            # Push regardless of commit result
+            $p3 = Start-LoggedProcess -FilePath $GitExe -Arguments @("push") -WorkingDirectory $RepoDir
+            $null = Register-ObjectEvent -InputObject $p3 -EventName Exited -Action {
+                try { Write-Log ("Push exit code: " + $Event.Sender.ExitCode) } catch { Write-Log "Push finished." }
+                Invoke-UI { $btnPush.Enabled = $true }
+            }
+        }
+    }
+}
+
+function Start-Playit {
+    if ($global:PlayitProc -and -not $global:PlayitProc.HasExited) {
+        Write-Log "playit already running."
+        return
+    }
+    if (-not (Test-Path $PlayitExe)) { throw "playit.exe not found: $PlayitExe" }
+    Write-Log "Starting playit..."
+    $global:PlayitProc = Start-LoggedProcess -FilePath $PlayitExe -Arguments @() -WorkingDirectory $RepoDir
+}
+
+function Stop-Playit {
+    if ($global:PlayitProc -and -not $global:PlayitProc.HasExited) {
+        Write-Log "Stopping playit..."
+        try { $global:PlayitProc.Kill() } catch {}
+    }
+    $global:PlayitProc = $null
+}
+
+function Start-Server {
+    if ($global:ServerProc -and -not $global:ServerProc.HasExited) {
+        Write-Log "Server already running."
+        return
+    }
+    if (-not (Test-Path $ServerJar)) { throw "Server jar not found: $ServerJar" }
+
+    Write-Log "Starting server..."
+    Start-Playit
+
+    # Run java directly so we can send "stop" on shutdown
+    $args = @("-Xmx$MaxMemory","-jar","""$ServerJar""" ) + $ServerArgs
+    $global:ServerProc = Start-LoggedProcess -FilePath $JavaExe -Arguments $args -WorkingDirectory $RepoDir -KeepStdin
+
+    $btnStart.Enabled = $false
+    $btnStop.Enabled  = $true
+}
+
+function Stop-Server {
+    if (-not $global:ServerProc -or $global:ServerProc.HasExited) {
+        Write-Log "Server is not running."
+        Stop-Playit
+        $btnStart.Enabled = $true
+        $btnStop.Enabled  = $false
+        return
+    }
+
+    Write-Log "Stopping server (sending 'stop')..."
+    try {
+        $global:ServerProc.StandardInput.WriteLine("stop")
+        $global:ServerProc.StandardInput.Flush()
+    } catch {
+        Write-Log "Could not write to stdin; will kill process."
+    }
+
+    # Wait a bit; then force kill if needed
+    Start-Sleep -Seconds 6
+    if (-not $global:ServerProc.HasExited) {
+        Write-Log "Server did not exit; killing..."
+        try { $global:ServerProc.Kill() } catch {}
+    }
+
+    $global:ServerProc = $null
+    Stop-Playit
+
+    $btnStart.Enabled = $true
+    $btnStop.Enabled  = $false
+    Write-Log "Server stopped."
+}
+
+# ----------------------------
+# Button handlers
+# ----------------------------
+$btnClear.Add_Click({ $txtOut.Clear() })
+
+$btnPull.Add_Click({
+    try { Do-Pull } catch { Write-Log ("ERR: " + $_.Exception.Message) }
+})
+
+$btnPush.Add_Click({
+    try { Do-Push } catch { Write-Log ("ERR: " + $_.Exception.Message) }
+})
+
+$btnStart.Add_Click({
+    try { Start-Server } catch { Write-Log ("ERR: " + $_.Exception.Message) }
+})
+
+$btnStop.Add_Click({
+    try { Stop-Server } catch { Write-Log ("ERR: " + $_.Exception.Message) }
+})
+
+# Clean up on close
+$form.Add_FormClosing({
+    try { Stop-Server } catch {}
+})
+
+$form.Add_Shown({
+    Write-Log "Ready. RepoDir=$RepoDir"
+})
+[void]$form.ShowDialog()

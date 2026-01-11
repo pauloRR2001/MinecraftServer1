@@ -1,24 +1,29 @@
-[08:46:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[08:46:53] [ServerMain/INFO]: Loaded 1461 recipes
-[08:46:53] [ServerMain/INFO]: Loaded 1574 advancements
-[08:46:54] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[08:46:54] [Server thread/INFO]: Loading properties
-[08:46:54] [Server thread/INFO]: Default game type: SURVIVAL
-[08:46:54] [Server thread/INFO]: Generating keypair
-[08:46:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[08:46:54] [Server thread/INFO]: Using default channel type
-[08:46:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08:46:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[08:46:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08:46:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[08:46:54] [Server thread/INFO]: Preparing level "world"
-[08:46:55] [Server thread/INFO]: Loading 0 persistent chunks...
-[08:46:55] [Server thread/INFO]: Preparing spawn area: 100%
-[08:46:55] [Server thread/INFO]: Time elapsed: 83 ms
-[08:46:55] [Server thread/INFO]: Done (0.500s)! For help, type "help"
-[08:47:55] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[08:48:09] [Server thread/INFO]: andresr255[/127.58.7.225:52841] logged in with entity id 109 at (-3967.012499988079, 64.0, 3298.050000011921)
-[08:48:09] [Server thread/INFO]: andresr255 joined the game
-[08:48:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[08:48:37] [Server thread/INFO]: andresr255 lost connection: Disconnected
-[08:48:37] [Server thread/INFO]: andresr255 left the game
+[10:57:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[10:57:41] [ServerMain/INFO]: Loaded 1461 recipes
+[10:57:41] [ServerMain/INFO]: Loaded 1574 advancements
+[10:57:41] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[10:57:41] [Server thread/INFO]: Loading properties
+[10:57:41] [Server thread/INFO]: Default game type: SURVIVAL
+[10:57:41] [Server thread/INFO]: Generating keypair
+[10:57:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:57:41] [Server thread/INFO]: Using default channel type
+[10:57:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:57:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:57:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:57:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:57:41] [Server thread/INFO]: Preparing level "world"
+[10:57:42] [Server thread/INFO]: Loading 0 persistent chunks...
+[10:57:42] [Server thread/INFO]: Preparing spawn area: 100%
+[10:57:42] [Server thread/INFO]: Time elapsed: 15 ms
+[10:57:42] [Server thread/INFO]: Done (0.413s)! For help, type "help"
+[10:58:22] [Server thread/INFO]: Stopping the server
+[10:58:22] [Server thread/INFO]: Stopping server
+[10:58:22] [Server thread/INFO]: Saving players
+[10:58:22] [Server thread/INFO]: Saving worlds
+[10:58:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:58:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10:58:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10:58:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:58:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:58:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:58:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
