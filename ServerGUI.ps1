@@ -55,11 +55,24 @@ $btnClear.Size = New-Object System.Drawing.Size(140, 35)
 
 $txtOut = New-Object System.Windows.Forms.TextBox
 $txtOut.Location = New-Object System.Drawing.Point(20, 70)
-$txtOut.Size = New-Object System.Drawing.Size(920, 520)
+$txtOut.Size = New-Object System.Drawing.Size(690, 520)
 $txtOut.Multiline = $true
 $txtOut.ScrollBars = "Vertical"
 $txtOut.ReadOnly = $true
 $txtOut.Font = New-Object System.Drawing.Font("Consolas", 10)
+
+$txtHelp = New-Object System.Windows.Forms.TextBox
+$txtHelp.Location = New-Object System.Drawing.Point(720, 70)
+$txtHelp.Size = New-Object System.Drawing.Size(220, 520)
+$txtHelp.Multiline = $true
+$txtHelp.ReadOnly = $true
+$txtHelp.ScrollBars = "Vertical"
+$txtHelp.Font = New-Object System.Drawing.Font("Consolas", 10)
+$txtHelp.Text = "Instructions:" + "`r`n" +
+    "1) Pull" + "`r`n" +
+    "2) Start Server" + "`r`n" +
+    "3) Stop Server" + "`r`n" +
+    "4) Commit + Push"
 
 $txtCmd = New-Object System.Windows.Forms.TextBox
 $txtCmd.Location = New-Object System.Drawing.Point(20, 600)
@@ -71,7 +84,7 @@ $btnSend.Text = "Send"
 $btnSend.Location = New-Object System.Drawing.Point(840, 596)
 $btnSend.Size = New-Object System.Drawing.Size(100, 30)
 
-$form.Controls.AddRange(@($btnPull, $btnPush, $btnStart, $btnStop, $btnClear, $txtOut, $txtCmd, $btnSend))
+$form.Controls.AddRange(@($btnPull, $btnPush, $btnStart, $btnStop, $btnClear, $txtOut, $txtHelp, $txtCmd, $btnSend))
 
 function Invoke-UI([scriptblock]$action) {
     try {
