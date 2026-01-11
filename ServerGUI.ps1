@@ -174,7 +174,8 @@ function Start-LoggedProcess {
         [string]$FilePath,
         [string[]]$Arguments,
         [string]$WorkingDirectory,
-        [switch]$KeepStdin
+        [switch]$KeepStdin,
+        [switch]$StdErrAsInfo
     )
 
     $psi = New-Object System.Diagnostics.ProcessStartInfo
@@ -199,7 +200,13 @@ function Start-LoggedProcess {
     }
     $handlerErr = [System.Diagnostics.DataReceivedEventHandler]{
         param($sender, $e)
-        if ($e.Data) { Write-Log ("ERR: " + $e.Data) }
+        if ($e.Data) {
+            if ($StdErrAsInfo) {
+                Write-Log $e.Data
+            } else {
+                Write-Log ("ERR: " + $e.Data)
+            }
+        }
     }
 
     $null = $p.add_OutputDataReceived($handlerOut)
@@ -232,7 +239,7 @@ function Do-Pull {
     Ensure-Repo
     Write-Log "=== PULL (rebase) ==="
     Invoke-UI { $btnPull.Enabled = $false }
-    $p = Start-LoggedProcess -FilePath $GitExe -Arguments @("pull","--rebase") -WorkingDirectory $RepoDir
+    $p = Start-LoggedProcess -FilePath $GitExe -Arguments @("pull","--rebase") -WorkingDirectory $RepoDir -StdErrAsInfo
     Wait-ProcessPump $p
     Write-Log ("Pull exit code: " + $p.ExitCode)
     Invoke-UI { $btnPull.Enabled = $true }
@@ -244,17 +251,17 @@ function Do-Push {
     Invoke-UI { $btnPush.Enabled = $false }
 
     # Add like push_world.bat (use '.' rather than -A)
-    $p1 = Start-LoggedProcess -FilePath $GitExe -Arguments @("add", ".") -WorkingDirectory $RepoDir
+    $p1 = Start-LoggedProcess -FilePath $GitExe -Arguments @("add", ".") -WorkingDirectory $RepoDir -StdErrAsInfo
     Wait-ProcessPump $p1
     Write-Log ("Add exit code: " + $p1.ExitCode)
 
     # Commit
-    $p2 = Start-LoggedProcess -FilePath $GitExe -Arguments @("commit", "-m", '"World update"') -WorkingDirectory $RepoDir
+    $p2 = Start-LoggedProcess -FilePath $GitExe -Arguments @("commit", "-m", '"World update"') -WorkingDirectory $RepoDir -StdErrAsInfo
     Wait-ProcessPump $p2
     Write-Log ("Commit exit code: " + $p2.ExitCode)
 
     # Push
-    $p3 = Start-LoggedProcess -FilePath $GitExe -Arguments @("push") -WorkingDirectory $RepoDir
+    $p3 = Start-LoggedProcess -FilePath $GitExe -Arguments @("push") -WorkingDirectory $RepoDir -StdErrAsInfo
     Wait-ProcessPump $p3
     Write-Log ("Push exit code: " + $p3.ExitCode)
     Invoke-UI { $btnPush.Enabled = $true }
