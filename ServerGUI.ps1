@@ -74,6 +74,19 @@ $numMem.Maximum = 64
 $numMem.Value = 4
 $numMem.Font = New-Object System.Drawing.Font("Consolas", 10)
 
+$lblView = New-Object System.Windows.Forms.Label
+$lblView.Text = "View Distance:"
+$lblView.Location = New-Object System.Drawing.Point(550, 60)
+$lblView.Size = New-Object System.Drawing.Size(140, 20)
+
+$numView = New-Object System.Windows.Forms.NumericUpDown
+$numView.Location = New-Object System.Drawing.Point(700, 58)
+$numView.Size = New-Object System.Drawing.Size(60, 24)
+$numView.Minimum = 4
+$numView.Maximum = 32
+$numView.Value = 10
+$numView.Font = New-Object System.Drawing.Font("Consolas", 10)
+
 $txtHelp = New-Object System.Windows.Forms.TextBox
 $txtHelp.Location = New-Object System.Drawing.Point(720, 100)
 $txtHelp.Size = New-Object System.Drawing.Size(220, 470)
@@ -97,7 +110,7 @@ $btnSend.Text = "Send"
 $btnSend.Location = New-Object System.Drawing.Point(840, 596)
 $btnSend.Size = New-Object System.Drawing.Size(100, 30)
 
-$form.Controls.AddRange(@($btnPull, $btnPush, $btnStart, $btnStop, $btnClear, $txtOut, $txtHelp, $lblMem, $numMem, $txtCmd, $btnSend))
+$form.Controls.AddRange(@($btnPull, $btnPush, $btnStart, $btnStop, $btnClear, $txtOut, $txtHelp, $lblMem, $numMem, $lblView, $numView, $txtCmd, $btnSend))
 
 function Invoke-UI([scriptblock]$action) {
     try {
@@ -327,6 +340,17 @@ function Start-Server {
         $memStr = $MaxMemory
     }
 
+    # Apply view distance to server.properties before starting
+    try {
+        if ($numView) {
+            $viewVal = [int]$numView.Value
+            Set-ServerProperty -Key 'view-distance' -Value "$viewVal"
+            Write-Log ("Applied view-distance=" + $viewVal)
+        }
+    } catch {
+        Write-Log ("ERR: Could not apply view-distance: " + $_.Exception.Message)
+    }
+
     # Run java directly so we can send "stop" on shutdown
     $args = @("-Xmx$memStr","-jar","""$ServerJar""" ) + $ServerArgs
     $global:ServerProc = Start-LoggedProcess -FilePath $JavaExe -Arguments $args -WorkingDirectory $RepoDir -KeepStdin
@@ -365,6 +389,51 @@ function Stop-Server {
     $btnStart.Enabled = $true
     $btnStop.Enabled  = $false
     Write-Log "Server stopped."
+}
+
+function Set-ServerProperty {
+    param(
+        [Parameter(Mandatory=$true)][string]$Key,
+        [Parameter(Mandatory=$true)][string]$Value
+    )
+
+    $propPath = Join-Path $RepoDir 'server.properties'
+    if (-not (Test-Path $propPath)) {
+        # Create a minimal file if missing
+        $line = "$Key=$Value"
+        try {
+            Set-Content -Path $propPath -Value $line -Encoding ascii
+        } catch {
+            throw "Failed to write server.properties: $($_.Exception.Message)"
+        }
+        return
+    }
+
+    try {
+        $lines = Get-Content -Path $propPath -ErrorAction Stop
+    } catch {
+        throw "Failed to read server.properties: $($_.Exception.Message)"
+    }
+
+    $updated = $false
+    $newLines = New-Object System.Collections.Generic.List[string]
+    foreach ($l in $lines) {
+        if ($l -match "^\s*$([regex]::Escape($Key))\s*=") {
+            $newLines.Add("$Key=$Value")
+            $updated = $true
+        } else {
+            $newLines.Add($l)
+        }
+    }
+    if (-not $updated) {
+        $newLines.Add("$Key=$Value")
+    }
+
+    try {
+        Set-Content -Path $propPath -Value $newLines -Encoding ascii
+    } catch {
+        throw "Failed to update server.properties: $($_.Exception.Message)"
+    }
 }
 
 # ----------------------------

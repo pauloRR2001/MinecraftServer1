@@ -1,233 +1,111 @@
-[18:25:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[18:25:12] [ServerMain/INFO]: Loaded 1461 recipes
-[18:25:12] [ServerMain/INFO]: Loaded 1574 advancements
-[18:25:12] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[18:25:12] [Server thread/INFO]: Loading properties
-[18:25:12] [Server thread/INFO]: Default game type: SURVIVAL
-[18:25:12] [Server thread/INFO]: Generating keypair
-[18:25:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:25:12] [Server thread/INFO]: Using default channel type
-[18:25:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:25:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:25:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:25:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:25:13] [Server thread/INFO]: Preparing level "world"
-[18:25:13] [Server thread/INFO]: Loading 0 persistent chunks...
-[18:25:13] [Server thread/INFO]: Preparing spawn area: 100%
-[18:25:13] [Server thread/INFO]: Time elapsed: 13 ms
-[18:25:13] [Server thread/INFO]: Done (0.282s)! For help, type "help"
-[18:25:25] [Server thread/INFO]: jorgehjhn[/127.87.229.217:49706] logged in with entity id 12 at (-4061.551773899166, 110.84375002384186, 2859.2469002736902)
-[18:25:25] [Server thread/INFO]: jorgehjhn joined the game
-[18:25:48] [Server thread/INFO]: [Not Secure] <jorgehjhn> llegue puto
-[18:26:55] [Server thread/INFO]: andresr255[/127.58.7.225:60918] logged in with entity id 653 at (-3967.012499988079, 64.0, 3299.2350092534825)
-[18:26:55] [Server thread/INFO]: andresr255 joined the game
-[18:26:59] [Server thread/INFO]: [Not Secure] <jorgehjhn> seguire explorando
-[18:27:18] [Server thread/INFO]: [Not Secure] <andresr255> que porcentaje del mapa llevas_
-[18:27:23] [Server thread/INFO]: [Not Secure] <andresr255> ?
-[18:27:49] [Server thread/INFO]: [Not Secure] <andresr255> e di el mapa más grande, quizá conviene pedirle prestadas las alas a Paulo
-[18:28:06] [Server thread/INFO]: [Not Secure] <jorgehjhn> como 20 porciento, es que encuentro muchos valles y me toca rodear
-[18:28:38] [Server thread/INFO]: [Not Secure] <andresr255> me tomé la libertad de usar tu galpón de tierra para hacer una granja de vacas y gallinas
-[18:29:07] [Server thread/INFO]: [Not Secure] <jorgehjhn> mientras mantengas mi cuarto no tengo rollo jajaja
-[18:29:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 0.7221720422094222,1.5358406250445569,-9.975746987602633
-[18:29:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 0.7286032579140738,1.2315237975870161,-10.211355407250267
-[18:29:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 0.7348436093652708,0.8548932993483618,-10.44431790092358
-[18:29:38] [Server thread/INFO]: [Not Secure] <andresr255> y despues hay que hacerle una entrada normal porque ir a tu casa es un dolor de cabeza
-[18:29:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 1.3332629676901888,0.0,-10.134506361959666
-[18:31:42] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -2.750903377391296,-1.0,-9.832904074392445
-[18:31:42] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -2.7959061999872574,-1.0,-10.239181568904314
-[18:32:43] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 7.293493917703472,1.0,7.155444153856479
-[18:32:43] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 7.553864980169692,1.0,7.469880213615397
-[18:33:31] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 0.03747616538157672,1.0,10.221087561351396
-[18:33:31] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 0.03861516228744222,1.0,10.629953681304869
-[18:33:31] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 0.039754159193307714,0.9215999984741217,11.03881980128972
-[18:33:31] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 0.03986805888143863,0.7663679939575161,11.280623247622316
-[18:33:59] [Server thread/INFO]: [Not Secure] <jorgehjhn> pos si
-[18:34:17] [Server thread/INFO]: [Not Secure] <jorgehjhn> encontre tierra de nieve con cabras saltarinas
-[18:34:27] [Server thread/INFO]: [Not Secure] <andresr255> qq
-[18:34:33] [Server thread/INFO]: [Not Secure] <andresr255> no sabía que habpian cabras
-[18:34:47] [Server thread/INFO]: [Not Secure] <andresr255> duerme
-[18:35:22] [Server thread/INFO]: [Not Secure] <jorgehjhn> voy a desconectarme, duerme y me conecto
-[18:35:24] [Server thread/INFO]: jorgehjhn lost connection: Disconnected
-[18:35:24] [Server thread/INFO]: jorgehjhn left the game
-[18:35:41] [Server thread/INFO]: jorgehjhn[/127.87.229.217:60951] logged in with entity id 5692 at (-3901.761952365915, 132.84375002384186, 2510.3352087389176)
-[18:35:41] [Server thread/INFO]: jorgehjhn joined the game
-[18:35:52] [Server thread/INFO]: [Not Secure] <andresr255> desoya unas ovejas y armas una cama
-[18:36:01] [Server thread/INFO]: [Not Secure] <andresr255> o sino vas a salir lejos si mueres
-[18:38:10] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 0.001160214819265093,4.0,-9.472793670269766
-[18:38:10] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -0.0034225220683765656,4.0,-9.878219990418074
-[18:38:10] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 0.0067877651276830875,5.0,-10.284930574392547
-[18:38:10] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 0.00896355724080422,5.0,-10.692592254586089
-[18:39:11] [Server thread/INFO]: [Not Secure] <jorgehjhn> ya cargo una cama pero cai en un hueco
-[18:39:26] [Server thread/INFO]: [Not Secure] <jorgehjhn> voy a tratar de no perder el caballo
-[18:39:47] [Server thread/INFO]: [Not Secure] <andresr255> cava una escalera sino
-[18:41:38] [Server thread/INFO]: [Not Secure] <andresr255> juega con sonido en caso que te salga creepe
-[18:43:19] [Server thread/INFO]: [Not Secure] <jorgehjhn> si, me toco salir saltando porque toca cabar mucho con el caballo
-[18:44:14] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -4.131414925020636,-1.0,-9.4659218716547
-[18:45:40] [Server thread/INFO]: jorgehjhn lost connection: Disconnected
-[18:45:40] [Server thread/INFO]: jorgehjhn left the game
-[18:47:04] [Server thread/INFO]: jorgehjhn[/127.87.229.217:60988] logged in with entity id 10574 at (-3837.6952391799127, 110.84375002384186, 2288.1717973625)
-[18:47:04] [Server thread/INFO]: jorgehjhn joined the game
-[18:47:15] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 1.6758616198462732,1.0,-10.079266512043887
-[18:47:15] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 1.7493432130186193,1.0,-10.481483424683574
-[18:47:15] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 1.8228290818515234,1.0,-10.883699563712526
-[18:47:15] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 1.896317285194982,1.0,-11.285915280349855
-[18:47:15] [Server thread/INFO]: [Not Secure] <andresr255> esos son como ladrones
-[18:47:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -1.7814645602466044,0.0,15.070373371968344
-[18:47:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -1.7814645602466044,0.0,15.070373371968344
-[18:47:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -1.7814645602466044,0.0,15.070373371968344
-[18:47:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -1.7814645602466044,0.0,15.070373371968344
-[18:47:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -1.7817578119825157,0.0,15.07034167621623
-[18:47:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -1.7580188978577098,0.0,14.662166980122493
-[18:47:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -1.7343674067874417,0.0,14.25398283501545
-[18:47:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -1.7107636487107811,0.0,13.84579353074696
-[18:47:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -1.6871859528514506,0.0,13.437601409576018
-[18:47:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -1.6636224869644138,0.0,13.029407750375867
-[18:47:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -1.6410263696166112,0.0,12.621160397065978
-[18:47:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -1.6311092032028682,0.0,12.21264429448047
-[18:47:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -1.6319933362719894,0.0,11.804072580666343
-[18:47:17] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -1.6397505420295602,0.0,11.395525747360807
-[18:47:18] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -1.6570914093949796,0.0,10.987293548404978
-[18:48:30] [Server thread/INFO]: Villager cyx['Villager'/799, l='ServerLevel[world]', x=-3825.30, y=117.00, z=3427.30] died, message: 'Villager suffocated in a wall'
-[18:49:04] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -8.842667547280598,1.0,-4.7436864082483226
-[18:49:04] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -9.026582380156924,1.0,-4.917439237451163
-[18:50:15] [Server thread/INFO]: [Not Secure] <jorgehjhn> eran 2 con ballesta
-[18:50:34] [Server thread/INFO]: [Not Secure] <andresr255> Paulo dice que aveces atacan los pueblos de los aldeanos
-[18:50:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 10.00324994420862,0.0,2.10171580467113
-[18:50:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 10.403379914664129,0.0,2.185784568539475
-[18:50:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 10.803509885119638,0.0,2.2698533324082746
-[18:50:53] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -10.191238549842183,0.0,-1.9589353279284296
-[18:53:07] [Server thread/INFO]: [Not Secure] <jorgehjhn> tengo un vecino super otaku
-[18:53:42] [Server thread/INFO]: [Not Secure] <andresr255> por que
-[18:55:20] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 6.591089017905233,5.0,-5.866855494758056
-[18:55:20] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 6.971739853698637,5.0,-6.015367660894981
-[18:55:20] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 7.353115436038479,5.0,-6.162348030358999
-[18:55:20] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 7.734886730038397,5.0,-6.308492038742543
-[18:55:20] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 8.116530623429298,6.0,-6.4550769552035945
-[18:57:40] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-3755, y=61, z=3253} ja{x=-3755, y=62, z=3253}
-[18:58:24] [Server thread/INFO]: jorgehjhn lost connection: Disconnected
-[18:58:24] [Server thread/INFO]: jorgehjhn left the game
-[18:59:07] [Server thread/INFO]: andresr255 was blown up by Creeper
-[18:59:24] [Server thread/INFO]: jorgehjhn[/127.87.229.217:63576] logged in with entity id 19054 at (-3415.825891025117, 63.84375002384186, 1976.5889679285583)
-[18:59:24] [Server thread/INFO]: jorgehjhn joined the game
-[19:02:36] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -4.702038587966399,1.0,-8.986915377467994
-[19:02:36] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -4.707394722975096,1.0,-9.395525659217583
-[19:03:13] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -10.083474435688458,2.0625,-0.05301389242049481
-[19:03:13] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -10.467395964315983,2.0625,-0.16744131374889548
-[19:03:13] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -10.84435656890173,2.0625,-0.31026525386778303
-[19:03:13] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -11.217516508519111,3.0,-0.4685936950472751
-[19:04:50] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -6.6665503887370505,6.0,5.262002685856714
-[19:04:50] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -6.735835495684569,6.0,5.660290907328545
-[19:04:50] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -6.760559735942024,6.0,6.062920642237714
-[19:04:50] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -6.747913711702495,6.0,6.466532302451014
-[19:04:50] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -6.712451970617167,6.0,6.870320602515221
-[19:04:50] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -6.664532846687052,6.0,7.2742053479491915
-[19:04:50] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -6.603115142294882,6.0,7.676973484316022
-[19:06:15] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -2.1217677708814335,-1.0,9.871525617697444
-[19:09:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -8.882355866305716,5.0,1.7194405236064085
-[19:09:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -9.290598664993468,5.0,1.7344866249936786
-[19:09:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -9.699049225088856,5.0,1.7481113004600957
-[19:09:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -10.107613222926375,5.0,1.7609598772833124
-[19:09:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -10.516239157778273,5.0,1.773384704198179
-[19:09:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -10.924898910243883,6.0,1.7855781636362735
-[19:09:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved wrongly! 2.70105205673417
-[19:09:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved wrongly! 2.70105205673417
-[19:09:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved wrongly! 2.70105205673417
-[19:09:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved wrongly! 2.70105205673417
-[19:09:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved wrongly! 2.70105205673417
-[19:09:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved wrongly! 2.70105205673417
-[19:09:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved wrongly! 2.528846999688085
-[19:09:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved wrongly! 2.262617970573956
-[19:09:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved wrongly! 1.9450518467479014
-[19:09:41] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved wrongly! 1.592004298570373
-[19:16:34] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -7.166641294319106,5.0,5.39015185420385
-[19:16:34] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -7.447215905935991,6.0,5.6870137838186565
-[19:16:34] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -7.726383264790002,7.0,5.985440806758106
-[19:16:34] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -8.00478226354653,7.0,6.284722370752206
-[19:16:34] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -8.282761737640612,7.0,6.584470514216719
-[19:16:58] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -5.970825194279769,6.0,5.77547013990943
-[19:16:58] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -6.2718707699646075,6.0,6.050720551543236
-[19:16:58] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -6.57350831503436,6.0,6.325970966165187
-[19:16:58] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -6.875469075425826,6.0,6.601221382418316
-[19:16:58] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -7.177929334770852,7.0,6.8761160589460815
-[19:16:58] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -7.343072655554806,7.0,7.026208569763639
-[19:16:58] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -7.433240919176114,7.0,7.1081590901890195
-[19:16:58] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -7.482472796831644,7.0,7.15290407953853
-[19:18:47] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -4.62176893906053,4.0,-8.25427587350805
-[19:18:47] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -4.738982435273101,4.0,-8.645157438726983
-[19:18:47] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -4.852936384496388,4.0,-9.037359424828537
-[19:18:47] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved wrongly! 0.8025041470123142
-[19:18:47] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved wrongly! 0.8025041470123142
-[19:18:47] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved wrongly! 0.8025041470123142
-[19:18:47] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved wrongly! 0.5692416729534671
-[19:18:47] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved wrongly! 0.323898704111798
-[19:18:59] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -10.257252880964643,0.0,1.3025264551533837
-[19:18:59] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -10.591879536059423,1.0,1.5356016829014152
-[19:18:59] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -10.923290964657099,0.9215999984741217,1.7739679203514243
-[19:28:18] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -2.565267884383047,-1.0,9.696443707860908
-[19:28:18] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -2.5913624230383903,-1.0,9.814279259855084
-[19:29:06] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 4.98107671604248,3.0,8.412507345162794
-[19:29:06] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 5.191376191025483,3.0,8.762777755827756
-[19:29:06] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 5.411435851321585,3.0,9.10693167257432
-[19:29:06] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 5.641178645159016,4.0,9.444655923689425
-[19:29:06] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 5.876610243047253,4.0,9.778574800851402
-[19:47:16] [Server thread/INFO]: andresr255 has made the advancement [The Parrots and the Bats]
-[19:56:43] [Server thread/INFO]: jorgehjhn lost connection: Disconnected
-[19:56:43] [Server thread/INFO]: jorgehjhn left the game
-[20:00:11] [Server thread/INFO]: jorgehjhn[/127.87.229.217:63760] logged in with entity id 36049 at (-3959.300000011921, 70.0, 3296.0132273385466)
-[20:00:11] [Server thread/INFO]: jorgehjhn joined the game
-[20:06:11] [Server thread/INFO]: pauloR2001[/127.210.5.105:63781] logged in with entity id 37400 at (-4029.8680138822397, 64.0, 3423.1626758983407)
-[20:06:11] [Server thread/INFO]: pauloR2001 joined the game
-[20:06:53] [Server thread/INFO]: [Not Secure] <pauloR2001> a
-[20:06:57] [Server thread/INFO]: [Not Secure] <andresr255> ola
-[20:07:08] [Server thread/INFO]: pauloR2001 lost connection: You logged in from another location
-[20:07:08] [Server thread/INFO]: pauloR2001 left the game
-[20:07:10] [Server thread/INFO]: pauloR2001[/127.210.5.105:63787] logged in with entity id 37874 at (-4025.108115976014, 64.0, 3423.226605268654)
-[20:07:10] [Server thread/INFO]: pauloR2001 joined the game
-[20:07:32] [Server thread/INFO]: [Not Secure] <pauloR2001> que hacen
-[20:07:50] [Server thread/INFO]: [Not Secure] <andresr255> atacamos un asentamiento de ladrones
-[20:07:58] [Server thread/INFO]: [Not Secure] <andresr255> pero está lejos
-[20:08:04] [Server thread/INFO]: [Not Secure] <andresr255> quieres venir?
-[20:08:23] [Server thread/INFO]: [Not Secure] <pauloR2001> bueno, caules coordinadas
-[20:08:30] [Server thread/INFO]: [Not Secure] <andresr255> sabrá dios
-[20:08:59] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! -0.2097703826580073,-1.0,-10.31137274157254
-[20:09:48] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 1.0550345764477242,1.2315237975870161,-10.038717641777112
-[20:09:48] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 1.084285299871226,1.0,-10.269881241625626
-[20:09:48] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 1.1275213197291123,1.0,-10.665123596039848
-[20:09:54] [Server thread/INFO]: [Not Secure] <pauloR2001> ya voy
-[20:10:36] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 0.5489390494835789,0.0,-10.116375963117662
-[20:10:36] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 0.4413752152026973,0.0,-10.510313290886643
-[20:10:36] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 0.3304998293619974,0.0,-10.903557227486544
-[20:13:02] [Server thread/WARN]: Horse (vehicle of jorgehjhn) moved too quickly! 2.9837272503436907,3.0,-9.299050052423354
-[20:14:05] [Server thread/INFO]: jorgehjhn froze to death
-[20:14:56] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-3999, y=110, z=2458} ja{x=-3998, y=111, z=2458}
-[20:14:56] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-3999, y=110, z=2458} ja{x=-3998, y=111, z=2458}
-[20:15:37] [Server thread/INFO]: jorgehjhn lost connection: Disconnected
-[20:15:37] [Server thread/INFO]: jorgehjhn left the game
-[20:18:12] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-3994, y=114, z=2461} ja{x=-3996, y=112, z=2463}
-[20:18:12] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-3994, y=114, z=2462} ja{x=-3996, y=112, z=2463}
-[20:18:12] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-3993, y=114, z=2462} ja{x=-3996, y=112, z=2463}
-[20:18:12] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-3993, y=114, z=2461} ja{x=-3996, y=112, z=2463}
-[20:18:57] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-4002, y=109, z=2453} ja{x=-4001, y=109, z=2453}
-[20:18:57] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-4002, y=109, z=2453} ja{x=-4001, y=109, z=2453}
-[20:18:57] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=-4002, y=109, z=2453} ja{x=-4001, y=109, z=2453}
-[20:31:14] [Server thread/INFO]: andresr255 was shot by Pillager
-[20:37:50] [Server thread/WARN]: pauloR2001 moved wrongly!
-[20:37:56] [Server thread/INFO]: andresr255 was blown up by Creeper
-[20:38:23] [Server thread/INFO]: Villager cyx['Cartographer'/51698, l='ServerLevel[world]', x=-4007.08, y=100.00, z=3036.40] died, message: 'Cartographer was slain by Zombie'
-[20:40:14] [Server thread/INFO]: andresr255 was shot by Skeleton
-[20:41:33] [Server thread/INFO]: andresr255 was slain by Zombie
-[20:48:16] [Server thread/INFO]: andresr255 lost connection: Disconnected
-[20:48:16] [Server thread/INFO]: andresr255 left the game
-[20:48:19] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[20:48:19] [Server thread/INFO]: pauloR2001 left the game
-[20:48:26] [Server thread/INFO]: Stopping the server
-[20:48:26] [Server thread/INFO]: Stopping server
-[20:48:26] [Server thread/INFO]: Saving players
-[20:48:26] [Server thread/INFO]: Saving worlds
-[20:48:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:48:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:48:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:48:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:48:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:48:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:48:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:21:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[19:21:40] [Yggdrasil Key Fetcher/ERROR]: Got an error with a html body connecting to https://api.minecraftservices.com/publickeys: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+
+<head>
+    <meta content='text/html; charset=utf-8' http-equiv='content-type' />
+    <style type='text/css'>
+        body {
+            font-family: Arial;
+            margin-left: 40px;
+        }
+
+        img {
+            border: 0 none;
+        }
+
+        #content {
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        #message h1 {
+            font-size: 24px;
+            font-weight: normal;
+            color: #000000;
+            margin: 34px 0px 0px 0px
+        }
+
+        #message h2 {
+            font-size: 20px;
+            font-weight: normal;
+            color: #000000;
+            margin: 34px 0px 0px 0px
+        }
+
+        #message p {
+            font-size: 16px;
+            color: #000000;
+            margin: 8px 0px 0px 0px
+        }
+
+        #message hr {
+            margin: 15px 0px
+        }
+
+        #errorref {
+            font-size: 11px;
+            color: #737373;
+            margin-top: 41px
+        }
+    </style>
+    <title>Service unavailable</title>
+</head>
+
+<body>
+    <div id='content'>
+        <div id='message'>
+            <h2>The request is blocked.</h2>
+        </div>
+        <div id='errorref'>
+            <span>20260112T002140Z-17584c64c9fx4j8hhC1MIA5mf000000007vg00000000bxfy            </span>
+        </div>
+    </div>
+</body>
+</html>
+
+[19:21:40] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 429
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-7.0.61.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-7.0.61.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-7.0.61.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-7.0.61.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19:21:41] [ServerMain/INFO]: Loaded 1461 recipes
+[19:21:41] [ServerMain/INFO]: Loaded 1574 advancements
+[19:21:41] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[19:21:41] [Server thread/INFO]: Loading properties
+[19:21:41] [Server thread/INFO]: Default game type: SURVIVAL
+[19:21:41] [Server thread/INFO]: Generating keypair
+[19:21:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:21:42] [Server thread/INFO]: Using default channel type
+[19:21:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:21:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:21:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:21:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:21:42] [Server thread/INFO]: Preparing level "world"
+[19:21:42] [Server thread/INFO]: Loading 0 persistent chunks...
+[19:21:42] [Server thread/INFO]: Preparing spawn area: 100%
+[19:21:42] [Server thread/INFO]: Time elapsed: 16 ms
+[19:21:42] [Server thread/INFO]: Done (0.431s)! For help, type "help"
+[19:22:39] [Server thread/INFO]: pauloR2001[/127.0.0.1:57701] logged in with entity id 70 at (-3973.588987635806, 91.5, 3300.1098028679285)
+[19:22:40] [Server thread/INFO]: pauloR2001 joined the game
+[19:22:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[19:24:42] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[19:24:42] [Server thread/INFO]: pauloR2001 left the game
+[19:24:55] [Server thread/INFO]: Stopping the server
+[19:24:55] [Server thread/INFO]: Stopping server
+[19:24:55] [Server thread/INFO]: Saving players
+[19:24:55] [Server thread/INFO]: Saving worlds
+[19:24:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:24:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:24:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:24:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:24:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:24:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:24:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
