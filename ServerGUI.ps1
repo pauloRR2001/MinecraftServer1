@@ -12,7 +12,7 @@ $GitExe      = "git"
 
 $JavaExe     = "java"  # or full path to java.exe
 $ServerJar   = Join-Path $RepoDir "minecraft_server.1.21.10.jar"
-$MaxMemory   = "8G"
+$MaxMemory   = "4G"
 
 $PlayitExe   = Join-Path $RepoDir "playit.exe"
 
@@ -54,16 +54,29 @@ $btnClear.Location = New-Object System.Drawing.Point(640, 20)
 $btnClear.Size = New-Object System.Drawing.Size(140, 35)
 
 $txtOut = New-Object System.Windows.Forms.TextBox
-$txtOut.Location = New-Object System.Drawing.Point(20, 70)
-$txtOut.Size = New-Object System.Drawing.Size(690, 520)
+$txtOut.Location = New-Object System.Drawing.Point(20, 100)
+$txtOut.Size = New-Object System.Drawing.Size(690, 470)
 $txtOut.Multiline = $true
 $txtOut.ScrollBars = "Vertical"
 $txtOut.ReadOnly = $true
 $txtOut.Font = New-Object System.Drawing.Font("Consolas", 10)
 
+$lblMem = New-Object System.Windows.Forms.Label
+$lblMem.Text = "Max Memory (GB):"
+$lblMem.Location = New-Object System.Drawing.Point(330, 60)
+$lblMem.Size = New-Object System.Drawing.Size(140, 20)
+
+$numMem = New-Object System.Windows.Forms.NumericUpDown
+$numMem.Location = New-Object System.Drawing.Point(480, 58)
+$numMem.Size = New-Object System.Drawing.Size(60, 24)
+$numMem.Minimum = 1
+$numMem.Maximum = 64
+$numMem.Value = 4
+$numMem.Font = New-Object System.Drawing.Font("Consolas", 10)
+
 $txtHelp = New-Object System.Windows.Forms.TextBox
-$txtHelp.Location = New-Object System.Drawing.Point(720, 70)
-$txtHelp.Size = New-Object System.Drawing.Size(220, 520)
+$txtHelp.Location = New-Object System.Drawing.Point(720, 100)
+$txtHelp.Size = New-Object System.Drawing.Size(220, 470)
 $txtHelp.Multiline = $true
 $txtHelp.ReadOnly = $true
 $txtHelp.ScrollBars = "Vertical"
@@ -84,7 +97,7 @@ $btnSend.Text = "Send"
 $btnSend.Location = New-Object System.Drawing.Point(840, 596)
 $btnSend.Size = New-Object System.Drawing.Size(100, 30)
 
-$form.Controls.AddRange(@($btnPull, $btnPush, $btnStart, $btnStop, $btnClear, $txtOut, $txtHelp, $txtCmd, $btnSend))
+$form.Controls.AddRange(@($btnPull, $btnPush, $btnStart, $btnStop, $btnClear, $txtOut, $txtHelp, $lblMem, $numMem, $txtCmd, $btnSend))
 
 function Invoke-UI([scriptblock]$action) {
     try {
@@ -308,8 +321,14 @@ function Start-Server {
     Write-Log "Starting server..."
     Start-Playit
 
+    # Determine memory from UI (fallback to config)
+    $memStr = if ($numMem -and $null -ne $numMem.Value) { "$($numMem.Value)G" } else { $MaxMemory }
+    if ([string]::IsNullOrWhiteSpace($memStr) -or -not ($memStr -match '^[0-9]+G$')) {
+        $memStr = $MaxMemory
+    }
+
     # Run java directly so we can send "stop" on shutdown
-    $args = @("-Xmx$MaxMemory","-jar","""$ServerJar""" ) + $ServerArgs
+    $args = @("-Xmx$memStr","-jar","""$ServerJar""" ) + $ServerArgs
     $global:ServerProc = Start-LoggedProcess -FilePath $JavaExe -Arguments $args -WorkingDirectory $RepoDir -KeepStdin
 
     $btnStart.Enabled = $false
