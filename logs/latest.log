@@ -1,111 +1,37 @@
-[19:21:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[19:21:40] [Yggdrasil Key Fetcher/ERROR]: Got an error with a html body connecting to https://api.minecraftservices.com/publickeys: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
-<html xmlns='http://www.w3.org/1999/xhtml'>
-
-<head>
-    <meta content='text/html; charset=utf-8' http-equiv='content-type' />
-    <style type='text/css'>
-        body {
-            font-family: Arial;
-            margin-left: 40px;
-        }
-
-        img {
-            border: 0 none;
-        }
-
-        #content {
-            margin-left: auto;
-            margin-right: auto
-        }
-
-        #message h1 {
-            font-size: 24px;
-            font-weight: normal;
-            color: #000000;
-            margin: 34px 0px 0px 0px
-        }
-
-        #message h2 {
-            font-size: 20px;
-            font-weight: normal;
-            color: #000000;
-            margin: 34px 0px 0px 0px
-        }
-
-        #message p {
-            font-size: 16px;
-            color: #000000;
-            margin: 8px 0px 0px 0px
-        }
-
-        #message hr {
-            margin: 15px 0px
-        }
-
-        #errorref {
-            font-size: 11px;
-            color: #737373;
-            margin-top: 41px
-        }
-    </style>
-    <title>Service unavailable</title>
-</head>
-
-<body>
-    <div id='content'>
-        <div id='message'>
-            <h2>The request is blocked.</h2>
-        </div>
-        <div id='errorref'>
-            <span>20260112T002140Z-17584c64c9fx4j8hhC1MIA5mf000000007vg00000000bxfy            </span>
-        </div>
-    </div>
-</body>
-</html>
-
-[19:21:40] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 429
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-7.0.61.jar:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-7.0.61.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-7.0.61.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-7.0.61.jar:?]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[19:21:41] [ServerMain/INFO]: Loaded 1461 recipes
-[19:21:41] [ServerMain/INFO]: Loaded 1574 advancements
-[19:21:41] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[19:21:41] [Server thread/INFO]: Loading properties
-[19:21:41] [Server thread/INFO]: Default game type: SURVIVAL
-[19:21:41] [Server thread/INFO]: Generating keypair
-[19:21:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:21:42] [Server thread/INFO]: Using default channel type
-[19:21:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:21:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:21:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:21:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:21:42] [Server thread/INFO]: Preparing level "world"
-[19:21:42] [Server thread/INFO]: Loading 0 persistent chunks...
-[19:21:42] [Server thread/INFO]: Preparing spawn area: 100%
-[19:21:42] [Server thread/INFO]: Time elapsed: 16 ms
-[19:21:42] [Server thread/INFO]: Done (0.431s)! For help, type "help"
-[19:22:39] [Server thread/INFO]: pauloR2001[/127.0.0.1:57701] logged in with entity id 70 at (-3973.588987635806, 91.5, 3300.1098028679285)
-[19:22:40] [Server thread/INFO]: pauloR2001 joined the game
-[19:22:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
-[19:24:42] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[19:24:42] [Server thread/INFO]: pauloR2001 left the game
-[19:24:55] [Server thread/INFO]: Stopping the server
-[19:24:55] [Server thread/INFO]: Stopping server
-[19:24:55] [Server thread/INFO]: Saving players
-[19:24:55] [Server thread/INFO]: Saving worlds
-[19:24:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:24:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:24:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:24:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:24:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:24:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:24:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:25:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:25:50] [ServerMain/INFO]: Loaded 1461 recipes
+[21:25:50] [ServerMain/INFO]: Loaded 1574 advancements
+[21:25:52] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[21:25:52] [Server thread/INFO]: Loading properties
+[21:25:52] [Server thread/INFO]: Default game type: SURVIVAL
+[21:25:52] [Server thread/INFO]: Generating keypair
+[21:25:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:25:52] [Server thread/INFO]: Using default channel type
+[21:25:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:25:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:25:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:25:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:25:52] [Server thread/INFO]: Preparing level "world"
+[21:25:53] [Server thread/INFO]: Loading 0 persistent chunks...
+[21:25:53] [Server thread/INFO]: Preparing spawn area: 100%
+[21:25:53] [Server thread/INFO]: Time elapsed: 16 ms
+[21:25:53] [Server thread/INFO]: Done (0.724s)! For help, type "help"
+[21:26:53] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:31:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 137346ms or 2746 ticks behind
+[21:34:00] [Server thread/INFO]: andresr255[/127.58.7.225:53161] logged in with entity id 30 at (-3969.6043419522784, 93.0, 3298.411335641955)
+[21:34:00] [Server thread/INFO]: andresr255 joined the game
+[21:34:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[21:42:44] [Server thread/INFO]: Villager cyx['Villager'/179, l='ServerLevel[world]', x=-3825.30, y=117.00, z=3427.30] died, message: 'Villager suffocated in a wall'
+[21:43:47] [Server thread/WARN]: andresr255 moved too quickly! 8.047244808521555,1.0,6.013443229213863
+[22:51:58] [Server thread/INFO]: andresr255 lost connection: Disconnected
+[22:51:58] [Server thread/INFO]: andresr255 left the game
+[22:52:10] [Server thread/INFO]: Stopping server
+[22:52:10] [Server thread/INFO]: Saving players
+[22:52:10] [Server thread/INFO]: Saving worlds
+[22:52:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:52:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:52:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:52:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:52:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:52:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:52:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
