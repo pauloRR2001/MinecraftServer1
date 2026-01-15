@@ -1,25 +1,20 @@
-[00:01:22] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[00:02:19] [Server thread/INFO]: restrepojc lost connection: Disconnected
-[00:02:19] [Server thread/INFO]: restrepojc left the game
-[00:02:28] [Server thread/INFO]: restrepojc[/127.86.205.203:55265] logged in with entity id 98466 at (-3788.4933287567765, 133.0, 3422.8931483786746)
-[00:02:28] [Server thread/INFO]: restrepojc joined the game
-[00:09:22] [Server thread/INFO]: restrepojc has reached the goal [Postmortal]
-[00:12:01] [Server thread/INFO]: andresr255 lost connection: Disconnected
-[00:12:01] [Server thread/INFO]: andresr255 left the game
-[00:12:20] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[00:12:20] [Server thread/INFO]: momo70950 left the game
-[00:12:21] [Server thread/INFO]: restrepojc lost connection: Disconnected
-[00:12:21] [Server thread/INFO]: restrepojc left the game
-[00:12:24] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[00:12:24] [Server thread/INFO]: pauloR2001 left the game
-[00:12:48] [Server thread/INFO]: Stopping the server
-[00:12:48] [Server thread/INFO]: Stopping server
-[00:12:48] [Server thread/INFO]: Saving players
-[00:12:48] [Server thread/INFO]: Saving worlds
-[00:12:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:12:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:12:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:12:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:12:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:12:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:12:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:03:58] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[00:04:05] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
+[00:13:39] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[00:13:54] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[00:14:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[00:19:44] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[00:19:44] [Server thread/INFO]: restrepojc left the game
+[00:20:41] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[00:20:41] [Server thread/INFO]: pauloR2001 left the game
+[00:20:49] [Server thread/INFO]: Stopping the server
+[00:20:49] [Server thread/INFO]: Stopping server
+[00:20:49] [Server thread/INFO]: Saving players
+[00:20:49] [Server thread/INFO]: Saving worlds
+[00:20:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:20:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:20:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:20:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:20:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:20:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:20:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
