@@ -29,6 +29,7 @@
       "minecraft:windswept_hills": "2026-01-06 23:19:09 -0500",
       "minecraft:old_growth_spruce_taiga": "2025-11-23 00:43:10 -0500",
       "minecraft:bamboo_jungle": "2025-12-28 22:28:46 -0500",
+      "minecraft:wooded_badlands": "2026-01-17 20:35:06 -0500",
       "minecraft:windswept_savanna": "2026-01-07 15:46:37 -0500",
       "minecraft:warm_ocean": "2026-01-06 00:14:26 -0500",
       "minecraft:deep_lukewarm_ocean": "2026-01-06 00:20:43 -0500",
@@ -4223,6 +4224,24 @@
   "minecraft:husbandry/fishy_business": {
     "criteria": {
       "cod": "2026-01-10 17:15:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2026-01-18 00:21:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2026-01-18 00:21:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2026-01-18 00:21:42 -0500"
     },
     "done": true
   },

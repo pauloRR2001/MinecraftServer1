@@ -1,50 +1,21 @@
-[17:09:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[17:09:24] [ServerMain/INFO]: Loaded 1461 recipes
-[17:09:24] [ServerMain/INFO]: Loaded 1574 advancements
-[17:09:24] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[17:09:24] [Server thread/INFO]: Loading properties
-[17:09:24] [Server thread/INFO]: Default game type: SURVIVAL
-[17:09:24] [Server thread/INFO]: Generating keypair
-[17:09:24] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:09:24] [Server thread/INFO]: Using default channel type
-[17:09:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:09:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:09:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:09:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:09:24] [Server thread/INFO]: Preparing level "world"
-[17:09:25] [Server thread/INFO]: Loading 0 persistent chunks...
-[17:09:25] [Server thread/INFO]: Preparing spawn area: 100%
-[17:09:25] [Server thread/INFO]: Time elapsed: 13 ms
-[17:09:25] [Server thread/INFO]: Done (0.284s)! For help, type "help"
-[17:10:25] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[17:25:54] [Server thread/INFO]: andresr255[/127.58.7.225:52605] logged in with entity id 101 at (-3988.0347976027083, 66.0, 3307.0607015479145)
-[17:25:54] [Server thread/INFO]: andresr255 joined the game
-[17:31:45] [Server thread/INFO]: restrepojc[/127.86.205.203:57270] logged in with entity id 1822 at (-3723.303031352975, 157.0, 3425.6641555764495)
-[17:31:45] [Server thread/INFO]: restrepojc joined the game
-[17:32:45] [Server thread/INFO]: [Not Secure] <andresr255> wenas
-[17:32:57] [Server thread/INFO]: [Not Secure] <restrepojc> ola
-[17:34:35] [Server thread/INFO]: restrepojc was impaled by Drowned
-[17:36:25] [Server thread/INFO]: Villager cyx['Villager'/3981, l='ServerLevel[world]', x=-3826.36, y=117.00, z=3428.66] died, message: 'Villager discovered the floor was lava'
-[17:47:48] [Server thread/INFO]: Villager cyx['Villager'/6966, l='ServerLevel[world]', x=-3826.55, y=117.00, z=3429.31] died, message: 'Villager discovered the floor was lava'
-[18:01:28] [Server thread/INFO]: Villager cyx['Villager'/11211, l='ServerLevel[world]', x=-3826.68, y=117.00, z=3429.16] died, message: 'Villager discovered the floor was lava'
-[18:08:57] [Server thread/INFO]: Villager cyx['Villager'/14725, l='ServerLevel[world]', x=-3826.37, y=117.00, z=3427.66] died, message: 'Villager discovered the floor was lava'
-[18:15:42] [Server thread/INFO]: Villager cyx['Villager'/16266, l='ServerLevel[world]', x=-3826.65, y=117.00, z=3427.90] died, message: 'Villager discovered the floor was lava'
-[18:20:13] [Server thread/INFO]: Villager cyx['Villager'/17358, l='ServerLevel[world]', x=-3826.59, y=117.00, z=3429.08] died, message: 'Villager discovered the floor was lava'
-[18:22:04] [Server thread/INFO]: restrepojc lost connection: Disconnected
-[18:22:04] [Server thread/INFO]: restrepojc left the game
-[18:22:37] [Server thread/WARN]: Dark Oak Boat (vehicle of andresr255) moved wrongly! 0.38708389278690447
-[18:22:38] [Server thread/WARN]: Dark Oak Boat (vehicle of andresr255) moved wrongly! 0.4246860992607253
-[18:22:38] [Server thread/WARN]: Dark Oak Boat (vehicle of andresr255) moved wrongly! 0.5790619629692628
-[18:23:22] [Server thread/INFO]: andresr255 lost connection: Disconnected
-[18:23:22] [Server thread/INFO]: andresr255 left the game
-[18:23:33] [Server thread/INFO]: Stopping the server
-[18:23:33] [Server thread/INFO]: Stopping server
-[18:23:33] [Server thread/INFO]: Saving players
-[18:23:33] [Server thread/INFO]: Saving worlds
-[18:23:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:23:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18:23:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18:23:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:23:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:23:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:23:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:08:40] [Server thread/INFO]: Villager cyx['Villager'/68582, l='ServerLevel[world]', x=-3826.64, y=117.00, z=3428.33] died, message: 'Villager discovered the floor was lava'
+[00:14:03] [Server thread/INFO]: Villager cyx['Villager'/70273, l='ServerLevel[world]', x=-3826.44, y=117.00, z=3429.14] died, message: 'Villager discovered the floor was lava'
+[00:30:21] [Server thread/INFO]: Villager cyx['Villager'/74623, l='ServerLevel[world]', x=-3826.36, y=117.00, z=3428.24] died, message: 'Villager discovered the floor was lava'
+[00:31:23] [Server thread/WARN]: restrepojc moved too quickly! 1.0793593984781182,-14.79003486907584,0.5063225009589587
+[00:31:24] [Server thread/INFO]: restrepojc fell from a high place
+[00:41:25] [Server thread/INFO]: Villager cyx['Villager'/77903, l='ServerLevel[world]', x=-3826.54, y=117.00, z=3429.30] died, message: 'Villager discovered the floor was lava'
+[00:45:18] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[00:45:18] [Server thread/INFO]: restrepojc left the game
+[00:45:19] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[00:45:19] [Server thread/INFO]: pauloR2001 left the game
+[00:45:31] [Server thread/INFO]: Stopping the server
+[00:45:31] [Server thread/INFO]: Stopping server
+[00:45:31] [Server thread/INFO]: Saving players
+[00:45:31] [Server thread/INFO]: Saving worlds
+[00:45:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:45:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:45:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:45:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:45:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:45:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:45:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
