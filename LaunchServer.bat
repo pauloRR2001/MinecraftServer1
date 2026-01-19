@@ -58,8 +58,8 @@ IF EXIST "%~dp0server.jar" (
 
 echo Launching below command
 echo -----------------------
-echo %javapath% %finaljavaargs% -jar minecraft_server.1.21.10.jar %launchargs%
+echo %javapath% %finaljavaargs% -jar minecraft_server.1.21.11.jar %launchargs%
 echo.
-%javapath% %finaljavaargs% -jar minecraft_server.1.21.10.jar %launchargs%
+%javapath% %finaljavaargs% -jar minecraft_server.1.21.11.jar %launchargs%
 PAUSE
 

@@ -11,7 +11,7 @@ $RepoDir     = $PSScriptRoot
 $GitExe      = "git"
 
 $JavaExe     = "java"  # or full path to java.exe
-$ServerJar   = Join-Path $RepoDir "minecraft_server.1.21.10.jar"
+$ServerJar   = Join-Path $RepoDir "minecraft_server.1.21.11.jar"
 $MaxMemory   = "4G"
 
 $PlayitExe   = Join-Path $RepoDir "playit.exe"
