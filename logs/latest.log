@@ -1,21 +1,15 @@
-[00:08:40] [Server thread/INFO]: Villager cyx['Villager'/68582, l='ServerLevel[world]', x=-3826.64, y=117.00, z=3428.33] died, message: 'Villager discovered the floor was lava'
-[00:14:03] [Server thread/INFO]: Villager cyx['Villager'/70273, l='ServerLevel[world]', x=-3826.44, y=117.00, z=3429.14] died, message: 'Villager discovered the floor was lava'
-[00:30:21] [Server thread/INFO]: Villager cyx['Villager'/74623, l='ServerLevel[world]', x=-3826.36, y=117.00, z=3428.24] died, message: 'Villager discovered the floor was lava'
-[00:31:23] [Server thread/WARN]: restrepojc moved too quickly! 1.0793593984781182,-14.79003486907584,0.5063225009589587
-[00:31:24] [Server thread/INFO]: restrepojc fell from a high place
-[00:41:25] [Server thread/INFO]: Villager cyx['Villager'/77903, l='ServerLevel[world]', x=-3826.54, y=117.00, z=3429.30] died, message: 'Villager discovered the floor was lava'
-[00:45:18] [Server thread/INFO]: restrepojc lost connection: Disconnected
-[00:45:18] [Server thread/INFO]: restrepojc left the game
-[00:45:19] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[00:45:19] [Server thread/INFO]: pauloR2001 left the game
-[00:45:31] [Server thread/INFO]: Stopping the server
-[00:45:31] [Server thread/INFO]: Stopping server
-[00:45:31] [Server thread/INFO]: Saving players
-[00:45:31] [Server thread/INFO]: Saving worlds
-[00:45:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:45:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:45:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:45:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:45:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:45:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:45:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:03:47] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[00:03:47] [Server thread/INFO]: restrepojc left the game
+[00:03:49] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[00:03:49] [Server thread/INFO]: pauloR2001 left the game
+[00:04:05] [Server thread/INFO]: Stopping the server
+[00:04:05] [Server thread/INFO]: Stopping server
+[00:04:05] [Server thread/INFO]: Saving players
+[00:04:05] [Server thread/INFO]: Saving worlds
+[00:04:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:04:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:04:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:04:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:04:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:04:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:04:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -4379,5 +4379,17 @@
     },
     "done": true
   },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2026-01-18 15:33:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2026-01-18 19:46:18 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 4556
 }
