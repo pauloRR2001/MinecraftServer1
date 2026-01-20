@@ -988,6 +988,7 @@
       "minecraft:creeper": "2025-11-23 00:31:41 -0500",
       "minecraft:slime": "2025-12-23 22:44:56 -0500",
       "minecraft:evoker": "2026-01-06 20:00:58 -0500",
+      "minecraft:zombie_nautilus": "2026-01-19 21:56:48 -0500",
       "minecraft:phantom": "2026-01-06 19:00:22 -0500",
       "minecraft:zombified_piglin": "2025-12-12 23:37:21 -0500",
       "minecraft:witch": "2025-12-13 00:39:11 -0500",
@@ -4308,6 +4309,90 @@
   "minecraft:recipes/combat/iron_spear": {
     "criteria": {
       "has_iron_ingot": "2026-01-19 11:50:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/white_bundle": {
+    "criteria": {
+      "has_white_dye": "2026-01-19 22:29:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_white_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-01-19 22:29:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2026-01-19 22:29:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_white_dye": "2026-01-19 22:29:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2026-01-19 22:29:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-01-19 22:29:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_white_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-01-19 22:29:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-01-19 22:29:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-01-19 22:29:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_white_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-01-19 22:29:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-01-19 22:29:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_white_dye": "2026-01-19 22:29:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-01-19 22:29:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-01-19 22:29:37 -0500"
     },
     "done": true
   },
