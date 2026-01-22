@@ -4427,15 +4427,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2026-01-21 00:30:57 -0500"
+    },
+    "done": true
+  },
   "minecraft:nether/create_beacon": {
     "criteria": {
       "beacon": "2026-01-21 00:36:06 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/misc/beacon": {
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
-      "has_nether_star": "2026-01-21 00:30:57 -0500"
+      "has_iron_nugget": "2026-01-21 22:53:23 -0500"
     },
     "done": true
   },

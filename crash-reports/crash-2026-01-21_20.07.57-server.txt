@@ -1,0 +1,81 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 2026-01-21 20:07:57
+Description: Exception in server tick loop
+
+java.lang.IllegalStateException: Failed to initialize server
+	at net.minecraft.server.MinecraftServer.A(SourceFile:793)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.11
+	Minecraft Version ID: 1.21.11
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.9, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 166210856 bytes (158 MiB) / 327155712 bytes (312 MiB) up to 8589934592 bytes (8192 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: 11th Gen Intel(R) Core(TM) i7-1195G7 @ 2.90GHz
+	Identifier: Intel64 Family 6 Model 140 Stepping 2
+	Microarchitecture: Tiger Lake
+	Frequency (GHz): 2.92
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: Intel(R) Iris(R) Xe Graphics
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 1024.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 30.0.101.1122
+	Memory slot #0 capacity (MiB): 2048.00
+	Memory slot #0 clockSpeed (GHz): 4.27
+	Memory slot #0 type: LPDDR4
+	Memory slot #1 capacity (MiB): 2048.00
+	Memory slot #1 clockSpeed (GHz): 4.27
+	Memory slot #1 type: LPDDR4
+	Memory slot #2 capacity (MiB): 2048.00
+	Memory slot #2 clockSpeed (GHz): 4.27
+	Memory slot #2 type: LPDDR4
+	Memory slot #3 capacity (MiB): 2048.00
+	Memory slot #3 clockSpeed (GHz): 4.27
+	Memory slot #3 type: LPDDR4
+	Memory slot #4 capacity (MiB): 2048.00
+	Memory slot #4 clockSpeed (GHz): 4.27
+	Memory slot #4 type: LPDDR4
+	Memory slot #5 capacity (MiB): 2048.00
+	Memory slot #5 clockSpeed (GHz): 4.27
+	Memory slot #5 type: LPDDR4
+	Memory slot #6 capacity (MiB): 2048.00
+	Memory slot #6 clockSpeed (GHz): 4.27
+	Memory slot #6 type: LPDDR4
+	Memory slot #7 capacity (MiB): 2048.00
+	Memory slot #7 clockSpeed (GHz): 4.27
+	Memory slot #7 type: LPDDR4
+	Virtual memory max (MiB): 30915.35
+	Virtual memory used (MiB): 11257.04
+	Swap memory total (MiB): 14951.73
+	Swap memory used (MiB): 132.51
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 166549.94, total: 487109.00
+	Space in storage for workdir (MiB): available: 166549.94, total: 487109.00
+	JVM Flags: 1 total; -Xmx8G
+	Debug Flags: 0 total; 
+	Server Running: true
+	Active Data Packs: vanilla
+	Available Data Packs: minecart_improvements, redstone_experiments, trade_rebalance, vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: 6283729635843406888
+	Suppressed Exceptions: ~~NONE~~
+	Is Modded: Probably not. Server jar signature and brand is untouched
+	Type: Dedicated Server (map_server.txt)

@@ -4427,15 +4427,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/cyan_dye": {
+  "minecraft:recipes/misc/beacon": {
     "criteria": {
-      "has_blue_dye": "2026-01-21 00:39:40 -0500"
+      "has_nether_star": "2026-01-21 00:30:17 -0500"
     },
     "done": true
   },
   "minecraft:nether/create_beacon": {
     "criteria": {
       "beacon": "2026-01-21 00:36:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2026-01-21 00:39:40 -0500"
     },
     "done": true
   },
@@ -4469,12 +4475,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/beacon": {
-    "criteria": {
-      "has_nether_star": "2026-01-21 00:30:17 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/dye_blue_harness": {
     "criteria": {
       "has_needed_dye": "2026-01-21 00:39:40 -0500"
@@ -4499,12 +4499,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-01-21 00:41:14 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/purple_dye": {
     "criteria": {
       "has_blue_dye": "2026-01-21 00:39:40 -0500"
@@ -4514,6 +4508,49 @@
   "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
     "criteria": {
       "has_blue_dye": "2026-01-21 00:39:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2026-01-21 00:41:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_spear": {
+    "criteria": {
+      "has_diamond": "2026-01-21 20:39:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "criteria": {
+      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2026-01-21 20:41:41 -0500",
+      "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": "2026-01-21 20:42:08 -0500"
+    },
+    "done": false
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2026-01-21 20:41:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2026-01-21 20:47:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2026-01-21 22:01:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2026-01-21 22:43:58 -0500"
     },
     "done": true
   },

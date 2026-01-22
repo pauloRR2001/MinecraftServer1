@@ -1,42 +1,26 @@
-[00:01:15] [Server thread/INFO]: Villager dcx['Villager'/33004, l='ServerLevel[world]', x=-3826.64, y=117.00, z=3428.13] died, message: 'Villager discovered the floor was lava'
-[00:02:23] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
-[00:03:02] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[00:03:12] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
-[00:03:18] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[00:09:04] [Server thread/INFO]: momo70950[/127.181.184.147:49682] logged in with entity id 34765 at (-4382.759810071324, -55.0, 2000.76801329733)
-[00:09:04] [Server thread/INFO]: momo70950 joined the game
-[00:09:05] [Server thread/INFO]: restrepojc lost connection: Disconnected
-[00:09:05] [Server thread/INFO]: restrepojc left the game
-[00:09:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[00:09:21] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[00:09:21] [Server thread/INFO]: momo70950 left the game
-[00:09:28] [Server thread/INFO]: restrepojc[/127.86.205.203:49688] logged in with entity id 35098 at (-3742.845578835679, 138.0, 3388.535609037074)
-[00:09:28] [Server thread/INFO]: restrepojc joined the game
-[00:09:29] [Server thread/INFO]: momo70950[/127.181.184.147:49690] logged in with entity id 35105 at (-4382.759810071324, -55.0, 2000.76801329733)
-[00:09:29] [Server thread/INFO]: momo70950 joined the game
-[00:10:30] [Server thread/INFO]: Villager dcx['Villager'/35424, l='ServerLevel[world]', x=-3826.42, y=117.00, z=3429.02] died, message: 'Villager discovered the floor was lava'
-[00:15:34] [Server thread/INFO]: Villager dcx['Villager'/39555, l='ServerLevel[world]', x=-3826.68, y=117.00, z=3428.23] died, message: 'Villager discovered the floor was lava'
-[00:21:04] [Server thread/INFO]: restrepojc was blown up by Creeper
-[00:22:33] [Server thread/INFO]: Villager dcx['Villager'/45320, l='ServerLevel[world]', x=-3826.85, y=117.00, z=3428.50] died, message: 'Villager discovered the floor was lava'
-[00:26:22] [Server thread/INFO]: restrepojc lost connection: Disconnected
-[00:26:22] [Server thread/INFO]: restrepojc left the game
-[00:31:52] [Server thread/INFO]: Villager dcx['Villager'/50306, l='ServerLevel[world]', x=-3826.61, y=117.00, z=3428.98] died, message: 'Villager discovered the floor was lava'
-[00:36:06] [Server thread/INFO]: pauloR2001 has made the advancement [Bring Home the Beacon]
-[00:36:06] [Server thread/INFO]: momo70950 has made the advancement [Bring Home the Beacon]
-[00:42:44] [Server thread/INFO]: Villager dcx['Villager'/53108, l='ServerLevel[world]', x=-3826.37, y=117.00, z=3428.51] died, message: 'Villager discovered the floor was lava'
-[00:44:09] [Server thread/INFO]: [pauloR2001: Set the world spawn point to -3738, 138, 3391 [0.0, 0.0] in minecraft:overworld]
-[00:44:33] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[00:44:33] [Server thread/INFO]: momo70950 left the game
-[00:44:35] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[00:44:35] [Server thread/INFO]: pauloR2001 left the game
-[00:45:01] [Server thread/INFO]: Stopping the server
-[00:45:01] [Server thread/INFO]: Stopping server
-[00:45:01] [Server thread/INFO]: Saving players
-[00:45:01] [Server thread/INFO]: Saving worlds
-[00:45:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:45:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:45:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:45:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:45:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:45:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:45:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:05:10] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[00:05:10] [Server thread/INFO]: pauloR2001 left the game
+[00:05:28] [Server thread/INFO]: pauloR2001[/127.0.0.1:54450] logged in with entity id 38375 at (-2341.1441379610064, 45.0, 3274.3007987926094)
+[00:05:28] [Server thread/INFO]: pauloR2001 joined the game
+[00:25:14] [Server thread/INFO]: restrepojc lost connection: Timed out
+[00:25:14] [Server thread/INFO]: restrepojc left the game
+[00:25:24] [Server thread/INFO]: restrepojc[/127.86.205.203:58045] logged in with entity id 44145 at (-2345.418759940064, 41.0, 3324.425427002861)
+[00:25:24] [Server thread/INFO]: restrepojc joined the game
+[00:31:35] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[00:31:35] [Server thread/INFO]: momo70950 left the game
+[01:15:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[01:16:08] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[01:16:08] [Server thread/INFO]: pauloR2001 left the game
+[01:16:10] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[01:16:10] [Server thread/INFO]: restrepojc left the game
+[01:16:26] [Server thread/INFO]: Stopping the server
+[01:16:26] [Server thread/INFO]: Stopping server
+[01:16:26] [Server thread/INFO]: Saving players
+[01:16:26] [Server thread/INFO]: Saving worlds
+[01:16:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:16:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:16:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:16:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:16:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:16:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:16:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
