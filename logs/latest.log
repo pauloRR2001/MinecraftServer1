@@ -1,26 +1,65 @@
-[00:05:10] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[00:05:10] [Server thread/INFO]: pauloR2001 left the game
-[00:05:28] [Server thread/INFO]: pauloR2001[/127.0.0.1:54450] logged in with entity id 38375 at (-2341.1441379610064, 45.0, 3274.3007987926094)
-[00:05:28] [Server thread/INFO]: pauloR2001 joined the game
-[00:25:14] [Server thread/INFO]: restrepojc lost connection: Timed out
-[00:25:14] [Server thread/INFO]: restrepojc left the game
-[00:25:24] [Server thread/INFO]: restrepojc[/127.86.205.203:58045] logged in with entity id 44145 at (-2345.418759940064, 41.0, 3324.425427002861)
-[00:25:24] [Server thread/INFO]: restrepojc joined the game
-[00:31:35] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[00:31:35] [Server thread/INFO]: momo70950 left the game
-[01:15:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[01:16:08] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[01:16:08] [Server thread/INFO]: pauloR2001 left the game
-[01:16:10] [Server thread/INFO]: restrepojc lost connection: Disconnected
-[01:16:10] [Server thread/INFO]: restrepojc left the game
-[01:16:26] [Server thread/INFO]: Stopping the server
-[01:16:26] [Server thread/INFO]: Stopping server
-[01:16:26] [Server thread/INFO]: Saving players
-[01:16:26] [Server thread/INFO]: Saving worlds
-[01:16:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:16:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:16:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:16:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:16:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:16:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:16:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:35:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[22:35:47] [ServerMain/INFO]: Loaded 1470 recipes
+[22:35:47] [ServerMain/INFO]: Loaded 1584 advancements
+[22:35:47] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[22:35:47] [Server thread/INFO]: Loading properties
+[22:35:47] [Server thread/INFO]: Default game type: SURVIVAL
+[22:35:47] [Server thread/INFO]: Generating keypair
+[22:35:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:35:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:35:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:35:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:35:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:35:48] [Server thread/INFO]: Preparing level "world"
+[22:35:48] [Server thread/INFO]: Loading 0 persistent chunks...
+[22:35:48] [Server thread/INFO]: Preparing spawn area: 100%
+[22:35:48] [Server thread/INFO]: Time elapsed: 12 ms
+[22:35:48] [Server thread/INFO]: Done (0.610s)! For help, type "help"
+[22:36:00] [Server thread/INFO]: restrepojc[/127.86.205.203:52846] logged in with entity id 44 at (-3737.6431151898546, 127.0, 3415.2047099259607)
+[22:36:00] [Server thread/INFO]: restrepojc joined the game
+[22:36:04] [Server thread/INFO]: pauloR2001[/127.226.54.135:52856] logged in with entity id 237 at (-2328.9159794946545, 63.0, 3330.243310793593)
+[22:36:04] [Server thread/INFO]: pauloR2001 joined the game
+[22:36:06] [Server thread/INFO]: momo70950[/127.181.184.147:52863] logged in with entity id 356 at (-2338.6521098070843, 49.0, 3312.9691997577493)
+[22:36:06] [Server thread/INFO]: momo70950 joined the game
+[22:36:06] [Server thread/INFO]: Villager dcx['Villager'/95, l='ServerLevel[world]', x=-3826.70, y=117.00, z=3428.97] died, message: 'Villager discovered the floor was lava'
+[22:36:16] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[22:36:16] [Server thread/INFO]: momo70950 left the game
+[22:36:39] [Server thread/INFO]: andresr255[/127.58.7.225:52888] logged in with entity id 963 at (-3970.0172452168185, 63.0, 3349.464372262619)
+[22:36:39] [Server thread/INFO]: andresr255 joined the game
+[22:37:08] [Server thread/INFO]: momo70950[/127.181.184.147:52892] logged in with entity id 1429 at (-2338.4981889548117, 49.0, 3312.2532598992234)
+[22:37:08] [Server thread/INFO]: momo70950 joined the game
+[22:41:13] [Server thread/INFO]: Villager dcx['Villager'/3377, l='ServerLevel[world]', x=-3826.65, y=117.00, z=3428.65] died, message: 'Villager discovered the floor was lava'
+[22:47:09] [Server thread/INFO]: restrepojc lost connection: Timed out
+[22:47:09] [Server thread/INFO]: restrepojc left the game
+[22:47:35] [Server thread/INFO]: restrepojc[/127.86.205.203:52919] logged in with entity id 6437 at (-2319.384891519453, 58.89609539491348, 3328.484441924285)
+[22:47:35] [Server thread/INFO]: restrepojc joined the game
+[22:47:43] [Server thread/WARN]: pauloR2001 moved too quickly! 0.5634073272171918,1.2423233851492625,-11.339837760161572
+[22:48:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2442ms or 48 ticks behind
+[22:48:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
+[22:49:00] [Server thread/WARN]: restrepojc moved too quickly! -17.59192893374893,-3.897246022101811,4.159305675922951
+[22:49:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6605ms or 132 ticks behind
+[22:49:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3599ms or 71 ticks behind
+[22:51:57] [Server thread/INFO]: Villager dcx['Villager'/8199, l='ServerLevel[world]', x=-3826.55, y=117.00, z=3429.11] died, message: 'Villager discovered the floor was lava'
+[22:53:24] [Server thread/INFO]: [Not Secure] <momo70950> ya vengo
+[22:53:27] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[22:53:27] [Server thread/INFO]: momo70950 left the game
+[22:56:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[22:56:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2780ms or 55 ticks behind
+[22:58:00] [Server thread/WARN]: pauloR2001 moved wrongly!
+[23:03:19] [Server thread/INFO]: andresr255 lost connection: Disconnected
+[23:03:19] [Server thread/INFO]: andresr255 left the game
+[23:03:20] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[23:03:20] [Server thread/INFO]: restrepojc left the game
+[23:03:21] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[23:03:21] [Server thread/INFO]: pauloR2001 left the game
+[23:03:38] [Server thread/INFO]: Stopping the server
+[23:03:38] [Server thread/INFO]: Stopping server
+[23:03:38] [Server thread/INFO]: Saving players
+[23:03:38] [Server thread/INFO]: Saving worlds
+[23:03:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:03:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:03:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:03:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:03:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:03:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:03:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
