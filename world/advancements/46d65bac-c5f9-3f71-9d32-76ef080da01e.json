@@ -653,16 +653,17 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-12-12 23:03:43 -0500",
-      "apple": "2026-01-03 16:26:24 -0500",
       "bread": "2025-12-12 22:49:23 -0500",
       "glow_berries": "2025-12-31 19:17:48 -0500",
       "chorus_fruit": "2025-12-13 18:11:56 -0500",
       "beef": "2025-12-12 22:58:01 -0500",
       "melon_slice": "2025-11-23 00:02:58 -0500",
       "porkchop": "2026-01-03 16:15:57 -0500",
-      "cooked_salmon": "2025-12-17 13:21:52 -0500",
       "tropical_fish": "2025-12-13 16:09:31 -0500",
       "golden_carrot": "2026-01-07 19:07:33 -0500",
+      "apple": "2026-01-03 16:26:24 -0500",
+      "cooked_cod": "2026-01-24 23:16:25 -0500",
+      "cooked_salmon": "2025-12-17 13:21:52 -0500",
       "carrot": "2025-11-23 00:35:58 -0500"
     },
     "done": false
@@ -4723,6 +4724,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2026-01-24 20:09:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2026-01-24 20:09:17 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/acacia_button": {
     "criteria": {
       "has_planks": "2026-01-24 20:09:23 -0500"
@@ -4777,15 +4790,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/acacia_wood": {
+  "minecraft:recipes/transportation/tnt_minecart": {
     "criteria": {
-      "has_log": "2026-01-24 20:09:17 -0500"
+      "has_minecart": "2026-01-24 21:44:33 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/acacia_planks": {
+  "minecraft:recipes/transportation/chest_minecart": {
     "criteria": {
-      "has_log": "2026-01-24 20:09:17 -0500"
+      "has_minecart": "2026-01-24 21:44:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2026-01-24 21:44:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2026-01-24 21:44:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2026-01-24 21:44:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2026-01-24 23:20:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/silk_touch_nest": {
+    "criteria": {
+      "silk_touch_nest": "2026-01-24 23:33:24 -0500"
     },
     "done": true
   },

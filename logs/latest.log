@@ -1,68 +1,13 @@
-[19:11:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[19:11:46] [ServerMain/INFO]: Loaded 1470 recipes
-[19:11:46] [ServerMain/INFO]: Loaded 1584 advancements
-[19:11:46] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[19:11:46] [Server thread/INFO]: Loading properties
-[19:11:46] [Server thread/INFO]: Default game type: SURVIVAL
-[19:11:46] [Server thread/INFO]: Generating keypair
-[19:11:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:11:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:11:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:11:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:11:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:11:47] [Server thread/INFO]: Preparing level "world"
-[19:11:47] [Server thread/INFO]: Loading 0 persistent chunks...
-[19:11:47] [Server thread/INFO]: Preparing spawn area: 100%
-[19:11:47] [Server thread/INFO]: Time elapsed: 12 ms
-[19:11:47] [Server thread/INFO]: Done (0.626s)! For help, type "help"
-[19:12:47] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[19:12:58] [Server thread/INFO]: momo70950[/127.181.184.147:62126] logged in with entity id 10 at (-197.1692234899189, 65.0, 236.11010701217435)
-[19:12:59] [Server thread/INFO]: momo70950 joined the game
-[19:13:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
-[19:13:07] [Server thread/INFO]: pauloR2001[/127.0.0.1:62538] logged in with entity id 234 at (-25.174593611644553, 70.0, 556.8512425345948)
-[19:13:07] [Server thread/INFO]: pauloR2001 joined the game
-[19:13:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3032ms or 60 ticks behind
-[19:13:35] [Server thread/WARN]: momo70950 moved too quickly! 9.817557331212669,0.8589573388532727,-15.310373415368446
-[19:14:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[19:14:14] [Server thread/WARN]: momo70950 moved too quickly! 16.443704111942484,2.7671534177713966,-6.8934020034672585
-[19:18:07] [Server thread/WARN]: pauloR2001 moved too quickly! 1.0829069560091398,-4.476681885906075,-17.788174242377295
-[19:18:07] [Server thread/WARN]: momo70950 moved too quickly! 9.988331497818308,-1.8833065671213802,14.547830201205898
-[19:18:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
-[19:19:17] [Server thread/WARN]: momo70950 moved too quickly! 13.635833546293611,0.812220266952906,-12.045287119852446
-[19:23:08] [Server thread/WARN]: momo70950 moved too quickly! 6.015251827669829,4.435167139986973,17.400831981410334
-[19:23:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[19:25:32] [Server thread/WARN]: momo70950 moved too quickly! 8.84250416972462,5.911730208251072,14.493179388617591
-[19:25:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[19:31:37] [Server thread/WARN]: momo70950 moved too quickly! -3.665926709673272,-5.04952364946277,-17.15304982215764
-[19:37:00] [Server thread/WARN]: pauloR2001 moved too quickly! 17.339647472782644,-6.880608057072351,-0.09032569900318776
-[19:44:17] [Server thread/INFO]: [pauloR2001: Gave 10 experience points to pauloR2001]
-[19:44:21] [Server thread/INFO]: [pauloR2001: Gave 10 experience points to pauloR2001]
-[19:44:57] [Server thread/INFO]: [pauloR2001: Summoned new Experience Orb]
-[19:51:17] [Server thread/WARN]: pauloR2001 moved too quickly! -17.069061755565144,-2.292592754882037,3.9323801507148346
-[19:55:50] [Server thread/WARN]: momo70950 moved too quickly! -4.623996159206513,2.420483309985059,-17.234954304507482
-[19:56:17] [Server thread/INFO]: [pauloR2001: Set the weather to rain]
-[20:00:11] [Server thread/WARN]: pauloR2001 moved too quickly! -5.937808072140115,-1.269807655268096,35.65944838362884
-[20:01:52] [Server thread/WARN]: pauloR2001 moved too quickly! -19.407240382463442,-1.0566196223260818,5.48436565584575
-[20:03:03] [Server thread/WARN]: pauloR2001 moved too quickly! -6.584666788816463,2.4775384533725173,36.167308032682286
-[20:03:19] [Server thread/WARN]: pauloR2001 moved too quickly! -2.942503170895826,-0.9031392639252545,30.478441010194494
-[20:04:04] [Server thread/WARN]: pauloR2001 moved too quickly! -0.7077770020707703,-1.0960543382306014,19.66701168375016
-[20:04:40] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[20:04:51] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[20:04:51] [Server thread/INFO]: momo70950 left the game
-[20:05:00] [Server thread/INFO]: momo70950[/127.181.184.147:50595] logged in with entity id 130832 at (-536.7825042058689, 120.875, 1607.3406842725199)
-[20:05:00] [Server thread/INFO]: momo70950 joined the game
-[20:23:04] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[20:23:04] [Server thread/INFO]: pauloR2001 left the game
-[20:23:05] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[20:23:05] [Server thread/INFO]: momo70950 left the game
-[20:23:14] [Server thread/INFO]: Stopping the server
-[20:23:14] [Server thread/INFO]: Stopping server
-[20:23:14] [Server thread/INFO]: Saving players
-[20:23:14] [Server thread/INFO]: Saving worlds
-[20:23:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:23:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:23:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:23:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:23:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:23:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:23:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:01:11] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[00:01:11] [Server thread/INFO]: pauloR2001 left the game
+[00:01:21] [Server thread/INFO]: Stopping the server
+[00:01:21] [Server thread/INFO]: Stopping server
+[00:01:21] [Server thread/INFO]: Saving players
+[00:01:21] [Server thread/INFO]: Saving worlds
+[00:01:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:01:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:01:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:01:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:01:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:01:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:01:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
