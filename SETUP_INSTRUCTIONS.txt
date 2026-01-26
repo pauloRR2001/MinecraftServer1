@@ -1,0 +1,363 @@
+================================================================================
+                    MINECRAFT SERVER SETUP INSTRUCTIONS
+================================================================================
+
+Follow these steps to set up the Minecraft server.
+Estimated time: 20 minutes
+
+================================================================================
+STEP 1: INSTALL JAVA 21 Developer Kit
+================================================================================
+
+1. Go to: https://www.oracle.com/java/technologies/downloads/#java21
+
+2. Under "Windows", click "x64 Installer" to download
+
+3. Run the downloaded file and click "Next" through all steps
+
+4. Verify installation:
+   - Press Windows Key + R
+   - Type: cmd
+   - Press Enter
+   - Type: java -version
+   - Press Enter
+   - You should see "java version 21.0.x"
+
+================================================================================
+STEP 2: CREATE GITHUB ACCOUNT
+================================================================================
+
+1. Go to: https://github.com/signup
+
+2. Enter your email, password, and username
+
+3. Complete verification
+
+4. Verify your email
+
+================================================================================
+STEP 3: INSTALL GIT FOR WINDOWS
+================================================================================
+
+1. Go to: https://git-scm.com/download/win
+
+2. Download will start automatically
+
+3. Run the installer:
+   - Click "Next" on all screens (keep defaults)
+   - On "Choosing the default editor" select "Use Notepad"
+   - Click "Install"
+   - Click "Finish"
+
+4. Configure Git:
+   - Press Windows Key + R
+   - Type: cmd
+   - Press Enter
+   - Type these commands (replace with your info):
+
+   git config --global user.name "Your Name"
+   git config --global user.email "youremail@example.com"
+
+   Example:
+   git config --global user.name "John Smith"
+   git config --global user.email "john@gmail.com"
+
+================================================================================
+STEP 4: ACCEPT REPOSITORY INVITATION
+================================================================================
+
+1. Check your email for invitation from "pauloRR2001"
+
+2. Click "View invitation"
+
+3. Click "Accept invitation"
+
+================================================================================
+STEP 5: CREATE AND SETUP PLAYIT.GG ACCOUNT
+================================================================================
+
+Part A: Create Account
+
+1. Go to: https://playit.gg/
+
+2. Click "Sign Up"
+
+3. Enter email and password
+
+4. Click "Create Account"
+
+5. Check your email and verify your account
+
+6. Log in to Playit.gg website
+
+Part B: Create Minecraft Tunnel
+
+1. After logging in to Playit.gg website, you'll see your dashboard
+
+2. Click "Add Tunnel" or "Create Tunnel"
+
+3. Select tunnel type: "Minecraft Java"
+
+4. Give your tunnel a name (example: "MyMinecraftServer")
+
+5. Click "Create" or "Add Tunnel"
+
+6. You should now see your tunnel listed on the dashboard
+
+7. IMPORTANT: Keep this browser tab open or remember your tunnel name
+   - You'll need to claim this tunnel later when running the server
+
+Note: The tunnel won't show an address yet - that's normal. It will appear
+when you start the server for the first time.
+
+================================================================================
+STEP 6: CLONE THE REPOSITORY
+================================================================================
+
+1. Press Windows Key + R
+
+2. Type: cmd
+
+3. Press Enter
+
+4. Navigate to where you want the server:
+   
+   cd C:\Users\YourWindowsUsername
+   
+   (Replace YourWindowsUsername with your actual Windows username)
+
+5. Clone the repository:
+   
+   git clone https://github.com/pauloRR2001/MinecraftServer1.git
+
+6. Wait for download to complete
+
+7. Verify: Open File Explorer and you should see "MinecraftServer1" folder
+
+================================================================================
+STEP 7: RUN THE SERVER GUI
+================================================================================
+
+1. Open File Explorer
+
+2. Go to the MinecraftServer1 folder
+
+3. Right-click on "ServerGUI.ps1"
+
+4. Select "Run with PowerShell"
+
+IF YOU SEE AN ERROR:
+   - Close the error
+   - Right-click "ServerGUI.ps1" again
+   - Select "Properties"
+   - Check "Unblock" at the bottom
+   - Click "OK"
+   - Right-click and "Run with PowerShell" again
+
+================================================================================
+STEP 8: PULL LATEST CHANGES
+================================================================================
+
+1. In the Server Manager window, click "Pull (rebase)"
+
+2. Wait for "Pull exit code: 0"
+
+================================================================================
+STEP 9: START THE SERVER AND CONNECT PLAYIT TUNNEL
+================================================================================
+
+1. In the Server Manager window:
+   - Adjust Max Memory (GB) if needed (default is 4GB)
+   - Adjust View Distance if needed (default is 10)
+
+2. Click "Start Server"
+
+3. A Playit window will pop up:
+
+   FIRST TIME SETUP:
+   
+   a) Click "Login" in the Playit window
+   
+   b) Enter your Playit email and password (from Step 5)
+   
+   c) Click "Login" or "Sign in"
+   
+   d) After logging in, you should see your account info
+   
+   e) The Playit window will show "Claiming tunnels..." or similar
+   
+   f) Your Minecraft tunnel should appear and connect automatically
+   
+   g) Look for your SERVER ADDRESS - it will look like:
+      - Example: your-tunnel-name.joinmc.link:25565
+      - Or: random-name.joinmc.link
+   
+   h) COPY THIS ADDRESS - your friends need it to connect!
+
+4. Back in the Server Manager output window, wait for startup:
+   - You'll see many messages scrolling
+   - Wait for: "Done! For help, type 'help'"
+   - Server is now running!
+
+5. Share the server address from Step 3g with your friends
+
+================================================================================
+STEP 10: VERIFY PLAYIT CONNECTION
+================================================================================
+
+The Playit window should show:
+
+? "Connected" or green status indicator
+? Your tunnel name
+? Server address (example.joinmc.link:25565)
+? "Active" or "Running" status
+
+If you see errors in Playit:
+   - Make sure you're logged in
+   - Make sure you created a Minecraft tunnel on the website (Step 5)
+   - Try closing and restarting the server
+
+================================================================================
+STEP 11: SAVE YOUR CHANGES
+================================================================================
+
+After playing, save your changes:
+
+1. Click "Stop Server"
+
+2. Wait for "Server stopped."
+
+3. Click "Commit + Push"
+
+FIRST TIME ONLY:
+   - You'll be asked for username: Type your GitHub username
+   - You'll be asked for password: Type your GitHub password
+   - These will be saved for future pushes
+
+4. Wait for "Push exit code: 0"
+
+5. Your changes are saved!
+
+================================================================================
+DAILY WORKFLOW
+================================================================================
+
+Every time you play:
+
+1. Right-click ServerGUI.ps1 ? Run with PowerShell
+
+2. Click "Pull (rebase)"
+
+3. Click "Start Server"
+   - Playit window opens and connects automatically
+   - If not logged in, log in again
+
+4. Copy server address from Playit window
+
+5. Share address with friends
+
+6. PLAY!
+
+7. Click "Stop Server"
+
+8. Click "Commit + Push"
+
+9. Close window
+
+================================================================================
+SERVER COMMANDS
+================================================================================
+
+Type in the command box at bottom (without the /):
+
+   list                        - See who's online
+   op YourName                 - Give yourself admin
+   gamemode creative PlayerName - Creative mode
+   gamemode survival PlayerName - Survival mode
+   time set day                - Set to daytime
+   weather clear               - Clear weather
+   difficulty peaceful         - Peaceful mode
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Problem: "Pull failed due to local changes"
+   ? Click "Discard Changes" button
+   ? Click "Yes" to confirm
+   ? Click "Pull (rebase)" again
+
+Problem: "Java not found"
+   ? Make sure you installed Java 21
+   ? Restart computer
+   ? Try again
+
+Problem: "Git not found"
+   ? Make sure you installed Git
+   ? Restart computer
+   ? Try again
+
+Problem: Can't push changes
+   ? Make sure you accepted GitHub invitation
+   ? When asked, use your GitHub password (not email password)
+   ? Check your internet connection
+
+Problem: Playit shows "Not logged in" or won't connect
+   ? Click "Login" in Playit window
+   ? Enter your Playit email and password
+   ? Make sure you created a Minecraft tunnel on playit.gg website
+
+Problem: Playit shows "No tunnels" or "Tunnel not found"
+   ? Go to playit.gg website and log in
+   ? Make sure you created a Minecraft tunnel (Step 5)
+   ? Click "Add Tunnel" ? "Minecraft Java"
+   ? Restart the server
+
+Problem: Playit connected but no server address shown
+   ? Wait a few seconds for it to appear
+   ? Check the Playit window for the address
+   ? It should look like: something.joinmc.link:25565
+
+Problem: Friends can't connect to server
+   ? Make sure server is running (you see "Done!" in output)
+   ? Make sure Playit shows "Connected" status
+   ? Give them the EXACT address from Playit window
+   ? Make sure they have Minecraft 1.21.11
+   ? Make sure Playit tunnel type is "Minecraft Java"
+
+Problem: Playit window closes immediately
+   ? This is normal when stopping the server
+   ? It will reopen when you start the server again
+
+================================================================================
+IMPORTANT REMINDERS
+================================================================================
+
+? Always PULL before starting the server
+? Always PUSH after stopping the server
+? Never close window without clicking "Stop Server" first
+? Only use "Discard Changes" if Pull fails
+? Keep Playit window open while server is running
+? Server address may change - always check Playit window
+
+================================================================================
+NEED HELP?
+================================================================================
+
+Contact Paulo with:
+   - What step you're on
+   - The error message from the output window
+   - Screenshot if possible
+
+================================================================================
+YOU'RE ALL SET!
+================================================================================
+
+Congratulations! You now have everything set up to play on the Minecraft server.
+
+Remember the daily workflow:
+   Pull ? Start Server ? Play ? Stop Server ? Push
+
+Have fun building and exploring together!
+
+================================================================================
