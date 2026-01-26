@@ -27,31 +27,40 @@ $form.Text = "Minecraft Server Manager"
 $form.Size = New-Object System.Drawing.Size(980, 650)
 $form.StartPosition = "CenterScreen"
 
+# Reordered buttons: Pull, Start, Stop, Push, Clear, Discard
 $btnPull = New-Object System.Windows.Forms.Button
 $btnPull.Text = "Pull (rebase)"
 $btnPull.Location = New-Object System.Drawing.Point(20, 20)
-$btnPull.Size = New-Object System.Drawing.Size(140, 35)
-
-$btnPush = New-Object System.Windows.Forms.Button
-$btnPush.Text = "Commit + Push"
-$btnPush.Location = New-Object System.Drawing.Point(175, 20)
-$btnPush.Size = New-Object System.Drawing.Size(140, 35)
+$btnPull.Size = New-Object System.Drawing.Size(120, 35)
 
 $btnStart = New-Object System.Windows.Forms.Button
 $btnStart.Text = "Start Server"
-$btnStart.Location = New-Object System.Drawing.Point(330, 20)
-$btnStart.Size = New-Object System.Drawing.Size(140, 35)
+$btnStart.Location = New-Object System.Drawing.Point(150, 20)
+$btnStart.Size = New-Object System.Drawing.Size(120, 35)
 
 $btnStop = New-Object System.Windows.Forms.Button
 $btnStop.Text = "Stop Server"
-$btnStop.Location = New-Object System.Drawing.Point(485, 20)
-$btnStop.Size = New-Object System.Drawing.Size(140, 35)
+$btnStop.Location = New-Object System.Drawing.Point(280, 20)
+$btnStop.Size = New-Object System.Drawing.Size(120, 35)
 $btnStop.Enabled = $false
+
+$btnPush = New-Object System.Windows.Forms.Button
+$btnPush.Text = "Commit + Push"
+$btnPush.Location = New-Object System.Drawing.Point(410, 20)
+$btnPush.Size = New-Object System.Drawing.Size(120, 35)
 
 $btnClear = New-Object System.Windows.Forms.Button
 $btnClear.Text = "Clear Output"
-$btnClear.Location = New-Object System.Drawing.Point(640, 20)
-$btnClear.Size = New-Object System.Drawing.Size(140, 35)
+$btnClear.Location = New-Object System.Drawing.Point(540, 20)
+$btnClear.Size = New-Object System.Drawing.Size(120, 35)
+
+$btnDiscard = New-Object System.Windows.Forms.Button
+$btnDiscard.Text = "Discard Changes"
+$btnDiscard.Location = New-Object System.Drawing.Point(670, 20)
+$btnDiscard.Size = New-Object System.Drawing.Size(140, 35)
+$btnDiscard.BackColor = [System.Drawing.Color]::OrangeRed
+$btnDiscard.ForeColor = [System.Drawing.Color]::White
+$btnDiscard.Font = New-Object System.Drawing.Font("Segoe UI", 9, [System.Drawing.FontStyle]::Bold)
 
 $txtOut = New-Object System.Windows.Forms.TextBox
 $txtOut.Location = New-Object System.Drawing.Point(20, 100)
@@ -63,11 +72,11 @@ $txtOut.Font = New-Object System.Drawing.Font("Consolas", 10)
 
 $lblMem = New-Object System.Windows.Forms.Label
 $lblMem.Text = "Max Memory (GB):"
-$lblMem.Location = New-Object System.Drawing.Point(330, 60)
+$lblMem.Location = New-Object System.Drawing.Point(20, 60)
 $lblMem.Size = New-Object System.Drawing.Size(140, 20)
 
 $numMem = New-Object System.Windows.Forms.NumericUpDown
-$numMem.Location = New-Object System.Drawing.Point(480, 58)
+$numMem.Location = New-Object System.Drawing.Point(160, 58)
 $numMem.Size = New-Object System.Drawing.Size(60, 24)
 $numMem.Minimum = 1
 $numMem.Maximum = 64
@@ -76,11 +85,11 @@ $numMem.Font = New-Object System.Drawing.Font("Consolas", 10)
 
 $lblView = New-Object System.Windows.Forms.Label
 $lblView.Text = "View Distance:"
-$lblView.Location = New-Object System.Drawing.Point(550, 60)
-$lblView.Size = New-Object System.Drawing.Size(140, 20)
+$lblView.Location = New-Object System.Drawing.Point(240, 60)
+$lblView.Size = New-Object System.Drawing.Size(100, 20)
 
 $numView = New-Object System.Windows.Forms.NumericUpDown
-$numView.Location = New-Object System.Drawing.Point(700, 58)
+$numView.Location = New-Object System.Drawing.Point(340, 58)
 $numView.Size = New-Object System.Drawing.Size(60, 24)
 $numView.Minimum = 4
 $numView.Maximum = 32
@@ -98,7 +107,12 @@ $txtHelp.Text = "Instructions:" + "`r`n" +
     "1) Pull" + "`r`n" +
     "2) Start Server" + "`r`n" +
     "3) Stop Server" + "`r`n" +
-    "4) Commit + Push"
+    "4) Commit + Push" + "`r`n" +
+    "`r`n" +
+    "Discard Changes:" + "`r`n" +
+    "Use this if Pull fails" + "`r`n" +
+    "due to local changes." + "`r`n" +
+    "WARNING: Cannot undo!"
 
 $txtCmd = New-Object System.Windows.Forms.TextBox
 $txtCmd.Location = New-Object System.Drawing.Point(20, 600)
@@ -110,7 +124,7 @@ $btnSend.Text = "Send"
 $btnSend.Location = New-Object System.Drawing.Point(840, 596)
 $btnSend.Size = New-Object System.Drawing.Size(100, 30)
 
-$form.Controls.AddRange(@($btnPull, $btnPush, $btnStart, $btnStop, $btnClear, $txtOut, $txtHelp, $lblMem, $numMem, $lblView, $numView, $txtCmd, $btnSend))
+$form.Controls.AddRange(@($btnPull, $btnStart, $btnStop, $btnPush, $btnClear, $btnDiscard, $txtOut, $txtHelp, $lblMem, $numMem, $lblView, $numView, $txtCmd, $btnSend))
 
 function Invoke-UI([scriptblock]$action) {
     try {
@@ -306,6 +320,67 @@ function Do-Push {
     Invoke-UI { $btnPush.Enabled = $true }
 }
 
+function Do-DiscardChanges {
+    Ensure-Repo
+    
+    # Safety check: don't allow while server is running
+    if ($global:ServerProc -and -not $global:ServerProc.HasExited) {
+        [System.Windows.Forms.MessageBox]::Show(
+            "Cannot discard changes while server is running. Stop the server first.",
+            "Server Running",
+            [System.Windows.Forms.MessageBoxButtons]::OK,
+            [System.Windows.Forms.MessageBoxIcon]::Warning
+        )
+        return
+    }
+
+    # Get count of changed files
+    $statusProc = Start-Process -FilePath $GitExe -ArgumentList @("status","--short") -WorkingDirectory $RepoDir -NoNewWindow -Wait -PassThru -RedirectStandardOutput (Join-Path $env:TEMP "gitstatus.txt")
+    $changedFiles = Get-Content (Join-Path $env:TEMP "gitstatus.txt") -ErrorAction SilentlyContinue
+    $fileCount = if ($changedFiles) { $changedFiles.Count } else { 0 }
+    Remove-Item (Join-Path $env:TEMP "gitstatus.txt") -ErrorAction SilentlyContinue
+
+    if ($fileCount -eq 0) {
+        Write-Log "No changes to discard."
+        [System.Windows.Forms.MessageBox]::Show(
+            "There are no changes to discard.",
+            "No Changes",
+            [System.Windows.Forms.MessageBoxButtons]::OK,
+            [System.Windows.Forms.MessageBoxIcon]::Information
+        )
+        return
+    }
+
+    # Show confirmation dialog
+    $dialogResult = [System.Windows.Forms.MessageBox]::Show(
+        "WARNING `n`nThis will DELETE all changes made since the last Pull.`n`nFiles affected: $fileCount`n`nYou CANNOT undo this action!`n`nAre you sure you want to continue?",
+        "Discard All Changes - Confirmation Required",
+        [System.Windows.Forms.MessageBoxButtons]::YesNo,
+        [System.Windows.Forms.MessageBoxIcon]::Warning,
+        [System.Windows.Forms.MessageBoxDefaultButton]::Button2
+    )
+
+    if ($dialogResult -eq [System.Windows.Forms.DialogResult]::Yes) {
+        Write-Log "=== DISCARDING ALL CHANGES ==="
+        Invoke-UI { $btnDiscard.Enabled = $false }
+
+        # Reset all tracked files
+        $p1 = Start-LoggedProcess -FilePath $GitExe -Arguments @("reset","--hard","HEAD") -WorkingDirectory $RepoDir -StdErrAsInfo
+        Wait-ProcessPump $p1
+        Write-Log ("Reset exit code: " + $p1.ExitCode)
+
+        # Clean untracked files and directories
+        $p2 = Start-LoggedProcess -FilePath $GitExe -Arguments @("clean","-fd") -WorkingDirectory $RepoDir -StdErrAsInfo
+        Wait-ProcessPump $p2
+        Write-Log ("Clean exit code: " + $p2.ExitCode)
+
+        Write-Log "All changes discarded successfully."
+        Invoke-UI { $btnDiscard.Enabled = $true }
+    } else {
+        Write-Log "Discard changes cancelled by user."
+    }
+}
+
 function Start-Playit {
     if ($global:PlayitProc -and -not $global:PlayitProc.HasExited) {
         Write-Log "playit already running."
@@ -355,16 +430,22 @@ function Start-Server {
     $args = @("-Xmx$memStr","-jar","""$ServerJar""" ) + $ServerArgs
     $global:ServerProc = Start-LoggedProcess -FilePath $JavaExe -Arguments $args -WorkingDirectory $RepoDir -KeepStdin
 
-    $btnStart.Enabled = $false
-    $btnStop.Enabled  = $true
+    Invoke-UI {
+        $btnStart.Enabled = $false
+        $btnStop.Enabled  = $true
+        $btnDiscard.Enabled = $false  # Disable discard while server is running
+    }
 }
 
 function Stop-Server {
     if (-not $global:ServerProc -or $global:ServerProc.HasExited) {
         Write-Log "Server is not running."
         Stop-Playit
-        $btnStart.Enabled = $true
-        $btnStop.Enabled  = $false
+        Invoke-UI {
+            $btnStart.Enabled = $true
+            $btnStop.Enabled  = $false
+            $btnDiscard.Enabled = $true  # Re-enable discard when server stops
+        }
         return
     }
 
@@ -386,8 +467,11 @@ function Stop-Server {
     $global:ServerProc = $null
     Stop-Playit
 
-    $btnStart.Enabled = $true
-    $btnStop.Enabled  = $false
+    Invoke-UI {
+        $btnStart.Enabled = $true
+        $btnStop.Enabled  = $false
+        $btnDiscard.Enabled = $true  # Re-enable discard when server stops
+    }
     Write-Log "Server stopped."
 }
 
@@ -455,6 +539,10 @@ $btnStart.Add_Click({
 
 $btnStop.Add_Click({
     try { Stop-Server } catch { Write-Log ("ERR: " + $_.Exception.Message) }
+})
+
+$btnDiscard.Add_Click({
+    try { Do-DiscardChanges } catch { Write-Log ("ERR: " + $_.Exception.Message) }
 })
 
 $btnSend.Add_Click({
