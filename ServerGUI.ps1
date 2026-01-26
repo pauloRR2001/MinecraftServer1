@@ -353,7 +353,7 @@ function Do-DiscardChanges {
 
     # Show confirmation dialog
     $dialogResult = [System.Windows.Forms.MessageBox]::Show(
-        "WARNING `n`nThis will DELETE all changes made since the last Pull.`n`nFiles affected: $fileCount`n`nYou CANNOT undo this action!`n`nAre you sure you want to continue?",
+        "WARNING `n`nThis will DELETE all changes made since the last Pull. `n`nFiles affected: $fileCount`n`nYou CANNOT undo this action!`n`nAre you sure you want to continue?",
         "Discard All Changes - Confirmation Required",
         [System.Windows.Forms.MessageBoxButtons]::YesNo,
         [System.Windows.Forms.MessageBoxIcon]::Warning,
