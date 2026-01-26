@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2026-01-11 20:13:01 -0300",
       "minecraft:old_growth_pine_taiga": "2025-12-13 19:04:39 -0300",
+      "minecraft:mushroom_fields": "2026-01-25 21:27:26 -0300",
       "minecraft:forest": "2025-12-28 03:29:45 -0300",
       "minecraft:taiga": "2026-01-03 20:07:03 -0300",
       "minecraft:deep_ocean": "2026-01-06 21:44:13 -0300",
@@ -296,9 +297,10 @@
       "minecraft:crimson_forest": "2025-12-13 19:13:01 -0300",
       "minecraft:nether_wastes": "2025-12-28 00:46:49 -0300",
       "minecraft:soul_sand_valley": "2025-12-28 00:46:21 -0300",
-      "minecraft:warped_forest": "2026-01-14 22:39:39 -0300"
+      "minecraft:warped_forest": "2026-01-14 22:39:39 -0300",
+      "minecraft:basalt_deltas": "2026-01-25 21:12:18 -0300"
     },
-    "done": false
+    "done": true
   },
   "minecraft:story/enter_the_nether": {
     "criteria": {
@@ -3760,6 +3762,42 @@
   "minecraft:recipes/misc/lime_dye_from_smelting": {
     "criteria": {
       "has_sea_pickle": "2026-01-24 20:15:45 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2026-01-25 21:30:53 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2026-01-25 21:30:53 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2026-01-25 21:30:53 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2026-01-25 21:30:53 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2026-01-25 21:30:53 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2026-01-25 22:50:02 -0300"
     },
     "done": true
   },
