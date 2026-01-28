@@ -1,31 +1,1025 @@
-[16:35:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[16:35:56] [ServerMain/INFO]: Loaded 1470 recipes
-[16:35:56] [ServerMain/INFO]: Loaded 1584 advancements
-[16:35:57] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[16:35:57] [Server thread/INFO]: Loading properties
-[16:35:57] [Server thread/INFO]: Default game type: SURVIVAL
-[16:35:57] [Server thread/INFO]: Generating keypair
-[16:35:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:35:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:35:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:35:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:35:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:35:58] [Server thread/INFO]: Preparing level "world"
-[16:35:59] [Server thread/INFO]: Loading 0 persistent chunks...
-[16:35:59] [Server thread/INFO]: Preparing spawn area: 100%
-[16:35:59] [Server thread/INFO]: Time elapsed: 101 ms
-[16:35:59] [Server thread/INFO]: Done (1.387s)! For help, type "help"
-[16:36:30] [Server thread/INFO]: pauloR2001[/127.0.0.1:60907] logged in with entity id 108 at (-6986.577188240613, 60.75957592780437, 2475.4248013020187)
-[16:36:30] [Server thread/INFO]: pauloR2001 joined the game
-[16:36:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3129ms or 62 ticks behind
-[16:36:48] [Server thread/WARN]: pauloR2001 moved too quickly! -4.5075260738831275,-8.627956800410345,-14.77602464749134
-[16:36:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10039ms or 200 ticks behind
-[16:37:37] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
-[16:40:20] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[16:41:05] [Server thread/WARN]: pauloR2001 moved too quickly! -3.6963984501380764,-1.6449269075873332,17.37836829986327
-[16:41:35] [Server thread/WARN]: pauloR2001 moved too quickly! 1.637944313416483,-2.1744995610782922,-17.531977910529804
-[16:43:03] [Server thread/WARN]: pauloR2001 moved too quickly! 13.454698265829393,-1.790467681803321,11.61511332875989
-[16:43:22] [Server thread/WARN]: pauloR2001 moved too quickly! 13.820242139971924,-2.136728134236563,-12.067563607224656
-[16:43:40] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[16:43:40] [Server thread/INFO]: pauloR2001 left the game
-[16:43:40] [Server thread/WARN]: handleDisconnection() called twice
+[16:58:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[16:58:10] [ServerMain/INFO]: Loaded 1470 recipes
+[16:58:10] [ServerMain/INFO]: Loaded 1584 advancements
+[16:58:11] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[16:58:11] [Server thread/INFO]: Loading properties
+[16:58:11] [Server thread/INFO]: Default game type: SURVIVAL
+[16:58:11] [Server thread/INFO]: Generating keypair
+[16:58:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:58:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:58:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:58:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:58:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:58:11] [Server thread/INFO]: Preparing level "world"
+[16:58:12] [Server thread/INFO]: Loading 0 persistent chunks...
+[16:58:12] [Server thread/INFO]: Preparing spawn area: 100%
+[16:58:12] [Server thread/INFO]: Time elapsed: 12 ms
+[16:58:12] [Server thread/INFO]: Done (0.717s)! For help, type "help"
+[16:59:12] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[17:01:44] [Server thread/INFO]: pauloR2001[/127.0.0.1:63025] logged in with entity id 62 at (-6419.300000011921, 63.0, 2891.371031433219)
+[17:01:44] [Server thread/INFO]: pauloR2001 joined the game
+[17:04:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2458ms or 49 ticks behind
+[17:05:56] [Server thread/INFO]: momo70950[/127.181.184.147:63051] logged in with entity id 1367 at (-3754.5699538692247, 146.0, 3379.6201314066075)
+[17:05:56] [Server thread/INFO]: momo70950 joined the game
+[17:06:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[17:06:54] [Server thread/INFO]: Villager dcx['Villager'/1943, l='ServerLevel[world]', x=-3826.40, y=117.00, z=3427.75] died, message: 'Villager discovered the floor was lava'
+[17:09:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2409ms or 48 ticks behind
+[17:12:03] [Server thread/INFO]: restrepojc[/127.86.205.203:63073] logged in with entity id 5894 at (-3745.494599085199, 138.0, 3376.6911051921884)
+[17:12:03] [Server thread/INFO]: restrepojc joined the game
+[17:12:03] [Server thread/WARN]: momo70950 moved too quickly! 0.0,-12.48751206236711,0.0
+[17:15:15] [Server thread/INFO]: Villager dcx['Villager'/7313, l='ServerLevel[world]', x=-3826.65, y=117.00, z=3427.94] died, message: 'Villager discovered the floor was lava'
+[17:16:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[17:16:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3186ms or 63 ticks behind
+[17:17:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3042ms or 60 ticks behind
+[17:20:43] [Server thread/INFO]: Villager dcx['Villager'/10864, l='ServerLevel[world]', x=-3826.38, y=117.00, z=3427.69] died, message: 'Villager discovered the floor was lava'
+[17:25:55] [Server thread/INFO]: Villager dcx['Villager'/13785, l='ServerLevel[world]', x=-3826.60, y=117.00, z=3429.21] died, message: 'Villager discovered the floor was lava'
+[17:27:06] [Server thread/INFO]: momo70950 has made the advancement [The Parrots and the Bats]
+[17:29:13] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[17:29:13] [Server thread/INFO]: momo70950 left the game
+[17:31:08] [Server thread/INFO]: Villager dcx['Villager'/15030, l='ServerLevel[world]', x=-3826.54, y=117.00, z=3428.06] died, message: 'Villager discovered the floor was lava'
+[17:33:21] [Server thread/INFO]: restrepojc was slain by Zombie
+[17:34:01] [Server thread/INFO]: restrepojc was shot by Skeleton
+[17:35:37] [Server thread/INFO]: restrepojc was shot by Skeleton
+[17:40:08] [Server thread/INFO]: andresr255[/127.58.7.225:49681] logged in with entity id 16962 at (-3962.003619591596, 53.0, 3303.908129417105)
+[17:40:08] [Server thread/INFO]: andresr255 joined the game
+[17:40:33] [Server thread/INFO]: andresr255 lost connection: You logged in from another location
+[17:40:33] [Server thread/INFO]: andresr255 left the game
+[17:40:35] [Server thread/INFO]: andresr255[/127.58.7.225:49685] logged in with entity id 17256 at (-3962.003619591596, 53.0, 3303.908129417105)
+[17:40:35] [Server thread/INFO]: andresr255 joined the game
+[17:42:23] [Server thread/INFO]: Villager dcx['Villager'/17819, l='ServerLevel[world]', x=-3826.61, y=117.00, z=3427.63] died, message: 'Villager discovered the floor was lava'
+[17:44:55] [Server thread/INFO]: momo70950 (/127.181.184.147:49698) lost connection: Disconnected
+[17:44:57] [Server thread/INFO]: momo70950[/127.181.184.147:49700] logged in with entity id 18717 at (-3758.699999988079, 138.0, 3375.939905849766)
+[17:44:57] [Server thread/INFO]: momo70950 joined the game
+[17:45:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[17:45:44] [Server thread/INFO]: [Not Secure] <momo70950> zzzz
+[17:45:59] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[17:45:59] [Server thread/INFO]: restrepojc left the game
+[17:46:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5988ms or 119 ticks behind
+[17:46:32] [Server thread/INFO]: [Not Secure] <momo70950> andres zzzzz
+[17:46:44] [Server thread/INFO]: [Not Secure] <momo70950> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+[17:47:10] [Server thread/INFO]: restrepojc[/127.86.205.203:49709] logged in with entity id 19324 at (-3742.8623062504817, 138.0, 3377.3666226605524)
+[17:47:10] [Server thread/INFO]: restrepojc joined the game
+[17:47:45] [Server thread/INFO]: Villager dcx['Villager'/19414, l='ServerLevel[world]', x=-3826.65, y=117.00, z=3428.87] died, message: 'Villager discovered the floor was lava'
+[17:50:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
+[17:50:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2371ms or 47 ticks behind
+[17:50:51] [Server thread/INFO]: andresr255 lost connection: Timed out
+[17:50:51] [Server thread/INFO]: andresr255 left the game
+[17:51:35] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[17:51:35] [Server thread/INFO]: momo70950 left the game
+[17:52:42] [Server thread/INFO]: andresr255[/127.58.7.225:49724] logged in with entity id 22365 at (-3962.8623326755605, 53.0, 3301.9104283347374)
+[17:52:42] [Server thread/INFO]: andresr255 joined the game
+[17:53:05] [Server thread/INFO]: Villager dcx['Villager'/22527, l='ServerLevel[world]', x=-3826.46, y=117.00, z=3427.71] died, message: 'Villager discovered the floor was lava'
+[17:56:57] [Server thread/INFO]: [Not Secure] <pauloR2001> dormi
+[17:58:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-3917, y=69, z=3402} is{x=-3918, y=69, z=3400}
+[18:02:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2074ms or 41 ticks behind
+[18:03:31] [Server thread/INFO]: Villager dcx['Villager'/26332, l='ServerLevel[world]', x=-3826.65, y=117.00, z=3428.32] died, message: 'Villager discovered the floor was lava'
+[18:08:27] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[18:08:27] [Server thread/INFO]: restrepojc left the game
+[18:08:28] [Server thread/INFO]: [Not Secure] <pauloR2001> dorm
+[18:08:30] [Server thread/INFO]: momo70950[/127.181.184.147:63381] logged in with entity id 28738 at (-3965.332540349814, 71.0, 3625.8417259569987)
+[18:08:30] [Server thread/INFO]: momo70950 joined the game
+[18:08:51] [Server thread/INFO]: restrepojc[/127.86.205.203:63384] logged in with entity id 29485 at (-3731.348930038782, 155.0, 3372.8249128384136)
+[18:08:51] [Server thread/INFO]: restrepojc joined the game
+[18:09:48] [Server thread/INFO]: Villager dcx['Villager'/29600, l='ServerLevel[world]', x=-3826.52, y=117.00, z=3427.51] died, message: 'Villager discovered the floor was lava'
+[18:09:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[18:10:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7967ms or 159 ticks behind
+[18:10:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10339ms or 206 ticks behind
+[18:11:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7868ms or 157 ticks behind
+[18:11:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8582ms or 171 ticks behind
+[18:12:18] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to momo70950]
+[18:12:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
+[18:12:40] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to andresr255]
+[18:12:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4826ms or 96 ticks behind
+[18:13:29] [Server thread/INFO]: andresr255 lost connection: Timed out
+[18:13:29] [Server thread/INFO]: andresr255 left the game
+[18:14:14] [Server thread/INFO]: andresr255[/127.58.7.225:63420] logged in with entity id 35947 at (-3726.8801712973254, 70.0, 3452.953968974106)
+[18:14:14] [Server thread/INFO]: andresr255 joined the game
+[18:14:23] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[18:14:23] [Server thread/INFO]: momo70950 left the game
+[18:14:59] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[18:14:59] [Server thread/INFO]: pauloR2001 left the game
+[18:15:44] [Server thread/INFO]: Villager dcx['Villager'/36139, l='ServerLevel[world]', x=-3826.50, y=117.00, z=3428.75] died, message: 'Villager discovered the floor was lava'
+[18:16:38] [Server thread/INFO]: momo70950[/127.181.184.147:63437] logged in with entity id 36529 at (-3367.3212462855263, 71.0, 3958.293894922678)
+[18:16:38] [Server thread/INFO]: momo70950 joined the game
+[18:17:33] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[18:17:33] [Server thread/INFO]: restrepojc left the game
+[18:18:24] [Server thread/INFO]: pauloR2001[/127.0.0.1:63442] logged in with entity id 38227 at (-3757.8033018779092, 138.0, 3378.5999434756345)
+[18:18:24] [Server thread/INFO]: pauloR2001 joined the game
+[18:18:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[18:18:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6064ms or 121 ticks behind
+[18:19:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3810ms or 76 ticks behind
+[18:19:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4212ms or 84 ticks behind
+[18:19:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[18:20:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6032ms or 120 ticks behind
+[18:20:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6089ms or 121 ticks behind
+[18:23:22] [Server thread/INFO]: Villager dcx['Villager'/40683, l='ServerLevel[world]', x=-3826.67, y=117.00, z=3428.91] died, message: 'Villager discovered the floor was lava'
+[18:24:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[18:24:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2208ms or 44 ticks behind
+[18:25:37] [Server thread/INFO]: momo70950 has made the advancement [Who is Cutting Onions?]
+[18:25:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[18:27:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[18:28:44] [Server thread/INFO]: Villager dcx['Villager'/43979, l='ServerLevel[world]', x=-3826.56, y=117.00, z=3429.10] died, message: 'Villager discovered the floor was lava'
+[18:33:30] [Server thread/INFO]: Villager dcx['Villager'/46189, l='ServerLevel[world]', x=-3826.66, y=117.00, z=3427.78] died, message: 'Villager discovered the floor was lava'
+[18:33:45] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[18:33:45] [Server thread/INFO]: momo70950 left the game
+[18:40:00] [Server thread/INFO]: Villager dcx['Villager'/48029, l='ServerLevel[world]', x=-3826.41, y=117.00, z=3427.92] died, message: 'Villager discovered the floor was lava'
+[18:44:05] [Server thread/INFO]: momo70950[/127.181.184.147:63504] logged in with entity id 49808 at (-4067.659493951087, 62.0, 3236.1035449096566)
+[18:44:05] [Server thread/INFO]: momo70950 joined the game
+[18:44:55] [Server thread/INFO]: momo70950 lost connection: You logged in from another location
+[18:44:55] [Server thread/INFO]: momo70950 left the game
+[18:44:56] [Server thread/INFO]: momo70950[/127.181.184.147:63510] logged in with entity id 50278 at (-4067.5, 63.0, 3230.5)
+[18:44:56] [Server thread/INFO]: momo70950 joined the game
+[18:45:32] [Server thread/INFO]: Villager dcx['Villager'/50406, l='ServerLevel[world]', x=-3826.39, y=117.00, z=3428.72] died, message: 'Villager discovered the floor was lava'
+[18:46:52] [Server thread/WARN]: momo70950 moved too quickly! 15.047587509513505,-2.9823351855279583,-9.825503885117087
+[18:46:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[18:47:22] [Server thread/WARN]: pauloR2001 moved too quickly! -6.9333642284341295,-8.330271971319618,14.670530658767348
+[18:47:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[18:47:48] [Server thread/INFO]: restrepojc[/127.86.205.203:63519] logged in with entity id 51464 at (-3729.022288705086, 167.0, 3378.5270058935384)
+[18:47:48] [Server thread/INFO]: restrepojc joined the game
+[18:48:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[18:48:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6224ms or 124 ticks behind
+[18:48:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[18:49:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5194ms or 103 ticks behind
+[18:49:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3099ms or 61 ticks behind
+[18:49:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6460ms or 129 ticks behind
+[18:50:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3631ms or 72 ticks behind
+[18:50:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[18:50:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[18:51:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15113ms or 302 ticks behind
+[18:51:31] [Server thread/INFO]: Villager dcx['Villager'/53382, l='ServerLevel[world]', x=-3826.59, y=117.00, z=3427.76] died, message: 'Villager discovered the floor was lava'
+[18:51:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5447ms or 108 ticks behind
+[18:51:49] [Server thread/INFO]: momo70950 lost connection: You logged in from another location
+[18:51:49] [Server thread/INFO]: momo70950 left the game
+[18:51:50] [Server thread/INFO]: momo70950[/127.181.184.147:63531] logged in with entity id 54241 at (-4119.271679497456, 67.0, 3188.289399742224)
+[18:51:50] [Server thread/INFO]: momo70950 joined the game
+[18:52:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4702ms or 94 ticks behind
+[18:52:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4245ms or 84 ticks behind
+[18:52:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2066ms or 41 ticks behind
+[18:53:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8897ms or 177 ticks behind
+[18:53:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[18:54:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9406ms or 188 ticks behind
+[18:54:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[18:54:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3698ms or 73 ticks behind
+[18:55:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2870ms or 57 ticks behind
+[18:55:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6523ms or 130 ticks behind
+[18:55:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8092ms or 161 ticks behind
+[18:56:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5716ms or 114 ticks behind
+[18:56:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4148ms or 82 ticks behind
+[18:56:46] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[18:56:46] [Server thread/INFO]: restrepojc left the game
+[18:56:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6202ms or 124 ticks behind
+[18:57:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[18:57:32] [Server thread/INFO]: restrepojc[/127.86.205.203:63543] logged in with entity id 57581 at (-3727.2076949135653, 165.0, 3376.2774471209354)
+[18:57:32] [Server thread/INFO]: restrepojc joined the game
+[18:57:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7182ms or 143 ticks behind
+[18:58:20] [Server thread/INFO]: Villager dcx['Villager'/57751, l='ServerLevel[world]', x=-3826.38, y=117.00, z=3429.33] died, message: 'Villager discovered the floor was lava'
+[18:58:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[19:02:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[19:03:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[19:03:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2756ms or 55 ticks behind
+[19:04:06] [Server thread/INFO]: Villager dcx['Villager'/59391, l='ServerLevel[world]', x=-3826.41, y=117.00, z=3428.71] died, message: 'Villager discovered the floor was lava'
+[19:06:49] [Server thread/INFO]: momo70950 has made the advancement [Country Lode, Take Me Home]
+[19:08:18] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[19:08:18] [Server thread/INFO]: restrepojc left the game
+[19:09:30] [Server thread/INFO]: restrepojc[/127.86.205.203:59847] logged in with entity id 61598 at (-3730.976840519783, 186.0, 3374.300000011921)
+[19:09:30] [Server thread/INFO]: restrepojc joined the game
+[19:09:37] [Server thread/INFO]: Villager dcx['Villager'/61355, l='ServerLevel[world]', x=-3826.85, y=117.00, z=3428.50] died, message: 'Villager discovered the floor was lava'
+[19:12:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[19:12:35] [Server thread/WARN]: Spruce Boat (vehicle of andresr255) moved too quickly! -10.271202791791893,0.0,-0.4750090754841949
+[19:12:35] [Server thread/WARN]: Spruce Boat (vehicle of andresr255) moved too quickly! -10.66423945396673,0.0,-0.5393041443467155
+[19:12:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2702ms or 54 ticks behind
+[19:13:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[19:13:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[19:14:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6457ms or 129 ticks behind
+[19:14:15] [Worker-Main-8/ERROR]: Failed to fetch mob spawner entity at (-4166, -18, 4655)
+[19:14:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4754ms or 95 ticks behind
+[19:14:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4278ms or 85 ticks behind
+[19:15:03] [Server thread/INFO]: Villager dcx['Villager'/67233, l='ServerLevel[world]', x=-3826.41, y=117.00, z=3428.04] died, message: 'Villager discovered the floor was lava'
+[19:15:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2060ms or 41 ticks behind
+[19:15:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7069ms or 141 ticks behind
+[19:15:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2365ms or 47 ticks behind
+[19:16:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
+[19:17:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4692ms or 93 ticks behind
+[19:17:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4367ms or 87 ticks behind
+[19:17:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4323ms or 86 ticks behind
+[19:18:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[19:19:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3624ms or 72 ticks behind
+[19:19:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3328ms or 66 ticks behind
+[19:20:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
+[19:21:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6517ms or 130 ticks behind
+[19:21:17] [Server thread/INFO]: Villager dcx['Villager'/73391, l='ServerLevel[world]', x=-3826.66, y=117.00, z=3429.09] died, message: 'Villager discovered the floor was lava'
+[19:22:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[19:22:38] [Server thread/WARN]: Spruce Boat (vehicle of andresr255) moved wrongly! 0.3824323198637103
+[19:22:38] [Server thread/WARN]: Spruce Boat (vehicle of andresr255) moved wrongly! 0.4462710397824594
+[19:22:38] [Server thread/WARN]: Spruce Boat (vehicle of andresr255) moved wrongly! 0.6621150577193475
+[19:22:38] [Server thread/WARN]: Spruce Boat (vehicle of andresr255) moved wrongly! 0.9024356297104532
+[19:22:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[19:23:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[19:23:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5623ms or 112 ticks behind
+[19:24:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2083ms or 41 ticks behind
+[19:24:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5602ms or 112 ticks behind
+[19:25:05] [Server thread/WARN]: pauloR2001 moved wrongly!
+[19:25:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
+[19:25:09] [Server thread/WARN]: pauloR2001 moved too quickly! -8.083533287428963,1.1767592750642422,-5.867172060812209
+[19:25:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3453ms or 69 ticks behind
+[19:26:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[19:26:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[19:27:06] [Server thread/INFO]: Villager dcx['Villager'/77102, l='ServerLevel[world]', x=-3826.52, y=117.00, z=3429.53] died, message: 'Villager discovered the floor was lava'
+[19:27:27] [Server thread/WARN]: Spruce Boat (vehicle of andresr255) moved wrongly! 0.3070998615357894
+[19:29:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[19:29:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7294ms or 145 ticks behind
+[19:29:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2388ms or 47 ticks behind
+[19:30:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19562ms or 391 ticks behind
+[19:31:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
+[19:31:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17719ms or 354 ticks behind
+[19:32:03] [Server thread/INFO]: [momo70950: Teleported restrepojc to momo70950]
+[19:32:26] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to restrepojc]
+[19:33:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[19:34:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[19:34:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[19:34:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6489ms or 129 ticks behind
+[19:35:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3135ms or 62 ticks behind
+[19:36:11] [Server thread/INFO]: Villager dcx['Villager'/87827, l='ServerLevel[world]', x=-3826.45, y=117.00, z=3427.74] died, message: 'Villager discovered the floor was lava'
+[19:36:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[19:37:39] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to restrepojc]
+[19:37:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[19:38:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[19:38:26] [Server thread/INFO]: momo70950 lost connection: You logged in from another location
+[19:38:26] [Server thread/INFO]: momo70950 left the game
+[19:38:27] [Server thread/INFO]: momo70950[/127.181.184.147:52599] logged in with entity id 89844 at (274.9225195725667, 50.0, -3.699999988079071)
+[19:38:27] [Server thread/INFO]: momo70950 joined the game
+[19:39:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2058ms or 41 ticks behind
+[19:40:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[19:40:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12670ms or 253 ticks behind
+[19:40:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6745ms or 134 ticks behind
+[19:41:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4226ms or 84 ticks behind
+[19:41:51] [Server thread/INFO]: Villager dcx['Villager'/93141, l='ServerLevel[world]', x=-3826.49, y=117.00, z=3427.51] died, message: 'Villager discovered the floor was lava'
+[19:42:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[19:42:35] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[19:42:35] [Server thread/INFO]: restrepojc left the game
+[19:42:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17333ms or 346 ticks behind
+[19:43:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8225ms or 164 ticks behind
+[19:44:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[19:44:13] [Server thread/INFO]: restrepojc[/127.86.205.203:52615] logged in with entity id 96256 at (-3739.2301834682644, 138.0, 3376.300773876096)
+[19:44:13] [Server thread/INFO]: restrepojc joined the game
+[19:44:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23212ms or 464 ticks behind
+[19:45:15] [Server thread/INFO]: [Not Secure] <momo70950> zzzzzzzzzzz
+[19:45:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18210ms or 364 ticks behind
+[19:45:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13982ms or 279 ticks behind
+[19:46:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19520ms or 390 ticks behind
+[19:47:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24115ms or 482 ticks behind
+[19:47:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13379ms or 267 ticks behind
+[19:47:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12956ms or 259 ticks behind
+[19:48:14] [Server thread/INFO]: [momo70950: Set the weather to clear]
+[19:48:27] [Server thread/ERROR]: Failed to create block entity eld@1d7b7aad for block is{x=-3102, y=42, z=5257} at position Block{minecraft:chest}[facing=north,type=single,waterlogged=false] 
+java.lang.IllegalStateException: Invalid block entity minecraft:brushable_block // elg state at is{x=-3102, y=42, z=5257}, got Block{minecraft:chest}[facing=north,type=single,waterlogged=false]
+	at elb.a(SourceFile:63)
+	at elb.<init>(SourceFile:57)
+	at elg.<init>(SourceFile:60)
+	at eld.a(SourceFile:112)
+	at elb.a(SourceFile:201)
+	at eqq.a(SourceFile:617)
+	at eqq.a(SourceFile:380)
+	at eqq.c_(SourceFile:372)
+	at eqq.a(SourceFile:600)
+	at awj.a(SourceFile:738)
+	at awk$b.a(SourceFile:63)
+	at awj.a(SourceFile:736)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at cbr.d(SourceFile:169)
+	at axc$a.d(SourceFile:625)
+	at cbr.E(SourceFile:143)
+	at axc$a.E(SourceFile:634)
+	at axc.c(SourceFile:272)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:936)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[19:48:27] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:chest}[facing=north,type=single,waterlogged=false] but failed at location is{x=-3102, y=42, z=5257}
+[19:48:27] [Server thread/ERROR]: Failed to create block entity eld@1d7b7aad for block is{x=-3102, y=43, z=5257} at position Block{minecraft:chest}[facing=north,type=single,waterlogged=false] 
+java.lang.IllegalStateException: Invalid block entity minecraft:brushable_block // elg state at is{x=-3102, y=43, z=5257}, got Block{minecraft:chest}[facing=north,type=single,waterlogged=false]
+	at elb.a(SourceFile:63)
+	at elb.<init>(SourceFile:57)
+	at elg.<init>(SourceFile:60)
+	at eld.a(SourceFile:112)
+	at elb.a(SourceFile:201)
+	at eqq.a(SourceFile:617)
+	at eqq.a(SourceFile:380)
+	at eqq.c_(SourceFile:372)
+	at eqq.a(SourceFile:600)
+	at awj.a(SourceFile:738)
+	at awk$b.a(SourceFile:63)
+	at awj.a(SourceFile:736)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at cbr.d(SourceFile:169)
+	at axc$a.d(SourceFile:625)
+	at cbr.E(SourceFile:143)
+	at axc$a.E(SourceFile:634)
+	at axc.c(SourceFile:272)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:936)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[19:48:27] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:chest}[facing=north,type=single,waterlogged=false] but failed at location is{x=-3102, y=43, z=5257}
+[19:48:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13718ms or 274 ticks behind
+[19:49:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19336ms or 386 ticks behind
+[19:49:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10455ms or 209 ticks behind
+[19:50:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2065ms or 41 ticks behind
+[19:50:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22216ms or 444 ticks behind
+[19:51:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21177ms or 423 ticks behind
+[19:51:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19589ms or 391 ticks behind
+[19:52:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21379ms or 427 ticks behind
+[19:53:14] [Server thread/INFO]: [Not Secure] [andresr255] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Horse] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [pauloR2001] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Nautilus] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Nautilus] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Leash Knot] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Rotten Flesh] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [momo70950] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Happy Ghast] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Cat] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Cat] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Cat] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Spruce Boat] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Glow Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Glow Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Glow Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Glow Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Glow Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:14] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:15] [Server thread/INFO]: [Not Secure] [Chicken] hello
+[19:53:15] [Server thread/INFO]: [Not Secure] [Chicken] hello
+[19:53:15] [Server thread/INFO]: [Not Secure] [Chicken] hello
+[19:53:15] [Server thread/INFO]: [Not Secure] [Axolotl] hello
+[19:53:15] [Server thread/INFO]: [Not Secure] [Chicken] hello
+[19:53:15] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:15] [Server thread/INFO]: [Not Secure] [Cat] hello
+[19:53:15] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:15] [Server thread/INFO]: [Not Secure] [Fletcher] hello
+[19:53:15] [Server thread/INFO]: [Not Secure] [Cleric] hello
+[19:53:15] [Server thread/INFO]: [Not Secure] [Librarian] hello
+[19:53:15] [Server thread/INFO]: [Not Secure] [Fletcher] hello
+[19:53:15] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:15] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:15] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:15] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:16] [Server thread/INFO]: [Not Secure] [Item Frame] hello
+[19:53:16] [Server thread/INFO]: [Not Secure] [Copper Golem] hello
+[19:53:16] [Server thread/INFO]: [Not Secure] [Copper Golem] hello
+[19:53:16] [Server thread/INFO]: [Not Secure] [Iron Golem] hello
+[19:53:16] [Server thread/INFO]: [Not Secure] [Iron Golem] hello
+[19:53:16] [Server thread/INFO]: [Not Secure] [Axolotl] hello
+[19:53:16] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:16] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:16] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:16] [Server thread/INFO]: [Not Secure] [Fox] hello
+[19:53:16] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:16] [Server thread/INFO]: [Not Secure] [Farmer] hello
+[19:53:16] [Server thread/INFO]: [Not Secure] [Villager] hello
+[19:53:16] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:16] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:16] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Sheep] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:18] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Fox] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Sheep] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Cow] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Iron Golem] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Arbakage] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Villager] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Villager] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Villager] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Cow] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Chicken] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Fox] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Fox] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Cow] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [restrepojc] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Fox] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:19] [Server thread/INFO]: [Not Secure] [Sheep] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Fox] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Cow] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Fox] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Fox] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Cow] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Fox] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Dolphin] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Tropical Fish] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Egg] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Tropical Fish] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Glow Ink Sac] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Glow Ink Sac] hello
+[19:53:20] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:21] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:21] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:21] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:21] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:21] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:21] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:21] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:21] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:21] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:21] [Server thread/INFO]: [Not Secure] [Horse] hello
+[19:53:21] [Server thread/INFO]: [Not Secure] [Horse] hello
+[19:53:21] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:21] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:21] [Server thread/INFO]: [Not Secure] [Armorer] hello
+[19:53:21] [Server thread/INFO]: [Not Secure] [Villager] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Leatherworker] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Fletcher] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Toolsmith] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Iron Golem] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Leatherworker] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Villager] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Armorer] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Cleric] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Cat] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Cat] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Villager] hello
+[19:53:22] [Server thread/INFO]: [Not Secure] [Nitwit] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Cat] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Cow] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Spider] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:23] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:25] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:25] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:25] [Server thread/INFO]: [Not Secure] [Leash Knot] hello
+[19:53:25] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:25] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:25] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:25] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:25] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:25] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:25] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:25] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:25] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:25] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:25] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:25] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:26] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:26] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:26] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:26] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:26] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:26] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:26] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:26] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:26] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:26] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:26] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:26] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:26] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:26] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:26] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:26] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:27] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:27] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:27] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:27] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:27] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:27] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:27] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:27] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:27] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:27] [Server thread/INFO]: [Not Secure] [Chicken] hello
+[19:53:27] [Server thread/INFO]: [Not Secure] [Chicken] hello
+[19:53:27] [Server thread/INFO]: [Not Secure] [Chicken] hello
+[19:53:27] [Server thread/INFO]: [Not Secure] [Chicken] hello
+[19:53:27] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:27] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:27] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:28] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:28] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:28] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:28] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:28] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:28] [Server thread/INFO]: [Not Secure] [Axolotl] hello
+[19:53:28] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:28] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:28] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:28] [Server thread/INFO]: [Not Secure] [Squid] hello
+[19:53:28] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:28] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:28] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:28] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:28] [Server thread/INFO]: [Not Secure] [Axolotl] hello
+[19:53:28] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Spider] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Fox] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Squid] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Spider] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Spider] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Axolotl] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Axolotl] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Axolotl] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Prismarine Crystals] hello
+[19:53:29] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:30] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:30] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:30] [Server thread/INFO]: [Not Secure] [Spider] hello
+[19:53:30] [Server thread/INFO]: [Not Secure] [Spider] hello
+[19:53:30] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:30] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:30] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:30] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:30] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:30] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:30] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:30] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:30] [Server thread/INFO]: [Not Secure] [Egg] hello
+[19:53:30] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:30] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:30] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Spider] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:31] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:32] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:32] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:32] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:32] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:32] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:32] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:32] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:32] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:32] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:32] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:32] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:32] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:32] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:32] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:32] [Server thread/INFO]: [Not Secure] [Prismarine Shard] hello
+[19:53:32] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:33] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:33] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:33] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:33] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:33] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:33] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:33] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:33] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:33] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:33] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:33] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:33] [Server thread/INFO]: [Not Secure] [Zombie Villager] hello
+[19:53:33] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:33] [Server thread/INFO]: [Not Secure] [Dolphin] hello
+[19:53:33] [Server thread/INFO]: [Not Secure] [Nautilus] hello
+[19:53:33] [Server thread/INFO]: [Not Secure] [Tropical Fish] hello
+[19:53:34] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:34] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:34] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:34] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:34] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:34] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:34] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:34] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:34] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:34] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:34] [Server thread/INFO]: [Not Secure] [Glow Squid] hello
+[19:53:34] [Server thread/INFO]: [Not Secure] [Glow Squid] hello
+[19:53:34] [Server thread/INFO]: [Not Secure] [Glow Squid] hello
+[19:53:34] [Server thread/INFO]: [Not Secure] [Glow Squid] hello
+[19:53:34] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:34] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:35] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:35] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:35] [Server thread/INFO]: [Not Secure] [Tropical Fish] hello
+[19:53:35] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:35] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:35] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:35] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:35] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:35] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:35] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:35] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:35] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:35] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:35] [Server thread/INFO]: [Not Secure] [Glow Ink Sac] hello
+[19:53:35] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:35] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:36] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:36] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:36] [Server thread/INFO]: [Not Secure] [Fox] hello
+[19:53:36] [Server thread/INFO]: [Not Secure] [Bone] hello
+[19:53:36] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:36] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:36] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:36] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:36] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:36] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:36] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:36] [Server thread/INFO]: [Not Secure] [Squid] hello
+[19:53:36] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:36] [Server thread/INFO]: [Not Secure] [Squid] hello
+[19:53:36] [Server thread/INFO]: [Not Secure] [Squid] hello
+[19:53:36] [Server thread/INFO]: [Not Secure] [Squid] hello
+[19:53:37] [Server thread/INFO]: [Not Secure] [Squid] hello
+[19:53:37] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:37] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:37] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:37] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:37] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:37] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:37] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:37] [Server thread/INFO]: [Not Secure] [Zombie Villager] hello
+[19:53:37] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:37] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:37] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:37] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:37] [Server thread/INFO]: [Not Secure] [Tropical Fish] hello
+[19:53:37] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:37] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Wolf] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Drowned] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:38] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:40] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:40] [Server thread/INFO]: [Not Secure] [Pig] hello
+[19:53:40] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:40] [Server thread/INFO]: [Not Secure] [Polar Bear] hello
+[19:53:40] [Server thread/INFO]: [Not Secure] [Polar Bear] hello
+[19:53:40] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:40] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:40] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:40] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:40] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:40] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:40] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:40] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:40] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:40] [Server thread/INFO]: [Not Secure] [Falling Gravel] hello
+[19:53:40] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:41] [Server thread/INFO]: [Not Secure] [Minecart with Chest] hello
+[19:53:41] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:41] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:41] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:41] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:41] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:41] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:41] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:41] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:41] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:41] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:41] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:41] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:41] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:41] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:41] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:42] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:42] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:42] [Server thread/INFO]: [Not Secure] [Glow Squid] hello
+[19:53:42] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:42] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:42] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:42] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:42] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:42] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:42] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:42] [Server thread/INFO]: [Not Secure] [Squid] hello
+[19:53:42] [Server thread/INFO]: [Not Secure] [Squid] hello
+[19:53:42] [Server thread/INFO]: [Not Secure] [Squid] hello
+[19:53:42] [Server thread/INFO]: [Not Secure] [Squid] hello
+[19:53:42] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:42] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Bee] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Enderman] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Bee] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Bee] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:43] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:44] [Server thread/INFO]: [Not Secure] [Spider] hello
+[19:53:44] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:44] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:44] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:44] [Server thread/INFO]: [Not Secure] [Skeleton] hello
+[19:53:44] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:44] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:44] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:44] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:44] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:44] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:44] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:44] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:44] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:44] [Server thread/INFO]: [Not Secure] [Creeper] hello
+[19:53:44] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:45] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:45] [Server thread/INFO]: [Not Secure] [Rabbit] hello
+[19:53:45] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:45] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:45] [Server thread/INFO]: [Not Secure] [Zombie] hello
+[19:53:45] [Server thread/INFO]: [Not Secure] [Bat] hello
+[19:53:45] [Server thread/INFO]: [Not Secure] [Nautilus] hello
+[19:53:45] [Server thread/INFO]: [Not Secure] [Nautilus] hello
+[19:53:45] [Server thread/INFO]: [Not Secure] [Nautilus] hello
+[19:53:45] [Server thread/INFO]: [Not Secure] [Glow Squid] hello
+[19:53:45] [Server thread/INFO]: [Not Secure] [Glow Squid] hello
+[19:53:45] [Server thread/INFO]: [Not Secure] [Glow Squid] hello
+[19:53:45] [Server thread/INFO]: [Not Secure] [Glow Squid] hello
+[19:53:45] [Server thread/INFO]: [Not Secure] [Cooked Cod] hello
+[19:53:45] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:45] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:46] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:46] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:46] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:46] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:46] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:46] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:46] [Server thread/INFO]: [Not Secure] [Sugar Cane] hello
+[19:53:46] [Server thread/INFO]: [Not Secure] [Guardian] hello
+[19:53:46] [Server thread/WARN]: momo70950 moved too quickly! 3.884964362761366,1.0,9.410621180955332
+[19:53:46] [Server thread/WARN]: andresr255 moved too quickly! -0.06976956330845496,1.0625,10.034111018020667
+[19:53:47] [Server thread/WARN]: momo70950 moved too quickly! 3.787847889533168,1.0,9.279883442136452
+[19:53:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 59678ms or 1193 ticks behind
+[19:54:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25098ms or 501 ticks behind
+[19:55:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19559ms or 391 ticks behind
+[19:55:07] [Server thread/INFO]: [momo70950: Teleported restrepojc to momo70950]
+[19:55:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11141ms or 222 ticks behind
+[19:55:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9706ms or 194 ticks behind
+[19:56:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31473ms or 629 ticks behind
+[19:57:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21777ms or 435 ticks behind
+[19:57:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20585ms or 411 ticks behind
+[19:58:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24262ms or 485 ticks behind
+[19:58:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4320ms or 86 ticks behind
+[19:59:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2088ms or 41 ticks behind
+[19:59:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2371ms or 47 ticks behind
+[20:00:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[20:01:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
+[20:02:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6814ms or 136 ticks behind
+[20:02:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6668ms or 133 ticks behind
+[20:02:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6324ms or 126 ticks behind
+[20:03:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7039ms or 140 ticks behind
+[20:03:21] [Server thread/INFO]: Villager dcx['Villager'/107502, l='ServerLevel[world]', x=-3826.38, y=117.00, z=3428.24] died, message: 'Villager discovered the floor was lava'
+[20:03:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8472ms or 169 ticks behind
+[20:04:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12048ms or 240 ticks behind
+[20:04:12] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[20:04:12] [Server thread/INFO]: restrepojc left the game
+[20:04:36] [Server thread/INFO]: restrepojc[/127.86.205.203:49939] logged in with entity id 110090 at (-3719.426650860271, 76.0, 3398.79455106334)
+[20:04:36] [Server thread/INFO]: restrepojc joined the game
+[20:04:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[20:05:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3825ms or 76 ticks behind
+[20:05:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3105ms or 62 ticks behind
+[20:05:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[20:06:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[20:06:44] [Server thread/WARN]: momo70950 moved too quickly! -17.952908435777772,-3.755436112395074,-5.327220597885116
+[20:06:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2057ms or 41 ticks behind
+[20:07:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4833ms or 96 ticks behind
+[20:08:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[20:08:43] [Server thread/INFO]: Villager dcx['Villager'/112480, l='ServerLevel[world]', x=-3826.35, y=117.00, z=3428.89] died, message: 'Villager discovered the floor was lava'
+[20:13:55] [Server thread/INFO]: Villager dcx['Villager'/114442, l='ServerLevel[world]', x=-3826.63, y=117.00, z=3428.28] died, message: 'Villager discovered the floor was lava'
+[20:16:59] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[20:16:59] [Server thread/INFO]: restrepojc left the game
+[20:17:17] [Server thread/INFO]: [Not Secure] <andresr255> zz
+[20:17:40] [Server thread/INFO]: restrepojc[/127.86.205.203:49971] logged in with entity id 116035 at (-3738.24527966879, 191.0, 3373.74518893718)
+[20:17:40] [Server thread/INFO]: restrepojc joined the game
+[20:20:01] [Server thread/INFO]: Villager dcx['Villager'/116691, l='ServerLevel[world]', x=-3826.44, y=117.00, z=3427.85] died, message: 'Villager discovered the floor was lava'
+[20:20:46] [Server thread/WARN]: momo70950 moved too quickly! 0.0,-12.262358999312141,0.0
+[20:20:47] [Server thread/WARN]: momo70950 moved too quickly! 0.0,-10.221069856431782,0.0
+[20:20:49] [Server thread/WARN]: momo70950 moved too quickly! 0.0,-11.198862002177735,0.0
+[20:20:51] [Server thread/WARN]: momo70950 moved too quickly! 0.0,-11.832170645297428,0.0
+[20:20:53] [Server thread/WARN]: momo70950 moved too quickly! 0.0,-11.433643280623436,0.0
+[20:22:23] [Server thread/INFO]: [momo70950: Teleported andresr255 to momo70950]
+[20:25:39] [Server thread/INFO]: Villager dcx['Villager'/118244, l='ServerLevel[world]', x=-3826.53, y=117.00, z=3429.14] died, message: 'Villager discovered the floor was lava'
+[20:29:14] [Server thread/INFO]: [Not Secure] <pauloR2001> dormi
+[20:30:03] [Server thread/INFO]: [Not Secure] <momo70950> dormi
+[20:30:05] [Server thread/INFO]: [Not Secure] <momo70950> zzz
+[20:30:07] [Server thread/INFO]: [Not Secure] <andresr255> zzzzzzzzzzzz
+[20:31:53] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[20:31:53] [Server thread/INFO]: restrepojc left the game
+[20:32:04] [Server thread/INFO]: restrepojc[/127.86.205.203:50065] logged in with entity id 119650 at (-3746.771235854925, 138.0, 3377.824670931297)
+[20:32:04] [Server thread/INFO]: restrepojc joined the game
+[20:35:48] [Server thread/INFO]: momo70950 has made the advancement [Minecraft: Trial(s) Edition]
+[20:36:08] [Server thread/INFO]: restrepojc has made the advancement [Minecraft: Trial(s) Edition]
+[20:36:13] [Server thread/INFO]: pauloR2001 has made the advancement [Minecraft: Trial(s) Edition]
+[20:36:27] [Server thread/INFO]: andresr255 has made the advancement [Minecraft: Trial(s) Edition]
+[20:40:21] [Server thread/INFO]: Villager dcx['Villager'/121464, l='ServerLevel[world]', x=-3826.71, y=117.00, z=3428.94] died, message: 'Villager discovered the floor was lava'
+[20:42:31] [Server thread/INFO]: restrepojc has made the advancement [Under Lock and Key]
+[20:42:48] [Server thread/INFO]: momo70950 has made the advancement [Under Lock and Key]
+[20:43:00] [Server thread/INFO]: andresr255 has made the advancement [Under Lock and Key]
+[20:44:13] [Server thread/INFO]: pauloR2001 has made the advancement [Under Lock and Key]
+[20:51:10] [Server thread/INFO]: restrepojc has made the advancement [Getting an Upgrade]
+[20:55:04] [Server thread/INFO]: Villager dcx['Villager'/123927, l='ServerLevel[world]', x=-3826.41, y=117.00, z=3429.29] died, message: 'Villager discovered the floor was lava'
+[20:58:28] [Server thread/INFO]: Villager dcx['Villager'/125077, l='ServerLevel[world]', x=-3826.37, y=117.00, z=3428.69] died, message: 'Villager discovered the floor was lava'
+[21:07:04] [Server thread/INFO]: restrepojc has made the advancement [Take Aim]
+[21:09:58] [Server thread/INFO]: momo70950 has reached the goal [Revaulting]
+[21:10:34] [Server thread/INFO]: restrepojc has reached the goal [Revaulting]
+[21:10:48] [Server thread/INFO]: pauloR2001 has reached the goal [Revaulting]
+[21:12:11] [Server thread/INFO]: momo70950 has completed the challenge [Blowback]
+[21:12:45] [Server thread/INFO]: Villager dcx['Villager'/127990, l='ServerLevel[world]', x=-3826.46, y=117.00, z=3427.70] died, message: 'Villager discovered the floor was lava'
+[21:13:01] [Server thread/INFO]: andresr255 was shot by Stray
+[21:13:12] [Server thread/INFO]: [momo70950: Teleported andresr255 to momo70950]
+[21:13:22] [Server thread/INFO]: andresr255 was shot by Stray
+[21:13:43] [Server thread/WARN]: andresr255 moved too quickly! 1.3067603347963086,-0.4641593749554431,10.044845817771147
+[21:13:47] [Server thread/INFO]: [momo70950: Teleported andresr255 to momo70950]
+[21:13:49] [Server thread/INFO]: [momo70950: Teleported andresr255 to momo70950]
+[21:13:53] [Server thread/INFO]: restrepojc lost connection: Timed out
+[21:13:53] [Server thread/INFO]: restrepojc left the game
+[21:14:16] [Server thread/INFO]: restrepojc[/127.86.205.203:63916] logged in with entity id 128907 at (-3676.549451166437, -21.0, 3424.699999988079)
+[21:14:16] [Server thread/INFO]: restrepojc joined the game
+[21:16:05] [Server thread/INFO]: andresr255 has reached the goal [Revaulting]
+[21:16:06] [Server thread/INFO]: [momo70950: Teleported restrepojc to momo70950]
+[21:19:05] [Server thread/INFO]: Villager dcx['Villager'/129534, l='ServerLevel[world]', x=-3826.32, y=117.00, z=3429.14] died, message: 'Villager discovered the floor was lava'
+[21:19:51] [Server thread/INFO]: restrepojc was slain by Husk
+[21:20:05] [Server thread/INFO]: [momo70950: Teleported restrepojc to momo70950]
+[21:20:12] [Server thread/INFO]: andresr255 was slain by Husk
+[21:20:32] [Server thread/INFO]: [momo70950: Teleported restrepojc to momo70950]
+[21:20:40] [Server thread/INFO]: [momo70950: Teleported andresr255 to momo70950]
+[21:20:45] [Server thread/INFO]: andresr255 was slain by Husk
+[21:20:50] [Server thread/INFO]: restrepojc was slain by Husk
+[21:20:50] [Server thread/INFO]: [momo70950: Teleported andresr255 to momo70950]
+[21:20:50] [Server thread/INFO]: [momo70950: Teleported restrepojc to momo70950]
+[21:20:51] [Server thread/INFO]: andresr255 was slain by Husk
+[21:21:19] [Server thread/INFO]: [momo70950: Teleported restrepojc to momo70950]
+[21:21:21] [Server thread/INFO]: [momo70950: Teleported andresr255 to momo70950]
+[21:24:26] [Server thread/INFO]: andresr255 was shot by momo70950 using [M-19]
+[21:24:37] [Server thread/INFO]: [momo70950: Teleported andresr255 to momo70950]
+[21:32:57] [Server thread/INFO]: Villager dcx['Villager'/132810, l='ServerLevel[world]', x=-3826.54, y=117.00, z=3427.74] died, message: 'Villager discovered the floor was lava'
+[21:34:18] [Server thread/WARN]: Player restrepojc just tried to change non-editable sign
+[21:34:19] [Server thread/WARN]: restrepojc moved too quickly! 3.4770292468265325,0.0,9.408468642170192
+[21:37:35] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[21:37:35] [Server thread/INFO]: restrepojc left the game
+[21:37:55] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[21:37:55] [Server thread/INFO]: momo70950 left the game
+[21:38:29] [Server thread/INFO]: Villager dcx['Villager'/134213, l='ServerLevel[world]', x=-3826.52, y=117.00, z=3427.67] died, message: 'Villager discovered the floor was lava'
+[21:38:47] [Server thread/INFO]: andresr255 lost connection: Disconnected
+[21:38:47] [Server thread/INFO]: andresr255 left the game
+[21:40:02] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[21:40:02] [Server thread/INFO]: pauloR2001 left the game
+[21:40:12] [Server thread/INFO]: Stopping the server
+[21:40:12] [Server thread/INFO]: Stopping server
+[21:40:12] [Server thread/INFO]: Saving players
+[21:40:12] [Server thread/INFO]: Saving worlds
+[21:40:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:40:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:40:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:40:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:40:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:40:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:40:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
