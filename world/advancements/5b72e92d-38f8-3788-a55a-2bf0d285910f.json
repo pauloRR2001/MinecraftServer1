@@ -7,8 +7,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2026-01-29 22:37:58 -0500",
       "minecraft:snowy_slopes": "2026-01-03 18:11:48 -0500",
       "minecraft:old_growth_pine_taiga": "2025-12-25 20:52:14 -0500",
+      "minecraft:mushroom_fields": "2026-01-29 22:13:58 -0500",
       "minecraft:forest": "2025-12-25 21:18:51 -0500",
       "minecraft:taiga": "2025-12-28 00:40:24 -0500",
       "minecraft:deep_ocean": "2026-01-06 22:13:45 -0500",
@@ -26,10 +28,12 @@
       "minecraft:old_growth_spruce_taiga": "2025-12-28 00:40:01 -0500",
       "minecraft:snowy_beach": "2026-01-03 17:33:32 -0500",
       "minecraft:warm_ocean": "2026-01-06 21:26:35 -0500",
+      "minecraft:deep_lukewarm_ocean": "2026-01-29 21:56:32 -0500",
       "minecraft:flower_forest": "2026-01-11 16:29:48 -0500",
       "minecraft:beach": "2026-01-10 14:09:13 -0500",
       "minecraft:dark_forest": "2025-12-25 21:01:23 -0500",
       "minecraft:river": "2025-12-25 21:02:57 -0500",
+      "minecraft:lukewarm_ocean": "2026-01-29 23:21:19 -0500",
       "minecraft:snowy_plains": "2026-01-03 17:25:01 -0500",
       "minecraft:stony_shore": "2026-01-03 17:33:35 -0500",
       "minecraft:dripstone_caves": "2025-12-25 21:15:12 -0500",
@@ -945,7 +949,9 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2025-12-25 22:03:32 -0500",
-      "minecraft:nether_wastes": "2026-01-06 21:26:01 -0500"
+      "minecraft:nether_wastes": "2026-01-06 21:26:01 -0500",
+      "minecraft:soul_sand_valley": "2026-01-29 23:36:09 -0500",
+      "minecraft:basalt_deltas": "2026-01-29 21:55:48 -0500"
     },
     "done": false
   },
@@ -2521,5 +2527,53 @@
     },
     "done": true
   },
-  "DataVersion": 4556
+  "minecraft:recipes/combat/iron_spear": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-29 21:48:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_spear": {
+    "criteria": {
+      "has_stick": "2026-01-29 21:48:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2026-01-29 22:35:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2026-01-29 23:14:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2026-01-29 23:14:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2026-01-29 23:29:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2026-01-29 22:35:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2026-01-29 22:35:22 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 4671
 }
