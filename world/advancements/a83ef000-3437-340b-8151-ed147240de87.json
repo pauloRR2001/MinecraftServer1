@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2026-02-03 22:52:08 -0300",
       "minecraft:snowy_slopes": "2026-01-11 20:13:01 -0300",
       "minecraft:old_growth_pine_taiga": "2025-12-13 19:04:39 -0300",
       "minecraft:mushroom_fields": "2026-01-25 21:27:26 -0300",
@@ -3418,7 +3419,9 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cow": "2026-01-11 19:47:16 -0300",
-      "minecraft:chicken": "2026-01-14 21:38:38 -0300"
+      "minecraft:chicken": "2026-01-14 21:38:38 -0300",
+      "minecraft:pig": "2026-02-03 21:58:01 -0300",
+      "minecraft:sheep": "2026-02-03 21:57:46 -0300"
     },
     "done": false
   },
@@ -4124,6 +4127,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_spear": {
+    "criteria": {
+      "has_gold_ingot": "2026-01-30 23:26:24 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/brown_dye": {
     "criteria": {
       "has_cocoa_beans": "2026-01-30 23:28:39 -0300"
@@ -4133,12 +4142,6 @@
   "minecraft:recipes/food/cookie": {
     "criteria": {
       "has_cocoa": "2026-01-30 23:28:39 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_spear": {
-    "criteria": {
-      "has_gold_ingot": "2026-01-30 23:26:24 -0300"
     },
     "done": true
   },
@@ -4157,6 +4160,24 @@
   "minecraft:recipes/decorations/scaffolding": {
     "criteria": {
       "has_bamboo": "2026-01-30 23:30:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2026-02-03 22:13:29 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2026-02-03 22:13:29 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2026-02-03 23:24:03 -0300"
     },
     "done": true
   },
