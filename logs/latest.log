@@ -1,115 +1,46 @@
-[21:33:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[21:33:39] [ServerMain/INFO]: Loaded 1470 recipes
-[21:33:39] [ServerMain/INFO]: Loaded 1584 advancements
-[21:33:39] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[21:33:39] [Server thread/INFO]: Loading properties
-[21:33:39] [Server thread/INFO]: Default game type: SURVIVAL
-[21:33:39] [Server thread/INFO]: Generating keypair
-[21:33:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:33:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:33:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:33:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:33:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:33:40] [Server thread/INFO]: Preparing level "world"
-[21:33:40] [Server thread/INFO]: Loading 0 persistent chunks...
-[21:33:40] [Server thread/INFO]: Preparing spawn area: 100%
-[21:33:40] [Server thread/INFO]: Time elapsed: 12 ms
-[21:33:40] [Server thread/INFO]: Done (0.546s)! For help, type "help"
-[21:34:40] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[21:36:36] [Server thread/INFO]: andresr255[/127.58.7.225:53507] logged in with entity id 4 at (-3822.2367615576654, 62.0, 3533.8778781855817)
-[21:36:36] [Server thread/INFO]: andresr255 joined the game
-[21:40:15] [Server thread/INFO]: Villager dcx['Villager'/856, l='ServerLevel[world]', x=-3826.66, y=117.00, z=3429.10] died, message: 'Villager discovered the floor was lava'
-[21:48:16] [Server thread/INFO]: pauloR2001[/127.226.54.135:59129] logged in with entity id 3338 at (-3741.1891458438326, 165.0, 3376.623939804544)
-[21:48:16] [Server thread/INFO]: pauloR2001 joined the game
-[21:48:30] [Server thread/INFO]: [Not Secure] <andresr255> buenas
-[21:58:28] [Server thread/INFO]: Villager dcx['Villager'/6425, l='ServerLevel[world]', x=-3826.37, y=117.00, z=3427.89] died, message: 'Villager discovered the floor was lava'
-[22:03:49] [Server thread/INFO]: Villager dcx['Villager'/8456, l='ServerLevel[world]', x=-3826.44, y=117.00, z=3427.79] died, message: 'Villager discovered the floor was lava'
-[22:07:55] [Server thread/INFO]: restrepojc[/127.86.205.203:60276] logged in with entity id 12359 at (-3782.529141883962, -40.0, 3425.237500011921)
-[22:07:55] [Server thread/INFO]: restrepojc joined the game
-[22:08:09] [Server thread/INFO]: [Not Secure] <restrepojc> Hola señoritas
-[22:08:14] [Server thread/INFO]: [pauloR2001: Teleported andresr255 to pauloR2001]
-[22:09:03] [Server thread/INFO]: [Not Secure] <andresr255> buenas noches don cristobal
-[22:09:16] [Server thread/INFO]: [Not Secure] <andresr255> quiere un cafesito
-[22:09:18] [Server thread/INFO]: Villager dcx['Villager'/15196, l='ServerLevel[world]', x=-3826.63, y=117.00, z=3428.72] died, message: 'Villager discovered the floor was lava'
-[22:09:24] [Server thread/WARN]: pauloR2001 moved too quickly! -6.7454196046110155,16.066921251056698,4.407152529882296
-[22:09:34] [Server thread/INFO]: [Not Secure] <restrepojc> americano sin azucar
-[22:09:59] [Server thread/INFO]: [Not Secure] <andresr255> no me qyedó azucar
-[22:10:29] [Server thread/INFO]: [Not Secure] <restrepojc> por eso joven, SIN azucar
-[22:10:44] [Server thread/INFO]: [Not Secure] <restrepojc> yo que estaba haciendo?
-[22:10:59] [Server thread/INFO]: [Not Secure] <andresr255> estabas regalandome tu diamante
-[22:12:33] [Server thread/INFO]: [pauloR2001: Teleported andresr255 to pauloR2001]
-[22:12:43] [Server thread/INFO]: [Not Secure] <restrepojc> ojalá tuviese damante
-[22:12:57] [Server thread/INFO]: [Not Secure] <andresr255> Paulo me tiene parado en una plataforma en el nether mientras él humilla esqueletos negros
-[22:12:59] [Server thread/WARN]: pauloR2001 moved too quickly! 5.840634777721789,-2.4962468115282377,-18.44216869813772
-[22:13:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2043ms or 40 ticks behind
-[22:13:29] [Server thread/INFO]: andresr255 has made the advancement [Spooky Scary Skeleton]
-[22:13:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2351ms or 47 ticks behind
-[22:14:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2092ms or 41 ticks behind
-[22:20:35] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to andresr255]
-[22:21:34] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to restrepojc]
-[22:21:51] [Server thread/INFO]: [pauloR2001: Teleported andresr255 to pauloR2001]
-[22:24:43] [Server thread/INFO]: Villager dcx['Villager'/25470, l='ServerLevel[world]', x=-3826.55, y=117.00, z=3427.75] died, message: 'Villager discovered the floor was lava'
-[22:28:55] [Server thread/INFO]: [pauloR2001: Teleported andresr255 to pauloR2001]
-[22:29:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
-[22:29:39] [Server thread/WARN]: pauloR2001 moved too quickly! -9.6287834224903,14.88228738315675,4.78264335507447
-[22:30:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20532ms or 410 ticks behind
-[22:31:40] [Server thread/WARN]: restrepojc moved wrongly!
-[22:34:20] [Server thread/INFO]: [pauloR2001: Teleported andresr255 to pauloR2001]
-[22:35:55] [Server thread/INFO]: Villager dcx['Villager'/37339, l='ServerLevel[world]', x=-3826.34, y=117.00, z=3428.23] died, message: 'Villager discovered the floor was lava'
-[22:39:41] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[22:39:41] [Server thread/INFO]: pauloR2001 left the game
-[22:40:47] [Server thread/INFO]: pauloR2001[/127.226.54.135:54037] logged in with entity id 40918 at (-3728.566669608303, 130.0, 3416.0702501658266)
-[22:40:48] [Server thread/INFO]: pauloR2001 joined the game
-[22:41:01] [Server thread/INFO]: Villager dcx['Villager'/40707, l='ServerLevel[world]', x=-3826.56, y=117.00, z=3427.80] died, message: 'Villager discovered the floor was lava'
-[22:43:29] [Server thread/WARN]: restrepojc moved too quickly! -0.06638958055253852,-1.4584554268995475,17.326592433768894
-[22:43:38] [Server thread/WARN]: restrepojc moved too quickly! -0.1881403211215229,-2.2778485046457178,18.080393222985663
-[22:46:35] [Server thread/INFO]: Villager dcx['Villager'/45826, l='ServerLevel[world]', x=-3826.56, y=117.00, z=3427.69] died, message: 'Villager discovered the floor was lava'
-[22:47:59] [Server thread/WARN]: restrepojc moved too quickly! -16.852336597539875,-2.1375590321749485,-4.152465758999085
-[22:48:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2094ms or 41 ticks behind
-[22:48:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31097ms or 621 ticks behind
-[22:49:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6439ms or 128 ticks behind
-[22:49:33] [Server thread/WARN]: restrepojc moved too quickly! 6.163769654428677,-2.6015372074378433,-17.09518770973665
-[22:49:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2759ms or 55 ticks behind
-[22:51:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2181ms or 43 ticks behind
-[23:01:37] [Server thread/INFO]: [Not Secure] <pauloR2001> dormi
-[23:01:40] [Server thread/INFO]: andresr255 lost connection: Disconnected
-[23:01:40] [Server thread/INFO]: andresr255 left the game
-[23:01:46] [Server thread/INFO]: restrepojc lost connection: Disconnected
-[23:01:46] [Server thread/INFO]: restrepojc left the game
-[23:01:56] [Server thread/INFO]: andresr255[/127.58.7.225:60493] logged in with entity id 58511 at (-2383.629058916642, 62.0, 3836.4840939078795)
-[23:01:56] [Server thread/INFO]: andresr255 joined the game
-[23:02:05] [Server thread/INFO]: restrepojc[/127.86.205.203:62445] logged in with entity id 58569 at (-49.89595575630327, 62.0, -141.18359217750307)
-[23:02:05] [Server thread/INFO]: restrepojc joined the game
-[23:02:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
-[23:02:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[23:02:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4619ms or 92 ticks behind
-[23:03:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4057ms or 81 ticks behind
-[23:12:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[23:12:34] [Server thread/WARN]: Birch Boat (vehicle of pauloR2001) moved wrongly! 0.2636244049922425
-[23:12:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
-[23:13:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2311ms or 46 ticks behind
-[23:17:46] [Server thread/INFO]: [Not Secure] <pauloR2001> dormi
-[23:20:51] [Server thread/INFO]: Villager dcx['Villager'/73282, l='ServerLevel[world]', x=-3826.45, y=117.00, z=3427.72] died, message: 'Villager discovered the floor was lava'
-[23:35:39] [Server thread/WARN]: restrepojc moved too quickly! 1.923506176598039,7.0,-7.373894949511396
-[23:38:49] [Server thread/INFO]: Villager dcx['Villager'/82341, l='ServerLevel[world]', x=-3826.66, y=117.00, z=3427.90] died, message: 'Villager discovered the floor was lava'
-[23:45:06] [Server thread/INFO]: [pauloR2001: Teleported andresr255 to pauloR2001]
-[23:48:20] [Server thread/INFO]: Villager dcx['Villager'/88703, l='ServerLevel[world]', x=-3826.61, y=117.00, z=3429.35] died, message: 'Villager discovered the floor was lava'
-[23:55:38] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to restrepojc]
-[23:55:46] [Server thread/INFO]: [pauloR2001: Teleported andresr255 to restrepojc]
-[23:57:21] [Server thread/INFO]: andresr255 lost connection: Disconnected
-[23:57:21] [Server thread/INFO]: andresr255 left the game
-[23:57:25] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[23:57:25] [Server thread/INFO]: pauloR2001 left the game
-[23:57:34] [Server thread/INFO]: restrepojc lost connection: Disconnected
-[23:57:34] [Server thread/INFO]: restrepojc left the game
-[23:57:40] [Server thread/INFO]: Stopping the server
-[23:57:40] [Server thread/INFO]: Stopping server
-[23:57:40] [Server thread/INFO]: Saving players
-[23:57:40] [Server thread/INFO]: Saving worlds
-[23:57:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:57:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:57:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:57:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:57:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:57:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:57:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:05:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[22:05:57] [ServerMain/INFO]: Loaded 1470 recipes
+[22:05:57] [ServerMain/INFO]: Loaded 1584 advancements
+[22:05:57] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[22:05:57] [Server thread/INFO]: Loading properties
+[22:05:57] [Server thread/INFO]: Default game type: SURVIVAL
+[22:05:57] [Server thread/INFO]: Generating keypair
+[22:05:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:05:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:05:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:05:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:05:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:05:58] [Server thread/INFO]: Preparing level "world"
+[22:05:58] [Server thread/INFO]: Loading 0 persistent chunks...
+[22:05:58] [Server thread/INFO]: Preparing spawn area: 100%
+[22:05:58] [Server thread/INFO]: Time elapsed: 12 ms
+[22:05:58] [Server thread/INFO]: Done (0.695s)! For help, type "help"
+[22:06:58] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[22:08:45] [Server thread/INFO]: pauloR2001[/127.0.0.1:65361] logged in with entity id 192 at (-3750.7423477907314, 138.0, 3374.4439508695677)
+[22:08:45] [Server thread/INFO]: pauloR2001 joined the game
+[22:08:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
+[22:09:38] [Server thread/INFO]: Villager dcx['Villager'/399, l='ServerLevel[world]', x=-3826.44, y=117.00, z=3427.72] died, message: 'Villager discovered the floor was lava'
+[22:09:59] [Server thread/INFO]: restrepojc[/127.86.205.203:65366] logged in with entity id 515 at (-3750.1249488875983, 117.5, 3413.066454437014)
+[22:09:59] [Server thread/INFO]: restrepojc joined the game
+[22:15:48] [Server thread/INFO]: Villager dcx['Villager'/1456, l='ServerLevel[world]', x=-3826.65, y=117.00, z=3428.67] died, message: 'Villager discovered the floor was lava'
+[22:28:50] [Server thread/INFO]: [pauloR2001: Teleported 23 entities to pauloR2001]
+[22:31:21] [Server thread/INFO]: Villager dcx['Villager'/5021, l='ServerLevel[world]', x=-3826.39, y=117.00, z=3428.25] died, message: 'Villager discovered the floor was lava'
+[22:34:29] [Server thread/INFO]: Villager dcx['Villager'/6861, l='ServerLevel[world]', x=-3826.55, y=117.00, z=3429.25] died, message: 'Villager discovered the floor was lava'
+[22:35:07] [Server thread/WARN]: restrepojc moved too quickly! 16.782898505386584,-1.6871281769285815,-7.180366541786952
+[22:38:02] [Server thread/INFO]: [pauloR2001: Teleported 27 entities to pauloR2001]
+[22:43:51] [Server thread/INFO]: Villager dcx['Villager'/10627, l='ServerLevel[world]', x=-3826.53, y=117.00, z=3428.71] died, message: 'Villager discovered the floor was lava'
+[22:48:16] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[22:48:16] [Server thread/INFO]: restrepojc left the game
+[22:48:19] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[22:48:19] [Server thread/INFO]: pauloR2001 left the game
+[22:48:34] [Server thread/INFO]: Stopping the server
+[22:48:34] [Server thread/INFO]: Stopping server
+[22:48:34] [Server thread/INFO]: Saving players
+[22:48:34] [Server thread/INFO]: Saving worlds
+[22:48:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:48:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:48:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:48:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:48:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:48:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:48:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
