@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2026-02-04 21:19:10 -0500",
       "minecraft:old_growth_pine_taiga": "2025-11-22 21:22:40 -0500",
       "minecraft:mushroom_fields": "2026-01-24 21:19:13 -0500",
       "minecraft:forest": "2025-12-26 13:25:16 -0500",
@@ -3840,6 +3841,24 @@
   "minecraft:recipes/misc/conduit": {
     "criteria": {
       "has_nautilus_shell": "2026-02-03 22:33:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2026-02-04 22:55:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2026-02-04 22:31:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2026-02-04 22:31:14 -0500"
     },
     "done": true
   },
