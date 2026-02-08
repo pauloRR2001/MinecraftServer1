@@ -24,6 +24,7 @@
       "minecraft:savanna_plateau": "2025-12-06 23:39:53 -0500",
       "minecraft:beach": "2025-12-23 23:07:08 -0500",
       "minecraft:dark_forest": "2025-11-22 22:42:18 -0500",
+      "minecraft:stony_peaks": "2026-02-08 17:56:00 -0500",
       "minecraft:mangrove_swamp": "2025-12-26 19:31:59 -0500",
       "minecraft:sparse_jungle": "2026-01-01 22:24:45 -0500",
       "minecraft:river": "2025-11-22 22:50:00 -0500",
@@ -5146,6 +5147,18 @@
     },
     "done": true
   },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2026-02-06 22:10:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2026-02-06 22:56:44 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2026-02-06 23:10:21 -0500"
@@ -5164,12 +5177,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_coal_block": "2026-02-06 22:56:44 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2026-02-06 23:10:21 -0500"
@@ -5185,12 +5192,6 @@
   "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2026-02-06 23:10:21 -0500"
-    },
-    "done": true
-  },
-  "minecraft:nether/create_full_beacon": {
-    "criteria": {
-      "beacon": "2026-02-06 22:10:21 -0500"
     },
     "done": true
   },
