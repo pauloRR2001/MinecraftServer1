@@ -1,127 +1,207 @@
-[17:39:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[17:39:46] [ServerMain/INFO]: Loaded 1470 recipes
-[17:39:46] [ServerMain/INFO]: Loaded 1584 advancements
-[17:39:47] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[17:39:47] [Server thread/INFO]: Loading properties
-[17:39:47] [Server thread/INFO]: Default game type: SURVIVAL
-[17:39:47] [Server thread/INFO]: Generating keypair
-[17:39:47] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:39:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:39:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:39:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:39:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:39:47] [Server thread/INFO]: Preparing level "world"
-[17:39:47] [Server thread/INFO]: Loading 0 persistent chunks...
-[17:39:47] [Server thread/INFO]: Preparing spawn area: 100%
-[17:39:47] [Server thread/INFO]: Time elapsed: 54 ms
-[17:39:47] [Server thread/INFO]: Done (0.583s)! For help, type "help"
-[17:40:47] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[17:40:59] [Server thread/INFO]: pauloR2001[/127.0.0.1:58812] logged in with entity id 45 at (-5316.7056852829455, 98.5, 4215.217475748715)
-[17:40:59] [Server thread/INFO]: pauloR2001 joined the game
-[17:41:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[17:41:18] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
-[17:41:30] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7789.500000, 77.500000, 2110.500000]
-[17:42:40] [Server thread/INFO]: Locating element minecraft:stronghold took 11 ms
-[17:42:44] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7935.500000, 88.243136, 1856.500000]
-[17:43:29] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[17:44:46] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7997.500000, 94.500000, 2726.500000]
-[17:44:51] [Server thread/INFO]: Locating element minecraft:stronghold took 0 ms
-[17:44:54] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7935.500000, 98.244366, 1856.500000]
-[17:49:57] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to 2100.500000, 98.244366, 1300.500000]
-[17:50:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19411ms or 388 ticks behind
-[17:50:23] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
-[17:55:49] [Server thread/WARN]: pauloR2001 moved too quickly! -6.64214073044468,0.0,-7.831545040969104
-[17:55:51] [Server thread/WARN]: pauloR2001 moved too quickly! -9.412610796784065,0.0,4.2055645920086135
-[17:56:11] [Server thread/WARN]: pauloR2001 moved too quickly! 8.523645840356494,6.000000238418579,-2.024897392436742
-[17:56:13] [Server thread/WARN]: pauloR2001 moved too quickly! 5.909681753885707,7.484254473110866,3.7037934435741136
-[17:56:44] [Server thread/WARN]: pauloR2001 moved too quickly! 1.1510325517590445,-3.750000146935605,10.299660031212852
-[17:56:48] [Server thread/WARN]: pauloR2001 moved too quickly! 9.529958848590013,3.375000124538161,1.543448932028923
-[17:56:53] [Server thread/WARN]: pauloR2001 moved too quickly! 6.052041593572085,6.0000002383211495,-5.5702573240791935
-[17:56:57] [Server thread/WARN]: pauloR2001 moved too quickly! 9.962962534256803,-3.41454086912168,3.564203234886236
-[17:56:58] [Server thread/WARN]: pauloR2001 moved too quickly! 8.690926645947911,-4.499560339895623,-3.62089848905066
-[17:57:04] [Server thread/WARN]: pauloR2001 moved too quickly! 4.770551306763537,-7.875000312924385,-3.934194593678285
-[17:57:12] [Server thread/WARN]: pauloR2001 moved too quickly! -9.538334602743817,-3.6292348082512262,-3.986782694538306
-[17:57:23] [Server thread/WARN]: pauloR2001 moved too quickly! 6.817678756652185,-3.749992790057938,-7.301693789961973
-[17:57:56] [Server thread/WARN]: pauloR2001 moved too quickly! -10.472885748586123,0.0,1.3170056722674417
-[17:58:56] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7987.500000, 70.500000, 2556.500000]
-[17:59:22] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7935.500000, 77.994332, 1856.500000]
-[17:59:33] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
-[17:59:39] [Server thread/WARN]: pauloR2001 moved too quickly! -1.4181245647914693,0.0,-10.016763161584095
-[17:59:42] [Server thread/WARN]: pauloR2001 moved too quickly! 2.6346947740585165,0.0,-10.299888305685954
-[17:59:47] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
-[17:59:52] [Server thread/WARN]: pauloR2001 moved too quickly! -0.7759518117873085,-0.4335929106694323,10.031666164099079
-[18:00:22] [Server thread/WARN]: pauloR2001 moved too quickly! -1.6974055593764206,0.0,10.701491704757245
-[18:00:24] [Server thread/WARN]: pauloR2001 moved too quickly! -3.9844518808695284,0.0,10.066847342527353
-[18:00:27] [Server thread/WARN]: pauloR2001 moved too quickly! -3.950450073813954,0.0,9.980940670482823
-[18:00:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2187ms or 43 ticks behind
-[18:00:48] [Server thread/WARN]: pauloR2001 moved too quickly! -6.128824150353466,0.0,8.067458298734437
-[18:01:29] [Server thread/WARN]: pauloR2001 moved too quickly! 1.7527181645209566,0.0,10.697390358557186
-[18:01:30] [Server thread/WARN]: pauloR2001 moved too quickly! 1.4267605597897273,0.0,10.195789075379935
-[18:01:33] [Server thread/WARN]: pauloR2001 moved too quickly! 1.4411203426107022,0.0,10.471218922977414
-[18:02:13] [Server thread/WARN]: pauloR2001 moved too quickly! 8.1199926452,0.0,6.220624430250609
-[18:02:28] [Server thread/WARN]: pauloR2001 moved too quickly! 9.78520497820773,0.0,-2.2160509401037416
-[18:03:17] [Server thread/WARN]: pauloR2001 moved too quickly! 8.08163931611034,3.7466194923685094,-6.616874459919245
-[18:03:22] [Server thread/WARN]: pauloR2001 moved too quickly! 6.041294885953903,0.966240038394929,-8.718953034326887
-[18:03:29] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[18:03:33] [Server thread/WARN]: pauloR2001 moved too quickly! -9.980748741164462,0.0,-0.8418937718649886
-[18:03:38] [Server thread/WARN]: pauloR2001 moved too quickly! -8.95471115158034,-3.3028347952812496,-3.945113059340656
-[18:03:40] [Server thread/WARN]: pauloR2001 moved too quickly! -6.854191462914969,-4.124842052187525,-6.860338615437513
-[18:03:42] [Server thread/WARN]: pauloR2001 moved too quickly! -7.020366924701193,0.0,7.975629303155301
-[18:03:59] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
-[18:04:14] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7838.500000, 71.500000, 2366.500000]
-[18:04:17] [Server thread/WARN]: pauloR2001 moved too quickly! 1.9918634808573188,7.1249050764607915,7.300780174423835
-[18:05:19] [Server thread/WARN]: pauloR2001 moved too quickly! -9.80687840689643,0.0,2.3195468363896907
-[18:06:09] [Server thread/WARN]: pauloR2001 moved too quickly! 3.626662879529249,0.0,9.54994255758902
-[18:06:11] [Server thread/WARN]: pauloR2001 moved too quickly! 7.843418982531148,0.0,6.937800172080188
-[18:06:30] [Server thread/WARN]: pauloR2001 moved too quickly! -2.621484000978853,0.0,-10.4715688772053
-[18:06:34] [Server thread/WARN]: pauloR2001 moved too quickly! -1.9543596724015515,0.0,-10.690384851629005
-[18:06:38] [Server thread/WARN]: pauloR2001 moved too quickly! -1.957347715954711,0.0,-10.70672950711787
-[18:06:40] [Server thread/WARN]: pauloR2001 moved too quickly! -1.8078349448569497,0.0,-9.888891784684802
-[18:06:50] [Server thread/WARN]: pauloR2001 moved too quickly! -1.9581960742880256,0.0,-10.711370043445186
-[18:06:51] [Server thread/WARN]: pauloR2001 moved too quickly! -1.8200454946136233,0.0,-9.95568372579828
-[18:06:54] [Server thread/WARN]: pauloR2001 moved too quickly! -1.917655412214117,0.0,-10.489611845188847
-[18:06:56] [Server thread/WARN]: pauloR2001 moved too quickly! -1.8634593629431038,0.0,-10.19315841732714
-[18:06:57] [Server thread/WARN]: pauloR2001 moved too quickly! -0.167277537384507,0.0,-10.812431082684725
-[18:07:01] [Server thread/WARN]: pauloR2001 moved too quickly! -4.540471766762494,0.0,-9.626911620931423
-[18:07:02] [Server thread/WARN]: pauloR2001 moved too quickly! 0.08233202366227488,0.0,-10.610460242524368
-[18:07:22] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7881.500000, 69.500000, 1745.500000]
-[18:07:33] [Server thread/INFO]: [pauloR2001: Set the weather to clear]
-[18:07:41] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[18:07:49] [Server thread/WARN]: pauloR2001 moved too quickly! -1.799967020956501,-6.7492656787657666,7.72030018899909
-[18:07:59] [Server thread/WARN]: pauloR2001 moved too quickly! -1.3923766286407044,5.999965971601616,8.009609591156277
-[18:08:02] [Server thread/WARN]: pauloR2001 moved too quickly! -1.4326680666126776,7.499999722330923,6.469012424432549
-[18:08:11] [Server thread/WARN]: pauloR2001 moved too quickly! -6.788670010148962,0.0,7.565352724146578
-[18:08:25] [Server thread/WARN]: pauloR2001 moved too quickly! -3.180953652927201,4.684161848554922,-8.513166636538017
-[18:08:56] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
-[18:09:21] [Server thread/WARN]: pauloR2001 moved too quickly! 0.9139295317363576,0.0,10.751209464141084
-[18:09:24] [Server thread/WARN]: pauloR2001 moved too quickly! 4.0085648567683165,0.0,9.591687533211598
-[18:09:27] [Server thread/WARN]: pauloR2001 moved too quickly! 0.411479570217125,0.0,-10.323318193421528
-[18:09:32] [Server thread/WARN]: pauloR2001 moved too quickly! -0.2013672784432856,0.0,-10.881332570109862
-[18:09:34] [Server thread/WARN]: pauloR2001 moved too quickly! -0.1934010555705754,0.0,-10.450859848507434
-[18:09:36] [Server thread/WARN]: pauloR2001 moved too quickly! -0.1947885682075139,0.0,-10.525837206170081
-[18:09:37] [Server thread/WARN]: pauloR2001 moved too quickly! -0.20126504150175606,0.0,-10.875807967649962
-[18:09:46] [Server thread/WARN]: pauloR2001 moved too quickly! 3.362158781886137,0.0,-9.75189762641321
-[18:09:48] [Server thread/WARN]: pauloR2001 moved too quickly! 6.55289179535248,0.0,-8.318771014018694
-[18:09:52] [Server thread/WARN]: pauloR2001 moved too quickly! -7.49588603045413,0.0,-7.09307928883959
-[18:13:46] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7297.500000, 71.500000, 2178.500000]
-[18:15:32] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7390.500000, 66.500000, 2007.500000]
-[18:15:44] [Server thread/WARN]: pauloR2001 moved too quickly! -4.470932726490901,0.0,8.960702834115637
-[18:17:00] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7946.500000, 70.500000, 2085.500000]
-[18:17:03] [Server thread/WARN]: pauloR2001 moved too quickly! 1.1384582749360561,10.109254017821968,-1.614679207385052
-[18:17:10] [Server thread/WARN]: pauloR2001 moved too quickly! 7.625429414359132,0.0,-6.833148692524901
-[18:17:15] [Server thread/WARN]: pauloR2001 moved too quickly! -8.038011414558241,2.446947937232963,6.755721632463974
-[18:17:41] [Server thread/WARN]: pauloR2001 moved too quickly! 8.51301980095468,0.0,-6.58611501280393
-[18:17:45] [Server thread/WARN]: pauloR2001 moved too quickly! 10.285969752652818,0.0,-2.894583024699614
-[18:17:52] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[18:17:55] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[18:17:55] [Server thread/INFO]: pauloR2001 left the game
-[18:18:10] [Server thread/INFO]: Stopping server
-[18:18:10] [Server thread/INFO]: Saving players
-[18:18:10] [Server thread/INFO]: Saving worlds
-[18:18:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:18:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18:18:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18:18:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:18:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:18:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:18:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:20:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[18:20:33] [ServerMain/INFO]: Loaded 1470 recipes
+[18:20:33] [ServerMain/INFO]: Loaded 1584 advancements
+[18:20:33] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[18:20:33] [Server thread/INFO]: Loading properties
+[18:20:33] [Server thread/INFO]: Default game type: SURVIVAL
+[18:20:33] [Server thread/INFO]: Generating keypair
+[18:20:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:20:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:20:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:20:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:20:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:20:34] [Server thread/INFO]: Preparing level "world"
+[18:20:35] [Server thread/INFO]: Loading 0 persistent chunks...
+[18:20:35] [Server thread/INFO]: Preparing spawn area: 100%
+[18:20:35] [Server thread/INFO]: Time elapsed: 14 ms
+[18:20:35] [Server thread/INFO]: Done (0.880s)! For help, type "help"
+[18:21:35] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:23:36] [Server thread/INFO]: pauloR2001[/127.0.0.1:52538] logged in with entity id 39 at (-7714.269643060359, 71.0, 1962.640239418192)
+[18:23:36] [Server thread/INFO]: pauloR2001 joined the game
+[18:23:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[18:23:52] [Server thread/INFO]: restrepojc[/127.86.205.203:52542] logged in with entity id 211 at (-5309.790205877942, 98.5, 4215.260424826318)
+[18:23:52] [Server thread/INFO]: restrepojc joined the game
+[18:23:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3471ms or 69 ticks behind
+[18:24:36] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[18:24:36] [Server thread/INFO]: pauloR2001 left the game
+[18:24:52] [Server thread/INFO]: pauloR2001[/127.0.0.1:52557] logged in with entity id 836 at (-7718.008824329839, 71.0, 1966.5645158460338)
+[18:24:53] [Server thread/INFO]: pauloR2001 joined the game
+[18:25:33] [Server thread/WARN]: pauloR2001 moved too quickly! -15.3367072449646,-3.6269156447151687,-7.60958565450801
+[18:25:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2053ms or 41 ticks behind
+[18:25:39] [Server thread/WARN]: pauloR2001 moved too quickly! -16.601846471996396,-3.631373306008328,-3.5274513984327314
+[18:25:45] [Server thread/WARN]: pauloR2001 moved too quickly! -7.932386791005229,-3.48382178714445,-15.242878408039587
+[18:25:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6976ms or 139 ticks behind
+[18:26:12] [Server thread/INFO]: [pauloR2001: Set restrepojc's game mode to Spectator Mode]
+[18:26:12] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[18:26:31] [Server thread/INFO]: [pauloR2001: Teleported 2 entities to -4711.500000, -8.000000, 1733.500000]
+[18:26:42] [Server thread/WARN]: pauloR2001 moved too quickly! 8.176883098985854,-0.01999932018859596,6.670310925618878
+[18:27:09] [Server thread/WARN]: pauloR2001 moved too quickly! 0.8680714041784086,3.9162451149015425,9.303207031018246
+[18:27:14] [Server thread/WARN]: pauloR2001 moved too quickly! 6.7172080032278245,0.0,-7.62552338675755
+[18:27:15] [Server thread/WARN]: pauloR2001 moved too quickly! 4.173576053739453,0.0,-9.533887416593188
+[18:27:20] [Server thread/WARN]: pauloR2001 moved too quickly! -9.420834520526114,-3.3749662030517413,-0.4895691183287454
+[18:27:22] [Server thread/WARN]: pauloR2001 moved too quickly! -8.657156432541342,4.052364640080313,4.629187174303752
+[18:27:58] [Server thread/INFO]: [pauloR2001: Teleported 2 entities to -2110.500000, 10.000000, 1308.500000]
+[18:28:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2166ms or 43 ticks behind
+[18:28:15] [Server thread/INFO]: [pauloR2001: Teleported 2 entities to 2111.500000, 10.000000, 1308.500000]
+[18:29:23] [Server thread/INFO]: Locating element minecraft:stronghold took 40 ms
+[18:29:52] [Server thread/WARN]: pauloR2001 moved too quickly! 9.608931566854153,-3.375000011009572,1.469065131016123
+[18:31:28] [Server thread/WARN]: pauloR2001 moved too quickly! 7.062845543485764,-0.39000001549720764,7.423348204009699
+[18:37:07] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
+[18:37:28] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7945.500000, 63.500000, 1884.500000]
+[18:37:31] [Server thread/INFO]: [pauloR2001: Teleported restrepojc to pauloR2001]
+[18:39:00] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -5320.500000, 104.500000, 4226.500000]
+[18:39:04] [Server thread/INFO]: [pauloR2001: Teleported restrepojc to pauloR2001]
+[18:39:14] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7964.500000, 63.500000, 1839.500000]
+[18:39:20] [Server thread/INFO]: [pauloR2001: Set restrepojc's game mode to Survival Mode]
+[18:39:20] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[18:40:48] [Server thread/WARN]: restrepojc was kicked for floating too long!
+[18:40:48] [Server thread/INFO]: restrepojc lost connection: Flying is not enabled on this server
+[18:40:48] [Server thread/INFO]: restrepojc left the game
+[18:40:55] [Server thread/INFO]: restrepojc[/127.86.205.203:52622] logged in with entity id 5623 at (-648.5816646743949, 129.6661092609382, 515.1990619131891)
+[18:40:55] [Server thread/INFO]: restrepojc joined the game
+[18:41:13] [Server thread/WARN]: restrepojc moved too quickly! 9.276529786655374,0.0,-14.990617811107711
+[18:42:55] [Server thread/INFO]: restrepojc lost connection: Timed out
+[18:42:55] [Server thread/INFO]: restrepojc left the game
+[18:44:01] [Server thread/INFO]: restrepojc[/127.86.205.203:52625] logged in with entity id 8380 at (-3732.630225907306, 138.0, 3391.931364436521)
+[18:44:01] [Server thread/INFO]: restrepojc joined the game
+[18:44:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4006ms or 80 ticks behind
+[18:44:05] [Server thread/WARN]: pauloR2001 moved too quickly! 5.5207970121264225,-3.5223323830125963,-16.278157343168687
+[18:44:53] [Server thread/INFO]: Villager dcx['Villager'/9443, l='ServerLevel[world]', x=-3826.54, y=117.00, z=3427.77] died, message: 'Villager discovered the floor was lava'
+[18:45:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2071ms or 41 ticks behind
+[18:46:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[18:46:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[18:47:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[18:47:04] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[18:47:04] [Server thread/INFO]: restrepojc left the game
+[18:47:11] [Server thread/INFO]: restrepojc[/127.86.205.203:52633] logged in with entity id 12418 at (-3782.4155906081382, -40.0, 3425.237500011921)
+[18:47:11] [Server thread/INFO]: restrepojc joined the game
+[18:48:51] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[18:49:47] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -5393.500000, 97.500000, 9004.500000]
+[18:50:19] [Server thread/INFO]: Locating element minecraft:stronghold took 16 ms
+[18:50:27] [Server thread/INFO]: Villager dcx['Villager'/15386, l='ServerLevel[world]', x=-3826.59, y=117.00, z=3428.92] died, message: 'Villager discovered the floor was lava'
+[18:51:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[18:51:11] [Server thread/INFO]: Chewbaka22[/127.232.248.198:52640] logged in with entity id 15573 at (-3736.5, 138.0, 3389.5)
+[18:51:11] [Server thread/INFO]: Chewbaka22 joined the game
+[18:51:25] [Server thread/INFO]: [Not Secure] <Chewbaka22> hi
+[18:51:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[18:52:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[18:52:12] [Server thread/INFO]: [Not Secure] <pauloR2001> wait who is this
+[18:52:19] [Server thread/INFO]: [Not Secure] <Chewbaka22> Honua
+[18:52:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[18:52:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7026ms or 140 ticks behind
+[18:52:57] [Server thread/WARN]: pauloR2001 moved too quickly! -2.7849484243952247,0.7965887926858812,-10.253085076710704
+[18:53:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[18:53:42] [Server thread/INFO]: [Not Secure] <Chewbaka22> nice house!
+[18:53:42] [Server thread/INFO]: [Not Secure] <pauloR2001> i guess the IP address stays the same across worlds
+[18:53:46] [Server thread/INFO]: [Not Secure] <pauloR2001> welcome haha
+[18:53:48] [Server thread/INFO]: [Not Secure] <Chewbaka22> lmao
+[18:53:54] [Server thread/INFO]: [Not Secure] <Chewbaka22> is this not the gtoc one?
+[18:54:05] [Server thread/INFO]: [Not Secure] <pauloR2001> nope
+[18:54:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[18:54:57] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -4703.500000, 108.678273, 9888.500000]
+[18:55:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[18:55:11] [Server thread/INFO]: [Not Secure] <Chewbaka22> haha, I'll leave it alone then, have a good one
+[18:55:19] [Server thread/INFO]: Chewbaka22 lost connection: Disconnected
+[18:55:19] [Server thread/INFO]: Chewbaka22 left the game
+[18:55:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3163ms or 63 ticks behind
+[18:56:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[18:57:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[18:57:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2217ms or 44 ticks behind
+[18:57:37] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -4703.500000, 17.922928, 9888.500000]
+[18:58:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[18:59:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2076ms or 41 ticks behind
+[18:59:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2441ms or 48 ticks behind
+[18:59:55] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[19:01:21] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to restrepojc]
+[19:12:47] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-5355, y=101, z=4243} is{x=-5354, y=100, z=4243}
+[19:12:49] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-5354, y=102, z=4243} is{x=-5354, y=101, z=4243}
+[19:12:53] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-5353, y=101, z=4244} is{x=-5352, y=101, z=4240}
+[19:12:53] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-5353, y=101, z=4244} is{x=-5352, y=101, z=4240}
+[19:55:00] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[19:55:00] [Server thread/INFO]: pauloR2001 left the game
+[19:55:16] [Server thread/INFO]: pauloR2001[/127.0.0.1:53470] logged in with entity id 38985 at (-2348.517031064441, 26.0, 3303.699999988079)
+[19:55:16] [Server thread/INFO]: pauloR2001 joined the game
+[20:16:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[20:17:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[20:17:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4304ms or 86 ticks behind
+[20:18:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[20:19:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[20:20:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4628ms or 92 ticks behind
+[20:20:08] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-5380, y=99, z=4211} is{x=-5381, y=98, z=4211}
+[20:20:31] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to restrepojc]
+[20:30:38] [Server thread/WARN]: pauloR2001 moved wrongly!
+[20:30:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
+[20:31:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4778ms or 95 ticks behind
+[20:31:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4359ms or 87 ticks behind
+[20:31:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2674ms or 53 ticks behind
+[20:38:17] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[20:39:03] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[20:41:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2047ms or 40 ticks behind
+[20:42:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4645ms or 92 ticks behind
+[20:42:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[20:43:37] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[20:43:44] [Server thread/WARN]: pauloR2001 moved too quickly! 10.350867913725779,0.0,3.1381012736637786
+[20:43:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[20:44:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[20:44:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[21:10:56] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[21:10:56] [Server thread/INFO]: restrepojc left the game
+[21:14:29] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -2351.500000, 158.500000, 3296.500000]
+[21:14:33] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[21:33:54] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[21:34:12] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7987.500000, 69.500000, 2543.500000]
+[21:34:15] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
+[21:34:41] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -8217.500000, 66.500000, 2724.500000]
+[21:39:26] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -8039.500000, 63.500000, 3631.500000]
+[21:41:05] [Server thread/INFO]: Locating element #minecraft:is_hill (minecraft:windswept_hills) took 8715 ms
+[21:41:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8688ms or 173 ticks behind
+[21:41:05] [Server thread/WARN]: pauloR2001 moved too quickly! -10.027340858516254,0.0,1.4530444903589341
+[21:41:28] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7969.500000, 70.500000, 3622.500000]
+[21:42:57] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7455.500000, 70.500000, 3128.500000]
+[21:43:17] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -5404.500000, 65.500000, 8982.500000]
+[21:43:30] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
+[21:44:55] [Server thread/WARN]: pauloR2001 moved too quickly! 4.4136914770851945,0.0,-9.912391584701254
+[21:45:02] [Server thread/WARN]: pauloR2001 moved too quickly! -9.334754532349507,0.0,-5.264987312677476
+[21:45:04] [Server thread/WARN]: pauloR2001 moved too quickly! -3.788677062825627,0.0,-10.106421086777118
+[21:46:02] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -5963.500000, 70.500000, 9392.500000]
+[21:47:03] [Server thread/WARN]: pauloR2001 moved too quickly! 10.459168909860637,0.0,-0.3284638751883904
+[21:47:21] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -5088.500000, 71.500000, 9289.500000]
+[21:49:57] [Server thread/WARN]: pauloR2001 moved too quickly! 4.616346573923693,0.0,9.821573411280042
+[21:52:07] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -5574.500000, 117.613583, 9950.500000]
+[21:52:16] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -5392.500000, 123.982916, 9822.500000]
+[21:52:22] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -5195.500000, 123.982916, 9830.500000]
+[21:52:26] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
+[21:52:31] [Server thread/WARN]: pauloR2001 moved too quickly! 9.743704945640275,0.0,-3.6320676739996998
+[21:53:46] [Server thread/WARN]: pauloR2001 moved too quickly! 1.1803741484436614,0.0,10.046827539281367
+[21:54:40] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -5091.500000, 108.966335, 10400.500000]
+[21:54:51] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -5163.500000, 80.500000, 10556.500000]
+[21:55:14] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -4771.500000, 102.244332, 10536.500000]
+[21:56:14] [Server thread/WARN]: pauloR2001 moved too quickly! 6.045299494767278,0.0,-8.274851119809682
+[21:56:39] [Server thread/WARN]: pauloR2001 moved too quickly! 6.420143119873501,0.0,-8.69134249763556
+[21:58:16] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -4875.500000, 63.500000, 10157.500000]
+[21:58:20] [Server thread/WARN]: pauloR2001 moved too quickly! -1.9415076245049931,9.746599170696939,-2.8541535034346452
+[21:59:31] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -4109.500000, 133.801430, 10080.500000]
+[22:00:35] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -8029.500000, 115.500000, 2928.500000]
+[22:01:21] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -8222.500000, 63.500000, 1655.500000]
+[22:01:34] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
+[22:02:25] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7654.500000, 67.500000, 1318.500000]
+[22:02:30] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7911.500000, 65.500000, 1145.500000]
+[22:03:13] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -8055.500000, 71.500000, 3824.500000]
+[22:03:18] [Server thread/INFO]: Locating element minecraft:stronghold took 3 ms
+[22:04:03] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7967.500000, 66.500000, 3936.500000]
+[22:04:07] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -7824.500000, 71.500000, 4001.500000]
+[22:05:06] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -4874.500000, 63.500000, 10151.500000]
+[22:05:31] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[22:05:34] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[22:05:34] [Server thread/INFO]: pauloR2001 left the game
+[22:05:49] [Server thread/INFO]: Stopping the server
+[22:05:49] [Server thread/INFO]: Stopping server
+[22:05:49] [Server thread/INFO]: Saving players
+[22:05:49] [Server thread/INFO]: Saving worlds
+[22:05:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:05:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:05:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:05:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:05:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:05:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:05:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
