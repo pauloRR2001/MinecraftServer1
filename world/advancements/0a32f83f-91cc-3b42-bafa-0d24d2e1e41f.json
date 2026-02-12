@@ -40,6 +40,7 @@
       "minecraft:snowy_taiga": "2026-01-30 23:13:49 -0500",
       "minecraft:old_growth_birch_forest": "2025-12-26 13:23:53 -0500",
       "minecraft:deep_dark": "2026-02-08 18:29:02 -0500",
+      "minecraft:grove": "2026-02-11 23:31:16 -0500",
       "minecraft:meadow": "2026-01-24 16:26:04 -0500",
       "minecraft:plains": "2026-01-14 20:44:59 -0500",
       "minecraft:pale_garden": "2025-11-22 21:33:44 -0500"
@@ -3964,6 +3965,18 @@
   "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
     "criteria": {
       "has_oxeye_daisy": "2026-02-06 22:55:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2026-02-11 19:37:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leaf_litter": {
+    "criteria": {
+      "has_leaves": "2026-02-11 20:15:26 -0500"
     },
     "done": true
   },
