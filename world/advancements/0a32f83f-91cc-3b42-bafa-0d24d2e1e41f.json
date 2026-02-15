@@ -730,6 +730,7 @@
       "minecraft:wither_skeleton": "2026-01-29 22:42:25 -0500",
       "minecraft:husk": "2026-01-27 20:37:06 -0500",
       "minecraft:ghast": "2026-01-29 22:41:24 -0500",
+      "minecraft:shulker": "2026-02-14 20:31:02 -0500",
       "minecraft:vindicator": "2026-01-14 20:48:06 -0500",
       "minecraft:breeze": "2026-01-27 20:37:37 -0500",
       "minecraft:silverfish": "2026-01-24 16:34:15 -0500",
@@ -4007,6 +4008,42 @@
   "minecraft:recipes/building_blocks/chiseled_deepslate": {
     "criteria": {
       "has_cobbled_deepslate_slab": "2026-02-13 21:09:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2026-02-14 20:27:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2026-02-14 20:27:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2026-02-14 19:56:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2026-02-14 20:53:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2026-02-14 20:27:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2026-02-14 20:27:07 -0500"
     },
     "done": true
   },
