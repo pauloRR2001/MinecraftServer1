@@ -4274,5 +4274,37 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2026-02-25 23:11:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_lightning_rod_from_honeycomb": {
+    "criteria": {
+      "has_lightning_rod": "2026-02-25 22:41:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2026-02-25 21:05:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2026-02-25 21:05:44 -0500",
+      "minecraft:chicken": "2026-02-25 21:05:25 -0500",
+      "minecraft:sheep": "2026-02-25 21:05:52 -0500"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2026-02-25 21:05:08 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 4671
 }
