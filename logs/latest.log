@@ -1,51 +1,656 @@
-[17:41:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[17:41:56] [ServerMain/INFO]: Loaded 1470 recipes
-[17:41:56] [ServerMain/INFO]: Loaded 1584 advancements
-[17:41:56] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[17:41:56] [Server thread/INFO]: Loading properties
-[17:41:56] [Server thread/INFO]: Default game type: SURVIVAL
-[17:41:56] [Server thread/INFO]: Generating keypair
-[17:41:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:41:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:41:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:41:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:41:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:41:57] [Server thread/INFO]: Preparing level "world"
-[17:41:57] [Server thread/INFO]: Loading 0 persistent chunks...
-[17:41:57] [Server thread/INFO]: Preparing spawn area: 100%
-[17:41:58] [Server thread/INFO]: Time elapsed: 36 ms
-[17:41:58] [Server thread/INFO]: Done (0.726s)! For help, type "help"
-[17:42:54] [Server thread/INFO]: pauloR2001[/127.0.0.1:51669] logged in with entity id 30 at (-358.6845503586651, 120.0, 424.7417823081719)
-[17:42:55] [Server thread/INFO]: pauloR2001 joined the game
-[17:42:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3148ms or 62 ticks behind
-[17:43:04] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[17:43:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7210ms or 144 ticks behind
-[17:43:36] [Server thread/WARN]: Block entity {Delay:20s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:blaze"}},SpawnPotentials:[{data:{entity:{id:"minecraft:blaze"}},weight:1}],SpawnRange:4s,id:"minecraft:mob_spawner",x:-405,y:56,z:196} found in a wrong chunk, expected position from chunk [6, 44]
-[17:43:37] [Server thread/WARN]: pauloR2001 moved too quickly! 10.725484708966064,0.0,1.8700415989093813
-[17:43:43] [Server thread/WARN]: pauloR2001 moved too quickly! 10.086745763358635,-3.7500001485632026,-0.9144949317042119
-[17:43:44] [Server thread/WARN]: pauloR2001 moved too quickly! 10.0100549716758,-0.06409455520072527,1.7488042039574339
-[17:43:46] [Server thread/WARN]: pauloR2001 moved too quickly! 10.362456116227804,3.1909013491950162,0.9664718748533687
-[17:44:00] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
-[17:44:31] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[17:44:55] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
-[17:45:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2089ms or 41 ticks behind
-[17:45:13] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to 5541.500000, 65.500000, 4846.500000]
-[17:45:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[17:45:34] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to 5743.500000, 206.500000, 6116.500000]
-[17:46:17] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -394.500000, 128.500000, 405.500000]
-[17:46:20] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[17:46:22] [Server thread/WARN]: pauloR2001 moved too quickly! 9.570068705707627,-2.8181688159839524,2.2243900676159
-[17:46:26] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[17:46:29] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[17:46:29] [Server thread/INFO]: pauloR2001 left the game
-[17:46:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2289ms or 45 ticks behind
-[17:46:39] [Server thread/INFO]: Stopping server
-[17:46:39] [Server thread/INFO]: Saving players
-[17:46:39] [Server thread/INFO]: Saving worlds
-[17:46:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:46:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[17:46:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[17:46:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:46:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:46:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:46:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:13:36] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[20:13:39] [ServerMain/INFO]: Loaded 1470 recipes
+[20:13:39] [ServerMain/INFO]: Loaded 1584 advancements
+[20:13:40] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[20:13:40] [Server thread/INFO]: Loading properties
+[20:13:40] [Server thread/INFO]: Default game type: SURVIVAL
+[20:13:40] [Server thread/INFO]: Generating keypair
+[20:13:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:13:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:13:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:13:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:13:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:13:40] [Server thread/INFO]: Preparing level "world"
+[20:13:41] [Server thread/INFO]: Loading 0 persistent chunks...
+[20:13:41] [Server thread/INFO]: Preparing spawn area: 100%
+[20:13:41] [Server thread/INFO]: Time elapsed: 14 ms
+[20:13:41] [Server thread/INFO]: Done (0.587s)! For help, type "help"
+[20:14:08] [Server thread/INFO]: restrepojc[/127.86.205.203:62683] logged in with entity id 182 at (-3773.5500393602724, 119.0, 3434.5059603979034)
+[20:14:08] [Server thread/INFO]: restrepojc joined the game
+[20:18:51] [Server thread/INFO]: Villager dcx['Villager'/1622, l='ServerLevel[world]', x=-3826.51, y=117.00, z=3427.50] died, message: 'Villager discovered the floor was lava'
+[20:21:40] [Server thread/INFO]: pauloR2001[/127.0.0.1:50787] logged in with entity id 2535 at (-357.23300838556077, 120.0, 415.3880419651387)
+[20:21:40] [Server thread/INFO]: pauloR2001 joined the game
+[20:24:30] [Server thread/INFO]: Villager dcx['Villager'/3258, l='ServerLevel[world]', x=-3826.55, y=117.00, z=3429.19] died, message: 'Villager discovered the floor was lava'
+[20:28:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[20:29:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[20:30:47] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to restrepojc]
+[20:30:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2085ms or 41 ticks behind
+[20:31:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6768ms or 135 ticks behind
+[20:31:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4426ms or 88 ticks behind
+[20:31:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[20:32:19] [Server thread/INFO]: Villager dcx['Villager'/5624, l='ServerLevel[world]', x=-3826.85, y=117.00, z=3428.64] died, message: 'Villager discovered the floor was lava'
+[20:32:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[20:35:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[20:35:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[20:37:13] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[20:37:13] [Server thread/INFO]: pauloR2001 left the game
+[20:37:48] [Server thread/INFO]: momo70950[/127.181.184.147:56598] logged in with entity id 7729 at (-3751.948233163479, 138.0, 3385.3753324940876)
+[20:37:48] [Server thread/INFO]: momo70950 joined the game
+[20:38:58] [Server thread/INFO]: pauloR2001[/127.0.0.1:59378] logged in with entity id 8093 at (-3746.476263061021, 155.0, 3388.2713096757843)
+[20:38:58] [Server thread/INFO]: pauloR2001 joined the game
+[20:39:02] [Server thread/WARN]: momo70950 moved too quickly! -16.042169695295797,-2.1374682272387417,-7.523620246308383
+[20:39:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2239ms or 44 ticks behind
+[20:39:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3104ms or 62 ticks behind
+[20:39:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7514ms or 150 ticks behind
+[20:40:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4506ms or 90 ticks behind
+[20:40:37] [Server thread/INFO]: Villager dcx['Villager'/8357, l='ServerLevel[world]', x=-3826.59, y=117.00, z=3428.34] died, message: 'Villager discovered the floor was lava'
+[20:40:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
+[20:40:43] [Server thread/WARN]: momo70950 moved too quickly! 13.370685412523926,12.483437449369575,1.3565625971232294
+[20:42:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[20:42:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3372ms or 67 ticks behind
+[20:44:58] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
+[20:44:58] [Server thread/INFO]: restrepojc lost connection: Disconnected
+[20:44:58] [Server thread/INFO]: restrepojc left the game
+[20:45:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[20:45:33] [Server thread/INFO]: restrepojc[/127.86.205.203:52374] logged in with entity id 10554 at (-3782.3240572747522, -40.0, 3425.300000011921)
+[20:45:33] [Server thread/INFO]: restrepojc joined the game
+[20:46:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[20:47:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3377ms or 67 ticks behind
+[20:47:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[20:47:55] [Server thread/INFO]: Villager dcx['Villager'/11555, l='ServerLevel[world]', x=-3826.30, y=117.00, z=3428.02] died, message: 'Villager discovered the floor was lava'
+[20:48:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[20:49:54] [Server thread/WARN]: Block entity {Delay:20s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:blaze"}},SpawnPotentials:[{data:{entity:{id:"minecraft:blaze"}},weight:1}],SpawnRange:4s,id:"minecraft:mob_spawner",x:-405,y:56,z:196} found in a wrong chunk, expected position from chunk [6, 44]
+[20:49:56] [Server thread/WARN]: Block entity {Delay:20s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:blaze"}},SpawnPotentials:[{data:{entity:{id:"minecraft:blaze"}},weight:1}],SpawnRange:4s,id:"minecraft:mob_spawner",x:-248,y:56,z:378} found in a wrong chunk, expected position from chunk [16, 55]
+[20:50:23] [Server thread/WARN]: restrepojc moved too quickly! 6.6305128385511125,16.338789262954236,2.419484204194532
+[20:52:04] [Server thread/WARN]: restrepojc moved too quickly! -11.513249402330985,-2.1536139289308096,14.727099166805601
+[20:54:52] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
+[20:58:02] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[20:58:02] [Server thread/INFO]: pauloR2001 left the game
+[21:06:13] [Server thread/WARN]: momo70950 moved wrongly!
+[21:06:29] [Server thread/INFO]: [@: Set spawn point to -326, 74, 409 [0.0, 0.0] in minecraft:overworld for momo70950]
+[21:06:29] [Server thread/INFO]: [Not Secure] [@] momo70950 : Esta debe de ser la sala de sacrificios..... espero que no me sacrifiquen a mi..........
+[21:06:41] [Server thread/INFO]: [@: Set spawn point to -326, 74, 409 [0.0, 0.0] in minecraft:overworld for momo70950]
+[21:06:41] [Server thread/INFO]: [Not Secure] [@] momo70950 : Esta debe de ser la sala de sacrificios..... espero que no me sacrifiquen a mi..........
+[21:07:04] [Server thread/INFO]: [@: Set spawn point to -326, 74, 409 [0.0, 0.0] in minecraft:overworld for restrepojc]
+[21:07:04] [Server thread/INFO]: [Not Secure] [@] restrepojc : Esta debe de ser la sala de sacrificios..... espero que no me sacrifiquen a mi..........
+[21:07:17] [Server thread/INFO]: [@: Set spawn point to -326, 74, 409 [0.0, 0.0] in minecraft:overworld for momo70950]
+[21:07:17] [Server thread/INFO]: [Not Secure] [@] momo70950 : Esta debe de ser la sala de sacrificios..... espero que no me sacrifiquen a mi..........
+[21:07:24] [Server thread/INFO]: [@: Set spawn point to -326, 74, 409 [0.0, 0.0] in minecraft:overworld for restrepojc]
+[21:07:24] [Server thread/INFO]: [Not Secure] [@] restrepojc : Esta debe de ser la sala de sacrificios..... espero que no me sacrifiquen a mi..........
+[21:07:26] [Server thread/WARN]: momo70950 moved wrongly!
+[21:09:05] [Server thread/INFO]: [@: Set spawn point to -330, 31, 413 [0.0, 0.0] in minecraft:overworld for restrepojc]
+[21:11:14] [Server thread/INFO]: [@: Played sound minecraft:puerta3 to momo70950]
+[21:12:59] [Server thread/INFO]: [@: Set spawn point to -319, 30, 271 [0.0, 0.0] in minecraft:overworld for momo70950]
+[21:15:24] [Server thread/INFO]: [momo70950: Set own game mode to Spectator Mode]
+[21:15:36] [Server thread/INFO]: [momo70950: Set own game mode to Survival Mode]
+[21:15:42] [Server thread/INFO]: [momo70950: Teleported restrepojc to momo70950]
+[21:18:35] [Server thread/INFO]: pauloR2001[/127.0.0.1:52407] logged in with entity id 24547 at (4762.704094549405, 71.0, 5258.368959765158)
+[21:18:35] [Server thread/INFO]: pauloR2001 joined the game
+[21:18:59] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to momo70950]
+[21:22:58] [Server thread/INFO]: [momo70950: Set own game mode to Spectator Mode]
+[21:23:02] [Server thread/INFO]: [pauloR2001: Set restrepojc's game mode to Spectator Mode]
+[21:23:02] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[21:24:38] [Server thread/INFO]: [momo70950: Set own game mode to Survival Mode]
+[21:24:43] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[21:24:47] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
+[21:26:20] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
+[21:28:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[21:28:53] [Server thread/INFO]: [pauloR2001: Set the weather to clear]
+[21:33:41] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
+[21:36:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[21:39:41] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[21:39:44] [Server thread/INFO]: [momo70950: Set own game mode to Spectator Mode]
+[21:39:58] [Server thread/INFO]: [momo70950: Set own game mode to Survival Mode]
+[21:39:59] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[21:40:00] [Server thread/INFO]: [restrepojc: Set own game mode to Spectator Mode]
+[21:40:01] [Server thread/INFO]: [momo70950: Teleported restrepojc to momo70950]
+[21:40:07] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
+[21:43:41] [Server thread/INFO]: [momo70950: Set the time to 1000]
+[21:45:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[21:46:29] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [74, 89] ] for chunk [396, 404].
+[21:46:30] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [74, 89] ] for chunk [397, 404].
+[21:46:30] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [74, 89] ] for chunk [396, 405].
+[21:46:30] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [74, 89] ] for chunk [397, 405].
+[21:46:35] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [74, 89] ] for chunk [394, 406].
+[21:46:35] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [74, 89] ] for chunk [395, 406].
+[21:46:35] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [74, 89] ] for chunk [396, 406].
+[21:46:35] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [74, 89] ] for chunk [397, 406].
+[21:46:41] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [74, 89] ] for chunk [398, 404].
+[21:46:41] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [74, 89] ] for chunk [398, 405].
+[21:46:41] [Server thread/ERROR]: Chunk file at [397, 402] is in the wrong location. (Expected [397, 402], got [77, 82])
+[21:46:41] [Server thread/ERROR]: Failed to load chunk 397,402
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.b(SourceFile:152)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:884)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:895)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [77, 82] does not match requested [397, 402]
+	at erq.a(SourceFile:20)
+	... 21 more
+[21:46:41] [IO-Worker-156/INFO]: Saved details to debug\chunk-world-2026-02-28_21.46.41-server.txt
+[21:46:41] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [74, 89] ] for chunk [398, 406].
+[21:46:41] [Server thread/ERROR]: Chunk file at [397, 405] is in the wrong location. (Expected [397, 405], got [77, 85])
+[21:46:41] [Server thread/ERROR]: Failed to load chunk 397,405
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [77, 85] does not match requested [397, 405]
+	at erq.a(SourceFile:20)
+	... 20 more
+[21:46:41] [IO-Worker-136/INFO]: Saved details to debug\chunk-world-2026-02-28_21.46.41-server.txt
+[21:47:58] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [74, 89] ] for chunk [395, 407].
+[21:47:58] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [74, 89] ] for chunk [394, 407].
+[21:47:58] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [74, 89] ] for chunk [396, 407].
+[21:47:58] [Server thread/ERROR]: Chunk file at [394, 406] is in the wrong location. (Expected [394, 406], got [74, 86])
+[21:47:58] [Server thread/ERROR]: Failed to load chunk 394,406
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.b(SourceFile:152)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:884)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:895)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [74, 86] does not match requested [394, 406]
+	at erq.a(SourceFile:20)
+	... 21 more
+[21:47:58] [IO-Worker-136/INFO]: Saved details to debug\chunk-world-2026-02-28_21.47.58-server.txt
+[21:47:58] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [74, 89] ] for chunk [397, 407].
+[21:47:58] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [74, 89] ] for chunk [398, 407].
+[21:47:58] [Server thread/ERROR]: Chunk file at [397, 406] is in the wrong location. (Expected [397, 406], got [77, 86])
+[21:47:58] [Server thread/ERROR]: Failed to load chunk 397,406
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [77, 86] does not match requested [397, 406]
+	at erq.a(SourceFile:20)
+	... 20 more
+[21:47:58] [IO-Worker-156/INFO]: Saved details to debug\chunk-world-2026-02-28_21.47.58-server.txt
+[21:48:09] [Server thread/INFO]: [momo70950: Set own game mode to Creative Mode]
+[21:48:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[21:48:21] [Server thread/INFO]: [momo70950: Set own game mode to Survival Mode]
+[21:48:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2802ms or 56 ticks behind
+[21:50:58] [Server thread/INFO]: [restrepojc: Set own game mode to Spectator Mode]
+[21:51:04] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
+[21:51:40] [Server thread/WARN]: UUID of added entity already exists: cxb['Pig'/41541, l='ServerLevel[world]', x=6279.50, y=118.00, z=5166.25]
+[21:51:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[21:52:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[21:52:51] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
+[21:52:52] [Server thread/INFO]: [restrepojc: Set own game mode to Spectator Mode]
+[21:55:11] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [-2, -48] ] for chunk [322, 276].
+[21:55:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[21:56:34] [Server thread/WARN]: pauloR2001 moved too quickly! -17.135287002947734,-3.3410518303755197,-3.002962209880934
+[21:56:35] [Server thread/WARN]: momo70950 moved too quickly! -17.2404054912231,-3.967283897346107,2.369104290953146
+[22:01:26] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [86, -49] ] for chunk [403, 273].
+[22:01:28] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [86, -49] ] for chunk [404, 273].
+[22:02:22] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [86, -49] ] for chunk [405, 273].
+[22:02:22] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [86, -49] ] for chunk [405, 274].
+[22:02:23] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
+[22:02:23] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [86, -49] ] for chunk [406, 274].
+[22:02:28] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [86, -49] ] for chunk [406, 273].
+[22:02:29] [Server thread/ERROR]: Chunk file at [406, 291] is in the wrong location. (Expected [406, 291], got [86, -29])
+[22:02:29] [Server thread/ERROR]: Failed to load chunk 406,291
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.b(SourceFile:152)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:884)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:895)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [86, -29] does not match requested [406, 291]
+	at erq.a(SourceFile:20)
+	... 21 more
+[22:02:29] [IO-Worker-169/INFO]: Saved details to debug\chunk-world-2026-02-28_22.02.29-server.txt
+[22:02:29] [Server thread/ERROR]: Chunk file at [406, 296] is in the wrong location. (Expected [406, 296], got [86, -24])
+[22:02:29] [Server thread/ERROR]: Failed to load chunk 406,296
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [86, -24] does not match requested [406, 296]
+	at erq.a(SourceFile:20)
+	... 20 more
+[22:02:29] [IO-Worker-173/INFO]: Saved details to debug\chunk-world-2026-02-28_22.02.29-server.txt
+[22:02:29] [Server thread/ERROR]: Chunk file at [406, 297] is in the wrong location. (Expected [406, 297], got [86, -23])
+[22:02:29] [Server thread/ERROR]: Failed to load chunk 406,297
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [86, -23] does not match requested [406, 297]
+	at erq.a(SourceFile:20)
+	... 20 more
+[22:02:29] [IO-Worker-173/INFO]: Saved details to debug\chunk-world-2026-02-28_22.02.29-server.txt
+[22:02:29] [Server thread/ERROR]: Chunk file at [406, 292] is in the wrong location. (Expected [406, 292], got [86, -28])
+[22:02:29] [Server thread/ERROR]: Failed to load chunk 406,292
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [86, -28] does not match requested [406, 292]
+	at erq.a(SourceFile:20)
+	... 20 more
+[22:02:29] [IO-Worker-173/INFO]: Saved details to debug\chunk-world-2026-02-28_22.02.29-server.txt
+[22:02:29] [Server thread/ERROR]: Chunk file at [406, 298] is in the wrong location. (Expected [406, 298], got [86, -22])
+[22:02:29] [Server thread/ERROR]: Failed to load chunk 406,298
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [86, -22] does not match requested [406, 298]
+	at erq.a(SourceFile:20)
+	... 20 more
+[22:02:30] [IO-Worker-173/INFO]: Saved details to debug\chunk-world-2026-02-28_22.02.30-server.txt
+[22:02:30] [Server thread/ERROR]: Chunk file at [406, 282] is in the wrong location. (Expected [406, 282], got [86, -38])
+[22:02:30] [Server thread/ERROR]: Failed to load chunk 406,282
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [86, -38] does not match requested [406, 282]
+	at erq.a(SourceFile:20)
+	... 20 more
+[22:02:31] [IO-Worker-173/INFO]: Saved details to debug\chunk-world-2026-02-28_22.02.31-server.txt
+[22:02:31] [Server thread/WARN]: restrepojc moved too quickly! 8.369227373103058,0.0,-6.25251656572982
+[22:02:31] [Server thread/ERROR]: Chunk file at [406, 283] is in the wrong location. (Expected [406, 283], got [86, -37])
+[22:02:31] [Server thread/ERROR]: Failed to load chunk 406,283
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [86, -37] does not match requested [406, 283]
+	at erq.a(SourceFile:20)
+	... 20 more
+[22:02:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2203ms or 44 ticks behind
+[22:02:31] [IO-Worker-173/INFO]: Saved details to debug\chunk-world-2026-02-28_22.02.31-server.txt
+[22:02:32] [Server thread/ERROR]: Chunk file at [406, 284] is in the wrong location. (Expected [406, 284], got [86, -36])
+[22:02:32] [Server thread/ERROR]: Failed to load chunk 406,284
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [86, -36] does not match requested [406, 284]
+	at erq.a(SourceFile:20)
+	... 20 more
+[22:02:32] [IO-Worker-173/INFO]: Saved details to debug\chunk-world-2026-02-28_22.02.32-server.txt
+[22:02:32] [Server thread/ERROR]: Chunk file at [406, 285] is in the wrong location. (Expected [406, 285], got [86, -35])
+[22:02:33] [Server thread/ERROR]: Failed to load chunk 406,285
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [86, -35] does not match requested [406, 285]
+	at erq.a(SourceFile:20)
+	... 20 more
+[22:02:33] [IO-Worker-173/INFO]: Saved details to debug\chunk-world-2026-02-28_22.02.33-server.txt
+[22:02:33] [Server thread/ERROR]: Chunk file at [406, 279] is in the wrong location. (Expected [406, 279], got [86, -41])
+[22:02:33] [Server thread/ERROR]: Failed to load chunk 406,279
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [86, -41] does not match requested [406, 279]
+	at erq.a(SourceFile:20)
+	... 20 more
+[22:02:34] [IO-Worker-173/INFO]: Saved details to debug\chunk-world-2026-02-28_22.02.34-server.txt
+[22:02:34] [Server thread/ERROR]: Chunk file at [406, 281] is in the wrong location. (Expected [406, 281], got [86, -39])
+[22:02:34] [Server thread/ERROR]: Failed to load chunk 406,281
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [86, -39] does not match requested [406, 281]
+	at erq.a(SourceFile:20)
+	... 20 more
+[22:02:35] [IO-Worker-173/INFO]: Saved details to debug\chunk-world-2026-02-28_22.02.35-server.txt
+[22:02:36] [Server thread/ERROR]: Chunk file at [406, 299] is in the wrong location. (Expected [406, 299], got [86, -21])
+[22:02:36] [Server thread/ERROR]: Failed to load chunk 406,299
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.b(SourceFile:152)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:884)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:895)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [86, -21] does not match requested [406, 299]
+	at erq.a(SourceFile:20)
+	... 21 more
+[22:02:36] [IO-Worker-169/INFO]: Saved details to debug\chunk-world-2026-02-28_22.02.36-server.txt
+[22:02:36] [Server thread/ERROR]: Chunk file at [406, 300] is in the wrong location. (Expected [406, 300], got [86, -20])
+[22:02:36] [Server thread/ERROR]: Failed to load chunk 406,300
+v: Chunk found in invalid location
+	at erq.a(SourceFile:23)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [86, -20] does not match requested [406, 300]
+	at erq.a(SourceFile:20)
+	... 20 more
+[22:02:36] [IO-Worker-169/INFO]: Saved details to debug\chunk-world-2026-02-28_22.02.36-server.txt
+[22:02:37] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [86, -49] ] for chunk [407, 274].
+[22:02:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [86, -49] ] for chunk [407, 273].
+[22:05:24] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[22:05:24] [Server thread/INFO]: momo70950 left the game
+[22:05:48] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
+[22:07:52] [Server thread/INFO]: [restrepojc: Set own game mode to Spectator Mode]
+[22:09:51] [Server thread/INFO]: [pauloR2001: Teleported restrepojc to pauloR2001]
+[22:09:59] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[22:11:10] [Server thread/WARN]: Block entity {Delay:20s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:blaze"}},SpawnPotentials:[{data:{entity:{id:"minecraft:blaze"}},weight:1}],SpawnRange:4s,id:"minecraft:mob_spawner",x:-248,y:56,z:378} found in a wrong chunk, expected position from chunk [16, 55]
+[22:13:03] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[22:13:09] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
+[22:17:45] [Server thread/WARN]: restrepojc moved too quickly! -10.071876696692016,0.0,-0.3547556800986058
+[22:18:28] [Server thread/INFO]: restrepojc lost connection: Timed out
+[22:18:28] [Server thread/INFO]: restrepojc left the game
+[22:19:12] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[22:19:12] [Server thread/INFO]: pauloR2001 left the game
+[22:19:24] [Server thread/INFO]: Stopping the server
+[22:19:25] [Server thread/INFO]: Stopping server
+[22:19:25] [Server thread/INFO]: Saving players
+[22:19:25] [Server thread/INFO]: Saving worlds
+[22:19:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:19:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:19:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -1,0 +1,149 @@
+---- Minecraft Chunk IO Error Report ----
+// This chunk is no more...it has ceased to be...this is an EX-chunk
+
+Time: 2026-02-28 22:02:31
+Description: Chunk found in invalid location
+
+java.lang.IllegalStateException: Retrieved chunk position [86, -37] does not match requested [406, 283]
+	at erq.a(SourceFile:20)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: IO-Worker-173
+Stacktrace:
+	at erq.a(SourceFile:20)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+
+-- Misplaced Chunk --
+Details:
+	Stored Position: [86, -37]
+Stacktrace:
+	at erq.a(SourceFile:20)
+	at erq.a(SourceFile:30)
+	at ers.a(SourceFile:69)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bhs.a(SourceFile:297)
+	at cbq.f(SourceFile:50)
+	at cbq.run(SourceFile:62)
+	at anq.run(SourceFile:18)
+	at cbr.d(SourceFile:169)
+	at cbv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:948)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:191)
+	at cbr.E(SourceFile:143)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:930)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+-- Chunk Info --
+Details:
+	Level: world
+	Dimension: minecraft:overworld
+	Storage: entities
+	Position: [406, 283]
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.a(SourceFile:2183)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.11
+	Minecraft Version ID: 1.21.11
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.9, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 239343768 bytes (228 MiB) / 1384120320 bytes (1320 MiB) up to 8589934592 bytes (8192 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: 11th Gen Intel(R) Core(TM) i7-1195G7 @ 2.90GHz
+	Identifier: Intel64 Family 6 Model 140 Stepping 2
+	Microarchitecture: Tiger Lake
+	Frequency (GHz): 2.92
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: Intel(R) Iris(R) Xe Graphics
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 1024.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 30.0.101.1122
+	Memory slot #0 capacity (MiB): 2048.00
+	Memory slot #0 clockSpeed (GHz): 4.27
+	Memory slot #0 type: LPDDR4
+	Memory slot #1 capacity (MiB): 2048.00
+	Memory slot #1 clockSpeed (GHz): 4.27
+	Memory slot #1 type: LPDDR4
+	Memory slot #2 capacity (MiB): 2048.00
+	Memory slot #2 clockSpeed (GHz): 4.27
+	Memory slot #2 type: LPDDR4
+	Memory slot #3 capacity (MiB): 2048.00
+	Memory slot #3 clockSpeed (GHz): 4.27
+	Memory slot #3 type: LPDDR4
+	Memory slot #4 capacity (MiB): 2048.00
+	Memory slot #4 clockSpeed (GHz): 4.27
+	Memory slot #4 type: LPDDR4
+	Memory slot #5 capacity (MiB): 2048.00
+	Memory slot #5 clockSpeed (GHz): 4.27
+	Memory slot #5 type: LPDDR4
+	Memory slot #6 capacity (MiB): 2048.00
+	Memory slot #6 clockSpeed (GHz): 4.27
+	Memory slot #6 type: LPDDR4
+	Memory slot #7 capacity (MiB): 2048.00
+	Memory slot #7 clockSpeed (GHz): 4.27
+	Memory slot #7 type: LPDDR4
+	Virtual memory max (MiB): 22676.29
+	Virtual memory used (MiB): 13144.63
+	Swap memory total (MiB): 6712.67
+	Swap memory used (MiB): 161.29
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 177794.78, total: 487109.00
+	Space in storage for workdir (MiB): available: 177794.78, total: 487109.00
+	JVM Flags: 1 total; -Xmx8G
+	Debug Flags: 0 total; 
