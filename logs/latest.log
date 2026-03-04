@@ -1,27 +1,75 @@
-[00:02:19] [Server thread/INFO]: [pauloR2001: Set restrepojc's game mode to Spectator Mode]
-[00:02:47] [Server thread/INFO]: [Not Secure] <pauloR2001> -1792 240 3320
-[00:04:05] [Server thread/INFO]: [restrepojc: Set own game mode to Creative Mode]
-[00:04:18] [Server thread/INFO]: [restrepojc: Set own game mode to Spectator Mode]
-[00:04:32] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
-[00:06:10] [Server thread/INFO]: [restrepojc: Set own game mode to Spectator Mode]
-[00:07:00] [Server thread/INFO]: [restrepojc: Teleported restrepojc to -1791.500000, 240.000000, 3320.500000]
-[00:09:16] [Server thread/INFO]: [pauloR2001: Teleported restrepojc to pauloR2001]
-[00:09:30] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
-[00:10:07] [Server thread/INFO]: restrepojc lost connection: Disconnected
-[00:10:07] [Server thread/INFO]: restrepojc left the game
-[00:10:10] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
-[00:11:59] [Server thread/INFO]: [pauloR2001: Set the weather to clear]
-[00:19:57] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[00:20:03] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[00:20:03] [Server thread/INFO]: pauloR2001 left the game
-[00:20:11] [Server thread/INFO]: Stopping the server
-[00:20:11] [Server thread/INFO]: Stopping server
-[00:20:11] [Server thread/INFO]: Saving players
-[00:20:11] [Server thread/INFO]: Saving worlds
-[00:20:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:20:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:20:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:51:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[20:51:10] [ServerMain/INFO]: Loaded 1470 recipes
+[20:51:10] [ServerMain/INFO]: Loaded 1584 advancements
+[20:51:10] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[20:51:10] [Server thread/INFO]: Loading properties
+[20:51:10] [Server thread/INFO]: Default game type: SURVIVAL
+[20:51:10] [Server thread/INFO]: Generating keypair
+[20:51:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:51:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:51:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:51:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:51:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:51:11] [Server thread/INFO]: Preparing level "world"
+[20:51:11] [Server thread/INFO]: Loading 98 persistent chunks...
+[20:51:11] [Server thread/INFO]: Preparing spawn area: 9%
+[20:51:12] [Server thread/INFO]: Preparing spawn area: 9%
+[20:51:12] [Server thread/INFO]: Preparing spawn area: 9%
+[20:51:13] [Server thread/INFO]: Preparing spawn area: 9%
+[20:51:13] [Server thread/INFO]: Time elapsed: 1775 ms
+[20:51:13] [Server thread/INFO]: Done (2.558s)! For help, type "help"
+[20:52:13] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[20:52:49] [Server thread/INFO]: momo70950[/127.181.184.147:55425] logged in with entity id 328 at (-3752.4050385049177, 122.0, 3398.398017158328)
+[20:52:49] [Server thread/INFO]: momo70950 joined the game
+[20:53:04] [Server thread/INFO]: Villager dcx['Villager'/394, l='ServerLevel[world]', x=-3826.51, y=117.00, z=3429.32] died, message: 'Villager discovered the floor was lava'
+[20:53:47] [Server thread/INFO]: pauloR2001[/127.0.0.1:55443] logged in with entity id 903 at (-242.69999998807907, 245.0, 415.47856345996433)
+[20:53:47] [Server thread/INFO]: pauloR2001 joined the game
+[20:57:19] [Server thread/WARN]: momo70950 moved wrongly!
+[20:58:27] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
+[21:00:02] [Server thread/WARN]: pauloR2001 moved wrongly!
+[21:02:58] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
+[21:12:15] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
+[21:15:44] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[21:15:44] [Server thread/INFO]: pauloR2001 left the game
+[21:21:22] [Server thread/INFO]: pauloR2001[/127.0.0.1:50444] logged in with entity id 14127 at (-241.54525005137654, 245.0, 413.3712963860359)
+[21:21:22] [Server thread/INFO]: pauloR2001 joined the game
+[21:22:40] [Server thread/INFO]: Villager dcx['Villager'/15136, l='ServerLevel[world]', x=-3826.33, y=117.00, z=3427.90] died, message: 'Villager discovered the floor was lava'
+[21:23:39] [Server thread/WARN]: pauloR2001 moved wrongly!
+[21:26:30] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
+[21:37:28] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[21:37:37] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[21:39:38] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
+[21:40:28] [Server thread/INFO]: [momo70950: Teleported momo70950 to -301.500000, 128.500000, 412.500000]
+[21:40:30] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[21:40:40] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[21:51:14] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-226, y=218, z=474} is{x=-225, y=219, z=482}
+[21:51:40] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-227, y=220, z=483} is{x=-231, y=219, z=472}
+[21:55:02] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[21:55:02] [Server thread/INFO]: pauloR2001 left the game
+[22:02:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2087ms or 41 ticks behind
+[22:03:27] [Server thread/WARN]: momo70950 moved too quickly! -13.364218226243736,-12.886891061795154,-0.7695344584213899
+[22:03:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[22:06:30] [Server thread/INFO]: pauloR2001[/127.0.0.1:61453] logged in with entity id 31581 at (-227.397445683919, 218.0, 419.70713344144656)
+[22:06:30] [Server thread/INFO]: pauloR2001 joined the game
+[22:07:32] [Server thread/WARN]: momo70950 moved too quickly! 2.0337946146744343,-7.875599507502756,16.21396382987814
+[22:25:00] [Server thread/INFO]: [momo70950: Set own game mode to Spectator Mode]
+[22:25:51] [Server thread/INFO]: [momo70950: Set own game mode to Survival Mode]
+[22:33:10] [Server thread/INFO]: [momo70950: Set own game mode to Creative Mode]
+[22:33:36] [Server thread/INFO]: [momo70950: Set own game mode to Survival Mode]
+[22:40:52] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[22:40:52] [Server thread/INFO]: momo70950 left the game
+[22:42:01] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
+[22:51:13] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[22:51:16] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[22:51:16] [Server thread/INFO]: pauloR2001 left the game
+[22:51:22] [Server thread/INFO]: Stopping the server
+[22:51:23] [Server thread/INFO]: Stopping server
+[22:51:23] [Server thread/INFO]: Saving players
+[22:51:23] [Server thread/INFO]: Saving worlds
+[22:51:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:51:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:51:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:51:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:51:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:51:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:51:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

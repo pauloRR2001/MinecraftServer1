@@ -5663,5 +5663,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/crafter": {
+    "criteria": {
+      "has_dropper": "2026-03-03 21:28:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/copper_spear": {
+    "criteria": {
+      "has_copper_ingot": "2026-03-03 21:23:22 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 4671
 }
