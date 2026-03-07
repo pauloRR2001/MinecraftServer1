@@ -4314,6 +4314,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2026-03-02 21:00:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2026-03-02 21:00:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2026-03-02 21:00:14 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_spear": {
     "criteria": {
       "has_gold_ingot": "2026-03-02 22:21:44 -0500"
@@ -4356,21 +4374,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/sticky_piston": {
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
-      "has_slime_ball": "2026-03-02 21:00:11 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/slime_block": {
-    "criteria": {
-      "has_slime_ball": "2026-03-02 21:00:11 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/slime_ball": {
-    "criteria": {
-      "has_slime_block": "2026-03-02 21:00:14 -0500"
+      "has_gold_block": "2026-03-06 21:47:04 -0500"
     },
     "done": true
   },
