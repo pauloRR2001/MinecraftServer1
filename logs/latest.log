@@ -1,189 +1,120 @@
-[21:16:25] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[21:16:26] [ServerMain/INFO]: Loaded 1470 recipes
-[21:16:26] [ServerMain/INFO]: Loaded 1584 advancements
-[21:16:26] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[21:16:26] [Server thread/INFO]: Loading properties
-[21:16:26] [Server thread/INFO]: Default game type: SURVIVAL
-[21:16:26] [Server thread/INFO]: Generating keypair
-[21:16:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:16:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:16:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:16:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:16:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:16:27] [Server thread/INFO]: Preparing level "world"
-[21:16:27] [Server thread/INFO]: Loading 98 persistent chunks...
-[21:16:27] [Server thread/INFO]: Preparing spawn area: 9%
-[21:16:28] [Server thread/INFO]: Preparing spawn area: 9%
-[21:16:28] [Server thread/INFO]: Preparing spawn area: 9%
-[21:16:29] [Server thread/INFO]: Time elapsed: 1344 ms
-[21:16:29] [Server thread/INFO]: Done (1.988s)! For help, type "help"
-[21:17:29] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[21:19:38] [Server thread/INFO]: momo70950[/127.181.184.147:57454] logged in with entity id 337 at (-3730.2566415295314, 138.0, 3397.743415215286)
-[21:19:38] [Server thread/INFO]: momo70950 joined the game
-[21:20:07] [Server thread/INFO]: restrepojc[/127.86.205.203:57464] logged in with entity id 594 at (-8.327749156135392, 128.0, 454.8887944355372)
-[21:20:07] [Server thread/INFO]: restrepojc joined the game
-[21:21:28] [Server thread/INFO]: Villager dcx['Villager'/737, l='ServerLevel[world]', x=-3826.47, y=117.00, z=3427.72] died, message: 'Villager discovered the floor was lava'
-[21:23:03] [Server thread/WARN]: restrepojc moved wrongly!
-[21:23:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2485ms or 49 ticks behind
-[21:24:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2223ms or 44 ticks behind
-[21:24:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2128ms or 42 ticks behind
-[21:25:15] [Server thread/INFO]: pauloR2001[/127.0.0.1:64264] logged in with entity id 3092 at (-232.54544684149474, 219.0, 418.93678960045384)
-[21:25:15] [Server thread/INFO]: pauloR2001 joined the game
-[21:25:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
-[21:25:30] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[21:25:30] [Server thread/INFO]: momo70950 left the game
-[21:25:39] [Server thread/INFO]: momo70950[/127.181.184.147:64483] logged in with entity id 3158 at (-340.7603400521899, 196.58669995209144, 409.5232215787987)
-[21:25:39] [Server thread/INFO]: momo70950 joined the game
-[21:25:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4004ms or 80 ticks behind
-[21:28:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
-[21:28:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3804ms or 76 ticks behind
-[21:29:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7444ms or 148 ticks behind
-[21:29:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[21:30:47] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[21:30:47] [Server thread/INFO]: pauloR2001 left the game
-[21:33:36] [Server thread/INFO]: [momo70950: Gave 1 [Dispenser] to momo70950]
-[21:36:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
-[21:37:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3065ms or 61 ticks behind
-[21:48:51] [Server thread/INFO]: Villager dcx['Villager'/12559, l='ServerLevel[world]', x=-3826.51, y=117.00, z=3429.50] died, message: 'Villager discovered the floor was lava'
-[21:58:27] [Server thread/INFO]: restrepojc lost connection: Disconnected
-[21:58:27] [Server thread/INFO]: restrepojc left the game
-[21:58:40] [Server thread/INFO]: restrepojc[/127.86.205.203:55582] logged in with entity id 16887 at (-242.69999998807907, 245.0, 415.30000001192093)
-[21:58:40] [Server thread/INFO]: restrepojc joined the game
-[22:04:05] [Server thread/INFO]: pauloR2001[/127.0.0.1:55635] logged in with entity id 18879 at (-222.95188982583392, 218.0, 419.49940765413334)
-[22:04:05] [Server thread/INFO]: pauloR2001 joined the game
-[22:06:17] [Server thread/INFO]: [momo70950: Set own game mode to Spectator Mode]
-[22:06:32] [Server thread/INFO]: [momo70950: Set own game mode to Survival Mode]
-[22:06:36] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[22:07:18] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[22:07:19] [Server thread/INFO]: [momo70950: Set own game mode to Spectator Mode]
-[22:07:26] [Server thread/INFO]: [momo70950: Teleported momo70950 to pauloR2001]
-[22:07:29] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[22:07:36] [Server thread/INFO]: [momo70950: Set own game mode to Survival Mode]
-[22:07:44] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-438, y=126, z=428} is{x=-363, y=121, z=405}
-[22:07:49] [Server thread/INFO]: Villager dcx['Villager'/20920, l='ServerLevel[world]', x=-3826.69, y=117.00, z=3428.82] died, message: 'Villager discovered the floor was lava'
-[22:07:58] [Server thread/INFO]: [momo70950: Teleported momo70950 to pauloR2001]
-[22:08:02] [Server thread/INFO]: [momo70950: Set own game mode to Spectator Mode]
-[22:08:09] [Server thread/INFO]: [momo70950: Set own game mode to Creative Mode]
-[22:08:50] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[22:09:10] [Server thread/INFO]: [momo70950: Set own game mode to Survival Mode]
-[22:09:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2062ms or 41 ticks behind
-[22:10:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2255ms or 45 ticks behind
-[22:11:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2093ms or 41 ticks behind
-[22:11:34] [Server thread/INFO]: momo70950 was slain by Piglin
-[22:11:55] [Server thread/INFO]: [momo70950: Teleported momo70950 to pauloR2001]
-[22:12:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2026ms or 40 ticks behind
-[22:13:05] [Server thread/INFO]: momo70950 was slain by Piglin
-[22:13:20] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[22:13:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
-[22:13:44] [Server thread/INFO]: momo70950 was slain by Piglin
-[22:13:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2529ms or 50 ticks behind
-[22:13:52] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[22:14:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2956ms or 59 ticks behind
-[22:15:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[22:16:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2102ms or 42 ticks behind
-[22:16:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2136ms or 42 ticks behind
-[22:18:23] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[22:18:36] [Server thread/INFO]: [pauloR2001: Teleported momo70950 to pauloR2001]
-[22:20:52] [Server thread/INFO]: [pauloR2001: Set own game mode to Creative Mode]
-[22:21:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[22:22:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2074ms or 41 ticks behind
-[22:23:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3746ms or 74 ticks behind
-[22:23:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7117ms or 142 ticks behind
-[22:25:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2045ms or 40 ticks behind
-[22:25:57] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[22:26:03] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[22:26:25] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[22:26:25] [Server thread/INFO]: momo70950 left the game
-[22:26:31] [Server thread/INFO]: momo70950[/127.181.184.147:53376] logged in with entity id 26114 at (-228.9842834819424, 128.0, 402.5737495706724)
-[22:26:31] [Server thread/INFO]: momo70950 joined the game
-[22:28:24] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[22:28:24] [Server thread/INFO]: momo70950 left the game
-[22:28:38] [Server thread/INFO]: restrepojc lost connection: Disconnected
-[22:28:38] [Server thread/INFO]: restrepojc left the game
-[22:28:45] [Server thread/INFO]: momo70950[/127.181.184.147:53397] logged in with entity id 26407 at (-265.7800445057777, 136.17448710119191, 419.30995616199704)
-[22:28:45] [Server thread/INFO]: momo70950 joined the game
-[22:29:41] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[22:29:41] [Server thread/INFO]: momo70950 left the game
-[22:30:02] [Server thread/INFO]: momo70950[/127.181.184.147:53410] logged in with entity id 26531 at (-214.84557642511965, 128.0, 419.39695405688514)
-[22:30:02] [Server thread/INFO]: momo70950 joined the game
-[22:30:21] [Server thread/INFO]: pauloR2001 has made the advancement [Oh Shiny]
-[22:36:24] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[22:37:57] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[22:42:06] [Server thread/INFO]: restrepojc[/127.86.205.203:53590] logged in with entity id 31403 at (-242.69557296547654, 245.0, 415.56220828931504)
-[22:42:06] [Server thread/INFO]: restrepojc joined the game
-[22:45:20] [Server thread/INFO]: [restrepojc: Set own game mode to Spectator Mode]
-[22:45:45] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[22:45:50] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to momo70950]
-[22:45:54] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[22:45:59] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
-[22:47:57] [Server thread/INFO]: [momo70950: Set own game mode to Creative Mode]
-[22:47:59] [Server thread/INFO]: restrepojc fell from a high place
-[22:48:14] [Server thread/INFO]: Villager dcx['Villager'/35042, l='ServerLevel[world]', x=-3826.56, y=117.00, z=3429.08] died, message: 'Villager discovered the floor was lava'
-[22:48:34] [Server thread/INFO]: [momo70950: Set own game mode to Survival Mode]
-[22:48:47] [Server thread/INFO]: [restrepojc: Set own game mode to Spectator Mode]
-[22:49:27] [Server thread/INFO]: [momo70950: Teleported restrepojc to momo70950]
-[22:49:38] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
-[22:51:05] [Server thread/WARN]: pauloR2001 moved wrongly!
-[22:56:46] [Server thread/INFO]: [Not Secure] <pauloR2001> -174, 415
-[22:57:54] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[23:00:49] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[23:01:08] [Server thread/INFO]: [restrepojc: Set own game mode to Spectator Mode]
-[23:01:34] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
-[23:02:35] [Server thread/INFO]: [restrepojc: Set own game mode to Spectator Mode]
-[23:02:57] [Server thread/INFO]: [Not Secure] <pauloR2001> -244,249,416->-1952,249,3328
-[23:03:01] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
-[23:03:18] [Server thread/INFO]: [restrepojc: Set own game mode to Spectator Mode]
-[23:03:38] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[23:03:44] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
-[23:03:51] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
-[23:04:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[23:04:35] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[23:05:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2026ms or 40 ticks behind
-[23:06:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[23:06:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[23:07:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3511ms or 70 ticks behind
-[23:07:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
-[23:07:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8633ms or 172 ticks behind
-[23:08:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8981ms or 179 ticks behind
-[23:09:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
-[23:09:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5706ms or 114 ticks behind
-[23:09:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8096ms or 161 ticks behind
-[23:10:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10579ms or 211 ticks behind
-[23:10:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9540ms or 190 ticks behind
-[23:10:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
-[23:11:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4135ms or 82 ticks behind
-[23:11:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4894ms or 97 ticks behind
-[23:12:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[23:13:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[23:13:41] [Server thread/INFO]: [restrepojc: Set own game mode to Spectator Mode]
-[23:13:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3090ms or 61 ticks behind
-[23:14:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3027ms or 60 ticks behind
-[23:14:24] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
-[23:15:06] [Server thread/INFO]: [restrepojc: Set own game mode to Spectator Mode]
-[23:15:25] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
-[23:17:16] [Server thread/INFO]: [restrepojc: Set own game mode to Spectator Mode]
-[23:18:02] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
-[23:19:00] [Server thread/INFO]: [restrepojc: Set own game mode to Spectator Mode]
-[23:19:31] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
-[23:23:27] [Server thread/INFO]: [restrepojc: Set own game mode to Spectator Mode]
-[23:23:46] [Server thread/INFO]: [restrepojc: Set own game mode to Survival Mode]
-[23:24:20] [Server thread/INFO]: restrepojc lost connection: Disconnected
-[23:24:20] [Server thread/INFO]: restrepojc left the game
-[23:27:58] [Server thread/INFO]: [pauloR2001: Set the weather to clear]
-[23:29:37] [Server thread/WARN]: pauloR2001 moved wrongly!
-[23:34:34] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
-[23:36:19] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[23:36:19] [Server thread/INFO]: momo70950 left the game
-[23:36:25] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[23:36:25] [Server thread/INFO]: pauloR2001 left the game
-[23:36:45] [Server thread/INFO]: Stopping the server
-[23:36:45] [Server thread/INFO]: Stopping server
-[23:36:45] [Server thread/INFO]: Saving players
-[23:36:45] [Server thread/INFO]: Saving worlds
-[23:36:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:36:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:36:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:36:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:36:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:36:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:36:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:14:36] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[19:14:40] [ServerMain/INFO]: Loaded 1470 recipes
+[19:14:40] [ServerMain/INFO]: Loaded 1584 advancements
+[19:14:41] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[19:14:41] [Server thread/INFO]: Loading properties
+[19:14:41] [Server thread/INFO]: Default game type: SURVIVAL
+[19:14:41] [Server thread/INFO]: Generating keypair
+[19:14:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:14:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:14:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:14:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:14:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:14:42] [Server thread/INFO]: Preparing level "world"
+[19:14:43] [Server thread/INFO]: Loading 0 persistent chunks...
+[19:14:43] [Server thread/INFO]: Preparing spawn area: 100%
+[19:14:43] [Server thread/INFO]: Time elapsed: 14 ms
+[19:14:43] [Server thread/INFO]: Done (1.548s)! For help, type "help"
+[19:15:43] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:16:43] [Server thread/INFO]: momo70950[/127.0.0.1:54837] logged in with entity id 1 at (-1951.1685774452462, 158.0, 3331.092191890076)
+[19:16:43] [Server thread/INFO]: momo70950 joined the game
+[19:16:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2091ms or 41 ticks behind
+[19:17:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2095ms or 41 ticks behind
+[19:17:09] [Server thread/WARN]: momo70950 moved too quickly! 10.00098744591628,2.960344067755301,0.1653348192166959
+[19:17:20] [Server thread/WARN]: momo70950 moved too quickly! 16.31837103693306,7.729861003373088,1.365763118677478
+[19:22:54] [Server thread/INFO]: [momo70950: Set the time to 1000]
+[19:24:34] [Server thread/INFO]: pauloR2001[/127.226.54.135:52628] logged in with entity id 894 at (-1798.7402661840374, 153.0, 3322.8869420903593)
+[19:24:34] [Server thread/INFO]: pauloR2001 joined the game
+[19:25:28] [Server thread/WARN]: momo70950 moved too quickly! 17.911585793469158,-1.780622854426241,-0.9573892376315598
+[19:26:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[19:26:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2337ms or 46 ticks behind
+[19:26:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2982ms or 59 ticks behind
+[19:26:58] [Server thread/WARN]: pauloR2001 moved too quickly! -10.468497205595895,0.0,0.03163985727360341
+[19:27:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5426ms or 108 ticks behind
+[19:27:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2955ms or 59 ticks behind
+[19:27:33] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
+[19:27:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3374ms or 67 ticks behind
+[19:28:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3061ms or 61 ticks behind
+[19:28:52] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
+[19:29:26] [Server thread/INFO]: [momo70950: Teleported momo70950 to pauloR2001]
+[19:33:25] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[19:33:25] [Server thread/INFO]: pauloR2001 left the game
+[19:33:39] [Server thread/INFO]: pauloR2001[/127.226.54.135:49623] logged in with entity id 4498 at (-1796.812145641375, 153.0, 3322.507834040492)
+[19:33:39] [Server thread/INFO]: pauloR2001 joined the game
+[19:34:32] [Server thread/INFO]: Villager dcx['Villager'/4553, l='ServerLevel[world]', x=-3826.48, y=117.00, z=3429.47] died, message: 'Villager discovered the floor was lava'
+[19:35:30] [Server thread/INFO]: [momo70950: Teleported momo70950 to pauloR2001]
+[19:38:47] [Server thread/INFO]: [Not Secure] <momo70950> -468 428
+[19:43:07] [Server thread/INFO]: [momo70950: Set own game mode to Spectator Mode]
+[19:43:40] [Server thread/INFO]: [momo70950: Set own game mode to Survival Mode]
+[19:43:53] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-470, y=132, z=428} is{x=-537, y=28, z=445}
+[19:43:53] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-470, y=132, z=428} is{x=-537, y=28, z=445}
+[19:44:33] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
+[19:44:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2735ms or 54 ticks behind
+[19:46:19] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-570, y=17, z=434} is{x=-570, y=16, z=434}
+[19:46:19] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-570, y=17, z=434} is{x=-570, y=16, z=434}
+[19:46:19] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-570, y=17, z=434} is{x=-570, y=16, z=434}
+[19:46:19] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-570, y=17, z=434} is{x=-570, y=16, z=434}
+[19:46:22] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-572, y=19, z=434} is{x=-573, y=19, z=434}
+[19:46:22] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-572, y=19, z=434} is{x=-573, y=19, z=434}
+[19:46:22] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-572, y=19, z=434} is{x=-573, y=19, z=434}
+[19:46:22] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-572, y=19, z=434} is{x=-573, y=19, z=434}
+[19:46:26] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-579, y=19, z=435} is{x=-579, y=19, z=436}
+[19:46:31] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-585, y=23, z=436} is{x=-585, y=22, z=436}
+[19:46:39] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-585, y=20, z=423} is{x=-585, y=20, z=424}
+[19:46:39] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-585, y=20, z=423} is{x=-585, y=20, z=424}
+[19:46:44] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-588, y=17, z=419} is{x=-589, y=14, z=419}
+[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-579, y=22, z=427} is{x=-579, y=23, z=427}
+[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-579, y=22, z=427} is{x=-579, y=23, z=427}
+[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-580, y=22, z=427} is{x=-579, y=23, z=427}
+[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-580, y=22, z=427} is{x=-579, y=23, z=427}
+[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-580, y=22, z=427} is{x=-579, y=23, z=427}
+[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-580, y=22, z=427} is{x=-579, y=23, z=427}
+[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-580, y=22, z=427} is{x=-579, y=23, z=427}
+[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-580, y=22, z=427} is{x=-579, y=23, z=427}
+[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-580, y=22, z=427} is{x=-579, y=23, z=427}
+[19:47:23] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-582, y=23, z=458} is{x=-583, y=22, z=458}
+[19:47:23] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-582, y=23, z=458} is{x=-583, y=22, z=458}
+[19:47:23] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-582, y=23, z=458} is{x=-583, y=22, z=458}
+[19:47:24] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-585, y=21, z=459} is{x=-584, y=22, z=458}
+[19:47:24] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-585, y=21, z=459} is{x=-584, y=22, z=458}
+[19:47:48] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-565, y=17, z=477} is{x=-565, y=15, z=477}
+[19:47:53] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
+[19:47:53] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
+[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
+[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
+[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
+[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
+[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
+[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
+[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
+[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
+[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
+[19:48:10] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-543, y=17, z=465} is{x=-543, y=15, z=465}
+[19:48:10] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-543, y=17, z=465} is{x=-543, y=15, z=465}
+[19:48:10] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-543, y=17, z=465} is{x=-543, y=15, z=465}
+[19:48:10] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-543, y=17, z=465} is{x=-543, y=15, z=465}
+[19:48:10] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-543, y=17, z=465} is{x=-543, y=15, z=465}
+[19:49:04] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-581, y=19, z=509} is{x=-581, y=18, z=508}
+[19:49:04] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-581, y=19, z=509} is{x=-581, y=18, z=508}
+[19:49:04] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-581, y=19, z=509} is{x=-581, y=18, z=508}
+[19:49:04] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-581, y=19, z=509} is{x=-581, y=18, z=508}
+[19:49:04] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-581, y=19, z=509} is{x=-581, y=18, z=508}
+[19:49:13] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-583, y=19, z=512} is{x=-582, y=19, z=510}
+[19:49:13] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-583, y=19, z=512} is{x=-582, y=19, z=510}
+[19:49:13] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-583, y=19, z=512} is{x=-582, y=19, z=510}
+[19:49:20] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-583, y=25, z=521} is{x=-583, y=21, z=528}
+[19:49:20] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-583, y=25, z=521} is{x=-583, y=21, z=528}
+[19:49:28] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[19:49:28] [Server thread/INFO]: momo70950 left the game
+[19:49:31] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[19:49:31] [Server thread/INFO]: pauloR2001 left the game
+[19:49:38] [Server thread/INFO]: Stopping server
+[19:49:38] [Server thread/INFO]: Saving players
+[19:49:38] [Server thread/INFO]: Saving worlds
+[19:49:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:49:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:49:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:49:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:49:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:49:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:49:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

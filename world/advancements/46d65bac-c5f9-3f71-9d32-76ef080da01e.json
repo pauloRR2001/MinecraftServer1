@@ -5681,12 +5681,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/copper_lantern": {
-    "criteria": {
-      "has_copper_torch": "2026-03-06 23:18:38 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/copper_torch": {
     "criteria": {
       "has_copper_nugget": "2026-03-06 23:17:37 -0500"
@@ -5696,6 +5690,12 @@
   "minecraft:recipes/misc/copper_ingot_from_nuggets": {
     "criteria": {
       "has_copper_nugget": "2026-03-06 23:17:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/copper_lantern": {
+    "criteria": {
+      "has_copper_torch": "2026-03-06 23:18:38 -0500"
     },
     "done": true
   },
