@@ -1,120 +1,135 @@
-[19:14:36] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[19:14:40] [ServerMain/INFO]: Loaded 1470 recipes
-[19:14:40] [ServerMain/INFO]: Loaded 1584 advancements
-[19:14:41] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[19:14:41] [Server thread/INFO]: Loading properties
-[19:14:41] [Server thread/INFO]: Default game type: SURVIVAL
-[19:14:41] [Server thread/INFO]: Generating keypair
-[19:14:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:14:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:14:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:14:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:14:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:14:42] [Server thread/INFO]: Preparing level "world"
-[19:14:43] [Server thread/INFO]: Loading 0 persistent chunks...
-[19:14:43] [Server thread/INFO]: Preparing spawn area: 100%
-[19:14:43] [Server thread/INFO]: Time elapsed: 14 ms
-[19:14:43] [Server thread/INFO]: Done (1.548s)! For help, type "help"
-[19:15:43] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[19:16:43] [Server thread/INFO]: momo70950[/127.0.0.1:54837] logged in with entity id 1 at (-1951.1685774452462, 158.0, 3331.092191890076)
-[19:16:43] [Server thread/INFO]: momo70950 joined the game
-[19:16:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2091ms or 41 ticks behind
-[19:17:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2095ms or 41 ticks behind
-[19:17:09] [Server thread/WARN]: momo70950 moved too quickly! 10.00098744591628,2.960344067755301,0.1653348192166959
-[19:17:20] [Server thread/WARN]: momo70950 moved too quickly! 16.31837103693306,7.729861003373088,1.365763118677478
-[19:22:54] [Server thread/INFO]: [momo70950: Set the time to 1000]
-[19:24:34] [Server thread/INFO]: pauloR2001[/127.226.54.135:52628] logged in with entity id 894 at (-1798.7402661840374, 153.0, 3322.8869420903593)
-[19:24:34] [Server thread/INFO]: pauloR2001 joined the game
-[19:25:28] [Server thread/WARN]: momo70950 moved too quickly! 17.911585793469158,-1.780622854426241,-0.9573892376315598
-[19:26:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
-[19:26:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2337ms or 46 ticks behind
-[19:26:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2982ms or 59 ticks behind
-[19:26:58] [Server thread/WARN]: pauloR2001 moved too quickly! -10.468497205595895,0.0,0.03163985727360341
-[19:27:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5426ms or 108 ticks behind
-[19:27:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2955ms or 59 ticks behind
-[19:27:33] [Server thread/INFO]: [pauloR2001: Set own game mode to Spectator Mode]
-[19:27:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3374ms or 67 ticks behind
-[19:28:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3061ms or 61 ticks behind
-[19:28:52] [Server thread/INFO]: [pauloR2001: Set own game mode to Survival Mode]
-[19:29:26] [Server thread/INFO]: [momo70950: Teleported momo70950 to pauloR2001]
-[19:33:25] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[19:33:25] [Server thread/INFO]: pauloR2001 left the game
-[19:33:39] [Server thread/INFO]: pauloR2001[/127.226.54.135:49623] logged in with entity id 4498 at (-1796.812145641375, 153.0, 3322.507834040492)
-[19:33:39] [Server thread/INFO]: pauloR2001 joined the game
-[19:34:32] [Server thread/INFO]: Villager dcx['Villager'/4553, l='ServerLevel[world]', x=-3826.48, y=117.00, z=3429.47] died, message: 'Villager discovered the floor was lava'
-[19:35:30] [Server thread/INFO]: [momo70950: Teleported momo70950 to pauloR2001]
-[19:38:47] [Server thread/INFO]: [Not Secure] <momo70950> -468 428
-[19:43:07] [Server thread/INFO]: [momo70950: Set own game mode to Spectator Mode]
-[19:43:40] [Server thread/INFO]: [momo70950: Set own game mode to Survival Mode]
-[19:43:53] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-470, y=132, z=428} is{x=-537, y=28, z=445}
-[19:43:53] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-470, y=132, z=428} is{x=-537, y=28, z=445}
-[19:44:33] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
-[19:44:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2735ms or 54 ticks behind
-[19:46:19] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-570, y=17, z=434} is{x=-570, y=16, z=434}
-[19:46:19] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-570, y=17, z=434} is{x=-570, y=16, z=434}
-[19:46:19] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-570, y=17, z=434} is{x=-570, y=16, z=434}
-[19:46:19] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-570, y=17, z=434} is{x=-570, y=16, z=434}
-[19:46:22] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-572, y=19, z=434} is{x=-573, y=19, z=434}
-[19:46:22] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-572, y=19, z=434} is{x=-573, y=19, z=434}
-[19:46:22] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-572, y=19, z=434} is{x=-573, y=19, z=434}
-[19:46:22] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-572, y=19, z=434} is{x=-573, y=19, z=434}
-[19:46:26] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-579, y=19, z=435} is{x=-579, y=19, z=436}
-[19:46:31] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-585, y=23, z=436} is{x=-585, y=22, z=436}
-[19:46:39] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-585, y=20, z=423} is{x=-585, y=20, z=424}
-[19:46:39] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-585, y=20, z=423} is{x=-585, y=20, z=424}
-[19:46:44] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-588, y=17, z=419} is{x=-589, y=14, z=419}
-[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-579, y=22, z=427} is{x=-579, y=23, z=427}
-[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-579, y=22, z=427} is{x=-579, y=23, z=427}
-[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-580, y=22, z=427} is{x=-579, y=23, z=427}
-[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-580, y=22, z=427} is{x=-579, y=23, z=427}
-[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-580, y=22, z=427} is{x=-579, y=23, z=427}
-[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-580, y=22, z=427} is{x=-579, y=23, z=427}
-[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-580, y=22, z=427} is{x=-579, y=23, z=427}
-[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-580, y=22, z=427} is{x=-579, y=23, z=427}
-[19:47:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-580, y=22, z=427} is{x=-579, y=23, z=427}
-[19:47:23] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-582, y=23, z=458} is{x=-583, y=22, z=458}
-[19:47:23] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-582, y=23, z=458} is{x=-583, y=22, z=458}
-[19:47:23] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-582, y=23, z=458} is{x=-583, y=22, z=458}
-[19:47:24] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-585, y=21, z=459} is{x=-584, y=22, z=458}
-[19:47:24] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-585, y=21, z=459} is{x=-584, y=22, z=458}
-[19:47:48] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-565, y=17, z=477} is{x=-565, y=15, z=477}
-[19:47:53] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
-[19:47:53] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
-[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
-[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
-[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
-[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
-[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
-[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
-[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
-[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
-[19:47:54] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-559, y=14, z=477} is{x=-560, y=13, z=477}
-[19:48:10] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-543, y=17, z=465} is{x=-543, y=15, z=465}
-[19:48:10] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-543, y=17, z=465} is{x=-543, y=15, z=465}
-[19:48:10] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-543, y=17, z=465} is{x=-543, y=15, z=465}
-[19:48:10] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-543, y=17, z=465} is{x=-543, y=15, z=465}
-[19:48:10] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-543, y=17, z=465} is{x=-543, y=15, z=465}
-[19:49:04] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-581, y=19, z=509} is{x=-581, y=18, z=508}
-[19:49:04] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-581, y=19, z=509} is{x=-581, y=18, z=508}
-[19:49:04] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-581, y=19, z=509} is{x=-581, y=18, z=508}
-[19:49:04] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-581, y=19, z=509} is{x=-581, y=18, z=508}
-[19:49:04] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-581, y=19, z=509} is{x=-581, y=18, z=508}
-[19:49:13] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-583, y=19, z=512} is{x=-582, y=19, z=510}
-[19:49:13] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-583, y=19, z=512} is{x=-582, y=19, z=510}
-[19:49:13] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-583, y=19, z=512} is{x=-582, y=19, z=510}
-[19:49:20] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-583, y=25, z=521} is{x=-583, y=21, z=528}
-[19:49:20] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-583, y=25, z=521} is{x=-583, y=21, z=528}
-[19:49:28] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[19:49:28] [Server thread/INFO]: momo70950 left the game
-[19:49:31] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[19:49:31] [Server thread/INFO]: pauloR2001 left the game
-[19:49:38] [Server thread/INFO]: Stopping server
-[19:49:38] [Server thread/INFO]: Saving players
-[19:49:38] [Server thread/INFO]: Saving worlds
-[19:49:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:49:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:49:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:49:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:49:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:49:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:49:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:17:14] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:17:17] [ServerMain/INFO]: Loaded 1470 recipes
+[21:17:17] [ServerMain/INFO]: Loaded 1584 advancements
+[21:17:18] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[21:17:18] [Server thread/INFO]: Loading properties
+[21:17:18] [Server thread/INFO]: Default game type: SURVIVAL
+[21:17:18] [Server thread/INFO]: Generating keypair
+[21:17:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:17:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:17:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:17:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:17:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:17:19] [Server thread/INFO]: Preparing level "world"
+[21:17:20] [Server thread/INFO]: Loading 0 persistent chunks...
+[21:17:20] [Server thread/INFO]: Preparing spawn area: 100%
+[21:17:20] [Server thread/INFO]: Time elapsed: 13 ms
+[21:17:20] [Server thread/INFO]: Done (1.220s)! For help, type "help"
+[21:18:20] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:18:53] [Server thread/INFO]: momo70950[/127.0.0.1:62347] logged in with entity id 53 at (-582.6999999880791, 20.0, 534.6999999880791)
+[21:18:53] [Server thread/INFO]: momo70950 joined the game
+[21:18:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[21:19:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11363ms or 227 ticks behind
+[21:20:39] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-533, y=17, z=555} is{x=-533, y=17, z=554}
+[21:20:39] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-533, y=17, z=555} is{x=-533, y=17, z=554}
+[21:20:39] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-533, y=17, z=555} is{x=-533, y=17, z=554}
+[21:20:39] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-533, y=17, z=555} is{x=-533, y=17, z=554}
+[21:20:39] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-533, y=17, z=555} is{x=-533, y=17, z=554}
+[21:21:43] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-540, y=19, z=552} is{x=-540, y=17, z=553}
+[21:21:43] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-540, y=19, z=552} is{x=-540, y=17, z=553}
+[21:21:43] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-540, y=19, z=552} is{x=-540, y=17, z=553}
+[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-484, y=13, z=574} is{x=-482, y=13, z=574}
+[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-482, y=15, z=574} is{x=-479, y=15, z=574}
+[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-482, y=15, z=574} is{x=-479, y=15, z=574}
+[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-482, y=15, z=574} is{x=-479, y=15, z=574}
+[21:23:07] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-475, y=11, z=579} is{x=-476, y=10, z=579}
+[21:23:08] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-475, y=11, z=579} is{x=-476, y=10, z=579}
+[21:23:08] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-475, y=11, z=579} is{x=-476, y=10, z=579}
+[21:23:08] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-475, y=11, z=579} is{x=-476, y=10, z=579}
+[21:23:08] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-475, y=11, z=579} is{x=-476, y=10, z=579}
+[21:23:08] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-475, y=11, z=579} is{x=-476, y=10, z=579}
+[21:23:08] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-474, y=10, z=581} is{x=-475, y=9, z=580}
+[21:23:18] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-469, y=10, z=575} is{x=-470, y=10, z=575}
+[21:23:18] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-469, y=10, z=575} is{x=-470, y=10, z=575}
+[21:23:18] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-469, y=10, z=575} is{x=-470, y=10, z=575}
+[21:23:18] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-469, y=10, z=575} is{x=-470, y=10, z=575}
+[21:23:20] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-467, y=11, z=575} is{x=-468, y=10, z=573}
+[21:23:33] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-458, y=13, z=567} is{x=-458, y=13, z=566}
+[21:23:33] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-458, y=13, z=567} is{x=-458, y=13, z=566}
+[21:23:33] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-458, y=13, z=567} is{x=-458, y=13, z=566}
+[21:24:18] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-464, y=13, z=542} is{x=-464, y=15, z=539}
+[21:24:18] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-464, y=13, z=542} is{x=-464, y=15, z=539}
+[21:24:18] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-464, y=13, z=542} is{x=-464, y=15, z=539}
+[21:24:53] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-459, y=15, z=533} is{x=-450, y=19, z=534}
+[21:24:53] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-459, y=15, z=533} is{x=-450, y=19, z=534}
+[21:24:53] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-459, y=15, z=533} is{x=-450, y=19, z=534}
+[21:24:53] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-459, y=15, z=533} is{x=-450, y=19, z=534}
+[21:24:55] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-446, y=17, z=535} is{x=-446, y=16, z=536}
+[21:24:55] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-446, y=17, z=535} is{x=-446, y=16, z=536}
+[21:24:55] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-446, y=17, z=535} is{x=-446, y=16, z=536}
+[21:24:55] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-446, y=17, z=535} is{x=-446, y=16, z=536}
+[21:24:55] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-446, y=17, z=535} is{x=-446, y=16, z=536}
+[21:24:55] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-445, y=15, z=536} is{x=-446, y=16, z=536}
+[21:24:58] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-439, y=14, z=538} is{x=-438, y=12, z=539}
+[21:24:59] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-436, y=11, z=539} is{x=-438, y=12, z=539}
+[21:25:08] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-434, y=10, z=553} is{x=-433, y=9, z=552}
+[21:25:08] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-434, y=10, z=553} is{x=-433, y=9, z=552}
+[21:25:08] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-434, y=10, z=553} is{x=-433, y=9, z=552}
+[21:25:08] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-434, y=10, z=553} is{x=-433, y=9, z=552}
+[21:25:15] [Server thread/WARN]: Mismatch in destroy block pos: is{x=-431, y=9, z=557} is{x=-434, y=9, z=561}
+[21:25:22] [Server thread/INFO]: [momo70950: Teleported momo70950 to -467.500000, 128.500000, 428.500000]
+[21:25:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[21:26:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3027ms or 60 ticks behind
+[21:26:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10353ms or 207 ticks behind
+[21:27:46] [Server thread/INFO]: Villager dcx['Villager'/3596, l='ServerLevel[world]', x=-3826.54, y=117.00, z=3429.24] died, message: 'Villager discovered the floor was lava'
+[21:33:16] [Server thread/INFO]: Villager dcx['Villager'/4518, l='ServerLevel[world]', x=-3826.39, y=117.00, z=3429.17] died, message: 'Villager discovered the floor was lava'
+[21:39:55] [Server thread/INFO]: [Not Secure] <momo70950> wee
+[21:48:09] [Server thread/INFO]: Villager dcx['Villager'/11753, l='ServerLevel[world]', x=-3826.52, y=117.00, z=3427.57] died, message: 'Villager discovered the floor was lava'
+[21:48:35] [Server thread/INFO]: pauloR2001[/127.226.54.135:60721] logged in with entity id 12369 at (-1793.752149622738, 153.0, 3320.971876617675)
+[21:48:35] [Server thread/INFO]: pauloR2001 joined the game
+[21:48:52] [Server thread/INFO]: [pauloR2001: Set the weather to clear]
+[21:48:54] [Server thread/INFO]: [momo70950: Teleported momo70950 to pauloR2001]
+[21:49:02] [Server thread/INFO]: [Not Secure] <momo70950> dame diamente y oro
+[21:49:20] [Server thread/INFO]: [Not Secure] <momo70950> yaagarre el oro
+[21:50:07] [Server thread/INFO]: [Not Secure] <momo70950> dame tu armadura y herramientas de diamante
+[21:50:36] [Server thread/INFO]: [Not Secure] <pauloR2001> la lanza me da igual
+[21:50:36] [Server thread/INFO]: [Not Secure] <momo70950> solo es eso?
+[21:51:01] [Server thread/INFO]: [Not Secure] <momo70950> toma
+[21:51:17] [Server thread/INFO]: pauloR2001 has completed the challenge [Cover Me in Debris]
+[21:51:20] [Server thread/INFO]: [Not Secure] <momo70950> peto no tenias?
+[21:51:23] [Server thread/INFO]: [Not Secure] <pauloR2001> eicardo
+[21:51:33] [Server thread/INFO]: [Not Secure] <momo70950> tienes pala o hacha?
+[21:51:45] [Server thread/INFO]: [Not Secure] <pauloR2001> no tienen mending
+[21:51:59] [Server thread/INFO]: [Not Secure] <momo70950> les puedes poner netherite y despues el mending
+[21:52:17] [Server thread/INFO]: [Not Secure] <pauloR2001> despues me hago una hacha
+[21:52:19] [Server thread/INFO]: [Not Secure] <pauloR2001> no tengo
+[21:53:17] [Server thread/INFO]: [Not Secure] <pauloR2001> cuanto diamante uso eso
+[21:53:43] [Server thread/INFO]: [Not Secure] <momo70950> por cada plantilla se gastan 7
+[21:53:59] [Server thread/INFO]: [Not Secure] <momo70950> aqui deje lo que sobro
+[21:54:24] [Server thread/INFO]: [Not Secure] <pauloR2001> ayuda con el cofre
+[21:54:29] [Server thread/INFO]: [Not Secure] <momo70950> wue hago?
+[21:54:33] [Server thread/INFO]: [Not Secure] <pauloR2001> ponlo aqui
+[21:55:16] [Server thread/INFO]: [Not Secure] <momo70950> lo puedo hacer de día?
+[21:55:30] [Server thread/INFO]: [Not Secure] <pauloR2001> no tienes camas? estoy canzado de los phantom
+[21:55:35] [Server thread/INFO]: [Not Secure] <pauloR2001> no se porque no han salido
+[21:55:48] [Server thread/INFO]: [Not Secure] <pauloR2001> estas atravezado
+[21:56:11] [Server thread/INFO]: [Not Secure] <momo70950> zzzzzz
+[21:58:22] [Server thread/INFO]: [Not Secure] <pauloR2001> fuiste a la granja de bruja?
+[21:58:28] [Server thread/INFO]: [Not Secure] <momo70950> no, ya voy
+[21:58:36] [Server thread/INFO]: [Not Secure] <momo70950> me puedohacer tp?
+[21:58:43] [Server thread/INFO]: [Not Secure] <pauloR2001> si
+[21:58:48] [Server thread/INFO]: [momo70950: Teleported momo70950 to -8424.500000, 64.500000, -1946.500000]
+[21:59:12] [Server thread/INFO]: [Not Secure] <momo70950> cual es el esperadero? el más alto o el más bajo?
+[21:59:20] [Server thread/INFO]: [Not Secure] <pauloR2001> tiene un cartel
+[21:59:26] [Server thread/INFO]: [Not Secure] <pauloR2001> quita el que no es
+[21:59:54] [Server thread/INFO]: [Not Secure] <momo70950> ninguno tiene
+[22:00:17] [Server thread/INFO]: [Not Secure] <pauloR2001> el de abajo entonces
+[22:02:59] [Server thread/INFO]: [Not Secure] <momo70950> ya estoy esperando
+[22:04:19] [Server thread/INFO]: [momo70950: Teleported momo70950 to pauloR2001]
+[22:05:20] [Server thread/INFO]: Villager dcx['Villager'/18296, l='ServerLevel[world]', x=-3826.69, y=117.00, z=3429.36] died, message: 'Villager discovered the floor was lava'
+[22:22:04] [Server thread/INFO]: [Not Secure] <pauloR2001> husbandry
+[22:30:15] [Server thread/INFO]: [momo70950: Teleported momo70950 to pauloR2001]
+[22:37:47] [Server thread/INFO]: momo70950 lost connection: Disconnected
+[22:37:47] [Server thread/INFO]: momo70950 left the game
+[22:37:50] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[22:37:50] [Server thread/INFO]: pauloR2001 left the game
+[22:37:54] [Server thread/INFO]: Stopping server
+[22:37:54] [Server thread/INFO]: Saving players
+[22:37:54] [Server thread/INFO]: Saving worlds
+[22:37:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:37:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:37:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:37:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:37:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:37:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:37:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
