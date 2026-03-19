@@ -5528,93 +5528,93 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+  "minecraft:nether/netherite_armor": {
     "criteria": {
-      "has_netherite_ingot": "2026-03-11 21:51:40 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/netherite_sword_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2026-03-11 21:51:40 -0500"
+      "netherite_armor": "2026-03-11 22:51:17 -0400"
     },
     "done": true
   },
   "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
     "criteria": {
-      "has_netherite_upgrade_smithing_template": "2026-03-11 21:51:38 -0500"
+      "has_netherite_upgrade_smithing_template": "2026-03-11 22:51:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-03-11 22:51:40 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-03-11 22:51:40 -0400"
     },
     "done": true
   },
   "minecraft:recipes/combat/netherite_nautilus_armor_smithing": {
     "criteria": {
-      "has_netherite_ingot": "2026-03-11 21:51:40 -0500"
+      "has_netherite_ingot": "2026-03-11 22:51:40 -0400"
     },
     "done": true
   },
   "minecraft:recipes/combat/netherite_leggings_smithing": {
     "criteria": {
-      "has_netherite_ingot": "2026-03-11 21:51:40 -0500"
+      "has_netherite_ingot": "2026-03-11 22:51:40 -0400"
     },
     "done": true
   },
   "minecraft:recipes/tools/netherite_hoe_smithing": {
     "criteria": {
-      "has_netherite_ingot": "2026-03-11 21:51:40 -0500"
-    },
-    "done": true
-  },
-  "minecraft:nether/netherite_armor": {
-    "criteria": {
-      "netherite_armor": "2026-03-11 21:51:17 -0500"
+      "has_netherite_ingot": "2026-03-11 22:51:40 -0400"
     },
     "done": true
   },
   "minecraft:recipes/combat/netherite_helmet_smithing": {
     "criteria": {
-      "has_netherite_ingot": "2026-03-11 21:51:40 -0500"
+      "has_netherite_ingot": "2026-03-11 22:51:40 -0400"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/netherite_block": {
     "criteria": {
-      "has_netherite_ingot": "2026-03-11 21:51:40 -0500"
+      "has_netherite_ingot": "2026-03-11 22:51:40 -0400"
     },
     "done": true
   },
   "minecraft:recipes/combat/netherite_horse_armor_smithing": {
     "criteria": {
-      "has_netherite_ingot": "2026-03-11 21:51:40 -0500"
+      "has_netherite_ingot": "2026-03-11 22:51:40 -0400"
     },
     "done": true
   },
   "minecraft:recipes/combat/netherite_boots_smithing": {
     "criteria": {
-      "has_netherite_ingot": "2026-03-11 21:51:40 -0500"
+      "has_netherite_ingot": "2026-03-11 22:51:40 -0400"
     },
     "done": true
   },
   "minecraft:recipes/tools/netherite_shovel_smithing": {
     "criteria": {
-      "has_netherite_ingot": "2026-03-11 21:51:40 -0500"
+      "has_netherite_ingot": "2026-03-11 22:51:40 -0400"
     },
     "done": true
   },
   "minecraft:recipes/combat/netherite_spear_smithing": {
     "criteria": {
-      "has_netherite_ingot": "2026-03-11 21:51:40 -0500"
+      "has_netherite_ingot": "2026-03-11 22:51:40 -0400"
     },
     "done": true
   },
   "minecraft:recipes/tools/netherite_axe_smithing": {
     "criteria": {
-      "has_netherite_ingot": "2026-03-11 21:51:40 -0500"
+      "has_netherite_ingot": "2026-03-11 22:51:40 -0400"
     },
     "done": true
   },
   "minecraft:recipes/tools/netherite_pickaxe_smithing": {
     "criteria": {
-      "has_netherite_ingot": "2026-03-11 21:51:40 -0500"
+      "has_netherite_ingot": "2026-03-11 22:51:40 -0400"
     },
     "done": true
   },
