@@ -1,111 +1,59 @@
-[20:42:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[20:42:55] [ServerMain/INFO]: Loaded 1470 recipes
-[20:42:55] [ServerMain/INFO]: Loaded 1584 advancements
-[20:42:55] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[20:42:55] [Server thread/INFO]: Loading properties
-[20:42:55] [Server thread/INFO]: Default game type: SURVIVAL
-[20:42:55] [Server thread/INFO]: Generating keypair
-[20:42:56] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:42:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:42:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:42:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:42:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:42:56] [Server thread/INFO]: Preparing level "world"
-[20:42:56] [Server thread/INFO]: Loading 0 persistent chunks...
-[20:42:56] [Server thread/INFO]: Time elapsed: 14 ms
-[20:42:56] [Server thread/INFO]: Done (0.616s)! For help, type "help"
-[20:43:56] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[20:46:10] [Server thread/INFO]: momo70950[/127.181.184.147:51916] logged in with entity id 54 at (5955.150873908056, 134.0, 5803.665783936673)
-[20:46:10] [Server thread/INFO]: momo70950 joined the game
-[20:51:45] [Server thread/INFO]: pauloR2001[/127.0.0.1:63370] logged in with entity id 5761 at (5863.9864319573535, 70.0, 5446.977971395726)
-[20:51:45] [Server thread/INFO]: pauloR2001 joined the game
-[20:52:13] [Server thread/INFO]: Villager dcx['Villager'/5415, l='ServerLevel[world]', x=-3826.35, y=117.00, z=3429.06] died, message: 'Villager discovered the floor was lava'
-[20:56:02] [Server thread/WARN]: momo70950 moved too quickly! 15.941131867332388,-3.9405065193939492,-6.990865273302916
-[20:56:03] [Server thread/WARN]: pauloR2001 moved too quickly! 2.0033642682856225,-0.5358406250445569,-9.801671722966148
-[20:56:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
-[20:56:08] [Server thread/WARN]: momo70950 moved too quickly! 16.106188936085346,3.2022785061741956,-6.61611148776683
-[20:59:42] [Server thread/INFO]: Villager dcx['Villager'/12798, l='ServerLevel[world]', x=-3826.62, y=117.00, z=3429.35] died, message: 'Villager discovered the floor was lava'
-[21:01:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
-[21:03:04] [Server thread/INFO]: [Not Secure] <momo70950> zzzzzz
-[21:03:08] [Server thread/INFO]: [Not Secure] <momo70950> ya tellamo
-[21:03:57] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[21:03:57] [Server thread/INFO]: momo70950 left the game
-[21:04:37] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[21:04:37] [Server thread/INFO]: pauloR2001 left the game
-[21:04:47] [Server thread/INFO]: momo70950[/127.181.184.147:62759] logged in with entity id 15313 at (-3761.5, 145.0, 3401.5)
-[21:04:47] [Server thread/INFO]: momo70950 joined the game
-[21:12:10] [Server thread/INFO]: Villager dcx['Villager'/16632, l='ServerLevel[world]', x=-3826.53, y=117.00, z=3427.60] died, message: 'Villager discovered the floor was lava'
-[21:21:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 74276ms or 1485 ticks behind
-[21:21:14] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[21:21:14] [Server thread/INFO]: momo70950 left the game
-[21:22:06] [Server thread/INFO]: momo70950[/127.181.184.147:58452] logged in with entity id 18121 at (-4384.311583683996, -55.0, 2015.6384180339405)
-[21:22:06] [Server thread/INFO]: momo70950 joined the game
-[21:25:19] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[21:25:19] [Server thread/INFO]: momo70950 left the game
-[21:25:25] [Server thread/INFO]: momo70950[/127.181.184.147:58467] logged in with entity id 19969 at (-3734.2903964276074, 138.0, 3393.222142790573)
-[21:25:25] [Server thread/INFO]: momo70950 joined the game
-[21:25:39] [Server thread/INFO]: Villager dcx['Villager'/20045, l='ServerLevel[world]', x=-3826.63, y=117.00, z=3427.83] died, message: 'Villager discovered the floor was lava'
-[21:25:53] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[21:25:53] [Server thread/INFO]: momo70950 left the game
-[21:26:53] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[21:29:41] [Server thread/INFO]: momo70950[/127.181.184.147:58483] logged in with entity id 20468 at (-3739.4102674447663, 138.0, 3389.031329923776)
-[21:29:41] [Server thread/INFO]: momo70950 joined the game
-[21:33:18] [Server thread/INFO]: pauloR2001[/127.0.0.1:57457] logged in with entity id 21657 at (-3727.486550418047, 130.0, 3414.1306690020956)
-[21:33:18] [Server thread/INFO]: pauloR2001 joined the game
-[21:34:42] [Server thread/INFO]: Villager dcx['Villager'/21862, l='ServerLevel[world]', x=-3826.40, y=117.00, z=3428.10] died, message: 'Villager discovered the floor was lava'
-[21:40:40] [Server thread/INFO]: Villager dcx['Villager'/24741, l='ServerLevel[world]', x=-3826.46, y=117.00, z=3427.73] died, message: 'Villager discovered the floor was lava'
-[21:41:02] [Server thread/INFO]: [pauloR2001: Made momo70950 a server operator]
-[21:41:05] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
-[21:41:18] [Server thread/INFO]: [pauloR2001: Set the time to 13700]
-[21:45:01] [Server thread/WARN]: pauloR2001 moved wrongly!
-[21:46:37] [Server thread/INFO]: Villager dcx['Villager'/26454, l='ServerLevel[world]', x=-3826.32, y=117.00, z=3429.39] died, message: 'Villager discovered the floor was lava'
-[21:49:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[21:50:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
-[21:50:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3088ms or 61 ticks behind
-[21:52:44] [Server thread/INFO]: Villager dcx['Villager'/28479, l='ServerLevel[world]', x=-3826.56, y=117.00, z=3429.12] died, message: 'Villager discovered the floor was lava'
-[21:53:01] [Server thread/WARN]: pauloR2001 moved too quickly! 10.762353379961496,-8.67308026858737,-10.85732708352998
-[21:53:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
-[21:53:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3887ms or 77 ticks behind
-[21:54:53] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[21:54:53] [Server thread/INFO]: pauloR2001 left the game
-[21:55:11] [Server thread/INFO]: pauloR2001[/127.0.0.1:55072] logged in with entity id 29950 at (-3813.6842159906264, 130.0, 3081.0551143318203)
-[21:55:11] [Server thread/INFO]: pauloR2001 joined the game
-[21:55:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
-[21:55:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
-[21:56:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6765ms or 135 ticks behind
-[21:56:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2741ms or 54 ticks behind
-[21:57:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15823ms or 316 ticks behind
-[21:57:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2704ms or 54 ticks behind
-[21:57:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4626ms or 92 ticks behind
-[21:57:56] [Server thread/INFO]: [pauloR2001: Set the time to 13700]
-[21:58:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7314ms or 146 ticks behind
-[21:58:18] [Server thread/INFO]: Villager dcx['Villager'/32128, l='ServerLevel[world]', x=-3826.54, y=117.00, z=3429.26] died, message: 'Villager discovered the floor was lava'
-[21:58:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7070ms or 141 ticks behind
-[21:58:35] [Server thread/INFO]: [pauloR2001: Set the time to 1000]
-[21:58:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[21:59:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[21:59:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2628ms or 52 ticks behind
-[21:59:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
-[22:00:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10876ms or 217 ticks behind
-[22:00:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11404ms or 228 ticks behind
-[22:00:47] [Server thread/INFO]: [momo70950: Set the weather to clear]
-[22:00:53] [Server thread/WARN]: pauloR2001 moved too quickly! -10.829460421546173,-3.1410245007404853,13.441135805631802
-[22:01:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7882ms or 157 ticks behind
-[22:04:45] [Server thread/INFO]: Villager dcx['Villager'/37135, l='ServerLevel[world]', x=-3826.62, y=117.00, z=3429.02] died, message: 'Villager discovered the floor was lava'
-[22:06:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[22:08:55] [Server thread/INFO]: [Not Secure] <momo70950> zzzzzzzzzzzzz
-[22:11:51] [Server thread/INFO]: momo70950 lost connection: Disconnected
-[22:11:51] [Server thread/INFO]: momo70950 left the game
-[22:11:57] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
-[22:11:57] [Server thread/INFO]: pauloR2001 left the game
-[22:12:09] [Server thread/INFO]: Stopping the server
-[22:12:09] [Server thread/INFO]: Stopping server
-[22:12:09] [Server thread/INFO]: Saving players
-[22:12:09] [Server thread/INFO]: Saving worlds
-[22:12:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:12:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:12:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:12:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:12:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:12:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:12:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:28:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[19:28:19] [ServerMain/INFO]: Loaded 1470 recipes
+[19:28:19] [ServerMain/INFO]: Loaded 1584 advancements
+[19:28:19] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[19:28:19] [Server thread/INFO]: Loading properties
+[19:28:19] [Server thread/INFO]: Default game type: SURVIVAL
+[19:28:19] [Server thread/INFO]: Generating keypair
+[19:28:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:28:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:28:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:28:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:28:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:28:20] [Server thread/INFO]: Preparing level "world"
+[19:28:20] [Server thread/INFO]: Loading 0 persistent chunks...
+[19:28:20] [Server thread/INFO]: Preparing spawn area: 100%
+[19:28:20] [Server thread/INFO]: Time elapsed: 12 ms
+[19:28:20] [Server thread/INFO]: Done (0.596s)! For help, type "help"
+[19:29:20] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:30:10] [Server thread/INFO]: pauloR2001[/127.0.0.1:60611] logged in with entity id 176 at (-3746.5777686227248, 138.0, 3385.289211423878)
+[19:30:10] [Server thread/INFO]: pauloR2001 joined the game
+[19:30:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2331ms or 46 ticks behind
+[19:30:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11606ms or 232 ticks behind
+[19:31:22] [Server thread/INFO]: momo70950[/127.181.184.147:63730] logged in with entity id 529 at (-3749.4160021461225, 138.0, 3385.784379903134)
+[19:31:22] [Server thread/INFO]: momo70950 joined the game
+[19:32:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[19:33:06] [Server thread/WARN]: momo70950 moved too quickly! -18.074588638931345,-3.180648805302269,-3.6032258262766845
+[19:33:10] [Server thread/WARN]: momo70950 moved too quickly! -17.127146477577753,-7.199645849004597,-2.124070811020374
+[19:33:14] [Server thread/WARN]: momo70950 moved too quickly! 16.632764773694817,4.721814041319746,2.533626892455686
+[19:33:35] [Server thread/INFO]: Villager dcx['Villager'/1386, l='ServerLevel[world]', x=-3826.65, y=117.00, z=3428.28] died, message: 'Villager discovered the floor was lava'
+[19:34:02] [Server thread/INFO]: [momo70950: Teleported momo70950 to 288.500000, 128.500000, -499.500000]
+[19:34:08] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to momo70950]
+[19:34:12] [Server thread/WARN]: momo70950 moved too quickly! 1.4584041667856695,9.189537637504841,-14.712389641311233
+[19:34:56] [Server thread/WARN]: momo70950 moved too quickly! 17.31660962726386,-3.469384204981665,4.5799947643644146
+[19:36:01] [Server thread/WARN]: momo70950 moved too quickly! -6.44884460101332,9.025590940362449,14.468489609471334
+[19:36:05] [Server thread/WARN]: momo70950 moved too quickly! -9.940617089399325,11.421614430331402,-10.310775763653723
+[19:37:59] [Server thread/WARN]: momo70950 moved too quickly! 8.105422287526657,-5.578400001525878,-2.6883540809337774
+[19:38:16] [Server thread/WARN]: momo70950 moved too quickly! -8.589613340503647,0.0,-5.419699194649866
+[19:39:42] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to 0.500000, 200.000000, 0.500000]
+[19:39:44] [Server thread/WARN]: pauloR2001 moved too quickly! 0.5491801182581884,-17.560077549979496,3.797657507453364
+[19:40:04] [Server thread/INFO]: [pauloR2001: Teleported pauloR2001 to -3699.500000, 200.000000, 2000.500000]
+[19:40:08] [Server thread/INFO]: momo70950 lost connection: Timed out
+[19:40:08] [Server thread/INFO]: momo70950 left the game
+[19:40:13] [Server thread/WARN]: pauloR2001 moved too quickly! -16.542083902229933,-5.284206005515799,2.272404673397432
+[19:40:41] [Server thread/WARN]: pauloR2001 moved too quickly! -17.191209354192324,-2.478910603799008,2.7025224657336366
+[19:40:50] [Server thread/WARN]: pauloR2001 moved too quickly! -0.6366077877787575,-3.4073849141899757,18.460263859746647
+[19:41:10] [Server thread/WARN]: pauloR2001 moved too quickly! -6.748282116208884,-4.426179336008431,16.787018133616584
+[19:41:54] [Server thread/INFO]: pauloR2001 lost connection: Disconnected
+[19:41:54] [Server thread/INFO]: pauloR2001 left the game
+[19:42:03] [Server thread/INFO]: Stopping the server
+[19:42:03] [Server thread/INFO]: Stopping server
+[19:42:03] [Server thread/INFO]: Saving players
+[19:42:03] [Server thread/INFO]: Saving worlds
+[19:42:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:42:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:42:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:42:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:42:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:42:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:42:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
